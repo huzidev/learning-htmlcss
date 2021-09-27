@@ -1,0 +1,110 @@
+body {
+    background: url("../html/goku-1.jpg");
+    background-size: cover;
+    background-position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+.main-heading:hover {
+    background-color: white;
+}
+
+.first-para {
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+.sec-heading {
+    font-family: serif;
+    background: rgb(97, 143, 109);
+}
+
+.img {
+    height: 300px;
+    width: 50%;
+}
+
+.about {
+    font-weight: 700;
+}
+
+#intro {
+    background: rgba(100, 100, 44, 0.5);
+}
+
+#google-link {
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#google-link:link {
+    color: green;
+}
+
+#google-link:visited {
+    color: black;
+}
+
+table {
+    color: white;
+}
+
+.table-head:hover {
+    color: black;
+}
+
+.tdh:hover {
+    background: blue;
+}
+
+.table-body:hover {
+    background: chocolate;
+}
+
+td:first-child:hover {
+    color: #23242b;
+}
+
+td:last-child:hover {
+    font-size: larger;
+}
+
+td:nth-child(3):hover {
+    font-size: 200%;
+}
+
+ol li {
+    color: darkgray;
+}
+
+[class*="sub-"]:hover {
+    color: white;
+    font-size: larger;
+    background-color: rgba(24, 22, 26, 0.1);
+}
+
+.main-div {
+    font-size: x-large;
+    background: steelblue;
+    border: 1px solid black;
+}
+
+[class*="under-"] {
+    text-align: center;
+    border: 2px solid black;
+    font-style: italic;
+}
+
+.p {
+    background: grey;
+}
+
+.footer {
+    text: 10px from top;
+    background: white;
+    height: 40px;
+}
