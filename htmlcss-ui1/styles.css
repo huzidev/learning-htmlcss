@@ -1,0 +1,341 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+}
+.announcement {
+  background-color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 18px;
+}
+.announcement:hover {
+  border: 5px solid steelblue;
+  background-color: black;
+  color: white;
+  transition: all 500ms ease;
+}
+
+.main-logo {
+  text-decoration: none;
+  color: white;
+}
+
+.main-logo:hover {
+  color: black;
+}
+
+.header .banner {
+  padding: 30px 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: Black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header .nav {
+  overflow: auto;
+  padding: 20px 16px;
+  background-color: brown;
+}
+
+.header .nav .logo {
+  float: left;
+  color: white;
+  font-size: 40px;
+  margin: 5px 60px;
+}
+
+.header .nav .logo:hover {
+  color: black;
+  background: white;
+  transition: all 1000ms ease;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.header .links {
+  float: right;
+}
+
+.header .links .link {
+  float: left;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 20px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.header .links .link:hover {
+  background: rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+  transition: all 400ms ease;
+  border: 2px dashed black;
+}
+
+.container {
+  padding: 200px 73px;
+  width: 100%;
+  background-image: url(hik.jpg);
+  background-size: cover;
+  float: left;
+}
+
+.container .heading {
+  font-family: sans-serif;
+}
+
+.container .para {
+  font-family: sans-serif;
+}
+
+.container .shop-button {
+  cursor: pointer;
+  border-radius: 1em;
+  padding: 5px 10px;
+  border: 3px solid black;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.container .shop-button:hover {
+  background-color: black;
+  color: white;
+  transition: all 500ms ease;
+}
+.main-below {
+  font-family: sans-serif;
+  padding: 0px;
+  width: 70%;
+  padding: 0 200px;
+}
+
+.sub-head {
+  font-size: 40px;
+}
+.sub-para {
+  font-size: 30px;
+}
+
+.main-below .sub-below {
+  float: left;
+  padding: 50px;
+}
+
+.main-below .right-div {
+  padding: 80px 0px;
+}
+
+.main-below .graph {
+  margin: 620px 0px 0px 600px;
+}
+
+
+.box-first {
+  tex
+  background-color: yellow;
+  padding: 0px 0px 0px 250px;
+}
+
+.box-sec {
+  padding: 0px 0px 0px 630px;
+  background-color: blue;
+}
+
+.box-third {
+  background-color: white;
+  color: black;
+  float: right;
+}
+
+.contain {
+  background: url(hik-3.jpg);
+  height: 400px;
+  background-size: cover;
+  text-align: right;
+  padding: 120px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.statement {
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  padding: 0 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.statement:hover {
+  border-radius: 8px;
+  color: black;
+  background: white;
+  transition: all 500ms ease;
+  padding: 0px 5px;
+}
+
+.date {
+  padding: 0px 0px 0px 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 60px;
+}
+
+.edit {
+  font-size: 40px;
+}
+
+.coffe {
+  height: 300px;
+  width: 350px;
+  padding: 10px 40px 0px 0px;
+  border-radius: 30px;
+}
+
+.bag {
+  padding: 10px 40px 0px 0px;
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.camp {
+  padding: 10px 40px 0px 0px;
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.price {
+  margin: 10px 1000px 0px 0px;
+  background: steelblue;
+  padding: 10px 10px 0px 332px;
+}
+
+.rupee {
+  padding: 10px 550px;
+  text-align: center;
+  background: steelblue;
+}
+
+.paisa {
+  background: steelblue;
+}
+
+.coustom {
+  background: black;
+  color: white;
+  height: 600px;
+  margin: 100px 100px 0px 400px;
+  border-radius: 8px;
+  padding: 20px 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.local {
+  position: relative;
+  right: -495px;
+}
+
+.description {
+  float: right;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.work {
+  position: relative;
+  right: 190px;
+}
+
+.real {
+  height: 300px;
+  border-radius: 8px;
+}
+
+.footer {
+  background: black;
+  height: 180px;
+  margin: 50px 0px 0px 0px;
+}
+
+.logos {
+  float: right;
+}
+
+.acme {
+  border-radius: 5px;
+  float: left;
+  font-size: 40px;
+  margin: 45px 100px;
+  background-color: black;
+}
+
+.written:hover {
+  color: black;
+  background: white;
+  transition: all 500ms ease;
+  border-radius: 7px;
+  border: 3px solid white;
+}
+
+.written {
+  text-decoration: none;
+  color: white;
+}
+
+.fb {
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.28);
+  margin: 0px 0px 50px 0px;
+}
+
+.tw {
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.28);
+  margin: 0px 0px 50px 0px;
+}
+
+.insta {
+  height: 56px;
+  background-color: rgba(0, 0, 0, 0.28);
+  margin: 30px 0px 50px 0px;
+}
+
+.insta:hover {
+  height: 100px;
+  transition: all 400ms ease;
+}
+
+.tw:hover {
+  height: 100px;
+  transition: all 400ms ease;
+}
+
+.fb:hover {
+  height: 100px;
+  transition: all 400ms ease;
+}
+
+.last {
+  color: white;
+  text-align: center;
+}
+
+.last-button:hover {
+  text-decoration: none;
+  color: brown;
+}
+
+.div-last {
+  padding: 10px 20px;
+  background-color: black;
+}
