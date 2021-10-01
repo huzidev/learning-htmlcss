@@ -1,0 +1,12 @@
+.detail {
+  background-color: steelblue;
+  overflow: auto;
+  max-width: 100%;
+  padding: 10px 0px;
+}
+
+.detail .details {
+  float: right;
+  margin: 10px 200px;
+  padding-right: 10px 40px;
+}
