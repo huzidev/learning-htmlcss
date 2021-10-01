@@ -1,0 +1,29 @@
+.boxes-container {
+  max-width: 100%;
+  width: 980px;
+  margin: auto;
+  overflow: auto;
+  margin-bottom: 16px;
+}
+
+.boxes-container .box {
+  height: 250px;
+  width: calc(33% - 32px);
+  float: left;
+  margin: 0 16px;
+  background: #333;
+  border-radius: 8px;
+}
+
+.boxes-container .box-id {
+  color: white;
+  margin-top: 50px;
+  margin-left: 16px;
+}
+
+.boxes-container .heading {
+  color: white;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}
