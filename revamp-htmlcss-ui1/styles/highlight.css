@@ -1,0 +1,29 @@
+.highlight {
+  background-image: url(../assets/hik.jpg);
+  background-size: cover;
+  max-width: 100%;
+  overflow: auto;
+  text-align: left;
+  padding: 130px 120px;
+  font-family: sans-serif;
+}
+
+.highlight .button {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 5px 19px;
+  transition: all 700ms ease;
+  font-size: 19px;
+}
+
+.highlight .button:hover {
+  background-color: white;
+  color: black;
+  border-bottom-left-radius: 19px;
+  border-top-right-radius: 19px;
+  position: relative;
+  left: 20px;
+  transform: scale(2);
+}

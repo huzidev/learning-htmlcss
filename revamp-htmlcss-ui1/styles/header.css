@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  z-index: 1;
+  overflow: auto;
+  max-width: 100%;
+  position: fixed;
+  width: 100%;
+  font-size: 17px;
+  top: 0px;
+}
+
+header .banner {
+  text-align: center;
+  padding-top: 10px;
+  background-color: black;
+}
+
+header .navi {
+  background: brown;
+  height: 50px;
+}
+
+header .nav {
+  background-color: brown;
+  float: left;
+  margin-top: 10px;
+  margin-left: 95px;
+  border-radius: 5px;
+  padding: 5px 25px;
+  cursor: pointer;
+  transition: all 700ms ease;
+}
+header .nav:hover {
+  background: white;
+  color: black;
+}
+header .links {
+  float: right;
+}
+
+header .link {
+  float: left;
+  color: black;
+  border-radius: 9px;
+  padding: 5px 9px;
+  background-color: white;
+  margin: 10px 25px;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+header .link:hover {
+  background: brown;
+  color: black;
+}

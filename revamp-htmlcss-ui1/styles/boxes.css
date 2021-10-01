@@ -1,0 +1,52 @@
+.box {
+  float: right;
+  max-width: 100%;
+  width: 1500px;
+  overflow: auto;
+  font-family: sans-serif;
+  height: 480px;
+}
+
+.box .box-id {
+  float: left;
+  color: white;
+  background-color: black;
+  padding: 5px 50px;
+  margin: 5px 40px;
+  margin-left: 100px;
+  height: 320px;
+  width: 250px;
+  border-radius: 13px;
+  transition: all 600ms ease;
+  cursor: pointer;
+}
+
+.box .box-id:hover {
+  border-bottom-left-radius: 120px;
+  border-top-right-radius: 120px;
+}
+
+.box .box-id .head {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.box .box-id #donate {
+  padding-top: 39px;
+}
+
+.box .box-id .num {
+  padding-left: 5px;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+.box .box-id .additional {
+  padding-top: 150px;
+  color: black;
+}
+
+.box .box-id .additional-1 {
+  padding-top: 170px;
+  color: black;
+}

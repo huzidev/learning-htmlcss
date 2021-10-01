@@ -1,0 +1,27 @@
+.img-container {
+  background-image: url(../assets/hik-3.jpg);
+  height: 500px;
+  background-size: cover;
+  margin-top: 600px;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 70px;
+}
+
+.img-container .button {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 5px 19px;
+  transition: all 700ms ease;
+  font-size: 19px;
+}
+
+.img-container .button:hover {
+  background-color: white;
+  color: black;
+  border-bottom-right-radius: 19px;
+  border-top-left-radius: 19px;
+  transform: scale(2);
+}

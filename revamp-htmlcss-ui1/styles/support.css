@@ -1,0 +1,20 @@
+.support {
+  margin-left: 120px;
+  overflow: auto;
+  font-family: sans-serif;
+  width: 100%;
+  width: 450px;
+  padding-top: 20px;
+}
+
+.support .span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.right {
+  float: right;
+  position: relative;
+  bottom: 90px;
+  right: 190px;
+}
