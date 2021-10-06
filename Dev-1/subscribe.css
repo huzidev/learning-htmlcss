@@ -1,0 +1,26 @@
+#subscribe {
+  background-color: red;
+  overflow: auto;
+  color: white;
+}
+
+#subscribe .sec-50 {
+  width: 50%;
+  float: left;
+}
+
+#subscribe .sec-50 h1 {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+#subscribe .sec-50 form {
+  padding-top: 17px;
+  text-align: right;
+}
+
+#subscribe .sec-50 .type {
+  height: 30px;
+  padding: 5px 30px;
+  margin: 0px 20px;
+}

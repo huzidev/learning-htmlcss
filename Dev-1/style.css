@@ -1,0 +1,54 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container .uni-padding {
+  padding: 0px 7%;
+}
+
+@font-face {
+  font-family: Ephesis-Regular;
+  src: url(fonts/Ephesis-Regular.ttf);
+}
+
+* {
+  font-family: sans-serif;
+}
+
+#about {
+  padding-top: 220px;
+}
+
+@media only screen and (max-width: 500px) {
+  #why-us .section-3,
+  .section-70,
+  .section-30,
+  .div33 {
+  width: 100%;
+  .container #top-bar 
+    padding: 10px 0;
+  }
+  #poster .description {
+    margin: 70px 50px;
+  }
+  nav {
+    background-color: black;
+    height: 100vh;
+    position: absolute;
+    display: block;
+    float: left;
+    width: 180px;
+    top: 0px;
+    padding-top: 50px;
+  }
+  .btn-cross {
+    text-align: right;
+    height: 25px;
+    background-color: white;
+  }
+  .fa-times {
+    color: white;
+  }
+}
