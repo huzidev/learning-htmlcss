@@ -1,0 +1,48 @@
+.contact {
+  background: rgb(180, 224, 211);
+  padding-top: 12px;
+}
+
+.contact .text-center {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.contact .form {
+  margin: 8px auto;
+  max-width: 1150px;
+}
+
+.contact .form .form-input {
+  width: 100%;
+  margin: 16px 0px;
+  padding: 5px 8px;
+  font-size: 15px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.contact .form .btn-contact {
+  font-size: 15px;
+  padding: 5px 13px;
+  border: 2px solid grey;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.copy-right {
+  margin-top: 50px;
+  height: 50px;
+
+  background: black;
+  color: white;
+}
+
+.text-footer {
+  justify-content: center;
+  display: flex;
+  padding: 15px 0px;
+  text-align: center;
+}

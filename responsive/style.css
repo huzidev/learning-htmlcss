@@ -1,0 +1,10 @@
+html,
+body {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+/* all the by default margin, padding will be eliminate */
+* {
+  margin: 0px;
+  padding: 0px;
+}

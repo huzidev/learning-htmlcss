@@ -1,0 +1,24 @@
+.items {
+  width: 900px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.items .item {
+  width: 253px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.items .item .display {
+  width: 100%;
+  height: 240px;
+}
+
+.items .item .button {
+  margin: auto;
+  background: black;
+  color: white;
+}
