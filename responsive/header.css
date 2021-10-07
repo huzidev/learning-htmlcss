@@ -75,3 +75,9 @@ nav ul div .img {
   border: 3px solid white;
   font-size: 15px;
 }
+
+@media print {
+  nav ul div .img {
+    display: none;
+  }
+}
