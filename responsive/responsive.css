@@ -58,7 +58,7 @@
 }
 
 .burger {
-  /* display: ; */
+  display: block;
   position: absolute;
   cursor: pointer;
   top: 15px;
@@ -70,4 +70,10 @@
   margin: 5px 3px;
   border-radius: 6px;
   height: 4px;
+}
+
+@media screen and (min-width: 600px) {
+  .burger {
+    display: none;
+  }
 }
