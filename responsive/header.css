@@ -1,0 +1,77 @@
+nav ul div .img {
+  height: 50px;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+}
+.background {
+  background: rgba(0, 0, 0, 0.7) url(/assets/images/background.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.nav-bar .nav-list {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar .nav-list .logo {
+  padding: 5px 22px;
+}
+
+.nav-bar .nav-list li {
+  list-style: none;
+  padding: 20px 35px;
+}
+
+.nav-bar .nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  transition: all 500ms ease;
+}
+
+.nav-bar .nav-list li a:hover {
+  background: black;
+  padding: 5px 12px;
+  border: 2px solid white;
+  border-radius: 12px;
+}
+
+.nav-bar .right-nav {
+  width: 30%;
+  padding: 0px 15px;
+  text-align: right;
+}
+.nav-bar .right-nav .btn-change {
+  font-size: 17px;
+  color: white;
+  padding: 5px 15px;
+  margin-right: 9px;
+  border-radius: 15px;
+  border: 3px solid white;
+  background: none;
+  vertical-align: middle;
+  transition: all 600ms ease;
+  cursor: pointer;
+}
+
+.nav-bar .right-nav .btn-change:hover {
+  background-color: black;
+}
+.nav-bar .right-nav .search {
+  padding: 5px;
+  border-radius: 9px;
+  border: 3px solid white;
+  font-size: 15px;
+}

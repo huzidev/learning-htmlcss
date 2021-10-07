@@ -1,0 +1,57 @@
+section .main-box {
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+  align-items: center;
+  margin: auto;
+  height: 80%;
+  width: 1200px;
+}
+
+.first-section {
+  height: 100vh;
+}
+
+.img-poster {
+  height: 100px;
+  padding: 25px 0px;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+section .main-box .first-half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  width: 80%;
+}
+section .main-box .first-half .text-big {
+  font-size: 25px;
+  margin: 10px 0px;
+}
+
+section .main-box .first-half .text-small {
+  font-size: 15px;
+  margin: 3px 0px;
+}
+
+section .main-box .first-half .btn {
+  font-size: 17px;
+  color: white;
+  padding: 5px 15px;
+  margin: 9px 0px;
+  margin-right: 9px;
+  border-radius: 15px;
+  border: 3px solid white;
+  background: none;
+  transition: all 600ms ease;
+  cursor: pointer;
+}
+section .main-box .first-half .btn:hover {
+  background-color: black;
+}
