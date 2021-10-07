@@ -21,7 +21,11 @@ body {
   padding-top: 220px;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 1165px) {
+=======
+@media only screen and (max-width: 500px) {
+>>>>>>> 26eb623e844f10673066a5927fb452490c426caf
   #why-us .section-3,
   .section-70,
   .section-30,
