@@ -1,0 +1,43 @@
+#why-us {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: auto;
+  max-width: 100%;
+  width: 1150px;
+  margin: auto;
+}
+
+#why-us h1 {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+}
+
+#why-us .section-3 {
+  width: 33.33%;
+  float: left;
+  box-sizing: border-box;
+  margin: 50px 0px;
+}
+
+#why-us .section-3 .section {
+  height: 300px;
+  width: 350px;
+  border-radius: 12px;
+}
+
+#why-us .section-3 .link {
+  background-color: brown;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 9px;
+  padding: 5px 10px;
+  transition: all 600ms ease;
+}
+#why-us .section-3 .link:hover {
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+}

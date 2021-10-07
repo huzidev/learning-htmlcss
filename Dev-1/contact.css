@@ -1,0 +1,31 @@
+#contact {
+  background-color: black;
+  color: white;
+  overflow: auto;
+}
+
+#contact .sec-70 {
+  width: 70%;
+  float: left;
+}
+
+#contact .sec-30 {
+  width: 30%;
+  padding-top: 70px;
+  float: left;
+  text-align: right;
+}
+
+#contact .sec-30 .right {
+  text-decoration: none;
+  color: white;
+  background-color: brown;
+  font-size: 20px;
+  border-radius: 12px;
+  padding: 10px 20px;
+  transition: all 600ms ease;
+}
+#contact .sec-30 .right:hover {
+  background-color: white;
+  color: black;
+}

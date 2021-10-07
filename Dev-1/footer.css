@@ -1,0 +1,50 @@
+.container header {
+  width: 100%;
+  overflow: auto;
+  z-index: 1;
+  top: 0px;
+}
+#imp-links {
+  background-color: black;
+  color: white;
+  overflow: auto;
+}
+
+#imp-links .div33 {
+  width: 33.33%;
+  float: left;
+  box-sizing: border-box;
+}
+
+#imp-links .div33 .anker {
+  text-decoration: none;
+  display: inline-block;
+  transition: all 600ms ease;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 0px;
+  overflow: auto;
+}
+
+#imp-links .div33 .anker:hover {
+  background-color: white;
+  padding: 5px 15px;
+  color: #000;
+}
+
+#imp-links .div33 h3 {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+  transition: all 900ms ease;
+}
+#imp-links .div33 #new {
+  padding-left: 130px;
+}
+
+#copyright {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}

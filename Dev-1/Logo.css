@@ -1,0 +1,18 @@
+#logo img {
+  height: 90px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px 0px;
+  transition: all 600ms ease;
+  cursor: pointer;
+}
+
+#logo img:hover {
+  background-color: aqua;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+
+#logo {
+  background-color: black;
+}

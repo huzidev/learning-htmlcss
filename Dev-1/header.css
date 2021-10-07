@@ -1,0 +1,42 @@
+.container #top-bar {
+  background-color: grey;
+  overflow: auto;
+}
+.container header {
+  width: 100%;
+  overflow: auto;
+  z-index: 1;
+  top: 0px;
+  position: fixed;
+}
+
+.button {
+  height: 35px;
+  padding-top: 15px;
+  margin: 0px 5px;
+}
+
+.container #top-bar .contact {
+  float: left;
+  color: white;
+  padding-top: 24px;
+  margin: 0;
+  cursor: pointer;
+  transition: all 600ms ease;
+}
+
+.container #top-bar .contact:hover {
+  color: black;
+}
+.container #top-bar .icons {
+  float: right;
+}
+
+.container #top-bar .icons .button {
+  transition: all 600ms ease;
+}
+
+.container #top-bar .icons .button:hover {
+  height: 45px;
+  transform: scale(1);
+}
