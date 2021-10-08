@@ -5,6 +5,7 @@
   .nav-bar {
     flex-direction: column;
     transition: all 600ms ease;
+    height: 450px;
   }
   .nav-bar .right-nav {
     text-align: center;
@@ -17,7 +18,7 @@
     margin-left: 17px;
   }
   .burger {
-    /* display: ; */
+    display: none;
   }
   .h-nav-resp {
     height: 70px;
@@ -81,10 +82,4 @@
   margin: 5px 3px;
   border-radius: 6px;
   height: 4px;
-}
-
-@media screen and (min-width: 600px) {
-  .burger {
-    display: none;
-  }
 }
