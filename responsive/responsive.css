@@ -17,9 +17,11 @@
     margin-top: 11px;
     margin-left: 17px;
   }
-  .burger {
-    display: none;
+
+  .nav-bar .burger {
+    display: block;
   }
+
   .h-nav-resp {
     height: 70px;
   }
@@ -70,7 +72,7 @@
 }
 
 .burger {
-  display: block;
+  display: none;
   position: absolute;
   cursor: pointer;
   top: 15px;
