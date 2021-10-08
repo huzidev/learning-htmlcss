@@ -52,8 +52,15 @@
     max-width: 330px;
     margin: auto;
   }
-  .items {
+  .sec-right-below {
+    max-width: 100%;
     flex-direction: column-reverse;
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  .sec-right-below .item {
+    margin: 20px 0px;
   }
 }
 
