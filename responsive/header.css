@@ -10,7 +10,8 @@ nav ul div .img {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0px;
 }
 .background {
@@ -23,6 +24,7 @@ nav ul div .img {
   width: 70%;
   display: flex;
   align-items: center;
+  width: 600px;
 }
 
 .nav-bar .nav-list .logo {
@@ -52,6 +54,7 @@ nav ul div .img {
   width: 30%;
   padding: 0px 15px;
   text-align: right;
+  width: 400px;
 }
 .nav-bar .right-nav .btn-change {
   font-size: 17px;
