@@ -8,5 +8,5 @@ rightNav = document.querySelector('.right-nav')
 burger.addEventListener('click', ()=>{
     rightNav.classList.toggle('v-resp');
     navList.classList.toggle('v-resp');
-    navBar.classList.toggle('v-resp');
+    navBar.classList.toggle('h-nav-resp');
 })

@@ -4,6 +4,7 @@
   }
   .nav-bar {
     flex-direction: column;
+    transition: all 600ms ease;
   }
   .nav-bar .right-nav {
     text-align: center;
@@ -61,6 +62,9 @@
 
   .sec-right-below .item {
     margin: 20px 0px;
+  }
+  .sec-right-below .item .display {
+    width: 75%;
   }
 }
 
