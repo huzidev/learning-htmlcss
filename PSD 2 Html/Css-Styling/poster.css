@@ -1,6 +1,7 @@
 .container {
   max-width: 1200px;
   margin: auto;
+  height: 1000px;
   margin-top: 30px;
   background-color: aqua;
 }
@@ -15,7 +16,7 @@
 .container .back-img .text {
   position: relative;
   top: 120px;
-  left: 50px;
+  left: 70px;
   color: black;
   margin: 10px 0px;
 }
@@ -29,11 +30,10 @@
 }
 
 .container .above {
-  background-color: black;
   position: relative;
-  top: 270px;
+  top: 240px;
   color: black;
-  left: 50px;
+  left: 70px;
 }
 
 .container .above .btn-above {
@@ -43,6 +43,7 @@
 }
 .container .above .btn-above:hover {
   background-color: orange;
+  color: white;
 }
 
 .container .above .right {
@@ -53,10 +54,29 @@
   border-top-left-radius: 15px;
 }
 
-.container .above .btn-above .far {
-  display: none;
+/* .container .above .btn-above .far {
+  visibility: hidden;
 }
 
 .container .above .btn-above .far:hover {
-  display: block;
+  visibility: visible;
+} */
+
+.below {
+  width: 700px;
+  height: 100px;
+  background-color: white;
+  position: relative;
+  top: 262px;
+  display: flex;
+  left: 70px;
+  color: black;
+}
+
+.container .below .btn-above {
+  background-color: white;
+  padding: 22px 30px;
+  cursor: pointer;
+  padding: 20px 70px;
+  margin: 10px 0px;
 }
