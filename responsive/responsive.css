@@ -2,6 +2,9 @@
   .nav-list {
     flex-direction: column;
   }
+  .nav-bar .right-nav {
+    width: 30%;
+  }
   .nav-bar {
     flex-direction: column;
     transition: all 600ms ease;
@@ -11,7 +14,7 @@
     text-align: center;
   }
   .nav-bar .right-nav .search {
-    width: 66%;
+    width: 75%;
   }
   .nav-bar .right-nav .btn-change {
     margin-top: 11px;
@@ -69,11 +72,34 @@
   .sec-right-below .item .display {
     width: 75%;
   }
+
+  .main-items {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    overflow: auto;
+    width: 200px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-items .item {
+    width: 33%;
+    display: inline;
+  }
 }
 
 @media only screen and (max-width: 376px) {
+  .nav-bar .right-nav {
+    width: 30%;
+  }
   .first-section {
     height: 115vh;
+  }
+  .nav-bar .right-nav .search {
+    width: 112px;
   }
 }
 

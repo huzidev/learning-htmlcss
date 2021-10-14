@@ -1,18 +1,22 @@
-nav {
+#nav {
   background-color: black;
 }
 
-nav a {
-  display: inline-block;
+#nav a {
   text-decoration: none;
+
   padding: 5px 20px;
   border-radius: 9px;
   background-color: white;
   margin: 10px 5px;
   transition: all 800ms ease;
+  width: 51px;
+  margin: auto;
+  float: left;
+  flex-direction: row;
 }
 
-nav a:hover {
+#nav a:hover {
   background-color: aqua;
   color: black;
 }
