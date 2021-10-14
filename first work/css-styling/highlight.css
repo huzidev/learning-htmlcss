@@ -7,7 +7,6 @@
 }
 .highlight:hover {
   display: flex;
-  /* color: white; */
   text-align: center;
   justify-content: center;
 }
@@ -18,7 +17,7 @@
 
   width: 200px;
   height: 200px;
-  left: 50%;
+  left: calc(50% - 100px);
 }
 
 .highlight .text {
@@ -26,12 +25,13 @@
   text-align: center;
   float: left;
   visibility: none;
-  transition: all 400ms ease;
+  transition: all 400ms ease-in 4s;
 }
 
 .highlight:hover .img {
-  animation-play-state: running;
+  left: 0px;
   float: left;
+  animation-play-state: running;
   /* margin-left: -100px; */
   animation-duration: 4s;
   animation-name: highlight-image;
@@ -56,7 +56,6 @@
   }
   100% {
     left: 0px;
-    margin-left: 0px;
     transform: rotate(360deg);
     visibility: visible;
   }
