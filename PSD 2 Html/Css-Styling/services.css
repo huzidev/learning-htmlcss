@@ -1,2 +1,17 @@
 .services {
+  background-color: aqua;
+  position: relative;
+  top: 120px;
+  height: 1000px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.services p {
+  opacity: 0.7;
+  margin-bottom: 7px;
+}
+
+.services h2 {
+  font-size: 30px;
 }
