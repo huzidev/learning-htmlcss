@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1512px) {
+  #nav-bar {
+    flex-direction: column;
+    display: flex;
+    height: auto;
+  }
+
+  #nav-bar .items {
+    display: block;
+  }
+
+  #nav-bar .item {
+    margin: 15px 0px;
+  }
+
+  #nav-bar .logo {
+    margin-left: 378px;
+  }
+  #nav-bar .burger {
+    display: block;
+  }
+  .grid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  aside .aside-img {
+    border-radius: 25px;
+    height: 650px;
+    border: 3px solid white;
+    width: 700px;
+  }
+
+  .grid-right .aside-img {
+    border-radius: 25px;
+    height: 650px;
+    border: 3px solid white;
+    width: 700px;
+  }
+  .grid-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+  }
+}
+
+/* HAM-BURGER MENU-BAR */
+
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  top: 125px;
+  right: 9%;
+}
+.line {
+  width: 33px;
+  background-color: white;
+  margin: 5px 3px;
+  border-radius: 6px;
+  height: 4px;
+}

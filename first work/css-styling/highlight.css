@@ -3,6 +3,7 @@
   margin-top: 40px;
   background-color: black;
   overflow: auto;
+  border: 2px solid white;
 }
 .highlight:hover {
   display: flex;
