@@ -1,0 +1,29 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: aqua;
+}
+
+.container .back-img {
+  background-image: url(/assets/images/building.jpg.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  height: 500px;
+}
+
+.container .back-img .text {
+  position: relative;
+  top: 120px;
+  left: 50px;
+  color: black;
+  margin: 10px 0px;
+}
+
+.container .back-img h1 {
+  font-size: 40px;
+}
+
+.container .back-img p {
+  opacity: 0.7;
+}
