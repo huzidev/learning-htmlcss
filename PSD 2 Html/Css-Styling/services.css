@@ -20,7 +20,6 @@
 .house-deal {
   max-width: 1200px;
   margin: auto;
-
   height: 500px;
   display: flex;
   justify-content: space-between;
@@ -41,18 +40,19 @@
 .house-deal .deals:hover {
   border-bottom: 15px solid #016450;
 }
-.hover:hover {
-}
-
-.house-deal .deals .fa-house-user {
+s .house-deal .deals .fa-house-user {
   margin-top: 40px;
   font-size: 35px;
-  /* color: white; */
   border-radius: 100%;
   padding: 20px;
   box-shadow: 0px 6px 30px -15px black;
-  /* background-color: #016450; */
   margin-bottom: 30px;
+  transition: all 600ms ease;
+}
+
+.house-deal .deals .fa-house-user:hover {
+  background-color: #016450;
+  color: white;
 }
 
 .house-deal .deals h4 {
