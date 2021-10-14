@@ -1,0 +1,19 @@
+.about {
+  background-color: aqua;
+  width: 1200px;
+  margin: auto;
+  height: 1000px;
+}
+
+.about .left-side {
+  width: 600px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 15px;
+}
+
+.about .left-side .left-img {
+  height: 200px;
+  width: 200px;
+}
