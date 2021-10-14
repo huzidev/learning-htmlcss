@@ -27,3 +27,16 @@
 .container .back-img p {
   opacity: 0.7;
 }
+
+.container .above {
+  background-color: black;
+  position: relative;
+  top: 270px;
+  color: black;
+  left: 50px;
+}
+
+.container .above .btn-above {
+  background-color: white;
+  padding: 22px 30px;
+}
