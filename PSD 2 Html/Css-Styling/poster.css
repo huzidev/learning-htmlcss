@@ -37,7 +37,7 @@
 }
 
 .container .above .btn-above {
-  background-color: white;
+  background-color: #f4f5f7;
   padding: 22px 30px;
   cursor: pointer;
 }
@@ -63,20 +63,41 @@
 } */
 
 .below {
-  width: 700px;
   height: 100px;
   background-color: white;
   position: relative;
   top: 262px;
   display: flex;
+  border-radius: 4px;
   left: 70px;
+  width: 650px;
+  max-width: 900px;
   color: black;
 }
 
 .container .below .btn-above {
   background-color: white;
-  padding: 22px 30px;
+  margin: 22px 10px;
   cursor: pointer;
-  padding: 20px 70px;
-  margin: 10px 0px;
+  width: 150px;
+  align-self: center;
+}
+
+.container .below .first-child {
+  margin-left: 50px;
+}
+
+.container .below p {
+  margin-top: 10px;
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.container .below .fa-search {
+  align-self: center;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #016450;
 }
