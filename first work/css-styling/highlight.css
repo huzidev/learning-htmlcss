@@ -4,6 +4,12 @@
   background-color: black;
   overflow: auto;
 }
+.highlight:hover {
+  display: flex;
+  /* color: white; */
+  text-align: center;
+  justify-content: center;
+}
 
 .highlight .img {
   float: left;
@@ -11,29 +17,29 @@
 
   width: 200px;
   height: 200px;
-
   left: 50%;
-  margin-left: -100px;
-  animation-duration: 4s;
-
-  animation-play-state: paused;
-  animation-name: highlight-image;
 }
 
 .highlight .text {
   opacity: 0;
+  text-align: center;
   float: left;
   visibility: none;
-  transition: all 400ms ease 4s;
+  transition: all 400ms ease;
 }
 
 .highlight:hover .img {
   animation-play-state: running;
+  float: left;
+  /* margin-left: -100px; */
+  animation-duration: 4s;
+  animation-name: highlight-image;
 }
 
 .highlight:hover .text {
   float: left;
-  visibility: visible;
+  margin-top: 90px;
+  /* visibility: visible; */
   opacity: 1;
   color: white;
 }
@@ -41,8 +47,6 @@
 @keyframes highlight-image {
   0% {
     left: 50%;
-    margin-left: -100px;
-    transform: rotate(0deg);
   }
   60% {
     left: 50%;
@@ -53,5 +57,6 @@
     left: 0px;
     margin-left: 0px;
     transform: rotate(360deg);
+    visibility: visible;
   }
 }

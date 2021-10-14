@@ -1,22 +1,30 @@
 .bottom-grid {
-  display: grid;
-  height: 900px;
+  display: flex;
+  height: 623px;
+  width: 100%;
   background-color: black;
 }
 
+.left-img {
+  height: 614px;
+  width: 100%;
+  border: 2px solid white;
+  margin: 5px 0px;
+}
+
 .bottom-img {
-  height: 200px;
-  width: 300px;
+  float: right;
+  width: 100%;
+  margin: 5px 0px;
+  border: 2px solid white;
+  height: 300px;
 }
 
 .ext-left {
-  background-color: purple;
+  width: 40%;
 }
 
-.above {
-  background-color: white;
-}
-
-.below {
-  background-color: yellow;
+.ext-right {
+  margin-left: 15px;
+  width: 60%;
 }
