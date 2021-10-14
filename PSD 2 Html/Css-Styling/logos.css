@@ -1,4 +1,14 @@
 .logos {
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 100px;
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logos .logo {
+  height: 50px;
+  width: 90px;
 }
