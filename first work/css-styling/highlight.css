@@ -1,27 +1,57 @@
 .highlight {
   height: 900px;
-  margin-top: 50px;
-
+  margin-top: 40px;
   background-color: black;
-}
-
-.highlight .vegeta-img {
-  height: 400px;
-  width: 400px;
+  overflow: auto;
 }
 
 .highlight .img {
-  transform: rotate(360deg);
-}
-.highlight .img {
-  display: flex;
+  float: left;
+  position: relative;
 
-  justify-content: center;
-  align-items: center;
-  background-color: blue;
+  width: 200px;
+  height: 200px;
+
+  left: 50%;
+  margin-left: -100px;
+  animation-duration: 4s;
+
+  animation-play-state: paused;
+  animation-name: highlight-image;
 }
 
-.highlight .img p {
+.highlight .text {
+  opacity: 0;
+  float: left;
+  visibility: none;
+  transition: all 400ms ease 4s;
+}
+
+.highlight:hover .img {
+  animation-play-state: running;
+}
+
+.highlight:hover .text {
+  float: left;
+  visibility: visible;
+  opacity: 1;
   color: white;
-  display: none;
+}
+
+@keyframes highlight-image {
+  0% {
+    left: 50%;
+    margin-left: -100px;
+    transform: rotate(0deg);
+  }
+  60% {
+    left: 50%;
+    margin-left: -100px;
+    transform: rotate(360deg);
+  }
+  100% {
+    left: 0px;
+    margin-left: 0px;
+    transform: rotate(360deg);
+  }
 }
