@@ -1,0 +1,42 @@
+.search {
+  position: relative;
+  top: 110px;
+  max-width: 1200px;
+  margin: auto;
+  height: 405px;
+  display: flex;
+}
+
+.search .hotels {
+  height: 400px;
+  background-color: #f8f8f9;
+  border-radius: 19px;
+  margin: 0px 10px;
+  padding: 0px 15px;
+  box-shadow: 0px 1px 14px -8px black;
+}
+.search .hotels .fa-heart {
+  float: right;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 100%;
+  transition: all 600ms ease;
+  font-size: 20px;
+}
+.search .hotels .fa-heart:hover {
+  background-color: red;
+  color: white;
+}
+
+.search .hotels .hotel {
+  height: 250px;
+  width: 250px;
+  border-radius: 19px;
+  margin-top: 20px;
+}
+
+.search .hotels p {
+  margin-top: 5px;
+  opacity: 0.7;
+  width: 175px;
+}
