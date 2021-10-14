@@ -21,5 +21,11 @@
   max-width: 1200px;
   margin: auto;
   background-color: aqua;
-  height: 100px;
+  height: 500px;
+  display: flex;
+}
+
+.house-deal .deals {
+  background-color: blue;
+  height: 200px;
 }
