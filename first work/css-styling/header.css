@@ -1,0 +1,63 @@
+header {
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+#nav-bar .dbs-img {
+  height: 90px;
+  width: 300px;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95px;
+  background-color: black;
+  margin-top: 30px;
+}
+
+#nav-bar .logo {
+  width: 700px;
+}
+
+#nav-bar .list {
+  width: 700px;
+  margin-top: 5px;
+}
+
+#nav-bar .items {
+  float: right;
+  display: flex;
+  cursor: pointer;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+#nav-bar .item:hover {
+  background-color: aqua;
+}
+
+#nav-bar .item:active {
+  background-color: red;
+}
+
+#nav-bar .item {
+  list-style: none;
+  transition: all 500ms ease;
+  background-color: white;
+  margin: 0px 25px;
+  padding: 3px 12px;
+  border-radius: 9px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

@@ -1,0 +1,20 @@
+.bottom-nav {
+  background-color: aqua;
+  color: white;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-nav .text {
+  width: 50%;
+  margin: auto;
+  background-color: purple;
+}
+
+.bottom-nav .icons {
+  float: right;
+  width: 50%;
+}

@@ -1,0 +1,29 @@
+.margin {
+  margin-top: 50px;
+}
+#slider {
+  width: 100%;
+  height: 700px;
+  margin: auto;
+  background-image: url(/asstes/images/beerus.png);
+  background-size: cover;
+  box-shadow: 1px 1px 15px 5px white;
+  animation: slider;
+  animation-duration: 6600ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slider {
+  0% {
+    background-image: url(/asstes/images/beerus.png);
+    background-size: cover;
+  }
+  35% {
+    background-image: url(/asstes/images/goku-vegeta.jpg);
+    background-size: cover;
+  }
+  75% {
+    background-image: url(/asstes/images/vegeta-1.jpg);
+    background-size: cover;
+  }
+}
