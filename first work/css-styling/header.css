@@ -23,12 +23,10 @@ header {
 }
 
 #nav-bar .list {
-  width: 700px;
   margin-top: 5px;
 }
 
 #nav-bar .items {
-  float: right;
   display: flex;
   cursor: pointer;
 }

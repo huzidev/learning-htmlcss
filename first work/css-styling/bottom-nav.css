@@ -2,29 +2,38 @@
   background-color: black;
   color: white;
   height: 70px;
-  width: 100%;
   display: flex;
+  width: 100%
+  margin: auto;
   align-items: center;
   justify-content: center;
 }
 
 .bottom-nav .text {
-  margin: auto;
+  font-size: 18px;
+  /* width: 500px; */
 }
 
 .bottom-nav .icons {
-  margin: auto;
+  /* width: 500px; */
+  margin-left: 70px;
 }
 .fab {
   margin: 0px 5px;
   transition: all 900ms ease;
   padding: 10px;
   font-size: 30px;
+  color: white;
 }
 
 .fab:hover {
   background-color: white;
   border-radius: 100%;
+  color: black;
+}
+
+.fab:active {
+  background-color: red;
 }
 
 .fa-facebook-f {

@@ -1,0 +1,59 @@
+footer {
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.imp-link {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+}
+
+.div33 {
+  width: 33.33%;
+}
+
+footer .div33 .decoration {
+  list-style: none;
+}
+
+footer .div33 p {
+  margin: 7px 0px;
+}
+
+footer .mid {
+  margin-left: 180px;
+}
+
+footer .div33 .decoration a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .div33 input {
+  margin: 10px 0px;
+  padding: 2px 5px;
+  border-radius: 7px;
+}
+
+footer .div33 .wid {
+  width: 190px;
+}
+
+footer .div33 .decoration a li {
+  background-color: white;
+  margin: 10px 0px;
+  display: inline-block;
+  padding: 0px 7px;
+  border-radius: 9px;
+  border: 5px solid white;
+  transition: all 200ms ease;
+}
+
+footer .div33 .decoration a li:hover {
+  background-color: black;
+  color: white;
+}
