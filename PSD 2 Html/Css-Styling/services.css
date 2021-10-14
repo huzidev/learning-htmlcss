@@ -40,7 +40,7 @@
 .house-deal .deals:hover {
   border-bottom: 15px solid #016450;
 }
-s .house-deal .deals .fa-house-user {
+.house-deal .deals .fa-house-user {
   margin-top: 40px;
   font-size: 35px;
   border-radius: 100%;
