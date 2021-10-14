@@ -9,11 +9,45 @@
   width: 600px;
   background-color: black;
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 2fr 3.8fr;
   grid-gap: 15px;
 }
 
 .about .left-side .left-img {
   height: 200px;
   width: 200px;
+}
+
+.about .left-side .first {
+}
+
+.about .left-side .second {
+  margin-top: 30px;
+  height: 300px;
+}
+
+.about .left-side .third {
+  height: 300px;
+  position: relative;
+  bottom: 130px;
+}
+
+.about .left-side .fourth {
+  height: 250px;
+}
+
+.about .left-side .search-bar {
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  background-size: cover;
+  background-image: url(/assets/images/tower1.jpg);
+  overflow: auto;
+}
+
+.about .left-side .center {
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px 0px;
 }
