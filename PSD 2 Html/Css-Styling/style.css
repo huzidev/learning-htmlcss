@@ -1,0 +1,15 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.uni-padding {
+  padding: 0px 6%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
