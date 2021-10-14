@@ -3,7 +3,6 @@
   margin: auto;
   height: 1000px;
   margin-top: 30px;
-  background-color: aqua;
 }
 
 .container .back-img {
@@ -42,7 +41,7 @@
   cursor: pointer;
 }
 .container .above .btn-above:hover {
-  background-color: orange;
+  background-color: #ff6501;
   color: white;
 }
 
@@ -73,6 +72,7 @@
   width: 650px;
   max-width: 900px;
   color: black;
+  box-shadow: 0px 48px 88px -40px black;
 }
 
 .container .below .btn-above {
@@ -98,6 +98,13 @@
   color: white;
   font-size: 30px;
   padding: 20px;
+  cursor: pointer;
   border-radius: 15px;
   background-color: #016450;
+}
+
+.container .below .fa-chevron-down {
+  font-size: 10px;
+  opacity: 0.6;
+  margin-left: 7px;
 }
