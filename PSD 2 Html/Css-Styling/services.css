@@ -1,8 +1,7 @@
 .services {
-  background-color: aqua;
   position: relative;
   top: 120px;
-  height: 1000px;
+  height: 230px;
   max-width: 1200px;
   margin: auto;
   text-align: center;
@@ -16,4 +15,11 @@
 
 .services h2 {
   font-size: 30px;
+}
+
+.house-deal {
+  max-width: 1200px;
+  margin: auto;
+  background-color: aqua;
+  height: 100px;
 }
