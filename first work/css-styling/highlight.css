@@ -1,0 +1,27 @@
+.highlight {
+  height: 900px;
+  margin-top: 50px;
+
+  background-color: black;
+}
+
+.highlight .vegeta-img {
+  height: 400px;
+  width: 400px;
+}
+
+.highlight .img {
+  transform: rotate(360deg);
+}
+.highlight .img {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.highlight .img p {
+  color: white;
+  display: none;
+}

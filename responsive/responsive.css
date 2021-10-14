@@ -11,7 +11,7 @@
     text-align: center;
   }
   .nav-bar .right-nav .search {
-    width: 100%;
+    width: 66%;
   }
   .nav-bar .right-nav .btn-change {
     margin-top: 11px;
@@ -68,6 +68,12 @@
   }
   .sec-right-below .item .display {
     width: 75%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .first-section {
+    height: 115vh;
   }
 }
 

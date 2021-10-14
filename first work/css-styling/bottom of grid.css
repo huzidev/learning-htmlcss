@@ -1,0 +1,22 @@
+.bottom-grid {
+  display: grid;
+  height: 900px;
+  background-color: black;
+}
+
+.bottom-img {
+  height: 200px;
+  width: 300px;
+}
+
+.ext-left {
+  background-color: purple;
+}
+
+.above {
+  background-color: white;
+}
+
+.below {
+  background-color: yellow;
+}
