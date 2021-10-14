@@ -1,7 +1,7 @@
 .bottom-nav {
-  background-color: aqua;
+  background-color: black;
   color: white;
-  height: 100px;
+  height: 70px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -9,12 +9,32 @@
 }
 
 .bottom-nav .text {
-  width: 50%;
   margin: auto;
-  background-color: purple;
 }
 
 .bottom-nav .icons {
-  float: right;
-  width: 50%;
+  margin: auto;
+}
+.fab {
+  margin: 0px 5px;
+  transition: all 900ms ease;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.fab:hover {
+  background-color: white;
+  border-radius: 100%;
+}
+
+.fa-facebook-f {
+  padding: 9px 15px;
+}
+
+.fa-instagram {
+  padding: 9px 12px;
+}
+
+.fa-whatsapp {
+  padding: 9px 11px;
 }
