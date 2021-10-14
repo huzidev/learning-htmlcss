@@ -1,5 +1,5 @@
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   margin-top: 30px;
   background-color: aqua;
@@ -39,4 +39,24 @@
 .container .above .btn-above {
   background-color: white;
   padding: 22px 30px;
+  cursor: pointer;
+}
+.container .above .btn-above:hover {
+  background-color: orange;
+}
+
+.container .above .right {
+  border-top-right-radius: 15px;
+}
+
+.container .above .left {
+  border-top-left-radius: 15px;
+}
+
+.container .above .btn-above .far {
+  display: none;
+}
+
+.container .above .btn-above .far:hover {
+  display: block;
 }
