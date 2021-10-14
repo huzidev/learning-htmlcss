@@ -1,5 +1,4 @@
 .logos {
-  /* background-color: aqua; */
   height: 100px;
   display: flex;
   width: 1000px;
@@ -11,4 +10,7 @@
 .logos .logo {
   height: 50px;
   width: 90px;
+}
+
+.text-section {
 }
