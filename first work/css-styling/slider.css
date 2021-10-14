@@ -6,6 +6,8 @@
   height: 700px;
   margin: auto;
   background-image: url(/asstes/images/beerus.png);
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 1px 1px 15px 5px white;
   animation: slider;
@@ -16,14 +18,11 @@
 @keyframes slider {
   0% {
     background-image: url(/asstes/images/beerus.png);
-    background-size: cover;
   }
   35% {
     background-image: url(/asstes/images/goku-vegeta.jpg);
-    background-size: cover;
   }
   75% {
     background-image: url(/asstes/images/vegeta-1.jpg);
-    background-size: cover;
   }
 }
