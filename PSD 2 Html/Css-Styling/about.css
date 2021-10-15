@@ -1,5 +1,5 @@
 .about {
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 1200px;
   margin: auto;
   height: 1000px;
@@ -7,7 +7,7 @@
 
 .about .left-side {
   width: 600px;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
   display: grid;
   grid-template-columns: 2fr 3.8fr;
   grid-gap: 15px;
@@ -17,10 +17,7 @@
   height: 250px;
   width: 250px;
   border-radius: 5px;
-}
-
-.about .left-side .fourth {
-  height: 250px;
+  box-shadow: 0px 0px 15px -5px black;
 }
 
 .about .left-side .search-bar {
@@ -29,11 +26,12 @@
   background-size: cover;
   border-radius: 5px;
   margin-top: 30px;
-  background-image: url(/assets/images/tower1.jpg);
+  box-shadow: 0px 0px 15px -5px black;
+  background-image: url(/assets/images/building.jpg.jpg);
 }
 
 .about .left-side .center {
-  width: 210px;
+  width: 250px;
   display: flex;
   position: relative;
   right: 5px;
@@ -44,6 +42,7 @@
   padding: 5px 25px;
   box-shadow: 0px 0px 10px -5px;
   align-items: center;
+  box-shadow: 0px 0px 15px -3px black;
 }
 
 .about .left-side .center p {
@@ -53,7 +52,7 @@
 
 .about .left-side .center .fa-search {
   position: relative;
-  left: 88px;
+  left: 130px;
   color: white;
   border-radius: 100%;
   padding: 9px;
@@ -67,8 +66,9 @@
   width: 250px;
   height: 350px;
   background-size: cover;
-  background-image: url(/assets/images/tower1.jpg);
+  background-image: url(/assets/images/sky.jpg);
   border-radius: 5px;
+  box-shadow: 0px 0px 15px -5px black;
 }
 
 .about .left-side .range {
@@ -83,7 +83,7 @@
   padding: 5px 20px;
   height: 50px;
   width: 190px;
-  box-shadow: 0px 0px 10px -5px;
+  box-shadow: 0px 0px 15px -3px black;
 }
 
 .about .left-side .range p {
@@ -104,6 +104,7 @@
   height: 250px;
   width: 250px;
   border-radius: 5px;
+  box-shadow: 0px 0px 15px -5px black;
   background-image: url(/assets/images/towers.jpg);
 }
 
@@ -115,7 +116,7 @@
   padding: 7px 10px;
   border-radius: 9px;
   left: 15px;
-  box-shadow: 0px 0px 7px -3px black;
+  box-shadow: 0px 0px 15px -3px black;
   background-color: #fe7229;
   top: 30px;
   cursor: pointer;
