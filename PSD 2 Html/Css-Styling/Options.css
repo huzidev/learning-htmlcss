@@ -1,4 +1,62 @@
 .options {
   text-align: center;
+  height: 150px;
+}
+
+.slider {
   background-color: aqua;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.slider .img-slider {
+  background-image: url(/assets/images/room.jpg);
+  height: 500px;
+  width: 800px;
+  border-radius: 9px;
+  margin: auto;
+  background-size: cover;
+}
+
+.slider .img-slider .review {
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  position: relative;
+  float: right;
+  top: 125px;
+  right: -80px;
+  display: flex;
+  box-shadow: 0px 0px 15px -5px black;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 30px;
+}
+
+.slider .img-slider .review h1 {
+  color: #ff6501;
+  font-size: 60px;
+  height: 50px;
+}
+
+.slider .img-slider .review p {
+  font-weight: bold;
+  opacity: 0.7;
+  word-spacing: 6px;
+  font-size: 14px;
+}
+
+.slider .img-slider .review .buyer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.slider .img-slider .review .buyer .desh {
+  font-size: 25px;
+  margin-right: 8px;
+}
+
+.slider .img-slider .review .buyer span {
+  font-weight: bolder;
 }
