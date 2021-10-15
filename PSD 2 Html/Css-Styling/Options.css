@@ -60,3 +60,12 @@
 .slider .img-slider .review .buyer span {
   font-weight: bolder;
 }
+
+.line {
+  background-color: #ff6501;
+  height: 7px;
+  position: relative;
+  bottom: -25px;
+  width: 180px;
+  left: -30px;
+}
