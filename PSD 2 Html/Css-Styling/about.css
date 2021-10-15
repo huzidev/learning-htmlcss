@@ -58,6 +58,7 @@
   border-radius: 100%;
   padding: 9px;
   background-color: black;
+  cursor: pointer;
 }
 
 .about .left-side .price-range {
@@ -76,6 +77,7 @@
   top: 220px;
   right: 70px;
   overflow: auto;
+  align-items: center;
   border-radius: 10px;
   background-color: white;
   padding: 5px 20px;
@@ -88,4 +90,33 @@
   padding: 7px 0px;
   font-weight: bold;
   opacity: 0.6;
+}
+
+.about .left-side .price-range .price-tag {
+  font-size: 13px;
+  margin-left: 30px;
+  color: #fe7229;
+  opacity: 1;
+}
+
+.about .left-side .fourth {
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  border-radius: 5px;
+  background-image: url(/assets/images/towers.jpg);
+}
+
+.about .left-side .fourth .fa-map-marker-alt {
+  color: white;
+  position: relative;
+  float: right;
+  font-size: 25px;
+  padding: 7px 10px;
+  border-radius: 9px;
+  left: 15px;
+  box-shadow: 0px 0px 7px -3px black;
+  background-color: #fe7229;
+  top: 30px;
+  cursor: pointer;
 }
