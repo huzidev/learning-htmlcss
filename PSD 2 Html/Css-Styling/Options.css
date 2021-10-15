@@ -19,6 +19,17 @@
   background-size: cover;
 }
 
+.slider .img-slider .fa-play {
+  padding: 20px 20px;
+  background-color: #2f2f2c;
+  position: relative;
+  left: 380px;
+  top: 220px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
 .slider .img-slider .review {
   background-color: white;
   height: 300px;
