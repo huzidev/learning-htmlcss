@@ -1,0 +1,67 @@
+.about-reverse {
+  width: 1200px;
+  margin: auto;
+  margin-top: 120px;
+  height: 600px;
+  display: flex;
+  background-color: aqua;
+  flex-direction: row-reverse;
+}
+
+.about-reverse .right-side {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  justify-content: center;
+}
+
+.about-reverse .right-side p {
+  font-size: 15px;
+  opacity: 0.6;
+  margin-bottom: 12px;
+}
+
+.about-reverse .right-side h1 {
+  word-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.about-reverse .right-side .know {
+  text-decoration: none;
+  height: 35px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px -3px black;
+  margin-top: 20px;
+  background-color: #016450;
+}
+
+.about-reverse .right-side .know .fa-arrow-right {
+  margin-left: 25px;
+  opacity: 0.6;
+  font-size: 19px;
+}
+
+.about-reverse .left-side {
+  max-width: 600px;
+  margin: auto;
+}
+
+.about-reverse .left-side .right-img {
+  background-image: url(/assets/images/hotel.jpg);
+  height: 500px;
+  margin: auto;
+  background-size: 550px 550px;
+  width: 400px;
+}
+
+.about-reverse .left-side .right-img .fa-vector-square {
+  background-color: white;
+  color: #016450;
+  padding: 20px;
+  font-size: 30px;
+}
