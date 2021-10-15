@@ -1,14 +1,14 @@
 .about {
-  background-color: aqua;
   width: 1200px;
   margin: auto;
-  height: 1000px;
+  height: 600px;
   display: flex;
 }
 
 .about .left-side {
   width: 600px;
   display: grid;
+  margin: auto;
   grid-template-columns: 2fr 3.8fr;
   grid-gap: 15px;
 }
@@ -62,7 +62,7 @@
 
 .about .left-side .price-range {
   position: relative;
-  bottom: 260px;
+  bottom: 130px;
   width: 250px;
   height: 350px;
   background-size: cover;
@@ -103,8 +103,6 @@
   background-size: cover;
   height: 250px;
   width: 250px;
-  position: relative;
-  bottom: 130px;
   border-radius: 5px;
   box-shadow: 0px 0px 15px -5px black;
   background-image: url(/assets/images/towers.jpg);
@@ -125,10 +123,10 @@
 }
 
 .about .right-side {
-  height: 700px;
-  background-color: blanchedalmond;
   display: flex;
   flex-direction: column;
+  max-width: 600px;
+  margin: auto;
   justify-content: center;
 }
 
@@ -151,6 +149,8 @@
   color: white;
   padding-top: 15px;
   border-radius: 5px;
+  box-shadow: 0px 0px 15px -3px black;
+  margin-top: 20px;
   background-color: #016450;
 }
 
