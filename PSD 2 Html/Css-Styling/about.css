@@ -1,5 +1,5 @@
 .about {
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 1200px;
   margin: auto;
   height: 1000px;
@@ -7,7 +7,7 @@
 
 .about .left-side {
   width: 600px;
-  background-color: black;
+  /* background-color: black; */
   display: grid;
   grid-template-columns: 2fr 3.8fr;
   grid-gap: 15px;
@@ -39,15 +39,34 @@
 .about .left-side .search-bar {
   width: 200px;
   height: 300px;
-  text-align: center;
   background-size: cover;
   background-image: url(/assets/images/tower1.jpg);
-  overflow: auto;
 }
 
 .about .left-side .center {
+  width: 210px;
+  display: flex;
+  position: relative;
+  right: 5px;
+  overflow: auto;
   border-radius: 20px;
   background-color: white;
-  margin-top: 20px;
-  padding: 10px 0px;
+  margin-top: 50px;
+  padding: 5px 25px;
+  box-shadow: 0px 0px 10px -5px;
+  align-items: center;
+}
+
+.about .left-side .center p {
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.about .left-side .center .fa-search {
+  position: relative;
+  left: 88px;
+  color: white;
+  border-radius: 100%;
+  padding: 9px;
+  background-color: black;
 }
