@@ -1,7 +1,7 @@
 .logos {
   height: 100px;
   display: flex;
-  width: 1000px;
+  width: 1200px;
   margin: auto;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +15,7 @@
 .text-section {
   position: relative;
   top: 50px;
-  width: 1000px;
+  width: 1200px;
   margin: auto;
 }
 
