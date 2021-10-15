@@ -4,7 +4,7 @@
   margin-top: 120px;
   height: 600px;
   display: flex;
-  background-color: aqua;
+
   flex-direction: row-reverse;
 }
 
@@ -89,12 +89,13 @@
 }
 
 .about-reverse .left-side .right-img .map {
-  background-color: blueviolet;
   width: 180px;
+  background-color: white;
   margin: auto;
   position: relative;
   top: 190px;
   float: right;
+  box-shadow: 0px 0px 15px -3px black;
   right: -80px;
   display: flex;
   border-radius: 9px;
@@ -116,6 +117,7 @@
   margin-top: 10px;
   font-size: 12px;
   padding: 5px;
+  cursor: pointer;
   margin: auto;
   border: 0px solid white;
   color: white;
