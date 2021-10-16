@@ -219,6 +219,8 @@ section .slider {
 }
 
 .services {
+  margin-top: 50px;
   background-color: aqua;
   height: 540px;
+  text-align: center;
 }
