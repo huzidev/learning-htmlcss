@@ -319,3 +319,19 @@ section .slider {
   cursor: pointer;
   border-radius: 15px;
 }
+
+.symbol .first {
+  left: 105px;
+}
+
+.symbol .second {
+  left: 35px;
+}
+
+.symbol .third {
+  left: -35px;
+}
+
+.symbol .fourth {
+  right: 100px;
+}
