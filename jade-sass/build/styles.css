@@ -219,11 +219,11 @@ section .slider {
 }
 
 .services {
-  margin-top: 50px;
   background-color: aqua;
   height: 540px;
   text-align: center;
   max-width: 1200px;
+  margin: 50px auto;
 }
 
 .services p {
