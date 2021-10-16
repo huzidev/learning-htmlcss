@@ -24,15 +24,19 @@
   display: flex;
   list-style: none;
 }
-.explore .properties ul li {
-  margin: 0px 7px;
+.explore .properties ul li a {
+  /* margin: 0px 7px; */
   padding: 15px 20px;
   border-radius: 25px;
-  background-color: #282c3a;
-}
-
-.explore .properties ul li a {
+  margin-right: 15px;
+  cursor: pointer;
+  transition: all 600ms ease;
+  background-color: white;
   text-decoration: none;
+  color: #282c3a;
+}
+.explore .properties ul li a:hover {
+  background-color: #282c3a;
   color: white;
 }
 
