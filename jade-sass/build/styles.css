@@ -237,8 +237,9 @@ section .slider {
 .services {
   width: 1200px;
   margin: auto;
-  height: 550px;
-  background-color: blue;
+  height: 600px;
+  border-radius: 15px;
+  background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,6 +270,8 @@ section .slider {
   margin: 10px 5px;
   border-radius: 15px;
   background-color: #83dafc;
+  -webkit-box-shadow: 0px 0px 15px 3px white;
+          box-shadow: 0px 0px 15px 3px white;
 }
 
 .services .service .service-img {
