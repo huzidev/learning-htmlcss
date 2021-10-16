@@ -226,7 +226,6 @@ section .slider {
 }
 
 .abt-language {
-  height: 200px;
   text-align: center;
   color: white;
   max-width: 1200px;
@@ -245,8 +244,7 @@ section .slider {
 .services {
   width: 1200px;
   margin: auto;
-  height: 600px;
-  border-radius: 15px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
