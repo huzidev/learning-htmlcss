@@ -341,3 +341,10 @@ section .slider {
 .symbol .fourth {
   right: 110px;
 }
+
+footer {
+  background-color: aqua;
+  max-width: 1200px;
+  margin: auto;
+  height: 500px;
+}
