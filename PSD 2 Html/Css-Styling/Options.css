@@ -4,8 +4,7 @@
 }
 
 .slider {
-  background-color: aqua;
-  max-width: 1200px;
+  max-width: 1150px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -13,7 +12,7 @@
 .slider .img-slider {
   background-image: url(/assets/images/room.jpg);
   height: 500px;
-  width: 800px;
+  width: 900px;
   border-radius: 9px;
   margin: auto;
   background-size: cover;
@@ -79,4 +78,30 @@
   bottom: -25px;
   width: 180px;
   left: -30px;
+}
+
+.slider .arrow {
+  cursor: pointer;
+  color: white;
+
+  padding: 12px 20px;
+  font-size: 30px;
+  border: 0.5px solid #016450;
+
+  border-radius: 100%;
+  background-color: #016450;
+  transition: all 300ms ease;
+}
+.slider .arrow:hover {
+  color: #016450;
+  background-color: white;
+}
+.slider .fa-angle-right {
+  position: relative;
+  left: 50px;
+}
+
+.slider .fa-angle-left {
+  position: relative;
+  left: 50px;
 }
