@@ -1,4 +1,41 @@
 .explore {
-  background-color: aqua;
+  background-color: #f5eee8;
   height: 900px;
+  width: 100%;
+  margin: auto;
+}
+
+.explore .heading {
+  background-color: blanchedalmond;
+  max-width: 1050px;
+  margin: auto;
+  padding-top: 90px;
+}
+
+.explore .properties {
+  background-color: blueviolet;
+  margin-top: 100px;
+  max-width: 1050px;
+  margin: auto;
+}
+
+.explore .properties ul {
+  margin-top: 50px;
+  display: flex;
+  list-style: none;
+}
+.explore .properties ul li {
+  margin: 0px 7px;
+  padding: 15px 20px;
+  border-radius: 25px;
+  background-color: #282c3a;
+}
+
+.explore .properties ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.explore .properties ul li a .fa-building {
+  padding-right: 5px;
 }
