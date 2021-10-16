@@ -1,0 +1,209 @@
+* {
+  margin: 0px;
+  padding: 0% 2%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header .head {
+  padding: 10px 0px;
+}
+
+header .head h1 {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+header .head p {
+  padding-top: 7px;
+  opacity: 0.7;
+}
+
+nav {
+  background-color: red;
+  color: black;
+  max-width: 1200px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+nav img {
+  padding: 0px;
+  border-radius: 100%;
+  width: 100px;
+  margin: 0px;
+  border: 2px solid white;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  background-color: black;
+  color: white;
+  border-radius: 9px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid black;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+section {
+  margin-top: 50px;
+}
+
+section .slider {
+  height: 600px;
+  border: 3px solid white;
+  -webkit-box-shadow: 0px 0px 16px 3px black;
+          box-shadow: 0px 0px 16px 3px black;
+  -webkit-animation-name: slider;
+          animation-name: slider;
+  -webkit-animation-duration: 6000ms;
+          animation-duration: 6000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  background-image: url(/assets/images/coding.jpg);
+  background-size: cover;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@-webkit-keyframes slider {
+  0% {
+    background-image: url(/assets/images/coding.jpg);
+  }
+  35% {
+    background-image: url(/assets/images/code1.jpg);
+  }
+  75% {
+    background-image: url(/assets/images/code.jpg);
+  }
+}
+
+@keyframes slider {
+  0% {
+    background-image: url(/assets/images/coding.jpg);
+  }
+  35% {
+    background-image: url(/assets/images/code1.jpg);
+  }
+  75% {
+    background-image: url(/assets/images/code.jpg);
+  }
+}
+.highlight {
+  height: 500px;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.highlight .info {
+  background-color: black;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.highlight .info .img {
+  background-image: url(/assets/images/coding.jpg);
+  height: 20px;
+  background-size: cover;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.highlight .info .img-1 {
+  background-image: url(/assets/images/code1.jpg);
+  height: 20px;
+  background-size: cover;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.highlight .info .img-2 {
+  background-image: url(/assets/images/code.jpg);
+  height: 20px;
+  background-size: cover;
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.highlight .info .img-3 {
+  background-image: url(/assets/images/linux.jpg);
+  height: 20px;
+  background-size: cover;
+  width: 500px;
+  height: 300px;
+  border: 2px solid white;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.highlight .info h2 {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin: 5px 0px;
+}
+
+.highlight .info p {
+  padding: 20px 0px;
+}
+
+.highlight .info .fab {
+  color: black;
+  border: 2px solid white;
+  position: relative;
+  background-color: aqua;
+  font-size: 55px;
+  right: -60px;
+  top: 170px;
+  float: right;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.highlight .info .fa-left {
+  left: -60px;
+  float: left;
+}
