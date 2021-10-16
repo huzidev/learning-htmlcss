@@ -124,7 +124,7 @@ section .slider {
   margin-top: 50px;
   text-align: center;
   color: white;
-  background-color: blue;
+  height: auto;
 }
 
 .highlight .info {
