@@ -223,4 +223,9 @@ section .slider {
   background-color: aqua;
   height: 540px;
   text-align: center;
+  max-width: 1200px;
+}
+
+.services p {
+  opacity: 0.6;
 }
