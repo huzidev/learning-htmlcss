@@ -14,14 +14,15 @@
 
 .explore .properties {
   background-color: blueviolet;
-  margin-top: 100px;
   max-width: 1050px;
   margin: auto;
+  display: flex;
+  align-items: center;
 }
 
 .explore .properties ul {
-  margin-top: 50px;
   display: flex;
+  width: 90%;
   list-style: none;
 }
 .explore .properties ul li a {
@@ -43,8 +44,9 @@
   padding-right: 5px;
 }
 
-.explore .properties a {
+.explore .properties .explore-all {
   color: white;
+  width: 10%;
   background-color: aqua;
   float: right;
 }
