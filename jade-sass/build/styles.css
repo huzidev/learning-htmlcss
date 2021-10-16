@@ -189,7 +189,7 @@ section .slider {
 .highlight .info h2 {
   text-decoration: underline;
   text-underline-offset: 3px;
-  margin: 5px 0px;
+  margin-top: 20px;
 }
 
 .highlight .info p {
