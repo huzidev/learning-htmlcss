@@ -141,6 +141,8 @@ section .slider {
   background-size: cover;
   width: 500px;
   height: 300px;
+  -webkit-box-shadow: 0px 0px 15px 2px white;
+          box-shadow: 0px 0px 15px 2px white;
   margin: auto;
   border-radius: 15px;
   border: 2px solid white;
