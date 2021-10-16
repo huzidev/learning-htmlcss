@@ -8,11 +8,9 @@ body,
 html {
   background-image: url(/assets/images/kali-linux.png);
   background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 header {
-  background-color: black;
   color: white;
   text-align: center;
   max-width: 1200px;
@@ -34,7 +32,6 @@ header .head p {
 }
 
 nav {
-  background-color: red;
   color: black;
   max-width: 1200px;
   height: 80px;
@@ -48,6 +45,8 @@ nav img {
   padding: 0px;
   border-radius: 100%;
   width: 100px;
+  -webkit-box-shadow: 0px 0px 5px 1px white;
+          box-shadow: 0px 0px 5px 1px white;
   border: 2px solid white;
 }
 
@@ -70,6 +69,8 @@ nav ul li a {
   background-color: black;
   color: white;
   border-radius: 9px;
+  -webkit-box-shadow: 0px 0px 5px 1px white;
+          box-shadow: 0px 0px 5px 1px white;
   padding: 5px 10px;
   text-decoration: none;
   border: 1px solid black;
@@ -135,7 +136,6 @@ section .slider {
 }
 
 .highlight .info {
-  background-color: black;
   max-width: 1200px;
   margin: auto;
   padding-top: 30px;
@@ -228,6 +228,7 @@ section .slider {
 .abt-language {
   height: 200px;
   text-align: center;
+  color: white;
   max-width: 1200px;
   margin: 50px auto;
 }
@@ -246,7 +247,6 @@ section .slider {
   margin: auto;
   height: 600px;
   border-radius: 15px;
-  background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -276,9 +276,7 @@ section .slider {
           box-sizing: border-box;
   margin: 10px 5px;
   border-radius: 15px;
-  background-color: #83dafc;
-  -webkit-box-shadow: 0px 0px 5px 1px white;
-          box-shadow: 0px 0px 5px 1px white;
+  color: white;
 }
 
 .services .service .service-img {
@@ -286,6 +284,8 @@ section .slider {
   border-radius: 15px;
   height: 300px;
   width: 268px;
+  -webkit-box-shadow: 0px 0px 5px 1px white;
+          box-shadow: 0px 0px 5px 1px white;
 }
 
 .services .service h1 {
