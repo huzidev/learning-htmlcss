@@ -252,6 +252,7 @@ section .slider {
 
 .services .service {
   height: 500px;
+  text-align: center;
   width: 25%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
