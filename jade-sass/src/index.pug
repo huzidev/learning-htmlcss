@@ -75,11 +75,11 @@ html(lang="en")
         footer 
             .div33 
                 h2 About Us
-                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam incidunt illo corrupti reiciendis vel sunt illum? Aliquid eum rem sint error odit nobis. Nihil aperiam ipsam amet consequatur rem sed esse minima atque nisi dolorum incidunt similique impedit libero eos placeat, praesentium temporibus facilis! Fugit possimus ea quis quisquam, cupiditate omnis mollitia beatae hic similique illo! Pariatur vitae odio molestiae omnis vero nobis atque, vel id, magni dolor consequuntur facere tenetur, aspernatur sapiente culpa quo corrupti iste. Assumenda, maiores! Vitae corporis, voluptate perferendis at accusantium delectus odio et tenetur excepturi, veritatis perspiciatis ex repellat quam quod sequi minima possimus. Nisi?
+                p.opacity Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam incidunt illo corrupti reiciendis vel sunt illum? Aliquid eum rem sint error odit nobis. Nihil aperiam ipsam amet consequatur rem sed esse minima atque nisi dolorum incidunt similique impedit libero eos placeat, praesentium temporibus facilis! Fugit possimus ea quis quisquam, cupiditate omnis mollitia beatae hic similique illo! Pariatur vitae odio molestiae omnis vero nobis atque, vel id, magni dolor consequuntur facere tenetur, aspernatur sapiente culpa quo corrupti iste. Assumenda, maiores! Vitae corporis, voluptate perferendis at accusantium delectus odio et tenetur excepturi, veritatis perspiciatis ex repellat quam quod sequi minima possimus. Nisi?
             .div33 
                 h2 Links 
                 ul 
-                    li 
+                    li.first
                         a(href="") Linux 
                     li 
                         a(href="") Linux 
@@ -91,4 +91,9 @@ html(lang="en")
                         a(href="") Linux 
             .div33
                 h2 Contact Us
-                input(type="text" placeholder="Yours Name") 
+                input(type="text" placeholder="Yours Name" class="first-input same") 
+                input(type="text" placeholder="Yours Email" class="same") 
+                p Yours Query
+                textarea(name="Query", placeholder="Write Yours Concern" cols="30", rows="10" class="same") 
+                br
+                button Submit

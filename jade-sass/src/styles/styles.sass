@@ -254,7 +254,7 @@ section .slider
     right: 110px
 
 footer
-    background-color: aqua
+    // background-color: aqua
     max-width: 1200px
     margin: auto
     display: flex
@@ -266,7 +266,8 @@ footer .div33
     box-sizing: border-box
     text-align: center
     color: white
-    background-color: blue
+    // background-color: blue
+    margin: 90px 10px
     width: 33.33%
 
 footer .div33 h2
@@ -274,17 +275,27 @@ footer .div33 h2
     text-underline-offset: 3px
     margin-bottom: 10px
 
+footer .div33 .opacity
+    opacity: 0.7
+    font-weight: bold
+
 footer .div33 ul
     list-style: none
     display: flex
     flex-direction: column
 
 footer .div33 ul li
-    background-color: black
+    // background-color: black
     margin: 15px 0px
     padding: 10px 0px
     border-radius: 9px
+    border: 2px solid white
+    cursor: pointer
     transition: all 600ms ease
+
+footer .div33 ul .first
+    margin: 0px
+    margin-bottom: 15px
 
 footer .div33 ul li:hover
     background-color: black
@@ -292,3 +303,29 @@ footer .div33 ul li:hover
 footer .div33 ul li a
     text-decoration: none
     color: white
+
+footer .div33 .same
+    padding: 5px 10px
+    border: 2px solid white
+    width: 260px
+    background-color: none
+    border-radius: 9px
+    background: none
+
+footer .div33 .first-input
+    margin-bottom: 15px
+footer .div33 textarea
+    margin-bottom: 10px
+footer .div33 p
+    margin: 10px 0px
+
+footer .div33 button
+    float: left
+    font-size: 17px
+    background: none
+    color: white
+    padding: 5px 10px
+    border-radius: 9px
+    border: 2px solid white
+    position: relative
+    left: 40px
