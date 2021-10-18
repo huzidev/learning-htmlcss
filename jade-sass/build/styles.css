@@ -235,6 +235,8 @@ section .slider {
 }
 
 .abt-language h2 {
+  text-decoration: underline;
+  text-underline-offset: 5px;
   padding: 20px 0px;
 }
 
@@ -355,7 +357,6 @@ footer {
 }
 
 footer .div33 {
-  margin-top: 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-align: center;
@@ -368,7 +369,7 @@ footer .div33 {
 footer .div33 h2 {
   text-decoration: underline;
   text-underline-offset: 3px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 footer .div33 .opacity {
