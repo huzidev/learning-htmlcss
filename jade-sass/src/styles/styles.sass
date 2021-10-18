@@ -347,19 +347,28 @@ footer .div33 button:hover
     color: white
     font-size: 20px
     padding: 10px 0px
-    background-color: blue
+    display: flex
+    max-width: 1200px
+    margin: auto
+    justify-content: center
+    align-items: center
 
 .bottom p
     text-align: center
+    width: 100%
 
 .top-up
     cursor: pointer
 .top-up a
     color: white
     background: none
+    opacity: 1
     padding: 15px
     border: 2px solid white
     border-radius: 100%
-    float: right
-
+    transition: all 600ms ease
+    position: fixed
+    z-index: 12
+.top-up a:hover
+    background-color: black
 .top-up a .fa-arrow-up

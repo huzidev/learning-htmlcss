@@ -466,11 +466,22 @@ footer .div33 button:hover {
   color: white;
   font-size: 20px;
   padding: 10px 0px;
-  background-color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .bottom p {
   text-align: center;
+  width: 100%;
 }
 
 .top-up {
@@ -480,8 +491,16 @@ footer .div33 button:hover {
 .top-up a {
   color: white;
   background: none;
+  opacity: 1;
   padding: 15px;
   border: 2px solid white;
   border-radius: 100%;
-  float: right;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+  position: fixed;
+  z-index: 12;
+}
+
+.top-up a:hover {
+  background-color: black;
 }
