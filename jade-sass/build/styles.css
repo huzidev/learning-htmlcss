@@ -497,8 +497,6 @@ footer .div33 button:hover {
   border-radius: 100%;
   -webkit-transition: all 600ms ease;
   transition: all 600ms ease;
-  position: fixed;
-  z-index: 12;
 }
 
 .top-up a:hover {
