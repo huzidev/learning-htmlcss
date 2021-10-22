@@ -71,7 +71,7 @@ for(i=0; i<3; i++){
 
 let friends = ["Huzi", "Ali", "Hassan", "Logan"];
     // for (let index = 0; index < friends.length; index++){
-    //     console.log ("Hello Boys, " + friends[index]);
+        // console.log ("Hello Boys, " + friends[index]);
         
     // }
 
@@ -99,7 +99,7 @@ let data = {
 
 
 //  infinite Loop
- let i = 0;
+ let z = 0;
  while(i<4){
-     console.log
+     console.log(`${z} is less than 4`);
  }
