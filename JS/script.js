@@ -25,8 +25,8 @@ greet(name1, greetText);
 greet(name2, greetText);
 greet(name3, greetText);
 greet(name4, );
-let returnVal = sum(1,2,3);
-console.log(returnVal;)
+let returnVal = sum(1,5,3);
+console.log(returnVal);
 // This Can Be A Method But You Can Also Use One More Efficient And Fast Method
 // console.log(names + " is A Good Boy")
 // console.log(name2 + " is A Good Boy")
