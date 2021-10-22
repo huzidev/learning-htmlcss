@@ -3,9 +3,15 @@ console.log(
 )
 // you can add multiple types of varaibales just put greet parameterss
 // greet from JS is Just By Default Greet If we didnt gave greetText To any of our specific varaiable
+
 function greet(names, greetText="Hello From JS"){
     console.log(greetText);
     console.log(names + " Is A Good Boy");
+}
+
+function sum(a,b,c){
+    let d = a + b + c;
+    return d;
 }
 let names = "Huzi";
 let name1 = "Logan";
