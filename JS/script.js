@@ -10,6 +10,7 @@ let name1 = "Logan"
 let name2 = "Sahil"
 let name3 = "Ali"
 let name4= "Haasan"   
+let greetText = "Good Morning Bro You Know What,"
 greet(names);
 greet(name1);
 greet(name2);
