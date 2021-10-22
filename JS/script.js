@@ -105,4 +105,8 @@ let data = {
      i++;
  }
 
-//  Do While Loop
+//  Do While loop
+ let x = 35;
+ do{
+     console.log(`${x} is less than 30 But We Are In Do While Loop`)
+ }
