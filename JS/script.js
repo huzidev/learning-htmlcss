@@ -2,7 +2,7 @@ console.log(
     "Hello hi ok"
 )
 
-function greet(names){
+function greet(names, greetText){
     console.log(names + " Is A Good Boy");
 }
 let names = "Huzi"
