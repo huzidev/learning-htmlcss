@@ -7,7 +7,7 @@ let name1 = "Logan"
 let name2 = "Sahil"
 let name3 = "Ali"
 let name4= "Haasan"   
-
+// This Can Be A Method But You Can Also Use One More Efficient And Fast Method
 console.log(names + " is A Good Boy")
 console.log(name2 + " is A Good Boy")
 console.log(name3 + " is A Good Boy")
