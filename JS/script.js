@@ -4,6 +4,7 @@ console.log(
 
 function greet(names, greetText){
     console.log(names + " Is A Good Boy");
+    console.log(greetText + " " + names);
 }
 let names = "Huzi"
 let name1 = "Logan"
@@ -11,7 +12,7 @@ let name2 = "Sahil"
 let name3 = "Ali"
 let name4= "Haasan"   
 let greetText = "Good Morning Bro You Know What,"
-greet(names);
+greet(names, greetText);
 greet(name1);
 greet(name2);
 greet(name3);
