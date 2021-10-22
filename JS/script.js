@@ -1,7 +1,7 @@
 console.log(
     "Hello hi ok"
 )
-
+// you can add multiple types of varaibales just put greet parameterss
 function greet(names, greetText){
     console.log(greetText);
     console.log(names + " Is A Good Boy");
