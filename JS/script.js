@@ -104,3 +104,5 @@ let data = {
      console.log(`${z} is less than 4`);
      i++;
  }
+
+//  Do While Loop
