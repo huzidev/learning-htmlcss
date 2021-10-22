@@ -98,8 +98,9 @@ let data = {
  }
 
 
-//  infinite Loop
+//  infinite Loop will work so on and on and on utnil we put i++
  let z = 0;
  while(i<4){
      console.log(`${z} is less than 4`);
+     i++;
  }
