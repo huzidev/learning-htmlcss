@@ -99,3 +99,7 @@ let data = {
 
 
 //  infinite Loop
+ let i = 0;
+ while(i<4){
+     console.log
+ }
