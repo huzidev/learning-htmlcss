@@ -13,7 +13,8 @@ function sum(a,b,c){
     let d = a + b + c;
     return d;
 }
-let names = "Huzi";
+
+let return = sum (1,2,3);
 let name1 = "Logan";
 let name2 = "Sahil";
 let name3 = "Ali";
