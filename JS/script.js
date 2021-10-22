@@ -3,7 +3,7 @@ console.log(
 )
 
 function greet(names, greetText){
-    console.log(greetText + " " + names);
+    console.log(greetText);
     console.log(names + " Is A Good Boy");
 }
 let names = "Huzi"
