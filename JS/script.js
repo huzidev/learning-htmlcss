@@ -44,3 +44,6 @@ console.log(returnVal);
 // else{
 //     console.log("You Are Not Allowed To Visit This Web, Kindly Leave")
 // }
+
+
+let deletePost = confirm("You Really Wanna Delete This Post")
