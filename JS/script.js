@@ -56,3 +56,6 @@ if(deletePost){
 else{
     console.log("This post isn't deleted ");
 }
+
+
+// LOOPS
