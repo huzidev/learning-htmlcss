@@ -36,4 +36,5 @@ console.log(returnVal);
 
 // alert("You Just Visited To Ours Website ");  
 
-let name = prompt("What Is Yours Name")
+let info = prompt("What Is Yours Name");
+console.log(info);
