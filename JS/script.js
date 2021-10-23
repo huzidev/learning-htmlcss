@@ -76,6 +76,6 @@ let friends = ["Huzi", "Ali", "Hassan", "Logan"];
     // }
 
     friends.forEach(function f(element) {
-        console.log ("hello friends, " + element + "to modern world ")
+        console.log ("hello friends, " + element + " Welcome to the modern world")
 
     });
