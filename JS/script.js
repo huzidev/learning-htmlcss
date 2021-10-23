@@ -8,7 +8,7 @@ function greet(names, greetText="Hello From JS"){
     console.log(greetText);
     console.log(names + " Is A Good Boy");
 }
-
+// We can also returrn the Integers and Strings also
 function sum(a,b,c){
     let d = a + b + c;
     return d;
