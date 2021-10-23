@@ -46,19 +46,23 @@ console.log(returnVal);
 // }
 
 
-let deletePost = confirm("You Really Wanna Delete This Post");
-// console.log(deletePost);
+// let deletePost = confirm("You Really Wanna Delete This Post");
+// // console.log(deletePost);
 
-if(deletePost){
-    console.log("You deleted this post");
-}
+// if(deletePost){
+//     console.log("You deleted this post");
+// }
 
-else{
-    console.log("This post isn't deleted ");
-}
+// else{
+//     console.log("This post isn't deleted ");
+// }
 
 
 // LOOPS
 
+console.log("Using Loops Now")
+
 let i = 0;
-for(i=0; i<3; i++)
+for(i=0; i<3; i++){
+    console.log(i);
+}
