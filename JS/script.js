@@ -76,7 +76,9 @@ let friends = ["Huzi", "Ali", "Hassan", "Logan"];
     // }
 
     // for each loop
-    friends.forEach(function f(element) {
-        console.log ("hello friends, " + element + " Welcome to the modern world")
+    // friends.forEach(function f(element) {
+    //     console.log ("hello friends, " + element + " Welcome to the modern world")
 
-    });
+    // });
+
+    // For Of Loop
