@@ -96,3 +96,6 @@ let data = {
  for (key in data){
      console.log(`the ${key} of person is ${data[key]}`);
  }
+
+
+//  infinite Loop
