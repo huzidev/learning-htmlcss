@@ -12,8 +12,8 @@ function greet(names, greetText="Hello From JS"){
 function sum(a,b,c){
     let d = a + b + c;
     return d;
-}
 
+}
 let names = "Huzi";
 let name1 = "Logan";
 let name2 = "Sahil";
