@@ -34,4 +34,4 @@ console.log(returnVal);
 // console.log(name4 + " is A Good Boy")
 
 
-alert("You Just Visited To Ours Website ");
+// alert("You Just Visited To Ours Website ");
