@@ -34,7 +34,7 @@ console.log(returnVal);
 // console.log(name4 + " is A Good Boy")
 
 
-// alert("You Just Visited To Ours Website ");  
+alert("You Just Visited To Ours Website ");  
 
-let info = prompt("What Is Yours Name");
+let info = prompt("What Is Yours Name", "Anonymous");
 console.log(info);
