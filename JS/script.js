@@ -88,6 +88,11 @@ let friends = ["Huzi", "Ali", "Hassan", "Logan"];
     }
 
 
-    let data = {
-        
-    }
+let data = {
+    name : "HuziDev",
+     hobby : "Learning",
+     Age : 19
+ }
+ for (key in data){
+     console.log(`the ${key} of person is ${data[key]}`);
+ }
