@@ -36,12 +36,11 @@ console.log(returnVal);
 
 alert("You Just Visited To Ours Website ");  
 
-let HUZI = prompt("What Is Yours Name", "Anonymous");
+let info = prompt("What Is Yours Name", "Anonymous");
 // console.log(info);
-if (HUZI){
-    console.log("Congratulaion, You Got The Access To The Web")
+if (info){
+    console.log("Congratulaion, You Got The Access To The Web");
 }
-
-else (){
-    console.log("You ")
+else{
+    console.log("You Are Not Allowed To Visit This Web, Kindly Leave")
 }
