@@ -47,4 +47,12 @@ console.log(returnVal);
 
 
 let deletePost = confirm("You Really Wanna Delete This Post");
-console.log(deletePost);
+// console.log(deletePost);
+
+if(deletePost){
+    console.log("You deleted this post");
+}
+
+else{
+    console.log("This post isn't deleted")
+}
