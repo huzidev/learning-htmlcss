@@ -68,3 +68,5 @@ for(i=0; i<3; i++){
 }
 
 // Each Loops
+
+let friends = ["Huzi", "Ali", "Hassan", "Logan"];
