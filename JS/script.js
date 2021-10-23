@@ -34,13 +34,13 @@ console.log(returnVal);
 // console.log(name4 + " is A Good Boy")
 
 
-alert("You Just Visited To Ours Website ");  
+// alert("You Just Visited To Ours Website ");  
 
-let info = prompt("What Is Yours Name", "Anonymous");
-// console.log(info);
-if (info){
-    console.log("Congratulaion, You Got The Access To The Web");
-}
-else{
-    console.log("You Are Not Allowed To Visit This Web, Kindly Leave")
-}
+// let info = prompt("What Is Yours Name", "Anonymous");
+// // console.log(info);
+// if (info){
+//     console.log("Congratulaion, You Got The Access To The Web");
+// }
+// else{
+//     console.log("You Are Not Allowed To Visit This Web, Kindly Leave")
+// }
