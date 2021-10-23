@@ -86,3 +86,8 @@ let friends = ["Huzi", "Ali", "Hassan", "Logan"];
     for(Element of friends){
         console.log("Hello My Friend, " + Element + " To The Modern World" )
     }
+
+
+    let data = {
+        
+    }
