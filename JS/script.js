@@ -84,7 +84,7 @@ let friends = ["Huzi", "Ali", "Hassan", "Logan"];
     // For Of Loop Most Easiest Way loops
 
     for(Element of friends){
-        console.log("Hello My Friend, " + Element + " To The Modern World" )
+        console.log("Hello My Friend, " + Element + " Welcome To The Modern World" )
     }
 
 
