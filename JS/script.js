@@ -41,3 +41,7 @@ let HUZI = prompt("What Is Yours Name", "Anonymous");
 if (HUZI){
     console.log("Congratulaion, You Got The Access To The Web")
 }
+
+else (){
+    console.log("You ")
+}
