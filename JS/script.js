@@ -46,4 +46,5 @@ console.log(returnVal);
 // }
 
 
-let deletePost = confirm("You Really Wanna Delete This Post")
+let deletePost = confirm("You Really Wanna Delete This Post");
+console.log(deletePost);
