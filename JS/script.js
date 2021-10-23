@@ -60,9 +60,11 @@ console.log(returnVal);
 
 // LOOPS
 
-console.log("Using Loops Now")
+console.log("Using Loops N")
 
 let i = 0;
 for(i=0; i<3; i++){
     console.log(i);
 }
+
+// Each Loops
