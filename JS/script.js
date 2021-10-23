@@ -70,3 +70,7 @@ for(i=0; i<3; i++){
 // Each Loops
 
 let friends = ["Huzi", "Ali", "Hassan", "Logan"];
+    for (let index = 0; index < friends.length; index++){
+        console.log ("Hello Boys, " + friends[index]);
+        
+    }
