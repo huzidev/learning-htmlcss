@@ -36,5 +36,8 @@ console.log(returnVal);
 
 alert("You Just Visited To Ours Website ");  
 
-let info = prompt("What Is Yours Name", "Anonymous");
-console.log(info);
+let HUZI = prompt("What Is Yours Name", "Anonymous");
+// console.log(info);
+if (HUZI){
+    console.log("Congratulaion, You Got The Access To The Web")
+}
