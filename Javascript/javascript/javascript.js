@@ -90,3 +90,5 @@ function displayTime() {
 console.log("DATE AND TIME BY JS");
 let now = new Date();
 console.log(now);
+
+console.log("Specific Date & Time");
