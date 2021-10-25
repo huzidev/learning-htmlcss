@@ -31,5 +31,5 @@ console.log("Return Selector", ParentChild);
 // querySelectorAll by using (ALL) we can select all the (li) or element inside a specific div
 let ParentChild1 = document.querySelectorAll('#nav>li');
 console.log("Return Selector", ParentChild1);
-
-ParentChild1[0].innerHTML = "ok"
+// using var name we can target specific child of specific element
+ParentChild1[4].innerHTML = "new button"
