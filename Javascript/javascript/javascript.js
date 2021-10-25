@@ -92,3 +92,4 @@ let now = new Date();
 console.log(now);
 
 console.log("Specific Date & Time");
+let date = new Date(2021-10-26)
