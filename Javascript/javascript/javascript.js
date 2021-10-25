@@ -54,3 +54,5 @@ let para = document.getElementById("para");
 para.addEventListener("mouseover", function run(){
     alert("cursor is in the border of para");
 });    
+
+let para = document.getElementById("para");
