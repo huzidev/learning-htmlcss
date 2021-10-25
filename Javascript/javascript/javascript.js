@@ -47,3 +47,6 @@ function toggleHide(){
         para.style.display = "block";
     }
 }
+
+
+// Alert for mouse event listener
