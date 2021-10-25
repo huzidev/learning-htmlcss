@@ -83,7 +83,7 @@ function displayTime() {
     console.log(time);
     document.getElementById("time").innerHTML = time;
 }
-// setInterval(displayTime, 1000);
+setInterval(displayTime, 1000);
 
 
 // date and time
