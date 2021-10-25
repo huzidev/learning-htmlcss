@@ -84,3 +84,6 @@ function displayTime() {
     document.getElementById("time").innerHTML = time;
 }
 setInterval(displayTime, 1000);
+
+
+// date and time
