@@ -27,5 +27,7 @@ console.log("Return Selector", sel1);
 let ParentChild = document.querySelector('#nav>li');
 console.log("Return Selector", ParentChild);
 
-let ParentChild = document.querySelector('#nav>li');
-console.log("Return Selector", ParentChild);
+
+// querySelectorAll by using (ALL) we can select all the (li) or element inside a specific div
+let ParentChild1 = document.querySelectorAll('#nav>li');
+console.log("Return Selector", ParentChild1);
