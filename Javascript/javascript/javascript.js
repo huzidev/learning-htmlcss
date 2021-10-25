@@ -50,3 +50,4 @@ function toggleHide(){
 
 
 // Alert for mouse event listener
+let para = document.getElementById("para");
