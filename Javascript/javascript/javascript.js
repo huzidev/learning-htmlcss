@@ -40,7 +40,6 @@ ParentChild1[4].innerHTML = "new button"
 function toggleHide(){
     let btn = document.getElementById("btn");   
     let para = document.getElementById("para");
-    
     if(para.style.display != "none"){
     para.style.display = "none";
     }
