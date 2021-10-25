@@ -33,3 +33,4 @@ let ParentChild1 = document.querySelectorAll('#nav>li');
 console.log("Return Selector", ParentChild1);
 // using var name we can target specific child of specific element
 ParentChild1[4].innerHTML = "new button"
+// counting zero say start hogi for JS 
