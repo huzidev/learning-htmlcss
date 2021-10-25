@@ -44,6 +44,6 @@ function toggleHide(){
     para.style.display = "none";
     }
     else{
-        para.style.display = "block"
+        para.style.display = "block";
     }
 }
