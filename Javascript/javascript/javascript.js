@@ -70,4 +70,7 @@ console.log("Hello, adding set timeout and clear timeout function");
 function greet(name, byetext){
     console.log("Hello, Welcome Back" + name + " " + byetext);
 }
-setTimeout(greet, 2000, " HUZI-DEV", "Good Night");
+// setTimeout(greet, 2000, " HUZI-DEV", "Good Night");
+
+
+// setInterval(greet, 2000, " HUZI-DEV", "Good Night");
