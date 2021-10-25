@@ -37,8 +37,8 @@ ParentChild1[4].innerHTML = "new button"
 
 
 // events for mouse TOGGLE SHOW/HIDE BTN
-let btn = document.getElementById("btn")
-let para = document.getElementById("para");
-para.style.display = "none"
-if(para.style.display != "none"){
+function toggleHide(){
+    let btn = document.getElementById("btn");
+    let para = document.getElementById("para");
+    para.display = "none";
 }
