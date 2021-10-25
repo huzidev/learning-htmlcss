@@ -87,3 +87,5 @@ setInterval(displayTime, 1000);
 
 
 // date and time
+// DATE AND TIME BY JS
+let date = 
