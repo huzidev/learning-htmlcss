@@ -10,5 +10,5 @@ console.log(mainContainer);
 
     // MAKE SURE TO PUT SEMI-COLON AT VERY END OBVIOUS WHILE USING JADE/SASS other wise an error would appear
 
-let nav = document.getElementsByClassName("nav");
-console.log(nav);
+let nav = document.getElementById("nav");
+console.log(nav);   
