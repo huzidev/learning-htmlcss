@@ -3,7 +3,7 @@
   padding: 25px 0px;
 }
 
-.events button {
+.events #btn {
   background-color: red;
   font-weight: bolder;
   padding: 15px 25px;
