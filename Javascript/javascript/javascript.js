@@ -77,3 +77,8 @@ function greet(name, byetext){
 
 
 // adding live time
+
+function displayTime() {
+    time = new Date();
+    console.log(time);
+}
