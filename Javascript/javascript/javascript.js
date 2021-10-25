@@ -15,3 +15,5 @@ console.log(nav);
 
 let containers = document.getElementsByClassName("container");
 console.log(containers);
+
+// Selectors IN JS
