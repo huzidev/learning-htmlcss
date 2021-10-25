@@ -1,1 +1,1 @@
-console.log("hello")
+console.log("Hello, Learing JS with Jade/Sass");
