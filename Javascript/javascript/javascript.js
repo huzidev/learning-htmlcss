@@ -60,3 +60,6 @@ function toggleHide(){
 // });
 
 // whenever mouse went in or out of para border the message will pop-up, if we used alert then it'll pop-up in the form of modal like if we used console.log then it can be seen in the console
+
+
+// Set timeout/ Clear timeout
