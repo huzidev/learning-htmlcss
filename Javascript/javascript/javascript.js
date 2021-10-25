@@ -52,9 +52,9 @@ function toggleHide(){
 // Alert for mouse event listener
 let para = document.getElementById("para");
 para.addEventListener("mouseover", function run(){
-    alert("cursor is in the border of para");
+    console.log("cursor is in the border of para");
 });    
 
 para.addEventListener("mouseout", function run(){
-    alert("Cursor went out of the para border");
+    console.log("Cursor went out of the para border");
 });
