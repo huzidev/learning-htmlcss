@@ -17,3 +17,6 @@ let containers = document.getElementsByClassName("container");
 console.log(containers);
 
 // Selectors IN JS
+
+let sel = document.querySelector(".container");
+console.log("Return Selector", sel);
