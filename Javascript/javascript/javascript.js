@@ -74,3 +74,6 @@ function greet(name, byetext){
 
 
 // setInterval(greet, 1000, " HUZI-DEV", "Good Night");
+
+
+// adding live time
