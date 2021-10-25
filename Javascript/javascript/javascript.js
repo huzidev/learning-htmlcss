@@ -63,3 +63,5 @@ function toggleHide(){
 
 
 // Set timeout/ Clear timeout
+
+console.log("Hello, adding set timeout and clear timeout function");
