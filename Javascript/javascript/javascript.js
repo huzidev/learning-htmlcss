@@ -68,5 +68,6 @@ function toggleHide(){
 console.log("Hello, adding set timeout and clear timeout function");
 
 function greet(name){
-    console.log("Hello, HUZI DEV Welcome Back" + name);
+    console.log("Hello,Welcome Back" + name);
 }
+setTimeout(greet, 1000, " HUZI ");
