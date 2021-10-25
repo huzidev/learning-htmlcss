@@ -50,11 +50,13 @@ function toggleHide(){
 
 
 // Alert for mouse event listener
-let para = document.getElementById("para");
-para.addEventListener("mouseover", function run(){
-    console.log("cursor is in the border of para");
-});    
+// let para = document.getElementById("para");
+// para.addEventListener("mouseover", function run(){
+//     console.log("cursor is in the border of para");
+// });    
 
-para.addEventListener("mouseout", function run(){
-    console.log("Cursor went out of the para border");
-});
+// para.addEventListener("mouseout", function run(){
+//     console.log("Cursor went out of the para border");
+// });
+
+// whenever mouse went in or out of para border the message will pop-up, if we used alert then it'll pop-up in the form of modal like if we used console.log then it can be seen in the console
