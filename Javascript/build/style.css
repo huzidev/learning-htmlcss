@@ -5,7 +5,9 @@
 
 .events button {
   background-color: red;
+  font-weight: bolder;
   padding: 15px 25px;
+  cursor: pointer;
   border-radius: 15px;
   border: 2px solid black;
 }
