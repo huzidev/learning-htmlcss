@@ -65,3 +65,7 @@ function toggleHide(){
 // Set timeout/ Clear timeout
 
 console.log("Hello, adding set timeout and clear timeout function");
+
+function greet(HUZI - DEV) {
+    console.log("Hello, HUZI DEV Welcome Back")
+}
