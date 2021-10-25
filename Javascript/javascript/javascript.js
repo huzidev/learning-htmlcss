@@ -83,9 +83,10 @@ function displayTime() {
     console.log(time);
     document.getElementById("time").innerHTML = time;
 }
-setInterval(displayTime, 1000);
+// setInterval(displayTime, 1000);
 
 
 // date and time
-// DATE AND TIME BY JS
-let date = 
+console.log("DATE AND TIME BY JS");
+let now = new Date();
+console.log(now);
