@@ -23,3 +23,6 @@ console.log("Return Selector", sel);
 
 let sel1 = document.querySelector('#nav');
 console.log("Return Selector", sel1);
+
+let ParentChild = document.querySelector('#nav>li');
+console.log("Return Selector", ParentChild);
