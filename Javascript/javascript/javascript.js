@@ -12,3 +12,5 @@ console.log(mainContainer);
 
 let nav = document.getElementById("nav");
 console.log(nav);   
+
+let containers = document.getElementsByName("container");
