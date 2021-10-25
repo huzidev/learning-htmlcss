@@ -73,4 +73,4 @@ function greet(name, byetext){
 // setTimeout(greet, 2000, " HUZI-DEV", "Good Night");
 
 
-// setInterval(greet, 2000, " HUZI-DEV", "Good Night");
+// setInterval(greet, 1000, " HUZI-DEV", "Good Night");
