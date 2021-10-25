@@ -37,3 +37,4 @@ ParentChild1[4].innerHTML = "new button"
 
 
 // events for mouse TOGGLE SHOW/HIDE BTN
+let para = document.getElementById("para");
