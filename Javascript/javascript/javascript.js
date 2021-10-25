@@ -18,5 +18,8 @@ console.log(containers);
 
 // Selectors IN JS
 
-let sel = document.querySelector(".container");
+let sel = document.querySelector('.container');
 console.log("Return Selector", sel);
+
+let sel1 = document.querySelector('#nav');
+console.log("Return Selector", sel1);
