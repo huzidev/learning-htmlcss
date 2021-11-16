@@ -6,8 +6,11 @@
 .header {
   background-color: aqua;
   text-align: center;
+  padding: 10px 0px;
 }
 
 .header h1 {
   text-decoration: underline;
+  text-underline-offset: 5px;
+  margin: 10px 0px;
 }
