@@ -28,4 +28,6 @@ console.log("learing JS")
             <li>Hello</li>
             <li>Hello</li>
             <li>Hello</li>
+        </ul>
+    </nav>
      `;
