@@ -82,8 +82,10 @@ let num2 = 250;
 console.log("The sum of num1 and num2 is equal to " + (num1 + num2));
 
 let hobby = "learning";
-console.log("The name of the developer is " + (name) + " and his hobby is " + (hobby));
+console.log(`The name of the developer is ${name} and his hobby is ${hobby}`);
 
 console.log("'if you want single inverted commas in console then put them inside double comma`'")
 console.log('"if you want double inverted commas in console then put them inside single comma"')
 console.log(`"hello" 'hi', if you wanted single and double commas at same time in console then put them in back-ticks `)
+
+console.log(`${name}`)
