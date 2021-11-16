@@ -41,9 +41,6 @@
 nav {
   background-color: black;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 nav .img-container {
