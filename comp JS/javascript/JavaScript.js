@@ -18,17 +18,17 @@ console.log("learing JS")
     document.getElementById("js").innerHTML =
      `
      <div class="container">
-        <h3>Hello, We Were Styling This With Pure JS </h1>
-        <p>using only js from there to style by <b>(getelemntbyId)</b> method
+        <h3>Hello, We Were Styling This With Pure JS </h3>
+        <p>using only js from there to style by <b>(getelemntbyId)</b> method</p>
     </div>
-    <nav>
+    <nav>   
         <ul>
             <li>Hello</li>
             <li>Hello</li>
             <li>Hello</li>
             <li>Hello</li>
             <li>Hello</li>
-            </ul>
-            <img src="/assets/js.png" alt="JS Img" class="img">
+        </ul>
+        <img src="/assets/js.png" alt="JS Img" class="img">
     </nav>
      `;
