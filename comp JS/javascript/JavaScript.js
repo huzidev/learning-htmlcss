@@ -74,5 +74,5 @@ console.log("The Sum oF A and B is equal to", +  (a + b));
 let name = "Huzi";
 console.log("The Name Of The Developer Is " + (name))
 
-
-    
+let sum = 10 + 50 + 60 -50 * 6 + 500;
+console.log(sum)
