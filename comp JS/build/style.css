@@ -19,3 +19,8 @@
 .header p {
   opacity: 0.6;
 }
+
+.time {
+  background-color: black;
+  color: white;
+}
