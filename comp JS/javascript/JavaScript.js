@@ -64,10 +64,9 @@ console.log("learing JS")
 </div>
      `;
 
-
-
-
-
+let a = 5;
+let b = 5;
+console.log("The Sum oF A and B is equal to", +  (a + b));
 
 
 
