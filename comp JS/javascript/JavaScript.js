@@ -76,3 +76,10 @@ console.log("The Name Of The Developer Is " + (name))
 
 let sum = 10 + 50 + 60 -50 * 6 + 500;
 console.log(sum)
+
+let num1 = 150;
+let num2 = 250;
+console.log("The sum of num1 and num2 is equal to " + (num1 + num2));
+
+let hobby = "learning";
+console.log("The name of the developer is " + (name) + " and his hobby is " + (hobby));
