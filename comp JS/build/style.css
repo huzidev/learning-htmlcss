@@ -37,3 +37,20 @@
   background-color: aqua;
   text-align: center;
 }
+
+nav {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 5px;
+}

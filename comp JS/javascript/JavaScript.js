@@ -21,4 +21,11 @@ console.log("learing JS")
         <h3>Hello, We Were Styling This With Pure JS </h1>
         <p>using only js from there to style by <b>(getelemntbyId)</b> method
     </div>
+    <nav>
+        <ul>
+            <li>Hello</li>
+            <li>Hello</li>
+            <li>Hello</li>
+            <li>Hello</li>
+            <li>Hello</li>
      `;
