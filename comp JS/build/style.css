@@ -47,10 +47,15 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 1000px;
+  margin: auto;
   padding: 20px 0px;
 }
 
 ul li {
   list-style-type: none;
-  padding: 5px;
+  padding: 5px 15px;
+  border: 2px solid white;
+  margin: 0px 5px;
+  border-radius: 9px;
 }
