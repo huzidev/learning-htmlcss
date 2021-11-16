@@ -26,3 +26,9 @@
 .timing h1 {
   text-align: center;
 }
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
