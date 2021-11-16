@@ -65,7 +65,9 @@ console.log("learing JS")
      `;
 
 let a = 5;
+console.log(a);
 let b = 5;
+console.log(b);
 console.log("The Sum oF A and B is equal to", +  (a + b));
 
 let name = "Huzi";
