@@ -41,7 +41,7 @@ console.log("learing JS")
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. At blanditiis commodi veniam omnis neque dolore nulla error saepe itaque repellendus?
         </p>
-        <img src="/assets/js.png" alt="JS Img" class="img">
+        <img src="/assets/Landscape.jfif" alt="JS Img" class="img">
     </div>
     <div class="box">
         <h2>
@@ -50,7 +50,7 @@ console.log("learing JS")
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. At blanditiis commodi veniam omnis neque dolore nulla error saepe itaque repellendus?
         </p>
-        <img src="/assets/js.png" alt="JS Img" class="img">
+        <img src="/assets/linuuu.png" alt="JS Img" class="img">
     </div>
     <div class="box">
         <h2>

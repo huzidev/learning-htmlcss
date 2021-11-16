@@ -85,7 +85,6 @@ ul li:hover {
 }
 
 .boxes {
-  background-color: aqua;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,7 +96,15 @@ ul li:hover {
   margin: 5px;
   padding: 10px;
   text-align: center;
-  height: 500px;
   background-color: black;
   color: white;
+}
+
+.boxes .box p {
+  opacity: 0.6;
+  padding: 10px 0px;
+}
+
+.boxes .box .img {
+  margin-top: 5px;
 }
