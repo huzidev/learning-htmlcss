@@ -88,4 +88,4 @@ console.log("'if you want single inverted commas in console then put them inside
 console.log('"if you want double inverted commas in console then put them inside single comma"')
 console.log(`"hello" 'hi', if you wanted single and double commas at same time in console then put them in back-ticks `)
 
-console.log(`${name}`)
+console.log(`${name} dev and hobby is ${hobby}`)
