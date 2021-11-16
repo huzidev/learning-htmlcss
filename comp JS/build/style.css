@@ -98,6 +98,8 @@ ul li:hover {
   text-align: center;
   background-color: black;
   color: white;
+  border-bottom-left-radius: 55px;
+  border-top-right-radius: 55px;
 }
 
 .boxes .box p {
