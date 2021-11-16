@@ -33,4 +33,30 @@ console.log("learing JS")
             <img src="/assets/js.png" alt="JS Img" class="img">
         </div>
     </nav>
+    <div class="boxes">
+    <div class="box">
+        <h2>
+            Hello
+        </h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At blanditiis commodi veniam omnis neque dolore nulla error saepe itaque repellendus?
+        </p>
+    </div>
+    <div class="box">
+        <h2>
+            Hello
+        </h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At blanditiis commodi veniam omnis neque dolore nulla error saepe itaque repellendus?
+        </p>
+    </div>
+    <div class="box">
+        <h2>
+            Hello
+        </h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At blanditiis commodi veniam omnis neque dolore nulla error saepe itaque repellendus?
+        </p>
+    </div>
+</div>
      `;
