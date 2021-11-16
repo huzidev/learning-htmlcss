@@ -83,3 +83,15 @@ ul li:hover {
   border-radius: 100%;
   border: 2px solid white;
 }
+
+.boxes {
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.boxes .box {
+  background-color: black;
+  color: white;
+}
