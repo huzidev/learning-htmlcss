@@ -29,5 +29,6 @@ console.log("learing JS")
             <li>Hello</li>
             <li>Hello</li>
         </ul>
+        <img src="/assets/js.png" alt="JS Img" class="img">
     </nav>
      `;
