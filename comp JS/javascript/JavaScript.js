@@ -11,8 +11,14 @@ console.log("learing JS")
     // function displayTime() {
     // let time = new Date();
     // console.log(time);  
-    // document.getElementById("time").innerHTML = time;}
+    // document.getElementById("time").innerHTML = time;
     // setInterval(displayTime, 1000);
+// }
 
-
-    document.getElementById
+    document.getElementById("js").innerHTML =
+     `
+     <div class="container">
+        <h3>Hello, We Were Styling This With Pure JS </h1>
+        <p>using only js from there to style 
+    </div>
+     `;

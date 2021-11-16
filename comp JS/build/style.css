@@ -31,3 +31,9 @@
 .time h2 {
   margin: 7px 0px;
 }
+
+.container {
+  padding: 20px 0px;
+  background-color: aqua;
+  text-align: center;
+}
