@@ -22,13 +22,15 @@ console.log("learing JS")
         <p>using only js from there to style by <b>(getelemntbyId)</b> method</p>
     </div>
     <nav>   
-        <ul>
-            <li>Hello</li>
-            <li>Hello</li>
-            <li>Hello</li>
-            <li>Hello</li>
-            <li>Hello</li>
-        </ul>
-        <img src="/assets/js.png" alt="JS Img" class="img">
+        <div class="img-container">
+            <ul>
+                <li>Hello</li>
+                <li>Hello</li>
+                <li>Hello</li>
+                <li>Hello</li>
+                <li>Hello</li>
+            </ul>
+            <img src="/assets/js.png" alt="JS Img" class="img">
+        </div>
     </nav>
      `;

@@ -46,6 +46,14 @@ nav {
   display: flex;
 }
 
+nav .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  margin: auto;
+}
+
 ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,8 +83,6 @@ ul li:hover {
 .img {
   height: 100px;
   width: 100px;
-  position: relative;
-  right: 10%;
   border-radius: 100%;
   border: 2px solid white;
 }
