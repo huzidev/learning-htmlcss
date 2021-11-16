@@ -19,6 +19,6 @@ console.log("learing JS")
      `
      <div class="container">
         <h3>Hello, We Were Styling This With Pure JS </h1>
-        <p>using only js from there to style 
+        <p>using only js from there to style by <b>(getelemntbyId)</b> method
     </div>
      `;
