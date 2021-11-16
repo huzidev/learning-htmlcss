@@ -31,4 +31,10 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background: aqua;
+}
+
+ul li {
+  list-style: none;
+  padding: 20px;
 }
