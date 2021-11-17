@@ -222,4 +222,5 @@ console.log(employe);
 
 // Array [] these was used to include strings, boolean and objects etc
 
-let data = [1,2,3,4,5, "huzi", ]
+let data = [`1,2,3,4,5, "huzi is the developer of this web", ${name}`];
+console.log(data)
