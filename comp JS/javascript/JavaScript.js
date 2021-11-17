@@ -233,4 +233,5 @@ var result = num.sort();
 console.log(num);
 
 let space = new Array(25);
-console.log(space)
+console.log(space);
+space[5];
