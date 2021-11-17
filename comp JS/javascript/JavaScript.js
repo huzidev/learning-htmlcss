@@ -224,3 +224,4 @@ console.log(employe);
 
 let data = [`1,2,3,4,5, huzi is the developer of this web and , ${name} loves ${hobby}`];
 console.log(data );
+console.log(data.length)
