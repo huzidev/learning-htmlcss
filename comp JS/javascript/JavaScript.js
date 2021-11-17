@@ -157,5 +157,5 @@ let replace = str.replace ("string", "the sentence");
 console.log(str.toLowerCase());
 console.log(replace, str.toUpperCase());
 
-var newstring = str.Concat("new string");
-console.log(new)
+// var newstring = str.Concat("new string");
+// console.log(new)
