@@ -234,3 +234,9 @@ console.log(num);
 
 let space = new Array(25);
 console.log(space);
+
+let name1 = "ali";
+let name2 = "hassan";
+let name3 = "sahil";
+
+console.log(`${name} is a good boy and he loves ${hobby}`)
