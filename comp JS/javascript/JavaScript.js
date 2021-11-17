@@ -92,4 +92,4 @@ console.log(`${name} dev and hobby is ${hobby}`);
 
 let length = name.length;
 let len = hobby.length;
-console.log(`length of the developer's name ${name} is ${length} and his hobby which is ${hobby} length's is ${len}`);
+console.log(`length of the developer's name "${name}" is ${length} and his hobby which is "${hobby}" length's is ${len}`);
