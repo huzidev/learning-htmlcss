@@ -111,11 +111,6 @@ ul li:hover {
   margin-top: 5px;
 }
 
-.info {
-  background-color: aqua;
-  height: 500px;
-}
-
 .info form {
   width: 500px;
   margin: auto;
