@@ -116,3 +116,5 @@ document.getElementById("form").innerHTML = `
         </form>
     </div>
 `;  
+
+//  ocuurence of index, means which word is where  
