@@ -99,5 +99,7 @@ console.log(`hello dev ${name} \n how r u`);
 
 
 // by making it a (new string) function it'll show you all the features of elements like length etc
-let y = new String (`hello, Mr ${name} nice to know that yours hobby is ${hobby}`);
+let y = new String (`hello, Mr ${name} nice to know that yours hobby is ${hobby} `);
+let long = y.length;
 console.log(y)
+console.log(`over all the lentgh of the (new string) function is ${long}`)
