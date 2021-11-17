@@ -210,10 +210,16 @@ switch (cups) {
         break;
 }
 
+
+//  we knew that strings was alphabet while numbers was integers
 let employe = {
     name: "Huzi",
     code: "jade",
     hobby: "learning",
     age: 19,
 }
-console.log(employe)
+console.log(employe);
+
+// Array [] these was used to include strings, boolean and objects etc
+
+let data = [1,2,3,4,5, "huzi", ]
