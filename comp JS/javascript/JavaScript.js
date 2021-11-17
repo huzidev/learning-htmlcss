@@ -220,6 +220,7 @@ let employe = {
 }
 console.log(employe);
 
+
 // Array [] these was used to include strings, boolean and objects etc
 
 let data = [`1,2,3,4,5,8,9,45,44,22, huzi is the developer of this web and , ${name} loves ${hobby}`];
