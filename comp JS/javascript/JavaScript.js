@@ -209,3 +209,11 @@ switch (cups) {
         console.log("the values of cups was 45");
         break;
 }
+
+let employe = {
+    name: "Huzi",
+    code: "jade",
+    hobby: "learning",
+    age: 19,
+}
+console.log(employe)
