@@ -174,3 +174,4 @@ console.log(code)
 //  let a = 5; then we use a = 10; then console.log(a)  the figure will be changed to 10 but in the case of const it wont chnage althoug it'll gave error
 const z = "this sentence is constant";
 console.log(z);
+//  we specifically used const for the summary of whole coding
