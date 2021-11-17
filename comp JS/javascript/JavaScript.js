@@ -117,4 +117,7 @@ document.getElementById("form").innerHTML = `
     </div>
 `;  
 
-//  ocuurence of index, means which word is where  
+//  ocuurence of index, means which word is where 
+
+let position = name.indexOf ("h")
+console.log(position)
