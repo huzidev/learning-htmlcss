@@ -102,4 +102,6 @@ console.log(`hello dev ${name} \n how r u`);
 let y = new String (`hello, Mr ${name} nice to know that yours hobby is ${hobby} `);
 let long = y.length;
 console.log(y)
-console.log(`over all the lentgh of the (new string) function is ${long}`)
+console.log(`over all the lentgh of the (new string) function is ${long}`);
+
+//  Creating form by js function (getelemntbyid)
