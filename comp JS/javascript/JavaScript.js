@@ -162,3 +162,7 @@ console.log(replace, str.toUpperCase());
 let extra = "    this   do contain some extra    spaces";
 console.log(extra);
 console.log(extra.trim());
+
+// char code will tell you the code of any word 
+let code = str.charCodeAt(1);
+console.log(code)
