@@ -247,7 +247,7 @@ console.log(`${name3} is a good boy and he loves ${hobby}`);
 
 // greeting by greet function
 console.log("Greet functions")
-function greet (){
+function greet (name){
     console.log(`${name} is a good boy and he loves ${hobby}`);
 }
 
@@ -259,6 +259,8 @@ greet (name3)
 // greet function is easier to operate because we just have to make a single greet function of specific information then just put the elements
 
 let greetText = "good morning";
-function greet(name, greetText) {
-    console.log("hello, how r u " + name)
+    function greet(name, greetText) {
+        console.log("hello, how r u " + name)
 }
+
+ (name1)
