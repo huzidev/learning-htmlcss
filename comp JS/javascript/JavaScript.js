@@ -181,17 +181,17 @@ console.log(z);
 
 
 // IF ,ELSE OR ELSE IF
-let age = 19;
+let age = 20;
 if (age>18){
     console.log("you can go to the party");
 }
 
 else if (age < 10){
-    console.log("wht, youu good bro");
+    alert("wht, youu good bro");
 }
 
 else{
     console.log("you cant");
 }
 
-
+//  remember the sequence it is if, else if then else otherwise it'll gave error
