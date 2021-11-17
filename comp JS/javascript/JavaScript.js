@@ -195,3 +195,17 @@ else{
 }
 
 //  remember the sequence it is if, else if then else otherwise it'll gave error
+
+const cups = 45;
+
+switch (cups) {
+    case 4:
+        console.log("the values of cups was 4");
+        break;
+    case 30:
+        console.log("the values of cups was 4");
+        break;
+    case 45:
+        console.log("the values of cups was 4");
+        break;
+}
