@@ -119,5 +119,8 @@ document.getElementById("form").innerHTML = `
 
 //  ocuurence of index, means which word is where 
 
-let position = name.indexOf ("h")
-console.log(position)
+let position = name.indexOf ("h");
+console.log(position);
+
+
+let str = " this is string whoms occurence i wanna know";
