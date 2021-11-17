@@ -146,8 +146,12 @@ console.log(position)
 
 position = str.substring(1, 20);
 console.log(position);
+
+
 console.log("The real sentence is that below");
 console.log(str);
+
+// str.replace will replace a specific word or sentence 
 console.log("The sentence after replacement is that below");
 let replace = str.replace ("string", "the sentence");
 console.log(replace);
