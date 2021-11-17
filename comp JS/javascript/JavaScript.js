@@ -170,6 +170,7 @@ console.log(code);
 code = str.charCodeAt(1);
 console.log(code)
 
-
+//  we use const if we dont wanted to change any of the strngs, obj, data because we know that if we uses
+//  let a = 5; then we use a = 10; then console.log(a)  the figure will be changed to 10 but in the case of const it wont chnage althoug it'll gave error
 const z = "this sentence is constant";
 console.log(z);
