@@ -138,8 +138,11 @@ console.log(position);
 position = str.lastIndexOf("i");
 console.log(position);
 
-position = str.slice(1, 17)
+
+// str.slice and str.substing both works same they just show the values in (BW THE NUMBERS) you select while removed the rest
+//  but slice can take the -ve values as well but str/substing dont easy way to learn is that slice can be attacked by fungus which is -ve event
+position = str.slice(1, 32)
 console.log(position)
 
-position = str.substring(1, 17)
+position = str.substring(1, 20)
 console.log(position)
