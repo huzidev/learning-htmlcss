@@ -234,4 +234,3 @@ console.log(num);
 
 let space = new Array(25);
 console.log(space);
-space[5];
