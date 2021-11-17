@@ -91,3 +91,4 @@ console.log(`"hello" 'hi', if you wanted single and double commas at same time i
 console.log(`${name} dev and hobby is ${hobby}`);
 
 let length = name.length;
+console.log(`length of the name is ${length}`)
