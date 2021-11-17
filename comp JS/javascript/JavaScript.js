@@ -169,3 +169,7 @@ console.log(code);
 // char code will tell you the code of any word 
 code = str.charCodeAt(1);
 console.log(code)
+
+
+const z = "this sentence is constant";
+console.log(z);
