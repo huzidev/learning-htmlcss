@@ -124,15 +124,17 @@ ul li:hover {
 }
 
 .info form input {
+  -webkit-box-shadow: 0px 0px 12px -6px;
+          box-shadow: 0px 0px 12px -6px;
   padding: 10px 5px;
   margin: 12px 0px;
   border-radius: 9px;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 
 .info form .btn {
   width: 100px;
-  border: 2px solid black;
+  border: 2px solid white;
   margin: auto;
   cursor: pointer;
   padding: 10px 5px;
