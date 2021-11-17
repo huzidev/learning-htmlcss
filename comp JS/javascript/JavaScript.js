@@ -239,4 +239,11 @@ let name1 = "ali";
 let name2 = "hassan";
 let name3 = "sahil";
 
-console.log(`${name} is a good boy and he loves ${hobby}`)
+console.log(`${name} is a good boy and he loves ${hobby}`);
+console.log(`${name1} is a good boy and he loves ${hobby}`);
+console.log(`${name2} is a good boy and he loves ${hobby}`);
+console.log(`${name3} is a good boy and he loves ${hobby}`);
+
+function.greet (name){
+    console.log(`name + "is a good boy "`);
+}
