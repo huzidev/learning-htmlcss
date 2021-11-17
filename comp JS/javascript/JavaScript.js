@@ -178,3 +178,6 @@ console.log(code)
 const z = "this sentence is constant";
 console.log(z);
 //  we specifically used const for the summary of whole coding
+
+
+// IF ,ELSE OR ELSE IF
