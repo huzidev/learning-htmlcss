@@ -141,13 +141,13 @@ console.log(position);
 
 // str.slice and str.substing both works same they just show the values in (BW THE NUMBERS) you select while removed the rest
 //  but slice can take the -ve values as well but str/substing dont easy way to learn is that slice can be attacked by fungus which is -ve event
-position = str.slice(1, 32)
-console.log(position)
+position = str.slice(1, 32);
+console.log(position);
 
 position = str.substring(1, 20)
 console.log(position)
-
+console.log("The real sentence is that below")
 console.log(str)
-
+console.log("The sentence after replacement is that below")
 let replace = str.replace ("string", "the sentence");
 console.log(replace)
