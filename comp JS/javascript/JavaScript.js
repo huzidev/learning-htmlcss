@@ -147,5 +147,7 @@ console.log(position)
 position = str.substring(1, 20)
 console.log(position)
 
+console.log(str)
 
-let replace = str.replace ("whoms", "which")
+let replace = str.replace ("string", "the sentence");
+console.log(replace)
