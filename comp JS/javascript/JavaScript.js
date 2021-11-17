@@ -159,3 +159,5 @@ console.log(replace, str.toUpperCase());
 
 // var newstring = str.Concat("new string");
 // console.log(new)
+
+let extra = "    this   do contain some extra    spaces";
