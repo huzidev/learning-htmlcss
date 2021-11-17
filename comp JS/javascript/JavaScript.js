@@ -94,5 +94,5 @@ let length = name.length;
 let len = hobby.length;
 console.log(`length of the developer's name "${name}" is ${length} and his hobby which is "${hobby}" length's is ${len}`);
 
-
+// /n funtion works as escape it just esp an line and starts the remaining strings or words from new line
 console.log(`hello dev ${name} \n how r u`)
