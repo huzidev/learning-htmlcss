@@ -137,3 +137,9 @@ console.log(position);
 //  NOTE index means counting starts from ZERO
 position = str.lastIndexOf("i");
 console.log(position);
+
+position = str.slice(1, 17)
+console.log(position)
+
+position = str.substring(1, 17)
+console.log(position)
