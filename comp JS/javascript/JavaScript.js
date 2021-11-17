@@ -226,4 +226,6 @@ let data = [`1,2,3,4,5,8,9,45,44,22, huzi is the developer of this web and , ${n
 console.log(data);
 console.log(data.length);
 
-// const num = "55, 22, 2, 1, 9, 6, 1";
+const num = [55, 22, 2, 1, 9, 6, 1];
+num.sort();
+console.log(num);
