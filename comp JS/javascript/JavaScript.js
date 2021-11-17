@@ -105,3 +105,12 @@ console.log(y)
 console.log(`over all the lentgh of the (new string) function is ${long}`);
 
 //  Creating form by js function (getelemntbyid)
+
+document.getElementById("form").innerHTML = `
+<form action="">
+<input type="name" name="name" placeholder="Write yours name">
+<input type="email" name="email" id="">
+<input type="password" name="password" id="">
+<button class="btn">Submit</button>
+</form>
+`;
