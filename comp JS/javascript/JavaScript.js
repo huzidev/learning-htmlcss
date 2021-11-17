@@ -96,3 +96,8 @@ console.log(`length of the developer's name "${name}" is ${length} and his hobby
 
 // /n funtion works as escape it just esp an line and starts the remaining strings or words from new line
 console.log(`hello dev ${name} \n how r u`);
+
+
+// by making it a new string function it'll shopw you all the features of elements like length etc
+let y = new String (`hello, Mr ${name} nice to know that yours hobby is ${hobby}`);
+console.log(y)
