@@ -129,11 +129,11 @@ console.log(`the positon of word whoms's (W) in the above sentence is at`);
 console.log(position);
 
 // now (i) word is repeating in the above sentence so if we type the command of (indexOf) it'll show the position of satrting (i)
-position = str.indexOf("i")
-console.log(position)
+position = str.indexOf("i");
+console.log(position);
 
 //  we've to use (LastindexOf) if we wanted to know the positon of last (i)
 
 //  NOTE index means counting starts from ZERO
-position = str.lastIndexOf("i")
-console.log(position)
+position = str.lastIndexOf("i");
+console.log(position);
