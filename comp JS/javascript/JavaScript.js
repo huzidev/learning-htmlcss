@@ -163,6 +163,9 @@ let extra = "    this   do contain some extra    spaces";
 console.log(extra);
 console.log(extra.trim());
 
+// (charAt) will tell us what is the exact word at positon you entered
+let code = str.charAt(1);
+console.log(code);
 // char code will tell you the code of any word 
-let code = str.charCodeAt(1);
+ code = str.charCodeAt(1);
 console.log(code)
