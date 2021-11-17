@@ -125,4 +125,5 @@ console.log(position);
 //  if we put let before position at there it'll gave error because js wil think that we were making another let (variables, a kind of div in js)
 let str = " this is string whoms occurence i wanna know";
 position = str.indexOf("w");
- console.log(`the positon of word whoms's (W) in the above sentence is at`); console.log(position);
+ console.log(`the positon of word whoms's (W) in the above sentence is at`); 
+ console.log(position);
