@@ -160,6 +160,7 @@ console.log(replace, str.toUpperCase());
 // var newstring = str.Concat("new string");
 // console.log(new)
 
+// to remove extra space we just have to put .trim() it'll reomve extra spaces from just start and end
 let extra = "    this   do contain some extra    spaces";
 console.log(extra);
-console.log(extra.trim())
+console.log(extra.trim());
