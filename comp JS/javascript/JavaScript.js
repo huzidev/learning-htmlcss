@@ -181,7 +181,7 @@ console.log(z);
 
 
 // IF ,ELSE OR ELSE IF
-let age = 8;
+let age = 19;
 if (age>18){
     console.log("you can go to the party");
 }
