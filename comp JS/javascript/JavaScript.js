@@ -154,4 +154,5 @@ console.log(str);
 // str.replace will replace a specific word or sentence 
 console.log("The sentence after replacement is that below");
 let replace = str.replace ("string", "the sentence");
-console.log(replace);
+console.log(str.toLowerCase());
+console.log(replace, str.toUpperCase());
