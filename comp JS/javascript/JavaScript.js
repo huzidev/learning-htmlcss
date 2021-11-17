@@ -146,3 +146,6 @@ console.log(position)
 
 position = str.substring(1, 20)
 console.log(position)
+
+
+let replace = str.replace ("whoms", "which")
