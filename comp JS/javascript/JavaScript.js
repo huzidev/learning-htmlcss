@@ -124,3 +124,5 @@ console.log(position);
 
 
 let str = " this is string whoms occurence i wanna know";
+position = str.indexOf("w");
+console.log(position);
