@@ -161,3 +161,4 @@ console.log(replace, str.toUpperCase());
 // console.log(new)
 
 let extra = "    this   do contain some extra    spaces";
+console.log(extra)
