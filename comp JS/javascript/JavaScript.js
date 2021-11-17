@@ -231,3 +231,6 @@ data.push("pushed means sents the dat at the end");
 var num = [0,2,9,3,4,6,7,2,8,4,1,];
 var result = num.sort();
 console.log(num);
+
+let space = new Array(25);
+console.log(space)
