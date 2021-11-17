@@ -236,14 +236,19 @@ let space = new Array(25);
 console.log(space);
 
 let name1 = "ali";
+greet(name1)
 let name2 = "hassan";
+greet(name2)
 let name3 = "sahil";
 
-console.log(`${name} is a good boy and he loves ${hobby}`);
-console.log(`${name1} is a good boy and he loves ${hobby}`);
-console.log(`${name2} is a good boy and he loves ${hobby}`);
-console.log(`${name3} is a good boy and he loves ${hobby}`);
 
-function.greet (name){
-    console.log(`name + "is a good boy "`);
+console.log(`${name} is a good boy and he loves ${hobby}`);
+// console.log(`${name1} is a good boy and he loves ${hobby}`);
+// console.log(`${name2} is a good boy and he loves ${hobby}`);
+// console.log(`${name3} is a good boy and he loves ${hobby}`);
+
+function greet (name){
+    console.log(`${name} is a good boy and he loves ${hobby}`);
 }
+
+greet(name3)
