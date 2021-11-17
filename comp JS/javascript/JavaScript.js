@@ -110,8 +110,8 @@ document.getElementById("form").innerHTML = `
     <div class="info">
         <form action="">
             <input type="name" name="name" placeholder="Write yours name">
-            <input type="email" name="email" id="" placeholder="Write yours email">
-            <input type="password" name="password" id="" placeholder="Write yours password">
+            <input type="email" name="email"  placeholder="Write yours email">
+            <input type="password" name="password"  placeholder="Write yours password">
             <button class="btn">Submit</button>
         </form>
     </div>
