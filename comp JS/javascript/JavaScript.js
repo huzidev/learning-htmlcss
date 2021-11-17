@@ -122,7 +122,7 @@ document.getElementById("form").innerHTML = `
 let position = name.indexOf ("h");
 console.log(position);
 
-
+//  if we put let before position at there it'll gave error because js wil think that we were making another let (variables, a kind of div in js)
 let str = " this is string whoms occurence i wanna know";
 position = str.indexOf("w");
 console.log(position);
