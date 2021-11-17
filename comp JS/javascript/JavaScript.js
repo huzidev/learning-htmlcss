@@ -167,5 +167,5 @@ console.log(extra.trim());
 let code = str.charAt(1);
 console.log(code);
 // char code will tell you the code of any word 
- code = str.charCodeAt(1);
+code = str.charCodeAt(1);
 console.log(code)
