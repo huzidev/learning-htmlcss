@@ -133,5 +133,7 @@ position = str.indexOf("i")
 console.log(position)
 
 //  we've to use (LastindexOf) if we wanted to know the positon of last (i)
+
+//  NOTE index means counting starts from ZERO
 position = str.lastIndexOf("i")
 console.log(position)
