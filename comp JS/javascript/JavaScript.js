@@ -125,5 +125,13 @@ console.log(position);
 //  if we put let before position at there it'll gave error because js wil think that we were making another let (variables, a kind of div in js)
 let str = " this is string whoms occurence i wanna know";
 position = str.indexOf("w");
- console.log(`the positon of word whoms's (W) in the above sentence is at`); 
- console.log(position);
+console.log(`the positon of word whoms's (W) in the above sentence is at`); 
+console.log(position);
+
+// now (i) word is repeating in the above sentence so if we type the command of (indexOf) it'll show the position of satrting (i)
+position = str.indexOf("i")
+console.log(position)
+
+//  we've to use (LastindexOf) if we wanted to know the positon of last (i)
+position = str.lastIndexOf("i")
+console.log(position)
