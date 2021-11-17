@@ -251,16 +251,15 @@ function greet (name){
     console.log(`${name} is a good boy and he loves ${hobby}`);
 }
 
-greet (name)
-greet (name1)
-greet (name2)
-greet (name3)
 
 // greet function is easier to operate because we just have to make a single greet function of specific information then just put the elements
 
 let greetText = "good morning";
-    function greet(name, greetText) {
-        console.log("hello, how r u " + name)
+function greet (name, greetText) {
+    console.log(`${greetText}  hello, how r u ${name}`)
 }
 
- (name1)
+greet (name, greetText)
+greet (name1, greetText)
+greet (name2, greetText)
+greet (name3, greetText)
