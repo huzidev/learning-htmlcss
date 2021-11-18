@@ -264,3 +264,7 @@ greet (name, greetText, advise);
 greet (name1, greetText, advise);
 greet (name2, greetText, advise);
 greet (name3, greetText, advise);
+
+function sum(a,b,c,d,e){
+    let f = a + b + c + d + e;
+}
