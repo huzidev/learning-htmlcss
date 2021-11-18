@@ -340,5 +340,5 @@ let friends = ["Huzi", "Ali", "Hassan", "Sahil"];
 // MORE EASIER WAY FOR EACH LOOPS
 
 for (element of friends){
-    console.log(`hello ${element} continue ${hobby} and ${advise}`)
-}
+    console.log(`hello ${element} continue ${hobby} and ${advise}`);
+};
