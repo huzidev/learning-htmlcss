@@ -385,4 +385,13 @@ do {
 
 
 // ARROW FUNCTION
-console.log(`${greetText}, ${name}`);
+
+
+function hi() {
+    console.log("Hello How R U");
+}
+hi(); //THIS HI IS BASICALLY THE NAME OF THE CLASS WE GAVE ABOVE AT FUNCTION
+
+hi = () => {
+    console.log("yooooo");
+}
