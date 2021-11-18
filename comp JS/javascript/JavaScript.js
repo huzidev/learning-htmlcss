@@ -320,6 +320,6 @@ for (i=0; i<6; i++){
 // FOR EACH LOOPS
 let friends = ["Huzi", "Ali", "Hassan", "Sahil"];
     for (let index = 0; index < friends.length; index++) {
-        console.log(`helllo ${friends[index]}`);
+        console.log(`hellos ${friends[index]} welcome`);
         
     }
