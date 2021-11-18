@@ -288,16 +288,22 @@ function summ(a,b,c,d,e){
 
 // CONFRIM FUNCTIONS
 
-let deletePost = confirm ("you sure wanna delete that post?");
-console.log(deletePost);
+// let deletePost = confirm ("you sure wanna delete that post?");
+// console.log(deletePost);
 
 // IF WE CLICK OK IT'LL SAYS TRUE IF WE CLICK CANCEL IT'LL SHOW FALSE
 
-// deletePost IS THE NAME OF THE CLASS WE GAVE ABOVE THEREFORE WE PUT THE SAME CLASS IN IF 
-if (deletePost){
-    alert("Yours post has been deleted");
-}
+// deletePost IS THE NAME OF THE CLASS WE GAVE ABOVE THEREFORE WE PUT THE SAME CLASS IN (IF) CASE
+
+
+// if (deletePost){
+    // alert("Yours post has been deleted");
+// }
+
+
 // FOR ELSE WE DIDN'T HAVE TO PUT THE CLASS AGAIN
-else{
-    alert("yours post did not delete");
-}
+
+
+// else{
+    // alert("yours post did not delete");
+// }
