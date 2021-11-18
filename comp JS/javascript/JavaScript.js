@@ -340,7 +340,7 @@ let friends = ["Huzi", "Ali", "Hassan", "Sahil"];
 // MORE EASIER WAY FOR EACH LOOPS
 
 for (element of friends){
-    console.log(`hello ${element} continue ${hobby} and ${advise}`);
+    console.log(`Hello ${element} continue ${hobby} and ${advise}`);
 };
 
 // IN THIS METHOD WHAT WE HAVE TO DO IS JUST THAT MADE A BRACKET AND WRITE DOWN (ELEMENT OF FRIENDS) AND RETURN ELEMENT BY PUTTING IT IN CONSOLE
