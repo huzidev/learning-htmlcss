@@ -372,4 +372,9 @@ for (key in employe){
 
 
 // DO WHILE LOOP
- 
+
+let k = 35;
+do {
+    console.log(`${k} is less than 50 but we are in do while loop`);
+    k++;
+}while ( k < 5 )
