@@ -320,6 +320,6 @@ for (i=0; i<6; i++){
 // FOR EACH LOOPS
 let friends = ["Huzi", "Ali", "Hassan", "Sahil"];
     for (let index = 0; index < friends.length; index++) {
-        console.log(`hellos ${friends[index]} welcome`);
-        
-    }
+        console.log(`hellos ${friends[index]} welcome it is for each loops`);
+};
+// THIS IS FOR RACH LOOPS WE JUST MAKE AN ARRAY AND PUT ALL THE NAMES
