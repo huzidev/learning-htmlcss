@@ -331,8 +331,10 @@ let friends = ["Huzi", "Ali", "Hassan", "Sahil"];
 
 // EASIER WAY FOR EACH LOOPS
 
-friends.forEach(function f(element) {
-    console.log(`hello ${element} hope you guys were doing well, you know what this is a lot easier way to do do while loop and dont stop ${hobby} ${advise}`);
-})
+// friends.forEach(function f(element) {
+//     console.log(`hello ${element} hope you guys were doing well, you know what this is a lot easier way to do do while loop and dont stop ${hobby} ${advise}`);
+// })
 
 // MAKE SURE YOU'LL BE CAREFULL WHILE MAKING FUNCTION F(ELEMNT POINT) JUST WRITE (FUNCTION) THEN VS CODE WILL SUGGEST YOU ONE FUNCTION JUST SELECT THAT SO VS CODE WILL GAVE YOU BUILTIN BRACKETS
+
+// MORE EASIER WAY FOR EACH LOOPS
