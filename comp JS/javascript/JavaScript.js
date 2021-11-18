@@ -289,4 +289,5 @@ function summ(a,b,c,d,e){
 
 // let deletePost = confirm ("you sure wanna delete that post?");
 // console.log(deletePost);
+
 // IF WE CLICK OK IT'LL SAYS TRUE IF WE CLICK CANCEL IT'LL SHOW FALSE
