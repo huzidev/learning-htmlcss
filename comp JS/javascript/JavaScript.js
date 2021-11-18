@@ -265,6 +265,9 @@ greet (name1, greetText, advise);
 greet (name2, greetText, advise);
 greet (name3, greetText, advise);
 
-function sum(a,b,c,d,e){
+function summ(a,b,c,d,e){
     let f = a + b + c + d + e;
+    return f;
 }
+    let returnVal = summ (1,2,3,4,5); 
+    console.log(returnVal)
