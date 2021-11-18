@@ -316,3 +316,5 @@ for (i=0; i<6; i++){
 }
 
 // IF WE PUT i-- THEN IT'LL GO ON AND ON AND ON ADN ON...
+
+// FOR EACH LOOPS
