@@ -342,3 +342,5 @@ let friends = ["Huzi", "Ali", "Hassan", "Sahil"];
 for (element of friends){
     console.log(`hello ${element} continue ${hobby} and ${advise}`);
 };
+
+// IN THIS METHOD WHAT WE HAVE TO DO IS JUST THAT MADE A BRACKET AND WRITE DOWN (ELEMENT OF FRIENDS) AND RETURN ELEMENT BY PUTTING IT IN CONSOLE
