@@ -392,6 +392,13 @@ function hi() {
 }
 hi(); //THIS HI IS BASICALLY THE NAME OF THE CLASS WE GAVE ABOVE AT FUNCTION
 
+
+// WE CAN DO THE ABOVE THING IN ALOT EASIER WAY BY ARROW FUNCTION
+
+
+
 hi = () => {
     console.log("yooooo");
 }
+hi();
+// SAME AS ABOVE BUT IN A LOT EASIER WAY 
