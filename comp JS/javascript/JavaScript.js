@@ -265,9 +265,12 @@ greet (name1, greetText, advise);
 greet (name2, greetText, advise);
 greet (name3, greetText, advise);
 
+
+// MAKE SURE WE USE RETURN AND THE NAME OF CLASS BECAUSE IF WE DIDN'T USE RETURN FOR CLASS INSIDE FUNCTION THEN IT WONT SHOW ANY ELEMNT IN CONSOLE
+
 function summ(a,b,c,d,e){
     let f = a + b + c + d + e;
-    return f;
+    return f; //CONOLSE WONT WOKR AFTER THIS WE'VE TO MKAE A FUNCTION WIHT {} THEN PUT RETURN AND WHATEVER CLASS WE WANT AND CONSOLE.LOG SHOULD'VE TO BE OUTSIDE FUNCTION
 }
     let returnVal = summ (1,2,3,4,5); 
     console.log(returnVal);
