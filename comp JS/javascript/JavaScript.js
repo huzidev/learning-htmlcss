@@ -297,7 +297,7 @@ console.log(deletePost);
 if (deletePost){
     alert("Yours post has been deleted");
 }
-
+// FOR ELSE WE DIDN'T HAVE TO PUT THE CLASS AGAIN
 else{
     alert("yours post did not delete");
 }
