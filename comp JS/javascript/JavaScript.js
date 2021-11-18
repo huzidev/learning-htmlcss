@@ -406,8 +406,13 @@ hi(); // SAME AS ABOVE BUT IN A LOT EASIER WAY
 
 // TIMEOUT FUNCTION
 
-setTimeout(() => {
-    console.log("Hello, This Is Live")
-}, 2000);
+// setTimeout(() => {
+//     console.log("Hello, This Is Live")
+// }, 2000);
+
+
+
+let total = (a, b) => a + b;
+let half = a = a/2;
 
 
