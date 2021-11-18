@@ -345,5 +345,7 @@ for (element of friends){
 
 // IN THIS METHOD WHAT WE HAVE TO DO IS JUST THAT MADE A BRACKET AND WRITE DOWN (ELEMENT OF FRIENDS) AND RETURN ELEMENT BY PUTTING IT IN CONSOLE
 for (key in employe){
-    console.log(`${key} ${employe[key]}`);
+    console.log(`The ${key} is ${employe[key]}`);
 };
+
+// MAKE SURE YOU PUT [KEY] INTO THE EMPLOYES OBJECTS AS SHOWN ABOVE LIKE ${employe[key]} OTHERWIS IT'LL SHOW AN ERROR
