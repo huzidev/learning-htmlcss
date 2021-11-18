@@ -286,4 +286,5 @@ function summ(a,b,c,d,e){
 
 
 // CONFRIM FUNCTIONS
-let deletePost = confirm ("you sure wanna delete that post?")
+let deletePost = confirm ("you sure wanna delete that post?");
+console.log(deletePost);
