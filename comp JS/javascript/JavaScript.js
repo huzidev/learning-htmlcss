@@ -270,7 +270,7 @@ greet (name3, greetText, advise);
 
 function summ(a,b,c,d,e){
     let f = a + b + c + d + e;
-    return f; //CONOLSE WONT WOKR AFTER THIS WE'VE TO MKAE A FUNCTION WIHT {} THEN PUT RETURN AND WHATEVER CLASS WE WANT AND CONSOLE.LOG SHOULD'VE TO BE OUTSIDE FUNCTION
+    return f; //CONOLSE WONT WORK AFTER THIS WE'VE TO MAKE A FUNCTION WITH {} THEN PUT RETURN AND WHATEVER CLASS WE WANT AND CONSOLE.LOG SHOULD'VE TO BE OUTSIDE FUNCTION {}
 }
     let returnVal = summ (1,2,3,4,5); 
     console.log(returnVal);
