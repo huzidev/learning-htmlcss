@@ -310,3 +310,4 @@ function summ(a,b,c,d,e){
 
 
 // LOOPS
+let i = 0;
