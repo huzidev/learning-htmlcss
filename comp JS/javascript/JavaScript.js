@@ -362,8 +362,10 @@ for (key in employe){
 
 // INFINITE LOOP
 
-let p = 0;
-while ( p < 5 ) {  
-    console.log(`${p} is less than 5`);
-        p++;
-}
+// let p = 0;
+// while ( p < 5 ) {  
+//     console.log(`${p} is less than 5`);
+//     p++;
+// }
+
+// MAKE SURE WHEN YOU CODE FOR INFINITE LOOPS PUT P++; TO STOP IT AT SPECIFIC POINT OTHERWISE IT'LL CREATE A PROBLEM
