@@ -255,11 +255,12 @@ console.log("Greet functions");
 // greet function is easier to operate because we just have to make a single greet function of specific information then just put the elements
 
 let greetText = "Good Morning";
-function greet (name, greetText) {
-    console.log(`${greetText} Hello, How r u ${name}`);
+let advise = "continue the good spirit"
+function greet (name, greetText, advise) {
+    console.log(`${greetText} Hello, How r u ${name} and make sure you ${advise}`);
 }
 
-greet (name, greetText);
-greet (name1, greetText);
-greet (name2, greetText);
-greet (name3, greetText);
+greet (name, greetText, advise);
+greet (name1, greetText, advise);
+greet (name2, greetText, advise);
+greet (name3, greetText, advise);
