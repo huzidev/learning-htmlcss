@@ -307,3 +307,6 @@ function summ(a,b,c,d,e){
 // else{
     // alert("yours post did not delete");
 // }
+
+
+// LOOPS
