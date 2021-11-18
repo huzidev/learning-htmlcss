@@ -401,6 +401,13 @@ hi(); //THIS HI IS BASICALLY THE NAME OF THE CLASS WE GAVE ABOVE AT FUNCTION
 hi = () => {
     console.log("Arrow function");
 }
-hi();
+hi(); // SAME AS ABOVE BUT IN A LOT EASIER WAY 
 
-// SAME AS ABOVE BUT IN A LOT EASIER WAY 
+
+// TIMEOUT FUNCTION
+
+setTimeout(() => {
+    console.log("Hello, This Is Live")
+}, 2000);
+
+
