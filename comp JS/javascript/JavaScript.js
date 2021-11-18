@@ -311,6 +311,6 @@ function summ(a,b,c,d,e){
 
 // LOOPS
 let i = 0;
-for (i=0; i<3; i++){
-
+for (i=0; i<6; i++){
+    console.log(i)
 }
