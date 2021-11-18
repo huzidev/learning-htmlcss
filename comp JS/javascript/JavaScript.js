@@ -283,3 +283,7 @@ function summ(a,b,c,d,e){
 
 // WHAT PROMPT FUNCTION ACTUALLY DO IS THAT IT'LL MAEK A QUESTION LIKE STUFF LIKE AS I MENTIOED ABOVE (WHAT IS YOUR NAME) IS QUESTION AND (ANONYMOUS) IS KIND OF PLACE HOLDER 
 // console.log(info);
+
+
+// CONFRIM FUNCTIONS
+let deletePost = confirm ("you sure wanna delete that post?")
