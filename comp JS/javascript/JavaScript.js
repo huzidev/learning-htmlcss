@@ -276,3 +276,5 @@ function summ(a,b,c,d,e){
     console.log(returnVal);
 
 alert("you just entered the private web make sure you entered the right info...");
+
+// PROMPT FUNCTION
