@@ -385,4 +385,4 @@ do {
 
 
 // ARROW FUNCTION
-console.log(`${greetText}, ${name}`)
+console.log(`${greetText}, ${name}`);
