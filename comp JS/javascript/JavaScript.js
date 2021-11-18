@@ -278,4 +278,5 @@ function summ(a,b,c,d,e){
 alert("you just entered the private web make sure you entered the right info...");
 
 // PROMPT FUNCTION
-let info = prompt("What is yours name", "guest");
+let info = prompt("What is yours name", "ANONYMOUS");
+console.log(info)
