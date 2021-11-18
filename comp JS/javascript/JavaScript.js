@@ -314,3 +314,5 @@ let i = 0;
 for (i=0; i<6; i++){
     console.log(i)
 }
+
+// IF WE PUT i-- THEN IT'LL GO ON AND ON AND ON ADN ON...
