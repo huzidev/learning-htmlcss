@@ -360,3 +360,10 @@ for (key in employe){
 // MAKE SURE YOU PUT [KEY] INTO THE EMPLOYES OBJECTS AS SHOWN ABOVE LIKE ${employe[key]} OTHERWIS IT'LL SHOW AN ERROR
 
 
+// INFINITE LOOP
+
+let p = 0;
+while ( p < 5 ) {  
+    console.log(`${p} is less than 5`);
+        p++;
+}
