@@ -332,5 +332,5 @@ let friends = ["Huzi", "Ali", "Hassan", "Sahil"];
 // EASIER WAY FOR EACH LOOPS
 
 friends.forEach(function f(element) {
-    console.log(`hello ${element} hope you guys were doing well, you know what this is a lot easier way to do do while loop`);
+    console.log(`hello ${element} hope you guys were doing well, you know what this is a lot easier way to do do while loop and dont stop ${hobby} ${advise}`);
 })
