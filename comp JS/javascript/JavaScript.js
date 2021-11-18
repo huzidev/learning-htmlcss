@@ -257,7 +257,7 @@ console.log("Greet functions");
 let greetText = "Good Morning";
 let advise = "continue the good spirit"
 function greet (name, greetText, advise) {
-    console.log(`${greetText} Hello, How r u ${name} and make sure you ${advise}`);
+    console.log(`${greetText} Hello, How r u ${name} i just get to know that you love ${hobby} and make sure you ${advise}`);
 }
 
 greet (name, greetText, advise);
