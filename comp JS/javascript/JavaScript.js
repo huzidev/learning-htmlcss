@@ -282,12 +282,22 @@ function summ(a,b,c,d,e){
 // let info = prompt("What is yours name", "ANONYMOUS");
 
 // WHAT PROMPT FUNCTION ACTUALLY DO IS THAT IT'LL MAEK A QUESTION LIKE STUFF LIKE AS I MENTIOED ABOVE (WHAT IS YOUR NAME) IS QUESTION AND (ANONYMOUS) IS KIND OF PLACE HOLDER 
+
 // console.log(info);
 
 
 // CONFRIM FUNCTIONS
 
-// let deletePost = confirm ("you sure wanna delete that post?");
-// console.log(deletePost);
+let deletePost = confirm ("you sure wanna delete that post?");
+console.log(deletePost);
 
 // IF WE CLICK OK IT'LL SAYS TRUE IF WE CLICK CANCEL IT'LL SHOW FALSE
+
+// deletePost IS THE NAME OF THE CLASS WE GAVE ABOVE THEREFORE WE PUT THE SAME CLASS IN IF 
+if (deletePost){
+    alert("Yours post has been deleted");
+}
+
+else{
+    alert("yours post did not delete");
+}
