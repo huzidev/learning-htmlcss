@@ -274,3 +274,5 @@ function summ(a,b,c,d,e){
 }
     let returnVal = summ (1,2,3,4,5); 
     console.log(returnVal);
+
+alert("you just entered the private web")
