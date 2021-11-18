@@ -319,7 +319,14 @@ for (i=0; i<6; i++){
 
 // FOR EACH LOOPS
 let friends = ["Huzi", "Ali", "Hassan", "Sahil"];
-    for (let index = 0; index < friends.length; index++) {
-        console.log(`hellos ${friends[index]} welcome it is for each loops`);
-};
+
+
+//     for (let index = 0; index < friends.length; index++) {
+//         console.log(`hellos ${friends[index]} welcome it is for each loops`);
+// };
+
+
 // THIS IS FOR RACH LOOPS WE JUST MAKE AN ARRAY AND PUT ALL THE NAMES AND THEN JUST TYPE (FOR) THE VS STUDIO CODE WILL PROVIDE US BY DEFAILT CODES BY THIER OWN AND REPLACE WORD ARRAY WITH THE CLASS NAME WE GAVE BEFORE AN ARRAY
+
+
+// EASIER WAY FOR EACH LOOPS
