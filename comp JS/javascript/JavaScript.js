@@ -412,7 +412,12 @@ hi(); // SAME AS ABOVE BUT IN A LOT EASIER WAY
 
 
 
-let total = (a, b) => a + b;
+let total = (a, b) => {
+    return a + b;
+};
+
+total = (a, b) => a + b;
+
 
 // SO WE ALREADY MENTIONED THE VALUE OF (A) AT THE STARTNG POINT THEREFORE IF WE TYPE HALF IN CONSOLE IT'LL SHOW 2.5 THE HALF OF 5
 
