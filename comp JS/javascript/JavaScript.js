@@ -270,4 +270,4 @@ function summ(a,b,c,d,e){
     return f;
 }
     let returnVal = summ (1,2,3,4,5); 
-    console.log(returnVal)
+    console.log(returnVal);
