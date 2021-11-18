@@ -279,4 +279,5 @@ alert("you just entered the private web make sure you entered the right info..."
 
 // PROMPT FUNCTION
 let info = prompt("What is yours name", "ANONYMOUS");
-console.log(info)
+// WHAT PROMPT FUNCTION ACTUALLY DO IS THAT IT'LL MAEK A QUESTION LIKE STUFF LIKE AS I MENTIOED ABOVE WHAT IS YOUR NAME IS QUESTION AND ANONYMOUS IS KIND OF PLACE HOLDER 
+console.log(info);
