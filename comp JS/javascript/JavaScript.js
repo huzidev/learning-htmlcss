@@ -362,11 +362,11 @@ for (key in employe){
 
 // INFINITE LOOP
 
-// let p = 0;
-// while ( p < 5 ) {  
-//     console.log(`${p} is less than 5`);
-//     p++;
-// }
+let p = 0;
+while ( p < 5 ) {  
+    console.log(`${p} is less than 5`);
+    p++;
+}
 
 // MAKE SURE WHEN YOU CODE FOR INFINITE LOOPS PUT P++; TO STOP IT AT SPECIFIC POINT OTHERWISE IT'LL CREATE A PROBLEM
 
@@ -375,6 +375,8 @@ for (key in employe){
 
 let k = 35;
 do {
-    console.log(`${k} is less than 50 but we are in do while loop`);
+    console.log(`${k} is less than 30 but we are in do while loop`);
     k++;
-}while ( k < 5 )
+}while ( k < 5 );
+
+// MAIN DIFFERENCE BW (DO WHILE) LOOPS AND INFINITE LOOP IS THAT DO WHILE LOOP CAN TAKE FLASE VALUES AS WELL MEANS IF WE SAYS THAT 5 IS GREATER (>) THAN 50 IT'LL SHOW THE RESULT IN CONSOLE BUT IN CASE OF INFINITE LOOP IT WONT SHOW THE RESULT IN THE CONSOLE BECAUSE INFINITE LOOP WONT TAKE FALSE OR WRONG VALUES
