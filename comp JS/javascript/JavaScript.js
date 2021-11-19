@@ -469,6 +469,9 @@ console.log(m);
 console.log(Math.E);
 
 
+// THE VALUE OF A IS 5 BUT ABOVE SOMEWHERE WE MADE A FUNCTION A/2 (HALF) WHICH MAKES IT HALF 2.5
+
+
 console.log(a);
 console.log(b);
 
