@@ -613,6 +613,6 @@ console.log(ParentChild);
 
 
 // TOGGLE FUNCTION JS HIDE/SHOW
-function toggleHide(params) {
-    
+function toggleHide() {
+    let btn = document.getElementById
 }
