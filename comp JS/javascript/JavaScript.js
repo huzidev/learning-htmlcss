@@ -433,5 +433,9 @@ console.log(greetText);
 // GREET TEXT IS (GOOD MORNING) IN WRITTEN
 
 let obj = {
-    names: ["Hello", "Huzi", "Developer"]
+    names: ["Hello", "Huzi", "Developer"],
+    Speak(){
+        this.names.forEach((student) => { console.log(this.greetText + "Hello" + student)
+        });
+    }
 }
