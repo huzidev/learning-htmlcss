@@ -490,4 +490,4 @@ console.log(o, x);
 
 // IT'LL JUST PRINT BOTH THE VALUES EXACTLY
 
-console.log(`The value of O and X after rounding off is ${Math.round(o)}`)
+console.log(`The value of O after rounding off is ${Math.round(o)} and that of X is ${Math.round(x)} `);
