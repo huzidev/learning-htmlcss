@@ -563,3 +563,7 @@ let myJsonStr = JSON.stringify(jsonObj); // THIS (jsonObj) IS BASICALLY THE NAME
 
 console.log(myJsonStr); // (myJsonStr) IS JUST BASICALLY THE NAME OF CLASS WE MENTIONED TO MAKE IT STRING
 
+
+myJsonStr = myJsonStr.replace("Huzi", "Huzi-Dev");
+console.log(myJsonStr)
+
