@@ -552,7 +552,9 @@ console.log(`the random number you got is ${random}`);
 //  JSON IS USED TO STORE AND TRANSPORT DATA
 
 let jsonObj = {
-    name = "Huzi"
+    name: "Huzi",
+    hobby: "learning",
+    age: 19,
 }
 
 
