@@ -521,3 +521,6 @@ console.log(`The Value Of Sin(pi) is ${Math.sin (Math.PI)}`);
 console.log(`The Value Of Sin(pi) is ${Math.tan (Math.PI)}`);
 console.log(`The Value Of Sin(pi) is ${Math.cos (Math.PI)}`);
 console.log(`${Math.PI/2}`);
+
+
+let c  = 100;
