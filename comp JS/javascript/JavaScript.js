@@ -537,4 +537,4 @@ console.log(`Maximum value in bw 4,5,3 is ${Math.max (4, 5, 3)} and Minimum valu
 console.log(`${Math.log (55)}`);
 
 // RANDOM NUMBERS
-console.log(`${Math.random()}`)
+console.log(`${Math.random()}`); //BY THIS METHOD WE CAN ONLY GET RANDDOM NUMBERS IN BEWTEEN 0 FOR INSTANCE 0.11 0.99 0.24 ETC
