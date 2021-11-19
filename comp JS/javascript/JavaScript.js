@@ -467,3 +467,6 @@ console.log(m);
 
 // (Math.E) WILL GAVE YOU EULAR NUMBER
 console.log(Math.E);
+
+
+console.log(`The Value Of a And b is ${a + b}`)
