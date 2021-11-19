@@ -427,3 +427,7 @@ console.log(half);
 
 
 // IF WE DIDN'T MAKE THE HALF FUNCTION THE VALUE CANT BE HALF EASILY 
+
+
+console.log(greetText);
+// 
