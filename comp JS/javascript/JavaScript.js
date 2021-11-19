@@ -597,5 +597,12 @@ let selector  = document.querySelector("ul");
 console.log("Return Selector", selector);
 
 
+// BY THIS METHOD (QuerySelectorAll) WE CAN SELECT ALL THE CHILD OF PARENT ELEMENT
+
 let ParentChild = document.querySelectorAll("ul>li");
 console.log("Return Selector", ParentChild);
+
+// BY THIS METHOD WE CAN SELECT SPECIFIC CHILD OF PARENT ELEMENT
+
+ParentChild[2].innerHTML = "This Is Changed";
+console.log(ParentChild);
