@@ -619,6 +619,8 @@ document.getElementById("js-nav").innerHTML = `
             So in this container we are going to make a toggle hide/show function in which you can hide the text just by clicking on it and make it re-appear just by clicking on it again
             </p>
             <img src="/assets/linux.png" id="linux" alt="Linux-Image">
+            
+            // WHEN WE ADD THE IMAGE IT OVERFLOW THE PARENT CONATINER STARTS OVERFLOWING FROM CONTAINER SO WE JUST HAVE TO ADD (OVERFLOW = AUTO) IN THE PARENT CONTAINER TO FIX IT
     </div>
 `
 
