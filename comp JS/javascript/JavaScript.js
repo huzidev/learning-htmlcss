@@ -487,7 +487,10 @@ var o = 89.9;
 var x = 77.2;
 console.log(o, x);
 
-
 // IT'LL JUST PRINT BOTH THE VALUES EXACTLY
 
-console.log(`The value of O after rounding off is ${Math.round(o)} and that of X is ${Math.round(x)} `);
+console.log(`The value of O after rounding off is ${Math.round(o)} and that of X is ${Math.round(x)}`);
+
+// POWER OFF
+
+console.log(`3 raised to the power of 2 is ${Math.pow (3, 3)} is and 3 raised to the power of 2 is ${Math.pow (3, 2)} `)
