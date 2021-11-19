@@ -569,5 +569,5 @@ myJsonStr = myJsonStr.replace("Huzi", "Huzi-Dev");
 console.log(myJsonStr);
 
 greetText = greetText.replace("Good", "Gooooood");
-console.log(greetText)
+console.log(greetText);
 
