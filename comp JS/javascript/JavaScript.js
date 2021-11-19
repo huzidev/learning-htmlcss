@@ -628,6 +628,7 @@ document.getElementById("js-nav").innerHTML = `
 function toggleHide() {
     let btn = document.getElementById("btn");
     let para = document.getElementById("para");
+    let linux = document.getElementById("linux");
     if (para.style.display != "none") {
         para.style.display = "none";
     }
