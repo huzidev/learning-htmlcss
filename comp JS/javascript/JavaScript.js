@@ -459,3 +459,5 @@ let m = Math;
 console.log(m);
 
 // LOOK WE PUT SEMI-COLONS AFTER CONSOLE BECAUSE IT IS COMPLETED AT BLOCK LEVEL, WE PUT COMMAS IF WE WANTED TO CONTINUE INSIDE A OBJECT
+
+// alert(`you know what the value of sign (pi) is ${Math.PI} `);
