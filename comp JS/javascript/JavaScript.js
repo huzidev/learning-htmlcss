@@ -537,3 +537,4 @@ console.log(`Maximum value in bw 4,5,3 is ${Math.max (4, 5, 3)} and Minimum valu
 console.log(`${Math.log (55)}`);
 
 // RANDOM NUMBERS
+console.log(`${Math.random()}`)
