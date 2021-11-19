@@ -544,4 +544,5 @@ console.log(`${Math.random()}`); //BY THIS METHOD WE CAN ONLY GET RANDDOM NUMBER
 
 var r = 0;
 var n = 100;
-let r1_100 = a + (b - a) 
+let random = r + (n - r)*Math.random();
+console.log(`the random number you got is ${random}`); 
