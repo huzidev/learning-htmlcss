@@ -637,8 +637,9 @@ function toggleHide() {
     }
     else{
         para.style.display = "block";
-    }
-    else{
         linux.style.display = "block";
     }
+    // else{
+    //     linux.style.display = "block";
+    // }
 }
