@@ -432,10 +432,15 @@ console.log(half);
 console.log(greetText);
 // GREET TEXT IS (GOOD MORNING) IN WRITTEN
 
+
+// THIS GREET TEXT WHICH WE MADE BEFORE THIS FUNCTION ABOVE SOMEWHERE, WONT WORK INSIDE THIS FUNCTION BECAUSE WE'VE TO GAVE HIM HIS OWN GREET CLASS ETC
 let obj = {
-    names: ["Hello", "Huzi", "Developer"],
-    Speak(){
-        this.names.forEach((student) => { console.log(this.greetText + "Hello" + student)
+    greet: "Good Morning",
+    names: ["Huzi", "Sahil", "Ali"],
+        Speak(){
+            this.names.forEach((student) => { 
+            console.log(`${this.greet} Hello, ${student} ${advise}`)
         });
     }
 }
+obj.Speak()
