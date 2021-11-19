@@ -575,3 +575,4 @@ console.log(greetText);
 myJsonStr = JSON.parse(myJsonStr);
 console.log(myJsonStr);
 
+// AND AS ABOVE CONVERTING OBJECT TO STRING IS BY (JSON.STRINGIFY) AND STRING TO OBJECT IS BY (JSON.PARSE) 
