@@ -559,3 +559,6 @@ let jsonObj = {  // THIS IS IN OBJECT FORM WE CAN EASILY MAKE IT STRING
 }
 console.log(jsonObj);
 
+let myJsonStr = JSON.stringify(jsonObj);
+console.log(myJsonStr)
+
