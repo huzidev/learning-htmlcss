@@ -593,8 +593,9 @@ console.log("Return Selector", sel);
 
 
 // BASICALLY WE CAN'T PUT AN ELEMENT OF HTML INTO JS JUST LIKE WE CAN ADD CLASS, OR ID BY DOCUMENT GET ELEMENT BY ID METHOD FROM HTML THEREFORE WE SELECT (QUERYSELCTOR)
-let selector  = document.querySelector("nav");
-console.log("Return selector", selector);
+let selector  = document.querySelector("ul");
+console.log("Return Selector", selector);
 
 
-let ParentChild = document.querySelector("nav");
+let ParentChild = document.querySelectorAll("ul>li");
+console.log("Return Selector", ParentChild);
