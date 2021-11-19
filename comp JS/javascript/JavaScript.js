@@ -469,6 +469,8 @@ console.log(m);
 console.log(Math.E);
 
 
+console.log(a);
+
 console.log(`The Value Of a And b is ${a + b}`);
 console.log(`The Value Of a And b is ${a - b}`);
 console.log(`The Value Of a And b is ${a * b}`);
