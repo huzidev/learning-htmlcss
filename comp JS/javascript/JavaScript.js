@@ -594,4 +594,4 @@ console.log("Return Selector", sel);
 
 // BASICALLY WE CAN'T PUT AN ELEMENT OF HTML INTO JS JUST LIKE WE CAN ADD CLASS, OR ID BY DOCUMENT GET ELEMENT BY ID METHOD FROM HTML THEREFORE WE SELECT (QUERYSELCTOR)
 let selector  = document.querySelector("nav");
-console.log(selector);
+console.log("Return selector", selector);
