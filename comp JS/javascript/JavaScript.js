@@ -615,4 +615,5 @@ console.log(ParentChild);
 // TOGGLE FUNCTION JS HIDE/SHOW
 function toggleHide() {
     let btn = document.getElementById("btn");
+    let para = document.getElementById("para");
 }
