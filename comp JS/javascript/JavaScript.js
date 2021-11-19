@@ -441,8 +441,8 @@ console.log(greetText);
 
 
 let obj = {
-    greetText: "Good Morning",
-    names: ["Huzi", "Sahil", "Ali"],
+    greetText: "Good Morning", // WE PUT COMMAS AFTER THE DATA INFORMATION INSIDE OBJECT
+    names: ["Huzi", "Sahil", "Ali"], // BECAUSE IF WE PUT SEMI-COLONS (;) IT MEANS IT IS COMPLETED AT BLOCK LEVEL LIKE CONSOLE.LOG(); WE PUT THE SEMI-COLONS AFTER IT BECAUSE IT IS COMPLETED AT BLOCK LEVEL WHILE COMMAS IS FOR CONTINUES STEPS
         Speak(){
             this.names.forEach((student) => { 
             console.log(`${this.greetText} Hello, ${student} ${advise}`)
@@ -450,3 +450,4 @@ let obj = {
     }
 }
 obj.Speak(); //THIS OBJECT.SPEAK IS A KIND OF RETURN OR CONSOLE AND SPEAK IS A KIND OF CLASS INSIDE THE OBJECT FUNCTION
+
