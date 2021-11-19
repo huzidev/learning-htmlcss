@@ -151,6 +151,7 @@ ul li:hover {
   text-align: center;
   background-color: black;
   color: white;
+  overflow: auto;
   border-radius: 9px;
 }
 
