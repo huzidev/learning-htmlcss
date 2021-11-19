@@ -154,7 +154,7 @@ ul li:hover {
 
 .style #btn {
   width: 150px;
-  margin: 10px 0px;
+  margin: 20px 0px;
   padding: 10px 0px;
   font-weight: bold;
   border: 2px solid white;
@@ -162,4 +162,8 @@ ul li:hover {
   font-size: 15px;
   -webkit-box-shadow: 0px 0px 5px 2px white;
           box-shadow: 0px 0px 5px 2px white;
+}
+
+.style #para {
+  margin-top: 5px;
 }
