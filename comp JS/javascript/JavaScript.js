@@ -430,4 +430,4 @@ console.log(half);
 
 
 console.log(greetText);
-// 
+// GREET TEXT IS (GOOD MORNING) IN WRITTEN
