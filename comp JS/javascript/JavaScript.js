@@ -551,11 +551,11 @@ console.log(`the random number you got is ${random}`);
 
 //  JSON IS USED TO STORE AND TRANSPORT DATA
 
-let jsonObj = {
+let jsonObj = {  // THIS IS IN OBJECT FORM WE CAN EASILY MAKE IT STRING
     name: "Huzi",
     hobby: "learning",
     code: "JavaScript",
     age: 19,
 }
-    console.log(jsonObj)
+console.log(jsonObj);
 
