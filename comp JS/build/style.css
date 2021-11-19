@@ -148,8 +148,10 @@ ul li:hover {
 .style {
   border: 2px solid black;
   text-align: center;
+  height: 500px;
 }
 
 .style #btn {
   width: 150px;
+  padding: 10px 0px;
 }
