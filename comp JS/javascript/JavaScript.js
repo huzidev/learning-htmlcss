@@ -547,6 +547,6 @@ var n = 100;
 let random = r + (n - r)*Math.random(); //THIS IS THE FORMULA
 console.log(`the random number you got is ${random}`); 
 
-
+// JSON
 
 
