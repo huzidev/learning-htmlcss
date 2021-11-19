@@ -636,3 +636,6 @@ function toggleHide() {
         para.style.display = "block";
     }
 }
+
+
+console.log("hello")
