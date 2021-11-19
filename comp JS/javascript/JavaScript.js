@@ -588,5 +588,5 @@ console.log(container);
 
 // MAKE SURE YOU DONT USE DESH (-) IN BETWEEN THE WORDS IN CLASS NAMES IN JAVASCRIPT ONLY BECAUSE IT COULD CREATE SOME KIND OF ERROR
 
-let sel = document.querySelector(".selector");
+let sel = document.querySelector('.selector');
 console.log("Return Selector", sel);
