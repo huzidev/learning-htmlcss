@@ -531,3 +531,7 @@ console.log(halff);
 // MAXIMUM AND MINIMUM
 
 console.log(`Maximum value in bw 4,5,3 is ${Math.max (4, 5, 3)} and Minimum value in bw 55, 66, 78, 2, 1, 0.000087, 0.0000000078 is ${Math.min (55, 66, 78, 2, 1, 0.000087, 0.0000000078 )}`);
+
+
+// LOG VALUE OF ANY SPECIFIC NUMBER CAN BE FIGURED OUT BY FUNCTION (Math.log)
+console.log(`${Math.log (55)}`);
