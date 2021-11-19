@@ -463,3 +463,7 @@ console.log(m);
 // alert(`you know what the value of sign (pi) is ${Math.PI} `);
 
 // MAKE SURE YOU MAKE THE (M)  OF MATH CAPITAL AND PUT DOT (.) AFTER THE WORD MATH THEN THE PROPERTY OF MATHS FOR INSTANCE (Math.PI) WILL SHOWS YOU THE VALUE OF SIGN PI
+
+
+// (Math.E) WILL GAVE YOU EULAR NUMBER
+console.log(Math.E);
