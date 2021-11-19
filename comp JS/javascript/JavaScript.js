@@ -37,38 +37,35 @@ console.log("MAKE SURE YOU USES LET WITH A SPECIFIC WORD DONT USE LET = A 5; BEC
         </div>
     </nav>
     <div class="boxes">
-    <div class="box">
-        <h2>
-            Hello
-        </h2>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At blanditiis commodi veniam omnis neque dolore nulla error saepe itaque repellendus?
-        </p>
-        <img src="/assets/Landscape.jfif" alt="JS Img" class="img">
+        <div class="box">
+            <h2>
+                Hello
+            </h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. At blanditiis commodi veniam omnis neque dolore nulla error saepe itaque repellendus?
+            </p>
+            <img src="/assets/Landscape.jfif" alt="JS Img" class="img">
+        </div>
+        <div class="box">
+            <h2>
+                 Hello
+            </h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At blanditiis commodi veniam omnis neque dolore nulla error saepe itaque repellendus?
+             </p>
+             <img src="/assets/linuuu.png" alt="JS Img" class="img">
+        </div>
+        <div class="box">
+            <h2>
+                Hello
+            </h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. At blanditiis commodi veniam omnis neque dolore nulla error saepe itaque repellendus?
+            </p>
+            <img src="/assets/linux.png" alt="JS Img" class="img">
+        </div>
     </div>
-    <div class="box">
-        <h2>
-            Hello
-        </h2>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At blanditiis commodi veniam omnis neque dolore nulla error saepe itaque repellendus?
-        </p>
-        <img src="/assets/linuuu.png" alt="JS Img" class="img">
-    </div>
-    <div class="box">
-        <h2>
-            Hello
-        </h2>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At blanditiis commodi veniam omnis neque dolore nulla error saepe itaque repellendus?
-        </p>
-        <img src="/assets/linux.png" alt="JS Img" class="img">
-    </div>
-</div>
-<div id="btn">
-</div>
-<div id="para">
-</div>
+
      `;
 
 let a = 5;
