@@ -632,10 +632,13 @@ function toggleHide() {
     if (para.style.display != "none") {
         para.style.display = "none";
     }
+    if (linux.style.display != "none") {
+        linux.style.display = "none";
+    }
     else{
         para.style.display = "block";
     }
+    else{
+        linux.style.display = "block";
+    }
 }
-
-
-console.log("hello")
