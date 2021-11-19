@@ -149,3 +149,7 @@ ul li:hover {
   border: 2px solid black;
   text-align: center;
 }
+
+.style #btn {
+  width: 150px;
+}
