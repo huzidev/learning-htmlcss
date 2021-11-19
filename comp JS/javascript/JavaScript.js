@@ -583,7 +583,7 @@ console.log(myJsonStr);
 let mainContainer = document.getElementById("main-container");
 console.log(mainContainer);
 
-let container = document.getElementsByClassName("container");
+let container = document.getElementsByClassName("containerr");
 console.log(container);
 
 // MAKE SURE YOU DONT USE DESH (-) IN BETWEEN THE WORDS IN CLASS NAMES IN JAVASCRIPT ONLY BECAUSE IT COULD CREATE SOME KIND OF ERROR
