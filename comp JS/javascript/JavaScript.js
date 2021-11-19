@@ -559,6 +559,6 @@ let jsonObj = {  // THIS IS IN OBJECT FORM WE CAN EASILY MAKE IT STRING
 }
 console.log(jsonObj);
 
-let myJsonStr = JSON.stringify(jsonObj);
-console.log(myJsonStr)
+let myJsonStr = JSON.stringify(jsonObj); // THIS (jsonObj) IS BASICALLY THE NAME OF THE CLASS WE GAVE ABOVE WHEN ME MADE IT AS A OBJECT BUT NOW WE WANTED TO CHNAGE IT INTO THE STRING THEREFORE WE PUT .STRINGIFY AS WELL
+console.log(myJsonStr);
 
