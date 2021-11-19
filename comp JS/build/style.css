@@ -146,6 +146,8 @@ ul li:hover {
 }
 
 .style {
+  max-width: 720px;
+  margin: auto;
   text-align: center;
   height: 500px;
   background-color: black;
