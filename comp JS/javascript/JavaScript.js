@@ -611,12 +611,14 @@ console.log(ParentChild);
 
 // TOGGLE FUNCTION JS HIDE/SHOW
 document.getElementById("js-nav").innerHTML = `
-    <div id="btn">
-    </div>
-    <div id="para">
-        <p>
-            So in this container we are going to make a toggle hide/show function in which you can hide the text just by clicking on it and make it re-appear just by clicking on it again
-        </p>
+    <div class="style">
+        <div id="btn">
+        </div>
+        <div id="para">
+            <p>
+                So in this container we are going to make a toggle hide/show function in which you can hide the text just by clicking on it and make it re-appear just by clicking on it again
+            </p>
+        </div>
     </div>
 `
 
