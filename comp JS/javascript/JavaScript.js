@@ -479,3 +479,7 @@ console.log(`The Value Of a And b is ${a + b}`);
 console.log(`The Value Of a And b is ${a - b}`);
 console.log(`The Value Of a And b is ${a * b}`);
 console.log(`The Value Of a And b is ${a / b}`);
+
+
+
+var o = 89.9;
