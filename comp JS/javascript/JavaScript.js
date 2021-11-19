@@ -486,4 +486,8 @@ console.log(`The Value Of a And b is ${a / b}`);
 var o = 89.9;
 var x = 77.2;
 console.log(o, x);
+
+
 // IT'LL JUST PRINT BOTH THE VALUES EXACTLY
+
+console.log(`The value of O and X after rounding off is ${Math.round(o)}`)
