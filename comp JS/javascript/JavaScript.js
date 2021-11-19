@@ -510,3 +510,6 @@ console.log(`Square root of 64 is ${Math.sqrt(64)}`);
 console.log(`5.8 is rounded up to the nearest integer is ${Math.ceil (5.8)} and round down of 5.8 to the nearest integer is ${Math.floor (5.8)}`);
 
 // FOR ROUND UP THE FUNCTION IS (Math.ceil) AND FOR ROUND DOWN THE FUNCTION IS (Math.floor)
+
+
+// ABSOLUTE FUNCTION 
