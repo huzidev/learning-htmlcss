@@ -554,7 +554,8 @@ console.log(`the random number you got is ${random}`);
 let jsonObj = {
     name: "Huzi",
     hobby: "learning",
+    code: "JavaScript",
     age: 19,
 }
-
+    console.log(jsonObj)
 
