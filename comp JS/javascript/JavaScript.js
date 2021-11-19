@@ -571,3 +571,7 @@ console.log(myJsonStr);
 greetText = greetText.replace("Good", "Gooooood");
 console.log(greetText);
 
+// THIS PARSE FUNCTION CAN MAKES YOURS STRING TO OBJECT AGAIN
+myJsonStr = JSON.parse(myJsonStr);
+console.log(myJsonStr);
+
