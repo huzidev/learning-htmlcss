@@ -501,8 +501,8 @@ console.log(`3 raised to the power of 3 is ${Math.pow (3, 3)} is and 3 raised to
 
 // SQUARE ROOT 
 
-console.log(`Square root of 64 is ${Math.sqrt(64)}`;
+console.log(`Square root of 64 is ${Math.sqrt(64)}`);
 
 
 // ROUND UP AND DOUND DOWN
-console)
+console.log(`5.8 is rounded up to the nearest integer is ${Math.ceil (5.8)}`);
