@@ -65,6 +65,10 @@ console.log("MAKE SURE YOU USES LET WITH A SPECIFIC WORD DONT USE LET = A 5; BEC
         <img src="/assets/linux.png" alt="JS Img" class="img">
     </div>
 </div>
+<div id="btn">
+</div>
+<div id="para">
+</div>
      `;
 
 let a = 5;
