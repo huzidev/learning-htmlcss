@@ -440,9 +440,6 @@ console.log(greetText);
 // GREET TEXT IS (GOOD MORNING) IN WRITTEN
 
 
-
-
-
 let obj = {
     greetText: "Good Morning",
     names: ["Huzi", "Sahil", "Ali"],
@@ -452,4 +449,4 @@ let obj = {
         });
     }
 }
-obj.Speak();
+obj.Speak(); //THIS OBJECT.SPEAK IS A KIND OF RETURN OR CONSOLE
