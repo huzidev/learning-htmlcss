@@ -493,4 +493,5 @@ console.log(`The value of O after rounding off is ${Math.round(o)} and that of X
 
 // POWER OFF
 
-console.log(`3 raised to the power of 2 is ${Math.pow (3, 3)} is and 3 raised to the power of 2 is ${Math.pow (3, 2)} `)
+console.log(`3 raised to the power of 2 is ${Math.pow (3, 3)} is and 3 raised to the power of 2 is ${Math.pow (3, 2)} `);
+// MAKE SURE YOU PUT THE VALUES FIRST WHOMS POWER YOU WANTED AND PUT THE NEXT VALUE AFTER COMMAS TO THE POWER YOU WANT
