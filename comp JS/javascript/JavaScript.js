@@ -610,3 +610,9 @@ console.log("Return Selector", ParentChild);
 
 ParentChild[2].innerHTML = "This Is Changed";
 console.log(ParentChild);
+
+
+// TOGGLE FUNCTION JS HIDE/SHOW
+function toggleHide(params) {
+    
+}
