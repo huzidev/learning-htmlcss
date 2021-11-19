@@ -535,3 +535,5 @@ console.log(`Maximum value in bw 4,5,3 is ${Math.max (4, 5, 3)} and Minimum valu
 
 // LOG VALUE OF ANY SPECIFIC NUMBER CAN BE FIGURED OUT BY FUNCTION (Math.log)
 console.log(`${Math.log (55)}`);
+
+// RANDOM NUMBERS
