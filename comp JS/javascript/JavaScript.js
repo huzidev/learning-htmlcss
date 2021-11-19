@@ -435,15 +435,20 @@ console.log(greetText);
 
 // THIS GREET TEXT WHICH WE MADE BEFORE THIS FUNCTION ABOVE SOMEWHERE, WONT WORK INSIDE THIS FUNCTION BECAUSE WE'VE TO GAVE HIM HIS OWN GREET CLASS ETC
 
-// AND NO MATTER WHAT CLASS WE GAVE HIM (INSIDE) THE FUNCTION BECUASE IT IS A KIND OF (SEPRATE WORLD) AND EVEN WE CAN GAVE THE CALSS OF SAME NAME WE'VE ALREADY GAVE ABOVE IT WONT GAV ERROR THEREFORE HERE I GAVE IT (GRRET) WHICH I ALREADY PUT ABOVE
+// AND NO MATTER WHAT CLASS WE GAVE HIM (INSIDE) THE FUNCTION BECUASE IT IS A KIND OF (SEPRATE WORLD) AND EVEN WE CAN GAVE THE CALSS OF SAME NAME WE'VE ALREADY GAVE ABOVE IT WONT GAV ERROR THEREFORE HERE I GAVE IT (GRRET) WHICH I ALREADY PUT ABOVE AND HERE WHAT GREET ACTUALLY EQUAL TO
+
+
+
+console.log(greet)
+
 
 
 let obj = {
-    greet: "Good Morning",
+    greetText: "Good Morning",
     names: ["Huzi", "Sahil", "Ali"],
         Speak(){
             this.names.forEach((student) => { 
-            console.log(`${this.greet} Hello, ${student} ${advise}`)
+            console.log(`${this.greetText} Hello, ${student} ${advise}`)
         });
     }
 }
