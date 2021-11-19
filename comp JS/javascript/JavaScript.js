@@ -524,3 +524,5 @@ console.log(`${Math.PI/2}`);
 
 
 let c  = 100;
+let halff = c = c/2;
+console.log(halff);
