@@ -582,3 +582,5 @@ console.log(myJsonStr);
 
 let mainContainer = document.getElementById("main-container");
 console.log(mainContainer);
+
+let container = document.getElementsByClassName("container")
