@@ -149,9 +149,9 @@ ul li:hover {
   max-width: 900px;
   margin: auto;
   text-align: center;
-  height: 500px;
   background-color: black;
   color: white;
+  border-radius: 9px;
 }
 
 .style #btn {
