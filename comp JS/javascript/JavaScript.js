@@ -514,4 +514,4 @@ console.log(`5.8 is rounded up to the nearest integer is ${Math.ceil (5.8)} and 
 
 // ABSOLUTE FUNCTION 
 
-console.log(`The Absolute Value Of 5.666 is ${Math.abs (5.666)} it didn't shows any change because the value is already in +ve way buttt if we put the same value wiht -ve sign it'll show the absolute value, The absolute value of -5.666 is ${Math.abs (-5.666)} `)
+console.log(`The Absolute Value Of 5.666 is ${Math.abs (5.666)} it didn't shows any change because the value is already in +ve way buttt if we put the same value with -ve sign it'll show the absolute value, The absolute value of -5.666 is ${Math.abs (-5.666)} `);
