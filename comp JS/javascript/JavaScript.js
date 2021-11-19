@@ -473,7 +473,7 @@ console.log(Math.E);
 
 
 console.log(a);
-console.log(b);
+console.log(b); // WE MADE B = -B THEREFORE (B) IS SHOWING AS -VE
 
 console.log(`The Value Of a And b is ${a + b}`);
 console.log(`The Value Of a And b is ${a - b}`);
