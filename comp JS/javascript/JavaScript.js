@@ -577,5 +577,8 @@ console.log(myJsonStr);
 
 // AND AS ABOVE CONVERTING OBJECT TO STRING IS BY (JSON.STRINGIFY) AND STRING TO OBJECT IS BY (JSON.PARSE) 
 
+
+// WE KNOW THAT THIS FUNCTION (document.getelementbyid) IS USED TO DESIGN OR TO GET ELEMENT DIRECTLY FROM PUG/HTML INTO JS BUT ONLY IF WE USE THE COMMAND (.INNNERHTML) AFTER IT OTHERWISE IT'LL JUST PRINT THE FORMAT AS IN OF HTML EX: <div id="main-conatiner"></div> JUST LIKE THAT
+
 let mainContainer = document.getElementById("main-container");
-console.log(mainContainer)
+console.log(mainContainer);
