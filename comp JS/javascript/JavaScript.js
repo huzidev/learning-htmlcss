@@ -631,11 +631,11 @@ function toggleHide() {
     let btn = document.getElementById("btn");
     let para = document.getElementById("para");
     let linux = document.getElementById("linux");
-    if (para.style.display != "none") {
+    if (para.style.display != "none") { //MAKE SURE TO PUT (!) MARKS IN IF CONDITION
         para.style.display = "none";
     }
     if (linux.style.display != "none") {
-        linux.style.display = "none";
+        linux.style.display = "none"; //AND NOT TO PUT (!) WHILE WRITING IT DOWN AGAIN
     }
     else{
         para.style.display = "block";
