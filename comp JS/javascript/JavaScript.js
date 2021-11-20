@@ -670,5 +670,8 @@ setTimeout(greet, 2000, "Huzi-Dev", "Good Night"); //WILL NOT REPEAT, JUST ONCE 
 
 
 
+let now = new Date();
+console.log(now);
+
 
 
