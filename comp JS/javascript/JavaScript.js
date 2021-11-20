@@ -679,6 +679,6 @@ console.log(now);
 let current = new Date("2021-5-5");
 console.log(current)
 
-
+// REFRENCE DATE IS A SPECIFIC DATE GIVEN BY JS
 let refrence = new Date(0);
 console.log(refrence)
