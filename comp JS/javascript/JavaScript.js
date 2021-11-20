@@ -652,3 +652,7 @@ let para = document.getElementById("linux");
 linux.addEventListener("mouseover", function run() {
    alert("Curosr is in the border of image") 
 });
+
+linux.addEventListener("mouseout", function run() {
+    alert("Curosr is now out the border of image") 
+ });
