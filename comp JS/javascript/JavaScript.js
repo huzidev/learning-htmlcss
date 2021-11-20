@@ -660,6 +660,10 @@ let para = document.getElementById("linux");
 
 function greet(name, byetext) {
     console.log(`Hello, Welcome Back ${name} ${byetext} ${advise} and continue ${hobby}`);
-} 
-setTimeout(greet, 2000, "Huzi-Dev", "Good Night"); //NOT REPEAT JUST ONCE A TIME MESSAGE
-setInterval(greet, 2000, "Huzi-Dev", "Good Night"); // WILL REPEAT IT SELF EVERY TIME WE PROVIDE
+}
+
+
+// MAKE SURE TO PUT (GREET) IN (SETTIMEOUT) BECAUSE GREET IS THE NAME OF THE CLASS WE GAVE ABOVE, CONSOLE.LOG IS JUTS A MESSAGE WE'VE TO USE (SETTIMEOUT) OR (SETINTERVAL) FUNCTION TO RETURN OURS MESSAGE
+
+setTimeout(greet, 2000, "Huzi-Dev", "Good Night"); //WILL NOT REPEAT, JUST ONCE A TIME MESSAGE
+// setInterval(greet, 2000, "Huzi-Dev", "Good Night"); // WILL REPEAT IT SELF EVERY SINGLE SECONDS WE USE
