@@ -616,7 +616,7 @@ document.getElementById("js-nav").innerHTML = `
              click here
         </button>
         <p id="para">
-            So in this container we are going to make a toggle hide/show function in which you can hide the text just by clicking on it and make it re-appear just by clicking on it again
+            So in this container we are going to make a toggle hide/show function in which you can hide the content just by clicking on it and make it re-appear just by clicking on it again
             </p>
             <img src="/assets/linux.png" id="linux" alt="Linux-Image">
             
