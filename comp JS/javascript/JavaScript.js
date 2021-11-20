@@ -675,5 +675,9 @@ console.log(now);
 
 
 // MAKE SURE WHILE GIVING SPECIFIC DATE OR TIME PUT THE INTEGERS IN DOUBLE COMMMAS BECAUSE IT I A KIND OF MESSAGE AND WE GAVE MESSAGE IN DOUBLE COMMAS
+
 let current = new Date("2021-5-5");
 console.log(current)
+
+
+let refrence = new Date(0);
