@@ -658,3 +658,6 @@ let para = document.getElementById("linux");
 //  });
 
 
+function greet(name, byetext) {
+    console.log(`Hello, Welcome Back ${name} ${byetext}`);
+} setTimeout(greet, 2000, "Huzi-Dev", "Good Night")
