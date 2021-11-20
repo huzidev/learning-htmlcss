@@ -667,3 +667,6 @@ function greet(name, byetext) {
 
 setTimeout(greet, 2000, "Huzi-Dev", "Good Night"); //WILL NOT REPEAT, JUST ONCE A TIME MESSAGE
 // setInterval(greet, 2000, "Huzi-Dev", "Good Night"); // WILL REPEAT IT SELF EVERY SINGLE SECONDS WE USE
+
+
+// ADDING LIVE TIME
