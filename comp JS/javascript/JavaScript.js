@@ -671,5 +671,6 @@ setTimeout(greet, 2000, "Huzi-Dev", "Good Night"); //WILL NOT REPEAT, JUST ONCE 
 
 // ADDING LIVE TIME
 function displayTime() {
-    time = new Date();
+    time = new Date();  
+    console.log(time);
 }
