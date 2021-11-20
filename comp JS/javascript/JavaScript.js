@@ -648,7 +648,7 @@ function toggleHide() {
 
 //SINCE WE ALREADY MADE AN LET PARA FUNCTION BUT STILL WERE NOT RECEIVING ANY ERROR IS BECAUSE WHEN WE MADE LET PARA FUNCTION FIRST TIME IT IS INSIDE ANOTHER FUNCTION WHEN WE WERE MAKING TOGLLE HIDE FUNCTION WE MADE LET PARA THERE
 
-let para = document.getElementsByClassName("style");
-style.addEventListener("mouseover", function run() {
-    
+let para = document.getElementById("linux");
+linux.addEventListener("mouseover", function run() {
+   alert("Curosr is in the border of image") 
 });
