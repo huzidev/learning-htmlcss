@@ -659,5 +659,7 @@ let para = document.getElementById("linux");
 
 
 function greet(name, byetext) {
-    console.log(`Hello, Welcome Back ${name} ${byetext}`);
-} setTimeout(greet, 2000, "Huzi-Dev", "Good Night")
+    console.log(`Hello, Welcome Back ${name} ${byetext} ${advise} and continue ${hobby}`);
+} 
+setTimeout(greet, 2000, "Huzi-Dev", "Good Night"); //NOT REPEAT JUST ONCE A TIME MESSAGE
+setInterval(greet, 2000, "Huzi-Dev", "Good Night"); // WILL REPEAT IT SELF EVERY TIME WE PROVIDE
