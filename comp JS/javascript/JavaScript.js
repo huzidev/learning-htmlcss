@@ -625,6 +625,8 @@ document.getElementById("js-nav").innerHTML = `
             // WHEN WE ADD THE IMAGE IT OVERFLOW THE PARENT CONATINER STARTS OVERFLOWING FROM CONTAINER SO WE JUST HAVE TO ADD (OVERFLOW = AUTO) IN THE PARENT CONTAINER TO FIX IT
 
 
+
+// TOGGLE FUNCTION OF STYLE CONTAINER
 function toggleHide() {
     let btn = document.getElementById("btn");
     let para = document.getElementById("para");
