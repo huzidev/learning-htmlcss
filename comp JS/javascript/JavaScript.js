@@ -639,7 +639,4 @@ function toggleHide() {
         para.style.display = "block";
         linux.style.display = "block";
     }
-    // else{
-    //     linux.style.display = "block";
-    // }
 }
