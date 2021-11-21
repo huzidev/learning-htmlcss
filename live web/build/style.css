@@ -57,3 +57,9 @@
   left: 500px;
   background-size: 100% 100%;
 }
+
+.main .wheel {
+  background-image: url(/assets/wheel.png);
+  height: 50px;
+  background-size: cover;
+}
