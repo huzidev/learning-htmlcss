@@ -53,5 +53,7 @@
   height: 400px;
   width: 500px;
   position: absolute;
+  bottom: 70px;
+  left: 500px;
   background-size: 100% 100%;
 }
