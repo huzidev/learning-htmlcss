@@ -138,6 +138,6 @@
 }
 
 .wheel .back-wheel {
-  left: 65px;
+  left: -65px;
   position: absolute;
 }
