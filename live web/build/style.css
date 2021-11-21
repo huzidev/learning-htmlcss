@@ -23,4 +23,10 @@
   display: block;
   left: 0px;
   right: 0px;
+  -webkit-animation-name: road;
+          animation-name: road;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-direction: linear;
+          animation-direction: linear;
 }
