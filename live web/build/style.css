@@ -37,7 +37,7 @@
 @-webkit-keyframes road {
   100% {
     -webkit-transform: translateX(-3400px);
-            transform: translateX(-5000px);
+            transform: translateX(-3400px);
   }
 }
 
@@ -128,7 +128,7 @@
   }
 }
 .wheel {
-  width: 100%;
+
 }
 
 .wheel img {
@@ -162,10 +162,12 @@
   left: 847px;
   position: absolute;
   bottom: 100px;
+  left: 54.6%;
 }
 
 .wheel .back-wheel {
   bottom: 100px;
   left: 600px;
+  left: 40.2%;
   position: absolute;
 }
