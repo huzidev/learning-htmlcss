@@ -104,8 +104,8 @@
             transform: translateY(-1px);
   }
   50% {
-    -webkit-transform: translateY(-1px);
-            transform: translateY(-1px);
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
   }
   0% {
     -webkit-transform: translateY(-1px);
@@ -119,8 +119,8 @@
             transform: translateY(-1px);
   }
   50% {
-    -webkit-transform: translateY(-1px);
-            transform: translateY(-1px);
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
   }
   0% {
     -webkit-transform: translateY(-1px);
