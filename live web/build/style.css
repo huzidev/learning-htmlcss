@@ -135,6 +135,10 @@
           animation-name: wheel;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .wheel .front-wheel {
