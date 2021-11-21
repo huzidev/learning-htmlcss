@@ -37,7 +37,7 @@
 @-webkit-keyframes road {
   100% {
     -webkit-transform: translateX(-3400px);
-            transform: translateX(-3400px);
+            transform: translateX(-5000px);
   }
 }
 
