@@ -132,7 +132,12 @@
   height: 70px;
 }
 
-.wheel .back-wheel {
+.wheel .front-wheel {
   left: -165px;
+  position: absolute;
+}
+
+.wheel .back-wheel {
+  left: 65px;
   position: absolute;
 }
