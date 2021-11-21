@@ -128,16 +128,19 @@
   }
 }
 .wheel img {
-  widows: 70px;
-  height: 70px;
+  z-index: 9;
+  widows: 75px;
+  height: 75px;
 }
 
 .wheel .front-wheel {
-  left: -165px;
+  left: 847px;
   position: absolute;
+  bottom: 100px;
 }
 
 .wheel .back-wheel {
-  left: -65px;
+  bottom: 100px;
+  left: 65px;
   position: absolute;
 }
