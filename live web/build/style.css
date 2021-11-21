@@ -47,3 +47,7 @@
             transform: translateX(-3400px);
   }
 }
+.main .car {
+  background-image: url(/assets/car.png);
+  z-index: 2;
+}
