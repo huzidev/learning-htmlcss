@@ -131,3 +131,8 @@
   widows: 70px;
   height: 70px;
 }
+
+.wheel .back-wheel {
+  left: -165px;
+  position: absolute;
+}
