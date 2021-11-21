@@ -56,4 +56,6 @@
   left: 0px;
   right: 0px;
   z-index: 3;
+  -webkit-animation-name: build;
+          animation-name: build;
 }
