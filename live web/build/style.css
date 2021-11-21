@@ -131,6 +131,8 @@
   z-index: 9;
   widows: 75px;
   height: 75px;
+  -webkit-animation-name: wheel;
+          animation-name: wheel;
 }
 
 .wheel .front-wheel {
