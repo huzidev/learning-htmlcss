@@ -14,8 +14,11 @@
 
 .main .road {
   background-image: url(/assets/road.jpg);
-  height: 200px;
+  height: 250px;
   position: absolute;
   bottom: 0px;
   z-index: 1;
+  display: block;
+  left: 0px;
+  right: 0px;
 }
