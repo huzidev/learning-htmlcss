@@ -60,6 +60,7 @@
 
 .main .wheel {
   background-image: url(/assets/wheel.png);
-  height: 50px;
+  height: 0px;
   background-size: cover;
+  position: absolute;
 }
