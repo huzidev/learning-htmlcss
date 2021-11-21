@@ -133,6 +133,8 @@
   height: 75px;
   -webkit-animation-name: wheel;
           animation-name: wheel;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 .wheel .front-wheel {
