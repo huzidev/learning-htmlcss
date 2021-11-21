@@ -50,6 +50,7 @@
 .main .city {
   background-image: url(/assets/build.png);
   height: 700px;
+  width: 250%;
   background-size: 100% 100%;
   position: absolute;
   bottom: 10px;
@@ -58,8 +59,8 @@
   z-index: 3;
   -webkit-animation-name: build;
           animation-name: build;
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
