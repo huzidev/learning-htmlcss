@@ -65,3 +65,17 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
+
+@-webkit-keyframes build {
+  100% {
+    -webkit-transform: translateX(-1400px);
+            transform: translateX(-1400px);
+  }
+}
+
+@keyframes build {
+  100% {
+    -webkit-transform: translateX(-1400px);
+            transform: translateX(-1400px);
+  }
+}
