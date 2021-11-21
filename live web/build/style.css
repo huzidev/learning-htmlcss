@@ -127,6 +127,10 @@
             transform: translateY(-1px);
   }
 }
+.wheel {
+  width: 100%;
+}
+
 .wheel img {
   z-index: 9;
   widows: 75px;
