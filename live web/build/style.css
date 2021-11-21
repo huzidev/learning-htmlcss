@@ -2,3 +2,8 @@
   margin: 0px;
   padding: 0px;
 }
+
+.main {
+  background-image: url(/assets/sky.jpg);
+  height: 100vh;
+}
