@@ -141,6 +141,19 @@
           animation-iteration-count: infinite;
 }
 
+@-webkit-keyframes wheel {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes wheel {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
 .wheel .front-wheel {
   left: 847px;
   position: absolute;
