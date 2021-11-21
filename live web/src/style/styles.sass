@@ -12,8 +12,8 @@
 
 .main .road
     background-image: url(/assets/road.jpg)
-    height: 600px
-    width: 300%
+    height: 200px
+    width: 500%
     position: absolute
     background-size: cover
     bottom: 0px
@@ -21,13 +21,13 @@
     display: block
     left: 0px
     right: 0px
+    background-repeat: repeat-x
     animation-name: road
     animation-duration: 5s
     animation-direction: linear
     animation-iteration-count: infinite
 
-@keyframes road {
-    100%{
-        transform: translateX(-3500px)
-        }
-}
+@keyframes road
+    100%
+        transform: translateX(-3400px)
+    

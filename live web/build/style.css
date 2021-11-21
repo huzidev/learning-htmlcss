@@ -14,8 +14,8 @@
 
 .main .road {
   background-image: url(/assets/road.jpg);
-  height: 600px;
-  width: 300%;
+  height: 200px;
+  width: 500%;
   position: absolute;
   background-size: cover;
   bottom: 0px;
@@ -23,6 +23,7 @@
   display: block;
   left: 0px;
   right: 0px;
+  background-repeat: repeat-x;
   -webkit-animation-name: road;
           animation-name: road;
   -webkit-animation-duration: 5s;
@@ -31,4 +32,18 @@
           animation-direction: linear;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes road {
+  100% {
+    -webkit-transform: translateX(-3400px);
+            transform: translateX(-3400px);
+  }
+}
+
+@keyframes road {
+  100% {
+    -webkit-transform: translateX(-3400px);
+            transform: translateX(-3400px);
+  }
 }
