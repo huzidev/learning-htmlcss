@@ -58,4 +58,10 @@
   z-index: 3;
   -webkit-animation-name: build;
           animation-name: build;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
