@@ -127,3 +127,7 @@
             transform: translateY(-1px);
   }
 }
+.wheel img {
+  widows: 70px;
+  height: 70px;
+}
