@@ -50,18 +50,19 @@
 .main .city {
   background-image: url(/assets/build.png);
   height: 700px;
+  width: 250%;
   margin: auto;
-  background-size: cover;
+  background-size: 100% 100%;
   position: absolute;
-  bottom: 100px;
+  bottom: 10px;
   left: 0px;
   right: 0px;
   display: block;
   z-index: 3;
   -webkit-animation-name: build;
           animation-name: build;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
@@ -93,4 +94,6 @@
 
 .car img {
   width: 100%;
+  -webkit-animation: car 1s linear infinite;
+          animation: car 1s linear infinite;
 }
