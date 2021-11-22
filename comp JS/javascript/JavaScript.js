@@ -842,7 +842,7 @@ function reload() {
 }
 
 function replacee() {
-    location.replace("https://www.google.com");
+    location.replace("https://www.google.com"); //WHAT THIS FUNCTION WILL DO IS THAT IT'LL LEAD YOU THE SPECIFIC WEBSITE WHOMS URL HAS BEEN GIVEN BUT WHEN WE TRIED TO CAME BACK AT OURS WEB-PAGE IT WONT SHOW OR LEAD US TO OURS WEB-PAGE RATHER IT'LL LEAD US ONE STEP BACK AND WE'VE TO OPENS OURS WEB-PAGE AGAIN THIS IS THE FUNCTION OF REPLACE
 }
 
 function assign() {
