@@ -685,3 +685,6 @@ console.log(refrence)
 
 
 // DOM (DOCUMENT OBJECT MODEL) JUST A REPRESENTATION OF THE PAGE
+
+let d =  document
+console.log(d)
