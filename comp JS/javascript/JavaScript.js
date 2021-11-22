@@ -704,4 +704,6 @@ console.log(d);
 // D.FOREACH(FUNCTION (ELEMENT)) IT WONT WORK THEREFORE WE MADE ARRAY.FROM
 Array.from(d).forEach(function (element) {
     console.log(element)
-})
+});
+
+
