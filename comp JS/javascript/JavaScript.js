@@ -859,3 +859,7 @@ function back() {
 function forward() {
     history.forward();
 }
+
+function go() {
+    history.go(2); // WILL LEAD US TO FORWARD OR BACKWARD DEPENDS ON THAT WHICH SIGN WE'VE GIVEN TO IT
+}
