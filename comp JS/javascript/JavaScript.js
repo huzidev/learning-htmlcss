@@ -819,3 +819,4 @@ console.log(location.hostname);
 console.log(location.href); //WILL GAVE THE URL OF WEBPAGE
 console.log(location.port);
 console.log(location.protocol);//WILL TELL THAT ON WHCIH PROTOCOL WEB IS MADE OF LIKE (HTTP)
+console.log(location.hash); //WILL PROVIDE INFO ABOUT ON WHICH PAGE WE WERE ON LIKE (#HOME), (#ABOUT)
