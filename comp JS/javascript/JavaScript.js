@@ -842,7 +842,7 @@ function reload() {
 }
 
 function replacee() {
-    location.replace();
+    location.replace("https://www.google.com");
 }
 
 function assign() {
