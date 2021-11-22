@@ -706,4 +706,6 @@ Array.from(d).forEach(function (element) {
     console.log(element)
 });
 
+// PARAMS IS BASICALLY THE PARAMETER WE CAN TARGET VARAIBLES WITH THE PARAMS
+
 
