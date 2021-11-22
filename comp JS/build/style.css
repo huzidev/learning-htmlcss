@@ -231,5 +231,9 @@ ul li:hover {
 }
 
 #scroll .left {
-  left: 300px;
+  left: 215px;
+}
+
+#scroll .right {
+  left: 1220px;
 }
