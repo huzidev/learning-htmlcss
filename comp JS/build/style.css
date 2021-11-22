@@ -193,6 +193,13 @@ ul li:hover {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 20px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 20px;
   width: 860px;
+}
+
+.buttons .btnnn {
+  margin: 0px 20px;
 }
