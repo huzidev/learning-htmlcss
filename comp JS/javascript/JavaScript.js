@@ -698,3 +698,8 @@ console.log(d);
 d = document.all  //THIS MEHTOD WILL GAVE THE INFORMATION OF ALL THE TAGS, ELEMENT, META TAGS ETC
 console.log(d);
 
+
+
+Array.from(d).forEach(function (element) {
+    console.log(element)
+})
