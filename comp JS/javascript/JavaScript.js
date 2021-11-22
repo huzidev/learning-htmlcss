@@ -821,3 +821,6 @@ console.log(location.port);
 console.log(location.protocol);//WILL TELL THAT ON WHCIH PROTOCOL WEB IS MADE OF LIKE (HTTP)
 console.log(location.hash); //WILL PROVIDE INFO ABOUT ON WHICH PAGE WE WERE ON LIKE (#HOME), (#ABOUT)
 console.log(location.search); // ON WHICH PAGE WE WERE ON LIKE (? PAGE = ONE)
+
+
+document.write(location.href); //WILL PRINT THE LINK ON OURS WEBPAGE
