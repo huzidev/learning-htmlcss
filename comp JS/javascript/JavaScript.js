@@ -805,7 +805,7 @@ function resizeBy() {
 // SCROLLBY
 
 function scrollWindow() {
-    window.scrollBy(50, 50); // (SCROLLBY) WILL WORKS AS RELATIVE MANNER
+    window.scrollBy(50, 50); // (SCROLLBY) WILL WORKS AS RELATIVE MANNER MEANS IT'LL STARTS WORKING FROM WHERE EVER IT IS AT THAT TIME
 }
 
 function scrollWindows() {
