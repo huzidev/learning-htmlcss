@@ -693,4 +693,4 @@ d = document.body //BY THIS MEHTOD WE'LL ONLY SEE BODY STRUCTURE OF OURS HTML
 console.log(d);
 
 d = document.head
-console.log(head)
+console.log(d);
