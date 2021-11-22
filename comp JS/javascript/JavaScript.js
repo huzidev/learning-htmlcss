@@ -723,3 +723,6 @@ console.log(d);
 // BY THIS METHOD WE CAN GET IMAGES USED IN OURS HTML
 d = document.images
 console.log(d);
+
+d = document.scripts
+console.log(d);
