@@ -772,6 +772,7 @@ let myWindow;
 
 function openWindow(){
    myWindow = window.open("https://www.google.com", "_blank", "height=500px width=500px top=200px left=500px");
+   myWindow.document.write("<h1>Hello This Is New Window</h1>")
 }
 
 function closeWindow(){
