@@ -753,3 +753,11 @@ console.log(d);
 
 d = location
 console.log(d);
+
+d = history;
+console.log(d);
+
+
+// THIS HISTORY . GO FUNCTION WILL LEAD YOU AT WHERE WE TOLD HIM TO LIKE (-1) MEANS ONE STEP BACK
+// d = history.go(-1)
+// console.log(d);
