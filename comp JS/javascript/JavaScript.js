@@ -793,3 +793,8 @@ function resizeTo() {
     myWindow.resizeTo(500, 500);  //FIRST ONE IS REFERING TO WIDTH AND SECOND ONE IS FOR HEIGHT (RESIZETO) FUNCTION JUST RESIZE AS IT IS AS MUCH WE PROVIDE THE DATA
     myWindow.focus();
 }
+
+function resizeBy() {
+    myWindow.resizeBy(500, 500);
+    myWindow.focus();
+}
