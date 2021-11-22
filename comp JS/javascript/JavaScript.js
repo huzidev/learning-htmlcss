@@ -771,7 +771,11 @@ console.log(d);
 let myWindow;
 
 function openWindow(){
-    window.open("https://www.google.com", "_blank", "height=500px width=500px top=200px left=500px");
+   myWindow = window.open("https://www.google.com", "_blank", "height=500px width=500px top=200px left=500px");
+}
+
+function closeWindow(){
+    myWindow.close();
 }
 
 //BY THIS METHOD WE CAN MAKE A BTN TO OPEN OR CLOSE WINDOW JUST BY CLICKING AND MAKE SURE ON THE FIRST INVERTED COMMAS YOU'VE TO GAVE THE LINK AND IN THE SECOND ONE YOU CAN GAVE(_BLANK) TO OPEN IT AT NEXT TAB AND (_PARENT) TO OPEN IT AT SAME PAGE AND IN THE TRIRD ONE YOU CAN GAVE HEIGHT ETC
