@@ -200,6 +200,10 @@ ul li:hover {
   width: 860px;
 }
 
+.buttons a {
+  text-decoration: none;
+}
+
 .buttons .btnnn {
   margin: 0px 20px;
 }
