@@ -790,6 +790,6 @@ function scrollWindow() {
 // RESIZE BY AND RESIZE TO FUNCTION
 
 function resizeTo() {
-    myWindow.resizeTo(800, 800);
+    myWindow.resizeTo(500, 500);  //FIRST ONE IS REFERING TO WIDTH AND SECOND ONE IS FOR HEIGHT (RESIZETO) FUNCTION JUST RESIZE AS IT IS AS MUCH WE PROVIDE THE DATA
     myWindow.focus();
 }
