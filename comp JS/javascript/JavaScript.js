@@ -726,3 +726,7 @@ console.log(d);
 
 d = document.scripts
 console.log(d);
+
+// THIS FUNCTION WILL SHOW YOU ALL THE FUNCTIONS REALTED TO WINDOWS
+let w = window
+console.log(w);
