@@ -192,4 +192,7 @@ ul li:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin: 20px auto;
+  padding: 20px;
+  width: 1000px;
 }
