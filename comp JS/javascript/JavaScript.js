@@ -848,3 +848,10 @@ function replacee() {
 function assign() {
     location.assign("https://www.google.com"); // JUST LIKE ANCHOR TAG, IT'LL LEAD US TO THE WEB-PAGE WHOMS URL HAS BEEN GIVEN
 }
+
+
+// FORWARD AND BACKWARD FUNCTION HISTORY 
+
+function back() {
+    location.back()
+}
