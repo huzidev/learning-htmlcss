@@ -692,5 +692,7 @@ console.log(d); //BY DOING THIS METHOD WE WILL GET A (#DOCUMENT) ELEMENT INSIDE 
 d = document.body //BY THIS MEHTOD WE'LL ONLY SEE BODY STRUCTURE OF OURS HTML
 console.log(d);
 
-d = document.head
+d = document.head //WE'LL ONLY GET HEAD REGION OF OURS HTML
 console.log(d);
+
+d = document.all
