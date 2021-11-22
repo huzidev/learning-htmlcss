@@ -853,5 +853,9 @@ function assign() {
 // FORWARD AND BACKWARD FUNCTION HISTORY 
 
 function back() {
-    location.back()
+    history.back();
+}
+
+function forward() {
+    history.forward();
 }
