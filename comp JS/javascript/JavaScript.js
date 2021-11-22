@@ -682,3 +682,6 @@ console.log(current)
 // REFRENCE DATE IS A SPECIFIC DATE GIVEN BY JS
 let refrence = new Date(0);
 console.log(refrence)
+
+
+// DOM (DOCUMENT OBJECT MODEL) JUST A REPRESENTATION OF THE PAGE
