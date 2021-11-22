@@ -740,5 +740,5 @@ console.log(w);
 d = innerHeight //INNER HEIGHT THE HEIGHT OF OURS WEBPAGE
 console.log(d);
 
-d = innerWidth
+d = innerWidth //INNER WIDTH THE WIDTH OF OURS WEBPAGE
 console.log(d);
