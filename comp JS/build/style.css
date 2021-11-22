@@ -211,6 +211,9 @@ ul li:hover {
 #scroll {
   border: 2px solid black;
   overflow: auto;
+  width: 1000px;
+  margin: auto;
+  padding: 50px;
 }
 
 #scroll p {
@@ -223,4 +226,6 @@ ul li:hover {
   padding: 15px;
   border-radius: 9px;
   position: fixed;
+  left: 50px;
+  bottom: 50px;
 }
