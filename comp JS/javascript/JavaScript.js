@@ -771,7 +771,7 @@ console.log(d);
 let myWindow; //BY CREATING THIS WE CAN USE AT EVRY INSTACE FOR SAME FUNCTION AND THIS OPEN WINDOW FUNCTION IS BASICALLY USED FOR POPPED UP ADVERTISEMENT
 
 function openWindow(){
-   myWindow = window.open("https://www.google.com", "_blank", "height=500px width=500px top=200px left=500px");
+   myWindow = window.open("https://www.google.com", "_blank", "height=500px width=500px top=200px left=10px");
    myWindow.document.write("<h1>Hello This Is New Window</h1>");
 }
 
@@ -788,3 +788,8 @@ function scrollWindow() {
 
 
 // RESIZE BY AND RESIZE TO FUNCTION
+
+function resizeTo() {
+    myWindow.resizeTo(800, 800);
+    myWindow.focus();
+}
