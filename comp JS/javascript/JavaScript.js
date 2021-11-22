@@ -813,4 +813,5 @@ function scrollWindows() {
 }
 
 
-console.log(location.host) //WILL GAVE YOU THE URL WITH PORT
+console.log(location.host); //WILL GAVE YOU THE URL WITH PORT
+console.log(location.hostname);
