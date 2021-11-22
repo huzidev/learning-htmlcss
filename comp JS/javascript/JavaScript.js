@@ -837,6 +837,14 @@ function newfunction() {
     
 }
 
-function ARR() {
+function reload() {
+    location.reload();
+}
+
+function replace() {
+    location.reload();
+}
+
+function assign() {
     location.reload();
 }
