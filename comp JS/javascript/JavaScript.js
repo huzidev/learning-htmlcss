@@ -719,5 +719,7 @@ console.log(d);
 d = document.links[0].href //BY THIS METHOD WE CAN HAVE EXACT POSTION OF ANY LINK AT OURS CONSOLE PAGE AND WE ALL KNEW THAT COUNTING STARTS FROM ZERO (0) IN JS
 console.log(d);
 
+
+// BY THIS METHOD WE CAN GET IMAGES USED IN OURS HTML
 d = document.images
-console.log(d)
+console.log(d);
