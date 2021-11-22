@@ -742,3 +742,7 @@ console.log(d);
 
 d = innerWidth //INNER WIDTH THE WIDTH OF OURS WEBPAGE
 console.log(d);
+
+
+d = scrollX
+console.log(d)
