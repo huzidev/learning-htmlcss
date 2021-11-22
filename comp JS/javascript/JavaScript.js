@@ -804,10 +804,10 @@ function resizeBy() {
 
 // SCROLLBY
 
-function scrollBy() {
+function scrollWindow() {
     window.scrollBy(50, 50);
 }
 
-function scrollTo() {
-    window.scrollTo(0, 0);
+function scrollWindows() {
+    window.scrollTo(0, -50); 
 }
