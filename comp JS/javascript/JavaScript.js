@@ -745,4 +745,7 @@ console.log(d);
 
 
 d = scrollX
-console.log(d)
+console.log(d);
+
+d = scrollY
+console.log(d);
