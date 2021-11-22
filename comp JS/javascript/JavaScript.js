@@ -749,3 +749,7 @@ console.log(d);
 
 d = scrollY //FOR VERTICAL SCROLL BEHAVIOUR
 console.log(d);
+
+
+d = location
+console.log(d);
