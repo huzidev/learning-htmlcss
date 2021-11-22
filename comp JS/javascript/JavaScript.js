@@ -809,5 +809,5 @@ function scrollWindow() {
 }
 
 function scrollWindows() {
-    window.scrollTo(0, -50); 
+    window.scrollTo(0, 50); // (SCROLLTO) WILL WORKS AS ABSOLUTE MANNER MEANS IT WOULD LEAD YOURS PAGE TO TOP IF WE GAVE IT (O, O) MEANS 0PX FORM X-AXIS AND 0PX FROM Y-AXIS 
 }
