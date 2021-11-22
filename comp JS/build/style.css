@@ -182,3 +182,7 @@ ul li:hover {
           box-shadow: 0px 0px 35px -9px white;
   border-radius: 25px;
 }
+
+.buttons {
+  background-color: aqua;
+}
