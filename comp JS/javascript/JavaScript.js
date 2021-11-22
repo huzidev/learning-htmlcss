@@ -743,9 +743,9 @@ console.log(d);
 d = innerWidth //INNER WIDTH THE WIDTH OF OURS WEBPAGE
 console.log(d);
 
-
-d = scrollX
+ 
+d = scrollX  // FOR HORIZONTAL SCROLL BEHAVIOUR
 console.log(d);
 
-d = scrollY
+d = scrollY //FOR VERTICAL SCROLL BEHAVIOUR
 console.log(d);
