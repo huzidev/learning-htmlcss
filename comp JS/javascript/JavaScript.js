@@ -765,3 +765,5 @@ console.log(d);
 
 d = location.toString() //WILL PROIDE THE URL OF YOURS LOCAL HOST
 console.log(d);
+
+// BASICALLY BOM IS (BROWSER OBJECT MODEL)
