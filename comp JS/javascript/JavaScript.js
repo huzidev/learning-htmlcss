@@ -817,5 +817,4 @@ function scrollWindows() {
 console.log(location.host); //WILL GAVE YOU THE URL WITH PORT
 console.log(location.hostname);
 console.log(location.href); //WILL GAVE THE URL OF WEBPAGE
-
-
+console.log(location.port);
