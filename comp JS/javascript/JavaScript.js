@@ -841,10 +841,10 @@ function reload() {
     location.reload();
 }
 
-function replace() {
-    location.reload();
+function replacee() {
+    location.replace();
 }
 
 function assign() {
-    location.reload();
+    location.assign("https://www.google.com");
 }
