@@ -838,5 +838,5 @@ function newfunction() {
 }
 
 function ARR() {
-    
+    location.reload();
 }
