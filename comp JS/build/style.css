@@ -209,8 +209,10 @@ ul li:hover {
 }
 
 #scroll {
-  width: 2000px;
-  overflow: hidden;
   border: 2px solid black;
   overflow: auto;
+}
+
+#scroll p {
+  width: 2000px;
 }
