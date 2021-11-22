@@ -836,3 +836,7 @@ function newfunction() {
     location.href = "https://www.google.com"; //WILL ALWAYS LEAD YOU TO THE LINK I REPEAT ALWAYS IFFF WE DIDN'T WROTE IT DOWN IN FUNCTION   
     
 }
+
+function ARR() {
+    
+}
