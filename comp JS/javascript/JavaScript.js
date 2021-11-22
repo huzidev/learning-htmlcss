@@ -768,11 +768,11 @@ console.log(d);
 
 // BASICALLY BOM IS (BROWSER OBJECT MODEL) IN WHICH WE CAN TARGET WINDOW, WINDOW MEANS THE FRONT PAGE OF OURS BROWSER AND WE CAN OEPN AND CLOSE WINDOW RESIZE THE PAGE AND EVEN WE CAN SCROLL THE PAGE WITHOUT USING MOUSE AND WE CAN GO TO HISTORY AS WELL 
 
-let myWindow;
+let myWindow; //BY CREATING THIS WE CAN USE AT EVRY INSTACE FOR SAME FUNCTION
 
 function openWindow(){
    myWindow = window.open("https://www.google.com", "_blank", "height=500px width=500px top=200px left=500px");
-   myWindow.document.write("<h1>Hello This Is New Window</h1>")
+   myWindow.document.write("<h1>Hello This Is New Window</h1>");
 }
 
 function closeWindow(){
