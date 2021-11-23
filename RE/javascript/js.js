@@ -10,6 +10,9 @@ document.getElementById("js").innerHTML = `
     <button onclick="myFunction()">
         Submit
     </button>
+    <p id="result">
+    
+    </p>
 </div>
 `
 
