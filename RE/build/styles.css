@@ -18,4 +18,5 @@
 #js h1 {
   margin: 20px;
   text-decoration: underline;
+  text-underline-offset: 5px;
 }
