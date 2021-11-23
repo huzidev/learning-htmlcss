@@ -249,3 +249,10 @@ document.getElementById("result").innerHTML = text;
 }
 
 
+function runFunction() {
+    let info = document.getElementById("dev").innerHTML.value
+
+
+
+
+}
