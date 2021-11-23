@@ -32,4 +32,4 @@ console.log(str);
 
 console.log(`Overall the length of ours new-string is ` + str.length);
 let p = str.indexOf("H");
-console.log(p)
+console.log(p);
