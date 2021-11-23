@@ -96,3 +96,4 @@ else{
 
 
 console.log("Age is 5 can he ride bike?");
+age = 5;
