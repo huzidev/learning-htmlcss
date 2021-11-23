@@ -113,9 +113,10 @@ const cups = 50;
 
 switch (cups) {
     case 5:
-        console.log("The Value of cups was 5");
+        console.log("The Value of cups were 5");
         break;
 
-    default:
+    case 20:
+        console.log("The value of cups were 20");
         break;
 }
