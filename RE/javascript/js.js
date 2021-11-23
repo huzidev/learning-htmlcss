@@ -110,3 +110,12 @@ else{
 }
 
 const cups = 50;
+
+switch (cups) {
+    case 5:
+        console.log("The Value of cups was 5");
+        break;
+
+    default:
+        break;
+}
