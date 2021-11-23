@@ -123,3 +123,8 @@ switch (cups) {
         console.log("The values of cups were 50");
         break;
 }
+
+let message = ("Day In switch function");
+message = message.toUpperCase();
+console.log(message)
+const day = "today";
