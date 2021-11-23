@@ -119,4 +119,7 @@ switch (cups) {
     case 20:
         console.log("The value of cups were 20");
         break;
+    case 50:
+        console.log("The values of cups were 50");
+        break;
 }
