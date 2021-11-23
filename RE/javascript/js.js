@@ -41,3 +41,6 @@ console.log(p);
 
 p = str.substr(-25);
 console.log(p);
+
+let words = ("Hello");
+console.log(words)
