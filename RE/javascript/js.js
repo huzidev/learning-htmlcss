@@ -7,3 +7,7 @@ var b = -25;
 console.log(a);
 console.log(b);
 console.log("The Sum Of a & b is " + (a + b));
+
+let name = "Huzi";
+let hobby = "Learning";
+let code = "JavsScript";
