@@ -86,7 +86,7 @@ if (age > 18){
     
 }
 
-else if (age < 18){
+else if (age > 10){
     console.log("You can ride Bicycle");
 }
 
@@ -97,3 +97,14 @@ else{
 
 console.log("Age is 5 can he ride bike?");
 age = 5;
+if (age > 18){
+    console.log("You can ride the bike");
+}
+
+else if (age > 10){
+    console.log("Youc can ride bicylce");
+}
+
+else{
+    console.log("You Gooood Bro???")
+}
