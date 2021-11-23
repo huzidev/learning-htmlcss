@@ -256,7 +256,7 @@ function runFunction() {
         case "Huzi":
             text = "Congratulation... You Are The Developer";
             break;
-    
+        case "19";
         default:
             break;
     }
