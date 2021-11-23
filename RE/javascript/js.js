@@ -83,4 +83,13 @@ console.log("Age 15");
 age = 15;
 if (age > 18){
     console.log("You an ride bike");
+    
+}
+
+else if (age < 18){
+    console.log("You can ride Bicycle");
+}
+
+else{
+    console.log("You good Bro");
 }
