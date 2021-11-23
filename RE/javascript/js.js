@@ -1,5 +1,18 @@
 console.log("Practice JavaScript");
 
+
+document.getElementById("js").innerHTML = `
+<div>
+    <h1>
+        Fill Up The Following Tabs
+    </h1>
+    <input type="text" name="text">
+    <button onclick="myFunction()">
+        Submit
+    </button>
+</div>
+`
+
 // INITIATE CODING IN JS
 
 var a = 5;
