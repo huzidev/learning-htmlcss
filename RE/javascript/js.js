@@ -16,3 +16,7 @@ console.log(`The name of the developer is ${name} and he's coding in ${code} and
 
 let sum = 5 + 5 + 9 * 9 * 9 / 50 * 100 + 30;
 console.log(sum);
+
+let num1 = 500;
+let num2 = 200;
+console.log("The Value Of Num1 is " + num1) //WE'VE TO PUT PLUS SIGN IF WE WERE USING TWO FACTORS INSIDE A CONSOLE
