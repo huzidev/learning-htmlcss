@@ -15,4 +15,4 @@ let advise = "Keep The Good Spirit"
 console.log(`The name of the developer is ${name} and he's coding in ${code} and his hobby is ${hobby}`)
 
 let sum = 5 + 5 + 9 * 9 * 9 / 50 * 100 + 30;
-console.log(sum)
+console.log(sum);
