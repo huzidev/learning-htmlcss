@@ -30,3 +30,4 @@ console.log(`Hello Dev-${name} \n How r u`);
 let str = new String (`${name}`);
 console.log(str);
 
+console.log(`Overall the length of ours new-string is `)
