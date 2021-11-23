@@ -44,3 +44,6 @@ console.log(p);
 
 let words = (`Hello, Mr ${name} yours ${code} is Great`);
 console.log(words);
+
+words = words.toUpperCase();
+console.log(words)
