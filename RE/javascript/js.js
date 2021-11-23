@@ -14,7 +14,7 @@ document.getElementById("js").innerHTML = `
     <button onclick="myFunction()" class="same">
         Submit
     </button>
-    <p id="result">
+    <p id="result" class="same">
     
     </p>
 </div>
