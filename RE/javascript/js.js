@@ -21,3 +21,4 @@ let num1 = 500;
 let num2 = 200;
 console.log("The Value Of Num1 is " + num1) //WE'VE TO PUT PLUS SIGN IF WE WERE USING TWO FACTORS INSIDE A CONSOLE
 console.log("The Value Of Num2 Is " + num2 );
+console.log("The sum of Num1 & Num2 is equal to " + (num1 + num2))
