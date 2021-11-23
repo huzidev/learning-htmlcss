@@ -42,5 +42,5 @@ console.log(p);
 p = str.substr(-25);
 console.log(p);
 
-let words = ("Hello");
-console.log(words)
+let words = (`Hello, Mr ${name} yours ${code} is Great`);
+console.log(words);
