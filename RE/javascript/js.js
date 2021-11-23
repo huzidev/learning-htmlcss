@@ -200,7 +200,7 @@ switch (cups) {
 
 
 function myFunction() {
-    let fruits = document.getElementById("myFruits").value;
+    let fruits = document.getElementById("myFruits").value; // WITHOUT THAT (.VALUE) FUNCTIONS WONT WORK
 
     switch (fruits) {
         case "apple":
