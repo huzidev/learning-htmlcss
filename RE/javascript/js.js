@@ -58,6 +58,24 @@ document.getElementById("js").innerHTML = `
     
     </p>
 </div>
+
+
+    <div id="form">
+        <h1>
+             Dev-Huzi <br>
+            Add Yours Info
+        </h1>
+        <p>
+            You can have the acces of the web only if you were Dev-Huzi
+        </p>
+        <input type="text" id="dev" class="same" placeholder="Yours name">
+        <input type="text" id="dev" class="same" placeholder="Age">
+        <input type="text" id="dev" class="same" placeholder="Secrete Code">
+        <button onclick="runFunction()">Submit My Info</button>
+        <p id="dev-result" class="same">
+
+        </p>
+    </div>
 `
 
 // INITIATE CODING IN JS
