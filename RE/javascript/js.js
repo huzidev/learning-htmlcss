@@ -180,12 +180,8 @@ function myFunction() {
             text = "Pizza will makes you Fat";
             break;
         default:
-            text: "Sorry I dont know about that";
+        text = "Sorry I dont know about that";
+        
     }
 document.getElementById("result").innerHTML = text;
-
-
-
-
-
 }
