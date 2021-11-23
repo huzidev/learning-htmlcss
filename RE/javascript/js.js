@@ -260,9 +260,10 @@ function runFunction() {
             text = "Yes Yours Age Is Also Correct";
             break;
         case "Boom Boom":
-            text = "This Code Is Correct";
+            text = "Secret Code Is Correct";
+            break;
         default:
-            text = "The information you provide is completely wrong";
+            text = "The information you provide was completely wrong";
     }
 
 document.getElementById("dev-result").innerHTML = text;
