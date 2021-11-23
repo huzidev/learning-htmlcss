@@ -53,3 +53,6 @@ console.log(words);
 
 let white = (`  Hello Mr ${name}   Hi`);
 console.log(white);
+
+white = white.trim();
+console.log(white);
