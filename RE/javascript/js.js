@@ -205,7 +205,7 @@ function myFunction() {
     switch (fruits) {
         case "apple":
             text = "An Apple A Day Keeps Doctor Away";
-            alert("An Apple A Day Keeps Doctor Away")
+            alert("An Apple A Day Keeps Doctor Away");
             break;
         case "banana":
             text = "Banana helps you to gain stamina & strengthen you";
