@@ -204,7 +204,7 @@ function myFunction() {
 
     switch (fruits) {
         case "apple":
-            // text = "An Apple A Day Keeps Doctor Away";
+            text = "An Apple A Day Keeps Doctor Away";
             alert("An Apple A Day Keeps Doctor Away")
             break;
         case "banana":
@@ -213,19 +213,19 @@ function myFunction() {
             break;
         case "pineapple":
             text = "pineaplle is good";
-            alert("pineaplle is good")
+            alert("pineaplle is good");
             break;
         case "burger":
             text = "burger is not good for health";
-            alert("burger is not good for health")
+            alert("burger is not good for health");
             break;
         case "pizza":
             text = "Pizza will makes you Fat";
-            alert("Pizza will makes you Fat")
+            alert("Pizza will makes you Fat");
             break;
         default:
         text = "Sorry I dont know about that";
-        alert("Sorry I dont know about that")
+        alert("Sorry I dont know about that");
         
     }
 document.getElementById("result").innerHTML = text;
