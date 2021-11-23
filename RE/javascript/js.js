@@ -70,5 +70,9 @@ if (age>18){
 }
 
 else if (age < 10){
-    console.log("You Go And write bicyle ")
+    console.log("You Go And write bicyle ");
+}
+
+else{
+    console.log("You can ride bike")
 }
