@@ -201,7 +201,6 @@ switch (cups) {
 
 function myFunction() { // MYFUNCTION() IS GIVEN TO OURS BUTTON
     let fruits = document.getElementById("myFruits").value; // WITHOUT THAT (.VALUE) FUNCTIONS WONT WORK & (ID NAME MYFRUITS) IS GIVEN TO INPUT BAR
-
     switch (fruits) {
         case "apple":
             text = "An Apple A Day Keeps Doctor Away";
@@ -230,3 +229,5 @@ function myFunction() { // MYFUNCTION() IS GIVEN TO OURS BUTTON
     }
 document.getElementById("result").innerHTML = text;
 }
+
+
