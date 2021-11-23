@@ -66,5 +66,9 @@ console.log(c);
 
 let age = 20;
 if (age>18){
-    console.log("You can ride motorBike")
+    console.log("You can ride motorBike");
+}
+
+else if (age < 10){
+    console.log("You Go And write bicyle ")
 }
