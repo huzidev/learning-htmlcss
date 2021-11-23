@@ -6,12 +6,12 @@ document.getElementById("js").innerHTML = `
     <h1>
         Fill Up The Following Tabs
     </h1>
-    <p>
+    <p class="same">
       Write down any one of them in the bar
       apple, banana, pineapple, burger, pizza
     </p>  
-    <input type="text" name="text" id="myFruits">
-    <button onclick="myFunction()">
+    <input type="text" name="text" id="myFruits" class="same">
+    <button onclick="myFunction()" class="same">
         Submit
     </button>
     <p id="result">
