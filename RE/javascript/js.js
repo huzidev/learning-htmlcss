@@ -79,7 +79,7 @@ else{
 }
 
 
-console.log("Age 15");
+console.log("Age 15 can he ride bike?");
 age = 15;
 if (age > 18){
     console.log("You an ride bike");
