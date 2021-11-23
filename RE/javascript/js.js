@@ -56,3 +56,5 @@ console.log(white);
 
 white = white.trim();
 console.log(white);
+
+white = white.indexOf("M");
