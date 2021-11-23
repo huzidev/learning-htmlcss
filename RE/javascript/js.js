@@ -1,1 +1,1 @@
-console.log("Practice JavaScript")
+console.log("Practice JavaScript")  
