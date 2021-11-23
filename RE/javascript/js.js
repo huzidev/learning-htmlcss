@@ -47,7 +47,7 @@ document.getElementById("js").innerHTML = `
         Fill Up The Following Tabs
     </h1>
     <p class="same">
-      Write down any one of them in the bar
+      Write down any one of them in the bar <br>
       apple, banana, pineapple, burger, pizza
     </p>  
     <input type="text" name="text" id="myFruits" class="same">
