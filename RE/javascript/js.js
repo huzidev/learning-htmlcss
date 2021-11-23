@@ -64,6 +64,7 @@ const c =  ("This sentnce is constant");
 console.log(c);
 
 
+console.log("Age 20");
 let age = 20;
 if (age>18){
     console.log("You can ride motorBike");
