@@ -31,3 +31,5 @@ let str = new String (`Mr ${name} yours ${code} coding is Great ${advise}`);
 console.log(str);
 
 console.log(`Overall the length of ours new-string is ` + str.length);
+let p = str.indexOf("H");
+console.log(p)
