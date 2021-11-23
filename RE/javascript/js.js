@@ -58,3 +58,4 @@ white = white.trim();
 console.log(white);
 
 white = white.indexOf("M");
+console.log(`The index (positon) of word (M) is at ` + white);
