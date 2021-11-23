@@ -123,7 +123,7 @@ document.getElementById("form").innerHTML = `
 
 //  ocuurence of index, means which word is where 
 
-let position = name.indexOf ("h");
+let position = name.indexOf ("h"); // INDEXOF MEANS POSITON OF
 console.log(position);
 
 //  if we put let before position at there it'll gave error because js wil think that we were making another let (variables, a kind of div in js)
