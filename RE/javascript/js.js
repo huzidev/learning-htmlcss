@@ -77,3 +77,6 @@ else if (age < 10){
 else{
     console.log("You can't ride bike");
 }
+
+
+console.log("Age 15");
