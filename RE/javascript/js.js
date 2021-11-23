@@ -31,4 +31,4 @@ let str = new String (`${name}`);
 console.log(str);
 
 name = name.replace("Huzi", "Huzi-Dev");
-console.log(name)
+console.log(name);
