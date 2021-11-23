@@ -250,7 +250,15 @@ document.getElementById("result").innerHTML = text;
 
 
 function runFunction() {
-    let info = document.getElementById("dev").innerHTML.value
+    let info = document.getElementById("dev").innerHTML.value;  
+    switch (info) {
+        case "Huzi":
+            text = "Congratulation... You Are The Developer";
+            break;
+    
+        default:
+            break;
+    }
 
 
 
