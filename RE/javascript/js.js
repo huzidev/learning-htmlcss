@@ -79,4 +79,4 @@ else{
 }
 
 
-console.log("Age 15");
+console.log("Day Sarturday");
