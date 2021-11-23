@@ -23,4 +23,6 @@ console.log("The Value Of Num1 is " + num1); //WE'VE TO PUT PLUS SIGN IF WE WERE
 console.log("The Value Of Num2 Is " + num2 );
 console.log("The sum of Num1 & Num2 is equal to " + (num1 + num2));
 
-console.log(`The length of developer's name is ${name.length} and his hobby which is ${hobby} and the lentgh of that word is ${hobby.length} and ${advise}`)
+console.log(`The length of developer's name is ${name.length} and his hobby which is ${hobby} and the lentgh of that word is ${hobby.length} and ${advise}`);
+
+console.log(`Hello Dev-${name} \n How r u`);
