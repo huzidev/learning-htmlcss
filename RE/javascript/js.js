@@ -48,4 +48,5 @@ console.log(words);
 words = words.toUpperCase();
 console.log(words);
 
-words =  words.toUpperCase();
+words =  words.toLowerCase();
+console.log(words);
