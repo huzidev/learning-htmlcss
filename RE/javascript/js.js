@@ -256,9 +256,13 @@ function runFunction() {
         case "Huzi":
             text = "Congratulation... You Are The Developer";
             break;
-        case "19";
-        default:
+        case "nineteen":
+            text = "Yes Yours Age Is Also Correct";
             break;
+        case "Boom Boom":
+            text = "This Code Is Correct";
+        default:
+            text = "The information you provide is completely wrong";
     }
 
 document.getElementById("dev-result").innerHTML = text;
