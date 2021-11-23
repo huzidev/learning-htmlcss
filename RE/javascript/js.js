@@ -6,6 +6,10 @@ document.getElementById("js").innerHTML = `
     <h1>
         Fill Up The Following Tabs
     </h1>
+    <p>
+      Write down any one of them in the bar
+      apple, banana, pineapple, burger, pizza
+    </p>  
     <input type="text" name="text" id="myFruits">
     <button onclick="myFunction()">
         Submit
@@ -165,8 +169,18 @@ function myFunction() {
             break;
         case "banana":
             text = "Banana helps you to gain stamina & strengthen you";
-        default:
             break;
+        case "pineapple":
+            text = "pineaplle is good";
+            break;
+        case "burger":
+            text = "burger is not good for health";
+            break;
+        case "pizza":
+            text = "Pizza will makes you Fat";
+            break;
+        default:
+            text: "Sorry I dont know about that";
     }
 document.getElementById("result").innerHTML = text;
 
