@@ -218,7 +218,8 @@ switch (cups) {
 
 
 function myFunction() { // MYFUNCTION() IS GIVEN TO OURS BUTTON
-    let fruits = document.getElementById("myFruits").value; // WITHOUT THAT (.VALUE) FUNCTIONS WONT WORK & (ID NAME MYFRUITS) IS GIVEN TO INPUT BAR
+    let fruits = document.getElementById("myFruits").value; // WITHOUT THAT (.VALUE) FUNCTIONS WONT WORK & (ID NAME MYFRUITS) IS GIVEN TO INPUT BAR ANDDDDD DONT PUT 
+    //(.INNERHTML) THERE BECAUSE IF YOU DO SO JAVASCRIPT WILL CONFUSE AND TRIED TO RUN AN INNER FUNCTION
     switch (fruits) {
         case "apple":
             text = "An Apple A Day Keeps Doctor Away";
@@ -250,7 +251,7 @@ document.getElementById("result").innerHTML = text;
 
 
 function runFunction() {
-    let info = document.getElementById("dev").innerHTML.value;  
+    let info = document.getElementById("dev").value;  
     switch (info) {
         case "Huzi":
             text = "Congratulation... You Are The Developer";
@@ -260,7 +261,7 @@ function runFunction() {
             break;
     }
 
-
+document.getElementById("dev-result").innerHTML = text;
 
 
 }
