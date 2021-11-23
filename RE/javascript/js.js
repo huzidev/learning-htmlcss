@@ -199,7 +199,7 @@ switch (cups) {
 // }
 
 
-function myFunction() {
+function myFunction() { // MYFUNCTION() IS GIVEN TO OURS BUTTON
     let fruits = document.getElementById("myFruits").value; // WITHOUT THAT (.VALUE) FUNCTIONS WONT WORK
 
     switch (fruits) {
