@@ -27,7 +27,7 @@ console.log(`The length of developer's name is ${name.length} and his hobby whic
 
 console.log(`Hello Dev-${name} \n How r u`);
 
-let str = new String (`${name}`);
+let str = new String (`Mr ${name} yours ${code} coding is Great ${advise}`);
 console.log(str);
 
-console.log(`Overall the length of ours new-string is `)
+console.log(`Overall the length of ours new-string is ` + str.length)
