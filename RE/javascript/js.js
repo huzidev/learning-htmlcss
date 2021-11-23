@@ -6,7 +6,7 @@ document.getElementById("js").innerHTML = `
     <h1>
         Fill Up The Following Tabs
     </h1>
-    <input type="text" name="text">
+    <input type="text" name="text" id="myFruits">
     <button onclick="myFunction()">
         Submit
     </button>
@@ -137,16 +137,22 @@ switch (cups) {
         break;
 }
 
-let message = ("Day In switch function");
-message = message.toUpperCase();
-console.log(message);
+// let message = ("Day In switch function");
+// message = message.toUpperCase();
+// console.log(message);
 
-const day = "today";
-switch (day) {
-    case "today":
-        console.log("The day is Monday")
-        break;
+// const day = "today";
+// switch (day) {
+//     case "today":
+//         console.log("The day is Monday")
+//         break;
 
-    default:
-        break;
+//     default:
+//         break;
+// }
+
+
+function myFunction() {
+    let text;
+    let fruits = document.getElementById
 }
