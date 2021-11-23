@@ -108,3 +108,5 @@ else if (age > 10){
 else{
     console.log("You Gooood Bro???");
 }
+
+const cups = 50;
