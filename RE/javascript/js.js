@@ -126,5 +126,6 @@ switch (cups) {
 
 let message = ("Day In switch function");
 message = message.toUpperCase();
-console.log(message)
+console.log(message);
+
 const day = "today";
