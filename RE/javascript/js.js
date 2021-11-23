@@ -62,3 +62,6 @@ console.log(`The index (positon) of word (M) is at ` + white);
 
 const c =  ("This sentnce is constant");
 console.log(c);
+
+
+let conditon =  (age > 18 )
