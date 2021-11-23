@@ -154,5 +154,20 @@ switch (cups) {
 
 function myFunction() {
     let text;
-    let fruits = document.getElementById
+    let fruits = document.getElementById("myFruits").value;
+
+    switch (fruits) {
+        case "apple":
+            text = "An Apple A Day Keeps Doctor Away"
+            break;
+    
+        default:
+            break;
+    }
+
+
+
+
+
+
 }
