@@ -129,3 +129,11 @@ message = message.toUpperCase();
 console.log(message);
 
 const day = "today";
+switch (day) {
+    case "today":
+        console.log("The day is Monday")
+        break;
+
+    default:
+        break;
+}
