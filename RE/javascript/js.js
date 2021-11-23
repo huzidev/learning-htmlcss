@@ -36,4 +36,5 @@ let p = str.indexOf("H");
 console.log("The positon of Word (H) in the above string is at " + p);
 
 
-p = str.slice(1, 20);
+p = str.slice(0, 25);
+console.log(p)
