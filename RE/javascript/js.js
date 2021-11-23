@@ -81,6 +81,6 @@ else{
 
 console.log("Day Sarturday");
 let day = "Saturday";
-if (day = saturday){
+if (day => saturday){
     console.log("Ok, Today is saturday you can take some rest")
 }
