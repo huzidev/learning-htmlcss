@@ -65,7 +65,7 @@ document.getElementById("js").innerHTML = `
              Dev-Huzi <br>
             Add Yours Info
         </h1>
-        <p>
+        <p class="same">
             You can have the acces of the web only if you were Dev-Huzi
         </p>
         <input type="text" id="dev" class="same" placeholder="Yours name">
