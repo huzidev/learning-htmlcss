@@ -30,4 +30,5 @@ console.log(`Hello Dev-${name} \n How r u`);
 let str = new String (`${name}`);
 console.log(str);
 
-name = name.replace("huzi", "Huzi-Dev")
+name = name.replace("Huzi", "Huzi-Dev");
+console.log(name)
