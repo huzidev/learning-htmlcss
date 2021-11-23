@@ -51,7 +51,7 @@ console.log(words);
 words =  words.toLowerCase();
 console.log(words);
 
-let white = (`  Hello Mr ${name}   Hi`);
+let white = (`  Hello Mr ${name}   Hi        `);
 console.log(white);
 
 white = white.trim();
