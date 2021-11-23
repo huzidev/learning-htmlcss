@@ -79,8 +79,8 @@ else{
 }
 
 
-console.log("Day Sarturday");
-let day = "Saturday";
-if (day => saturday){
-    console.log("Ok, Today is saturday you can take some rest")
+console.log("Age 15");
+age = 15;
+if (age > 18){
+    console.log("You an ride bike");
 }
