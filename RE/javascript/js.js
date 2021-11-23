@@ -6,5 +6,4 @@ var a = 5;
 var b = -25;
 console.log(a);
 console.log(b);
-// console.log(`The sum of a & b can be ${a} + ${b}`)
 console.log("The Sum Of a & b is " + (a + b));
