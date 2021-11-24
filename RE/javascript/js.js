@@ -387,3 +387,6 @@ hi();
 
 
 info = "Live Function By Timeout";
+setTimeout(() => {
+    console.log(`${greetText} ${name} This Is Live Function`)
+}, 2000);
