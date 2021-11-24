@@ -381,6 +381,6 @@ let info = "Arrow Function";
 console.log(info.toUpperCase());
 
 hi = () => {
-    console.log(`${greetText}`);
+    console.log(`${greetText} ${name} ${advise}`);
 };
 hi();
