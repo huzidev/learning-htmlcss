@@ -399,4 +399,4 @@ let total = (a, b) => {
 };
 total = (a, b) => a + b;
 console.log(total(a, b));
-console.log("The above result is accurate because a is equal to " + a);
+console.log("The above result is accurate because a is equal to " + a + " and the value of b is " + b);
