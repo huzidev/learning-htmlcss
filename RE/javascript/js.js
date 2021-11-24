@@ -412,3 +412,4 @@ total = (a, b) => a / b;
 console.log(total(a, b));
 
 let half = a = a/2;
+console.log(half);
