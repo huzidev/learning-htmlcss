@@ -308,5 +308,7 @@ console.log(`The length of array message is just ` + (dev.length) + ` because it
 
 
 let sort = ("sort function");
-console.log(sort.toUpperCase())
+console.log(sort.toUpperCase());
+
+let random = ("1, 5, 9, 6, 0, 3, 7, 6, 3, 0, 1, 3");
 
