@@ -33,7 +33,7 @@ document.getElementById("js").innerHTML = `
   #js .same {
     padding: 5px 20px;
   }
-  
+  #js .input
   #js input {
     margin-left: 20px;
   }
@@ -68,7 +68,7 @@ document.getElementById("js").innerHTML = `
         <p class="same">
             You can have the acces of the web only if you were Dev-Huzi
         </p>
-        <input type="text" id="dev" class="same" placeholder="Yours name">
+        <input type="text" id="dev" class="same input" placeholder="Yours Name, Age Or Secret Code">
         <button onclick="runFunction()">Submit My Info</button>
         <p id="dev-result" class="same">
 
