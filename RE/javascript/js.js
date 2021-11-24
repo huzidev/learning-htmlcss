@@ -391,9 +391,12 @@ setTimeout(() => {
     console.log(`${greetText} ${name} This Is Live Function This Is (SETTIMEOUT) Function Therefore It Is Repeating After Every 2 Seconds`);
 }, 2000);
 
+
+
+
 let total = (a, b) => {
     return a + b;
 };
 total = (a, b) => a + b;
 console.log(total(a, b));
-console.log("The above result is accurate");
+console.log("The above result is accurate because a is equal to " + a);
