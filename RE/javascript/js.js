@@ -272,3 +272,8 @@ document.getElementById("dev-result").innerHTML = text;
 
 
 };
+
+let data = {
+    name: "Huzi",
+    code: "JavaScript",
+}
