@@ -349,6 +349,12 @@ meet(name2);
 
 
 let z = ("Greet Function In Easier Way");
-
 console.log(z.toUpperCase());
 
+function intro(name, greetText, code) {
+    console.log(`${greet} Mr. ${name} how r u, I heard that you write code in ${code} it's good to kmow that and ${advise}`)
+}
+
+intro(name, greetText, code);
+intro(name1, greetText, code);
+intro(name2, greetText, code);
