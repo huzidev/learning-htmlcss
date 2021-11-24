@@ -340,7 +340,11 @@ console.log(`${greet} ${greetText}, ${name2} is a good developer and he writes i
 console.log("Greet Function");
 function meet(name) {
     console.log(`${name} is the developer and he loves ${hobby}`);
-}
+};
+
+
+let new = "Greet Function In Easier Way";
+
 
 
 // MAKE SURE TO WEITE THEM AFTER SO WE CAN RETURN THE FUNCTION
