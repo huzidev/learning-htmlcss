@@ -313,6 +313,5 @@ console.log(sort.toUpperCase());
 
 console.log(`INTEGERS ARE NUMBERS AND THEY SHOULD NOT HAVE TO BE IN COMMA`);
 let random = [1, 5, 9, 6, 0, 3, 7, 6, 3, 0, 1, 3];
-random.sort();
-console.log(random);
+console.log(random.sort());
 
