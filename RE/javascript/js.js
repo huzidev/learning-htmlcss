@@ -387,6 +387,7 @@ hi();
 
 
 info = "Live Function By Timeout";
+console.log(info.toUpperCase())
 setTimeout(() => {
     console.log(`${greetText} ${name} This Is Live Function This Is (SETTIMEOUT) Function Therefore It Is Repeating After Every 2 Seconds`);
 }, 2000);
