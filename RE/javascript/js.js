@@ -338,6 +338,10 @@ console.log(`${greet} ${greetText}, ${name1} is a good developer and he writes i
 console.log(`${greet} ${greetText}, ${name2} is a good developer and he writes in ${code}`);
 
 console.log("Greet Function");
-function greet(name) {
+function meet(name) {
     console.log(`${name} is the developer`);
 }
+
+meet(name);
+meet(name1);
+meet(name2);
