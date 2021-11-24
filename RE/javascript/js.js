@@ -296,7 +296,7 @@ console.log(dev);
 
 console.log(`The length of array message is just ` + (dev.length) + ` because it is just a single mesaage in a single array function`);
 
-
+console.log("OBJECT MESSAGE");
 data = (`The name of the developer is ${name}`);
 console.log(data);
 
