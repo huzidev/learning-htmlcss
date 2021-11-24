@@ -34,8 +34,9 @@ document.getElementById("js").innerHTML = `
     padding: 5px 20px;
   }
   #js .input{
-      padding: 2px;
+      padding: 2px 20px;
       height: 20px;
+      width: 200px;
   }
   #js input {
     margin-left: 20px;
