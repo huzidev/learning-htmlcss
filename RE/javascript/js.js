@@ -330,5 +330,9 @@ console.log(name);
 
 let name1 = "Sahil";
 let name2 = "Ali";
+let greet = "Hello";
+
 
 console.log(`${name} is a good developer and he writes in ${code}`);
+console.log(`${name1} is a good developer and he writes in ${code}`);
+console.log(`${name2} is a good developer and he writes in ${code}`);
