@@ -322,6 +322,7 @@ console.log(random.sort());
 console.log("Opposite Of Sort");
 console.log(random.reverse());
 
-
+let empty = new Array(20);
+console.log(empty);
 
 
