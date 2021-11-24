@@ -252,8 +252,6 @@ document.getElementById("result").innerHTML = text;
 
 function runFunction() {
     let info = document.getElementById("dev").value;  
-    info = document.getElementById("dev-1").value;  
-    info = document.getElementById("dev-2").value;  
     switch (info) {
         case "Huzi":
             text = "Congratulation... You Are The Developer";
