@@ -88,7 +88,7 @@ console.log(a);
 console.log(b);
 console.log("The Sum Of a & b is " + (a + b));
 
-const name = "Huzi";
+let name = "Huzi";
 let hobby = "Learning";
 let code = "JavsScript";
 let advise = "Keep The Good Spirit"
@@ -328,8 +328,8 @@ console.log(empty);
 
 console.log(name);
 
-const name1 = "Sahil";
-const name2 = "Ali";
+let name1 = "Sahil";
+let name2 = "Ali";
 let greet = "Hello";
 let greetText = "Good Morning";
 
@@ -353,7 +353,7 @@ console.log(z.toUpperCase());
 
 function intro(name, greetText, code) {
     console.log(`${greetText} ${greet} Mr. ${name} how r u, I heard that you write code in ${code} it's good to kmow that and ${advise}`);
-};
+}
 
 intro(name, greetText, code);
 intro(name1, greetText, code);
