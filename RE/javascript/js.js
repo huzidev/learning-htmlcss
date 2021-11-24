@@ -372,4 +372,6 @@ console.log(returnVal);
 
 function hi(){
     console.log(`${greetText} ${greet} ${name}`);
+
 };
+hi();
