@@ -360,3 +360,4 @@ intro(name1, greetText, code);
 intro(name2, greetText, code);
 
 let value = "Maths Values & Functions";
+console.log(value.toUpperCase());
