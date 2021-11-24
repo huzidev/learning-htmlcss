@@ -395,3 +395,5 @@ let total = (a, b) => {
     return a + b;
 };
 total = (a, b) => a + b;
+console.log(total(a, b));
+console.log("The above result is accurate")
