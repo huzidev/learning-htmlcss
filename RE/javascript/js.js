@@ -337,4 +337,7 @@ console.log(`${greet} ${greetText}, ${name} is a good developer and he writes in
 console.log(`${greet} ${greetText}, ${name1} is a good developer and he writes in ${code}`);
 console.log(`${greet} ${greetText}, ${name2} is a good developer and he writes in ${code}`);
 
-console.log("Greet Function")
+console.log("Greet Function");
+function greet(name) {
+    
+}
