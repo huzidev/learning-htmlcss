@@ -69,8 +69,6 @@ document.getElementById("js").innerHTML = `
             You can have the acces of the web only if you were Dev-Huzi
         </p>
         <input type="text" id="dev" class="same" placeholder="Yours name">
-        <input type="text" id="dev-1" class="same" placeholder="Age">
-        <input type="text" id="dev-2" class="same" placeholder="Secrete Code">
         <button onclick="runFunction()">Submit My Info</button>
         <p id="dev-result" class="same">
 
