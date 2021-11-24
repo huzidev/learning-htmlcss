@@ -281,5 +281,5 @@ let data = {
 }
 console.log(data);
 
-let array = [name = "Huzi", Hobby = "Learning"];
+let array = [name= "Huzi", Hobby= "Learning",  Code="JavaScript", Age= "19"];
 console.log(array);
