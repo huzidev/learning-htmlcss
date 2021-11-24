@@ -317,6 +317,8 @@ console.log(random.sort());
 
 random = ["banana", "apple", "juice", "pomegrant", "pizza", "burger"];
 console.log(random.sort());
+console.log("Opposite Of Sort");
+console.log(random.reverse());
 
 
 
