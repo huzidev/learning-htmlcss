@@ -333,6 +333,6 @@ let name2 = "Ali";
 let greet = "Hello";
 let greetText = "Good Morning";
 
-console.log(`${name} is a good developer and he writes in ${code}`);
+console.log(${greet}`${name} is a good developer and he writes in ${code}`);
 console.log(`${name1} is a good developer and he writes in ${code}`);
 console.log(`${name2} is a good developer and he writes in ${code}`);
