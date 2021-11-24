@@ -384,3 +384,6 @@ hi = () => {
     console.log(`${greetText} ${name} ${advise}`);
 };
 hi();
+
+
+info = "Live Function By Timeout";
