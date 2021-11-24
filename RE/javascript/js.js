@@ -367,3 +367,4 @@ function summ(a,b,c,d,e){
     return f;
 };
 
+let rturnVal = summ(5,5,5,5,5,);
