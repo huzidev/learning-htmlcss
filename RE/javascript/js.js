@@ -290,3 +290,4 @@ console.log(`The length of whole (ARRAY) FUNCTION is ` + array.length);
 
 let dev = [`The name of the developer is ${name} and he love ${hobby} and he codes in ${code} and he should've to continue the work and ${advise}`];
 console.log(dev);
+console.log(`The length of array message is just ` + (dev.length) + ` because it is just a single mesaage in a single array function`)
