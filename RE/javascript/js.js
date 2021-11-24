@@ -353,7 +353,7 @@ console.log(z.toUpperCase());
 
 function intro(name, greetText, code) {
     console.log(`${greetText} ${greet} Mr. ${name} how r u, I heard that you write code in ${code} it's good to kmow that and ${advise}`);
-}
+};
 
 intro(name, greetText, code);
 intro(name1, greetText, code);
