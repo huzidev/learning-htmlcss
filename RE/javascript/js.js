@@ -327,3 +327,6 @@ console.log(empty);
 
 
 console.log(name);
+
+let name1 = "Sahil";
+let name2 = "Ali";
