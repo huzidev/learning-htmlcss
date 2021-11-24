@@ -282,7 +282,8 @@ let data = {
 }
 console.log(data);
 
-console.log("ARRAY FUNCTRION");
+console.log("ARRAY FUNCTION");
 let array = [name= "Huzi", Hobby= "Learning",  Code="JavaScript", Age= "19"];
 console.log(array);
 
+console.log(`The length of whole (ARRAY) is ` + array.length)
