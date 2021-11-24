@@ -415,3 +415,4 @@ let half = a = a/2;
 console.log(half);
 
 let double = a = a*2;
+console.log(double);
