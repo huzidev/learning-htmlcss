@@ -318,5 +318,8 @@ console.log(random.sort());
 random = ["banana", "apple", "juice", "pomegrant", "pizza", "burger"];
 console.log(random.sort());
 
-random = [100, 500, 0, 0, 3, 600, 748, 66, 2];
-console.log(random.sort())
+let points = [100, 500, 0, 0, 3, 600, 748, 66, 2];
+
+// console.log(random.sort());
+
+
