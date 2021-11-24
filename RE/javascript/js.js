@@ -33,7 +33,10 @@ document.getElementById("js").innerHTML = `
   #js .same {
     padding: 5px 20px;
   }
-  #js .input
+  #js .input{
+      padding: 2px;
+      height: 20px;
+  }
   #js input {
     margin-left: 20px;
   }
