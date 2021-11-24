@@ -308,4 +308,5 @@ console.log(`The length of array message is just ` + (dev.length) + ` because it
 
 
 let sort = ("sort function");
+console.log(sort.toUpperCase())
 
