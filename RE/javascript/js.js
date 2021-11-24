@@ -358,3 +358,5 @@ function intro(name, greetText, code) {
 intro(name, greetText, code);
 intro(name1, greetText, code);
 intro(name2, greetText, code);
+
+let value = "Maths Values & Functions";
