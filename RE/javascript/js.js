@@ -367,4 +367,5 @@ function summ(a,b,c,d,e){
     return f;
 };
 
-let rturnVal = summ(5,5,5,5,5,);
+let returnVal = summ(5,5,5,5,5,);
+console.log(returnVal)
