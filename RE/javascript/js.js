@@ -363,7 +363,7 @@ let value = "Maths Values & Functions";
 console.log(value.toUpperCase());
 
 function summ(a,b,c,d,e,f){
-    let g = a + b + c + d + e + f;
+    var g = a + b + c + d + e + f;
     return g;   
 };
 
