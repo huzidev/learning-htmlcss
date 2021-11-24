@@ -361,3 +361,9 @@ intro(name2, greetText, code);
 
 let value = "Maths Values & Functions";
 console.log(value.toUpperCase());
+
+function summ(a,b,c,d,e){
+    let f = a + b + c + d + e;
+    return f;
+};
+
