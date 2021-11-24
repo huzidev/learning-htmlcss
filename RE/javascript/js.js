@@ -375,3 +375,12 @@ function hi(){
 
 };
 hi();
+
+
+let info = "Arrow Function";
+console.log(info.toUpperCase());
+
+hi = () => {
+    console.log(`${greetText}`);
+};
+hi();
