@@ -273,7 +273,7 @@ document.getElementById("dev-result").innerHTML = text;
 
 };
 
-console.log("Object Function");
+console.log("OBJECT FUNCTION");
 let data = {
     name: "Huzi",
     code: "JavaScript",
