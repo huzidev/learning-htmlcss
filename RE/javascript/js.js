@@ -417,5 +417,5 @@ console.log(half);
 let double = a = a*2;
 console.log(double);
 
-double = a = a*2;
+double = a = a*5;
 console.log(double);
