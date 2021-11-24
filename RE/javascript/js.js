@@ -362,10 +362,10 @@ intro(name2, greetText, code);
 let value = "Maths Values & Functions";
 console.log(value.toUpperCase());
 
-function summ(a,b,c,d,e){
-    let f = a + b + c + d + e;
-    return f;
+function summ(a,b,c,d,e,f){
+    let g = a + b + c + d + e + f;
+    return g;   
 };
 
-let returnVal = summ(5,5,5,5,5,);
-console.log(returnVal)
+let returnVal = summ(5,5,5,5,5,5);
+console.log(returnVal);
