@@ -369,3 +369,7 @@ function summ(a,b,c,d,e,f){
 
 let returnVal = summ(5,5,5,5,5,5);
 console.log(returnVal);
+
+function hi(){
+    console.log(`${greetText} ${greet} ${name}`);
+};
