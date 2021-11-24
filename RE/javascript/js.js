@@ -393,4 +393,5 @@ setTimeout(() => {
 
 let total = (a, b) => {
     return a + b;
-}
+};
+total = (a, b) => a + b;
