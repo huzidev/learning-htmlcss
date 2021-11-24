@@ -88,7 +88,7 @@ console.log(a);
 console.log(b);
 console.log("The Sum Of a & b is " + (a + b));
 
-let name = "Huzi";
+const name = "Huzi";
 let hobby = "Learning";
 let code = "JavsScript";
 let advise = "Keep The Good Spirit"
