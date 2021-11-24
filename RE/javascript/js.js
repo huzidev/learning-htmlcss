@@ -328,8 +328,8 @@ console.log(empty);
 
 console.log(name);
 
-let name1 = "Sahil";
-let name2 = "Ali";
+const name1 = "Sahil";
+const name2 = "Ali";
 let greet = "Hello";
 let greetText = "Good Morning";
 
