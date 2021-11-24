@@ -404,3 +404,6 @@ console.log("The above result is accurate because a is equal to " + a + " and th
 
 total = (a, b) => a - b;
 console.log(total(a, b));
+
+total = (a, b) => a * b;
+c
