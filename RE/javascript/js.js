@@ -286,4 +286,6 @@ console.log("ARRAY FUNCTION");
 let array = [name= "Huzi", Hobby= "Learning",  Code="JavaScript", Age= "19"];
 console.log(array);
 
-console.log(`The length of whole (ARRAY) is ` + array.length)
+console.log(`The length of whole (ARRAY) FUNCTION is ` + array.length);
+
+let dev = [`The name of the developer is ${name} and he love ${hobby} and he codes in ${code} and should've to continue the work and ${advise}`];
