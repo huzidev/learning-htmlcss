@@ -342,12 +342,13 @@ function meet(name) {
     console.log(`${name} is the developer and he loves ${hobby}`);
 };
 
-
-let new = "Greet Function In Easier Way";
-
-
-
 // MAKE SURE TO WEITE THEM AFTER SO WE CAN RETURN THE FUNCTION
 meet(name);
 meet(name1);
 meet(name2);
+
+
+let z = ("Greet Function In Easier Way");
+
+console.log(z.toUpperCase());
+
