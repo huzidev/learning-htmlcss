@@ -273,6 +273,7 @@ document.getElementById("dev-result").innerHTML = text;
 
 };
 
+console.log("Object Function");
 let data = {
     name: "Huzi",
     code: "JavaScript",
@@ -281,6 +282,7 @@ let data = {
 }
 console.log(data);
 
+console.log("ARRAY FUNCTRION");
 let array = [name= "Huzi", Hobby= "Learning",  Code="JavaScript", Age= "19"];
 console.log(array);
 
