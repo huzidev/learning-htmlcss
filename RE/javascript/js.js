@@ -288,4 +288,5 @@ console.log(array);
 
 console.log(`The length of whole (ARRAY) FUNCTION is ` + array.length);
 
-let dev = [`The name of the developer is ${name} and he love ${hobby} and he codes in ${code} and should've to continue the work and ${advise}`];
+let dev = [`The name of the developer is ${name} and he love ${hobby} and he codes in ${code} and he should've to continue the work and ${advise}`];
+console.log(dev);
