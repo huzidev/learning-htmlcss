@@ -279,4 +279,4 @@ let data = {
     hobby: "Learning",
     age: 19,
 }
-console.log(data)
+console.log(data);
