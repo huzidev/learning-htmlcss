@@ -310,5 +310,9 @@ console.log(`The length of array message is just ` + (dev.length) + ` because it
 let sort = ("sort function");
 console.log(sort.toUpperCase());
 
-let random = ("1, 5, 9, 6, 0, 3, 7, 6, 3, 0, 1, 3");
+
+console.log(`INTEGERS ARE NUMBERS AND THEY SHOULD NOT HAVE TO BE IN COMMA`);
+let random = [1, 5, 9, 6, 0, 3, 7, 6, 3, 0, 1, 3];
+random.sort();
+console.log(random);
 
