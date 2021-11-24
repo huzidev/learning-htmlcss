@@ -339,5 +339,5 @@ console.log(`${greet} ${greetText}, ${name2} is a good developer and he writes i
 
 console.log("Greet Function");
 function greet(name) {
-    console.log(`${name} is the developer`)
+    console.log(`${name} is the developer`);
 }
