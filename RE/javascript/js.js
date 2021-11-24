@@ -281,3 +281,5 @@ let data = {
 }
 console.log(data);
 
+let array = [name = "Huzi", Hobby = "Learning"];
+console.log(array);
