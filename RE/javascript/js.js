@@ -409,3 +409,4 @@ total = (a, b) => a * b;
 console.log(total(a, b));
 
 total = (a, b) => a / b;
+console.log(total(a, b))
