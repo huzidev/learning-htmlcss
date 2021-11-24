@@ -326,3 +326,4 @@ let empty = new Array(20);
 console.log(empty);
 
 
+console.log(name);
