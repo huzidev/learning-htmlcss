@@ -460,3 +460,6 @@ console.log(info.toUpperCase());
 
 let m = Math;
 console.log(m);
+
+m = Math.E;
+console.log(m);
