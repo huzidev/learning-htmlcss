@@ -2,5 +2,6 @@
     width: 1375px;
     margin: 20px auto;
     background-image: url(/assets/linuuu.png);
-    height: 100px;
+    background-size: cover;
+    height: 500px;
 }
