@@ -559,4 +559,6 @@ let object = {
 }
 console.log(object);
 
+console.log(`\n`);
 info = "converting object into string";
+console.log(info.toUpperCase())
