@@ -422,3 +422,6 @@ console.log(double);
 
 double = a = a*5;
 console.log(double);
+
+
+info = "Speak Function";
