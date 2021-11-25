@@ -580,4 +580,5 @@ greetText = greetText.replace("Good", "Gooooood");
 console.log(greetText);
 
 
-console.log(`\n`)
+console.log(`\n`);
+info = "Nav-Bar & Animation Is Been Prepeared On Pure JS Including Styling";
