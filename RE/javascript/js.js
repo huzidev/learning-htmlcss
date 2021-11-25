@@ -545,5 +545,8 @@ console.log(`${Math.random()}`);
 
 let ran = 0;
 let numb = 100;
- random = ran + (numb - ran)*Math.random();
-console.log(random);
+random = ran + (numb - ran)*Math.random();
+console.log(`The random number you got is ${random}`);
+
+
+console.log(`\n`);
