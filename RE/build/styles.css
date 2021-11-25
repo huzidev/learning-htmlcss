@@ -2,4 +2,11 @@
     background-color: aqua;
     width: 1200px;
     margin: auto;
+
+}
+
+#nav .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
