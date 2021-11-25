@@ -447,3 +447,6 @@ console.log(see);
 
 see = [name = "Logan"]
 console.log(see);
+
+see = ("Logan")
+console.log(see);
