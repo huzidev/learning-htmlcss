@@ -493,4 +493,6 @@ console.log(info.toUpperCase());
 
  console.log(`\n`);
  info = "square root function";
- console.log(info.toUpperCase())
+ console.log(info.toUpperCase());
+
+ l = 64;
