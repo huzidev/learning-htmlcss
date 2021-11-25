@@ -10,3 +10,12 @@
     justify-content: space-between;
     align-items: center;
 }
+
+#nav .nav-bar .nav{
+    
+}
+
+#nav .nav-bar .nav ul{
+    display: flex;
+    
+}
