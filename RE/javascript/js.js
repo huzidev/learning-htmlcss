@@ -468,3 +468,6 @@ m = Math.PI;
 console.log(m);
 
 console.log(`The Value Of a & b is ` + (a + b));
+console.log(`The Value Of a & b is ` + (a * b));
+console.log(`The Value Of a & b is ` + (a + b));
+console.log(`The Value Of a & b is ` + (a + b));
