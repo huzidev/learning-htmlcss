@@ -492,3 +492,4 @@ console.log(info.toUpperCase());
  console.log(`5 raised to the power of 2 is ${Math.pow(5, 2)}`);
 
  console.log(`\n`);
+ info = "square root function";
