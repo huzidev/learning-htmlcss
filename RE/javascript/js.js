@@ -436,7 +436,7 @@ let obj = {
         }
 
 }
-obj.speak()
+obj.speak();
 
 console.log(`\n`);
 
