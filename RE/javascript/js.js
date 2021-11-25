@@ -578,3 +578,4 @@ console.log(info.toUpperCase());
 console.log(`Originally ours greetText is ${greetText} \n After using replace function it became`);
 greetText = greetText.replace("Good", "Gooooood");
 console.log(greetText);
+
