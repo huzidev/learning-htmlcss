@@ -585,6 +585,61 @@ info = "Nav-Bar & Animation Is Been Prepeared On Pure JS Including Styling";
 console.log(info.toUpperCase());
 
 const style = document.getElementById("nav").innerHTML = `
+    <style>
+    #nav{
+        background-color: black;
+        width: 1380px;
+        margin: auto;
+        border-radius: 9px;
+        box-shadow: 0px 0px 15px -5px black;
+    }
+    
+    #nav .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    
+    #nav .nav-bar .nav ul{
+        display: flex;
+    
+    }
+    
+    #nav .nav-bar .nav ul li{
+        margin: 20px ; 
+        list-style: none;
+        cursor: pointer;
+        font-size: 22px;
+        
+    }
+    
+    
+    #nav .nav-bar .nav ul li a{
+        color: black;   
+        border-radius: 9px;
+        font-weight: bold;
+        padding: 13px 25px;
+        text-decoration: none;
+        background-color: white;
+        transition: all 500ms ease; 
+    }
+    #nav .nav-bar .nav ul li a:hover{
+        border: 3px solid white;
+        color: white;
+        background-color: black;
+        color: white;
+    }
+    
+    #nav .nav-bar .nav-img .img{
+        height: 150px;
+        width: 170px;
+        border-radius: 100%;
+        border: 2px solid white;
+        margin-right: 50px;
+    }
+    </style>
     <div class="nav-bar">
       <div class="nav">
         <ul>
