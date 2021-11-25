@@ -502,3 +502,5 @@ console.log(info.toUpperCase());
 
  console.log(`\n`);
  console.log(`The specific value is ${b} which is -ve now after we put absolute function it'll become +ve ${Math.abs(b)}`);
+
+ console.log(`\n`);
