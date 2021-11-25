@@ -572,4 +572,4 @@ console.log(info.toUpperCase());
 object = JSON.parse(object);
 console.log(object);
 
-console.log()
+console.log(`\n`);
