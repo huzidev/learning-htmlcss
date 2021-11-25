@@ -402,8 +402,11 @@ total = (a, b) => a + b;
 console.log(total(a, b));
 console.log("The above result is accurate because a is equal to " + a + " and the value of b is " + b);
 
-total = (a, b) => a - b;
-console.log(total(a, b));
+var d = 50;
+console.log(d);
+
+total = (a, b, d) => a - b * d;
+console.log(total(a, b, d));
 
 total = (a, b) => a * b;
 console.log(total(a, b));
