@@ -11,5 +11,17 @@
 
 
 @keyframes JS {
-    
+    0%{
+        background-image: url(/assets/linuuu.png);
+    }
+
+    30%{
+        background-image: url(/assets/linux.png);
+    }
+    60%{
+        background-image: url(/assets/Landscape.jfif);
+    }
+    90%{
+        background-image: url(/assets/js.png);
+    }
 }
