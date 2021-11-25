@@ -658,3 +658,5 @@ const style = document.getElementById("nav").innerHTML = `
     </div>
 `
 console.log(`If we made an let, var or const and then add document.getElementById function and then return it so it'll print the result as it is as it was in of index.html ${style}`);
+
+console.log(`\n`);
