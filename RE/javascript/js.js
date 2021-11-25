@@ -453,3 +453,6 @@ console.log(see);
 
 see = new String("Logan");
 console.log(see);
+
+
+info = "maths function";
