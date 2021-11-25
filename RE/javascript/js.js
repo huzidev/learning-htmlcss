@@ -431,7 +431,7 @@ let obj = {
     names: ["Huzi", "Sahil", "Ali", "Logan"],
         speak(){
             thi.names.forEach(student => {
-                console.log(`${greetText}, ${greetText}`)
+                console.log(`${greetText}, ${greetText} ${student} i heard that you codes in ${code} its good to know that and`)
             });
         }
 
