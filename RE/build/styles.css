@@ -11,9 +11,7 @@
     align-items: center;
 }
 
-#nav .nav-bar .nav{
-    
-}
+
 
 #nav .nav-bar .nav ul{
     display: flex;
@@ -21,7 +19,7 @@
 }
 
 #nav .nav-bar .nav ul li{
-    margin: 20px;
+    margin: 20px ; 
     list-style: none;
     cursor: pointer;
     background-color: black;
@@ -31,4 +29,8 @@
 #nav .nav-bar .nav ul li a{
     color: white    ;
     text-decoration: none;
+}
+
+#nav .nav-bar .nav-img .img{
+    
 }
