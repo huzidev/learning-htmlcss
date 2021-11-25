@@ -429,5 +429,8 @@ console.log(info.toUpperCase());
 
 let obj = {
     names: ["Huzi", "Sahil", "Ali", "Logan"],
+        speak(){
+
+        }
 
 }
