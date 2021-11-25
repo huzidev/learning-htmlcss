@@ -661,35 +661,37 @@ console.log(`If we made an let, var or const and then add document.getElementByI
 
 console.log(`\n`);
 let Animation = document.getElementsByClassName("animation").innerHTML = `
-<style>
-.animation{
-    width: 1375px;
-    margin: 20px auto;
-    background-image: url(/assets/linuuu.png);
-    background-size: 100% 100%;
-    height: 700px;
-    box-shadow: 0px 0px 15px -5px black;
-    border: 3px solid black;
-    animation-name: JS;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-
-@keyframes JS {
-    0%{
+    <h1>Hemka</h1>
+    <style>
+    .animation{
+        width: 1375px;
+        margin: 20px auto;
         background-image: url(/assets/linuuu.png);
+        background-size: 100% 100%;
+        height: 700px;
+        box-shadow: 0px 0px 15px -5px black;
+        border: 3px solid black;
+        animation-name: JS;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
     }
 
-    30%{
-        background-image: url(/assets/linux.png);
+
+    @keyframes JS {
+        0%{
+            background-image: url(/assets/linuuu.png);
+        }
+
+        30%{
+            background-image: url(/assets/linux.png);
+        }
+        60%{
+            background-image: url(/assets/Landscape.jfif);
+        }
+        90%{
+            background-image: url(/assets/js.png);
+        }
     }
-    60%{
-        background-image: url(/assets/Landscape.jfif);
-    }
-    90%{
-        background-image: url(/assets/js.png);
-    }
-}
-</style>
+    </style>
 `;
+console.log(Animation)
