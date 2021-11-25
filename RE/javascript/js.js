@@ -489,4 +489,6 @@ console.log(`\n`)
 info = "Power of function";
 console.log(info.toUpperCase());
  var l = 5;
- console.log(`${Math.pow(5, 2)}`)
+ console.log(`5 raised to the power of 2 is ${Math.pow(5, 2)}`);
+
+ console.log(`\n`);
