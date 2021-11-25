@@ -467,7 +467,7 @@ console.log(m);
 m = Math.PI;
 console.log(m);
 
-console.log(`The Value Of a & b is ` + (a + b));
-console.log(`The Value Of a & b is ` + (a * b));
-console.log(`The Value Of a & b is ` + (a / b));
-console.log(`The Value Of a & b is ` + (a - b));
+console.log(`The Value Of a & b is after sum is ` + (a + b));
+console.log(`The Value Of a & b is after multiplication is ` + (a * b));
+console.log(`The Value Of a & b is after divide is ` + (a / b));
+console.log(`The Value Of a & b is after substraction is ` + (a - b));
