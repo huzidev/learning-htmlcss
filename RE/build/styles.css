@@ -1,5 +1,5 @@
 #nav{
-    background-color: aqua;
+    background-color: black;
     width: 1370px;
     margin: auto;
     border-radius: 9px;
@@ -23,14 +23,15 @@
     margin: 20px ; 
     list-style: none;
     cursor: pointer;
-    background-color: black;
+    background-color: white;
     padding: 13px 25px;
-    font-size: 19px;
+    font-size: 22px;
     border-radius: 9px;
 }
 
 #nav .nav-bar .nav ul li a{
-    color: white;
+    color: black;
+    font-weight: bold;
     text-decoration: none;
 }
 
