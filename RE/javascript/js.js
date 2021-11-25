@@ -428,6 +428,6 @@ info = "Speak Function";
 console.log(info.toUpperCase());
 
 let obj = {
-    names: []
+    names: ["Huzi", "Sahil", "Ali", "Logan"]
 
 }
