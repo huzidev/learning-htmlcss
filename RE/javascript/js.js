@@ -552,3 +552,9 @@ console.log(`The random number you got is ${random}`);
 console.log(`\n`);
 info = "object operands";
 console.log(info.toUpperCase());
+
+let object = {
+    name: "Huzi",
+    Code: "JavaScript",
+}
+console.log(object);
