@@ -575,3 +575,4 @@ console.log(object);
 console.log(`\n`);
 info = "Replace Function By Js";
 console.log(info.toUpperCase());
+greetText = greetText.replace;
