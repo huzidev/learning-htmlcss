@@ -23,16 +23,25 @@
     margin: 20px ; 
     list-style: none;
     cursor: pointer;
-    background-color: white;
-    padding: 13px 25px;
     font-size: 22px;
-    border-radius: 9px;
+    
 }
 
+
 #nav .nav-bar .nav ul li a{
-    color: black;
+    color: black;   
+    border-radius: 9px;
     font-weight: bold;
+    padding: 13px 25px;
     text-decoration: none;
+    background-color: white;
+    transition: all 500ms ease; 
+}
+#nav .nav-bar .nav ul li a:hover{
+    border: 3px solid white;
+    color: white;
+    background-color: black;
+    color: white;
 }
 
 #nav .nav-bar .nav-img .img{
