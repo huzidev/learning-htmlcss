@@ -437,3 +437,13 @@ let obj = {
 
 }
 obj.speak()
+
+
+let see = {
+    name: "logan",
+    hobby: "boxing",
+}
+console.log(see);
+
+see = [name = "Logan"]
+console.log(see);
