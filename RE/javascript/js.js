@@ -477,5 +477,6 @@ console.log(`The Value Of a & b is after substraction is ` + (a - b));
  console.log(total(a, b));
 
 
+info = "Roundig off function";
  var r = 89.9;
- var o = 77.2;
+ var o = 77.2;  
