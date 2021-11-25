@@ -439,6 +439,8 @@ let obj = {
 obj.speak()
 
 
+info = "Object, Array And Strings";
+console.log(info.toUpperCase());
 let see = {
     name: "logan",
     hobby: "boxing",
