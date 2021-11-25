@@ -585,6 +585,21 @@ info = "Nav-Bar & Animation Is Been Prepeared On Pure JS Including Styling";
 console.log(info.toUpperCase());
 
 const style = document.getElementById("nav").innerHTML = `
-    <h1>hello</h1>
+    <div class="nav-bar">
+      <div class="nav">
+        <ul>
+          <li class="items"><a href="/">Test</a></li>
+          <li class="items"><a href="/">Test</a></li>
+          <li class="items"><a href="/">Test</a></li>
+          <li class="items"><a href="/">Test</a></li>
+          <li class="items"><a href="/">Test</a></li>
+          <li class="items"><a href="/">Test</a></li>
+          <li class="items"><a href="/">Test</a></li>
+        </ul>
+      </div>
+      <div class="nav-img">
+        <img src="/assets/js.png" class="img" alt="Js-Img">
+      </div>
+    </div>
 `
 console.log(`If we made an let, var or const and then add document.getElementById function and then return it so it'll print the result as it is as it was in of index.html ${style}`);
