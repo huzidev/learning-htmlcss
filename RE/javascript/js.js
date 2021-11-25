@@ -656,7 +656,10 @@ const style = document.getElementById("nav").innerHTML = `
         <img src="/assets/js.png" class="img" alt="Js-Img">
       </div>
     </div>
-`
+`;
 console.log(`If we made an let, var or const and then add document.getElementById function and then return it so it'll print the result as it is as it was in of index.html ${style}`);
 
 console.log(`\n`);
+let Animation = document.getElementsByClassName("animation").innerHTML = `
+
+`;
