@@ -534,3 +534,5 @@ console.log(`\n`);
 info = "Log numbers by JS";
 console.log(info.toUpperCase());
 console.log(`The log value of ${o} is ${Math.log(o)} and that of ${a} is ${Math.log(a)}`);
+
+console.log(`\n`);
