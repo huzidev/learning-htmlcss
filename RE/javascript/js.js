@@ -507,3 +507,7 @@ console.log(info.toUpperCase());
  console.log(`${Math.sin (Math.PI)}`);
  console.log(`${Math.tan (Math.PI)}`);
  console.log(`${Math.cos (Math.PI)}`);
+
+
+console.log(`\n`);
+console.log(`The half of the ${Math.PI} is ${Math.PI/2}`);
