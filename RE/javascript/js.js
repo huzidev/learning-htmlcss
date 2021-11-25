@@ -584,5 +584,7 @@ console.log(`\n`);
 info = "Nav-Bar & Animation Is Been Prepeared On Pure JS Including Styling";
 console.log(info.toUpperCase());
 
-const style = document.getElementById("nav");
-console.log(`If we made an let, var or const and then add document.getElementById function and then return it so it'll print the result as it is as it was in of index.html`);
+const style = document.getElementById("nav").innerHTML = `
+    <h1>hello</h1>
+`
+console.log(`If we made an let, var or const and then add document.getElementById function and then return it so it'll print the result as it is as it was in of index.html ${style}`);
