@@ -485,5 +485,8 @@ console.log(info.toUpperCase());
  console.log(`The value of r is ${r} and that of o is ${o} but after rounding off it does became ${Math.round(r)} & ${Math.round(o)} `);
 
 
+console.log(`\n`)
+info = "Power of function";
+console.log(info.toUpperCase());
  var l = 5;
  console.log(`${Math.pow(5, 2)}`)
