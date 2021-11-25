@@ -20,7 +20,15 @@
 
 }
 
-#nav .nav-bar .nav ul  li{
+#nav .nav-bar .nav ul li{
     margin: 20px;
     list-style: none;
+    cursor: pointer;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+#nav .nav-bar .nav ul li a{
+    color: white    ;
+    text-decoration: none;
 }
