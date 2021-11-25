@@ -501,4 +501,4 @@ console.log(info.toUpperCase());
  console.log(`The value is ${r} now the round off to the nearest integer will be ${Math.ceil(r)} and ${r} will round down to the ${Math.floor(r)} which is the nearest integers`);
 
  console.log(`\n`);
- console.log(b);
+ console.log(`Value specifiv value is ${b} which is -ve`);
