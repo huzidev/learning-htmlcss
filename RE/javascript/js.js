@@ -457,3 +457,5 @@ console.log(see);
 
 info = "maths function";
 console.log(info.toUpperCase());
+
+console.log(Math);
