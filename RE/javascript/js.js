@@ -430,9 +430,10 @@ console.log(info.toUpperCase());
 let obj = {
     names: ["Huzi", "Sahil", "Ali", "Logan"],
         speak(){
-            thi.names.forEach(student => {
-                console.log(`${greetText}, ${greetText} ${student} i heard that you codes in ${code} its good to know that and`)
+            this.names.forEach(student => {
+                console.log(`${greetText}, ${greet} ${student} i heard that you codes in ${code} its good to know that and ${advise}`);
             });
         }
 
 }
+obj.speak()
