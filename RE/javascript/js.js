@@ -582,3 +582,4 @@ console.log(greetText);
 
 console.log(`\n`);
 info = "Nav-Bar & Animation Is Been Prepeared On Pure JS Including Styling";
+console.log(info.toUpperCase())
