@@ -660,10 +660,9 @@ const style = document.getElementById("nav").innerHTML = `
 console.log(`If we made an let, var or const and then add document.getElementById function and then return it so it'll print the result as it is as it was in of index.html ${style}`);
 
 console.log(`\n`);
-let Animation = document.getElementsByClassName("animation").innerHTML = `
-    <h1>Hemka</h1>
+let Animation = document.getElementById("animation").innerHTML = `
     <style>
-    .animation{
+    #animation{
         width: 1375px;
         margin: 20px auto;
         background-image: url(/assets/linuuu.png);
@@ -686,7 +685,7 @@ let Animation = document.getElementsByClassName("animation").innerHTML = `
             background-image: url(/assets/linux.png);
         }
         60%{
-            background-image: url(/assets/Landscape.jfif);
+            background-image: url(/assets/Landscape.jfif);            
         }
         90%{
             background-image: url(/assets/js.png);
@@ -694,4 +693,4 @@ let Animation = document.getElementsByClassName("animation").innerHTML = `
     }
     </style>
 `;
-console.log(Animation)
+console.log(Animation);
