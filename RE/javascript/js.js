@@ -533,3 +533,4 @@ console.log(`The biggest integer in b/w ${number} is ${Math.max(8, 6, 9, 50)} an
 console.log(`\n`);
 info = "Log numbers by JS";
 console.log(info.toUpperCase());
+console.log(`The log value of ${b} is ${Math.log(12.5)}`)
