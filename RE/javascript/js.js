@@ -538,3 +538,6 @@ console.log(`The log value of ${o} is ${Math.log(o)} and that of ${a} is ${Math.
 console.log(`\n`);
 info = "Random Numbers By JS";
 console.log(info.toUpperCase());
+
+console.log("The below method will only generat random numbers in bw 0 to 1")
+console.log(`${Math.random()}`)
