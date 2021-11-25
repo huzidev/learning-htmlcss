@@ -438,6 +438,7 @@ let obj = {
 }
 obj.speak()
 
+console.log(`\n`);
 
 info = "Way To Create Object, Array And Strings";
 console.log(info.toUpperCase());
