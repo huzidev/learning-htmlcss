@@ -566,6 +566,7 @@ console.log(info.toUpperCase());
 object = JSON.stringify(object);
 console.log(object);
 
-console.log(`\n`)
+console.log(`\n`);
+info = "String to object again";
 object = JSON.parse(object);
 console.log(object)
