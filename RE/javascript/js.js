@@ -661,5 +661,7 @@ console.log(`If we made an let, var or const and then add document.getElementByI
 
 console.log(`\n`);
 let Animation = document.getElementsByClassName("animation").innerHTML = `
+<style>
 
+</style>
 `;
