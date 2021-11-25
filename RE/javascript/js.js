@@ -575,5 +575,6 @@ console.log(object);
 console.log(`\n`);
 info = "Replace Function By Js";
 console.log(info.toUpperCase());
+console.log(`originally ours greetText is ${greetText}`);
 greetText = greetText.replace("Good", "Gooooood");
 console.log(greetText);
