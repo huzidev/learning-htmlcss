@@ -22,4 +22,5 @@
 
 #nav .nav-bar .nav ul  li{
     margin: 20px;
+    list-style: none;
 }
