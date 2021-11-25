@@ -558,3 +558,5 @@ let object = {
     Code: "JavaScript",
 }
 console.log(object);
+
+info = "converting object into string";
