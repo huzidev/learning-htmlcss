@@ -524,3 +524,4 @@ console.log(b);
 
 console.log(`\n`);
 info = "Maximum & Minimum in between integers";
+console.log(info.toUpperCase());
