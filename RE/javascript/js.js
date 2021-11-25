@@ -539,5 +539,9 @@ console.log(`\n`);
 info = "Random Numbers By JS";
 console.log(info.toUpperCase());
 
-console.log("The below method will only generat random numbers in bw 0 to 1")
-console.log(`${Math.random()}`)
+console.log("The below method will only generat random numbers in bw 0 to 1");
+console.log(`${Math.random()}`);
+
+
+let ran = 0;
+let numb = 100;
