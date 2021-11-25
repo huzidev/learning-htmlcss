@@ -496,4 +496,6 @@ console.log(info.toUpperCase());
  console.log(info.toUpperCase());
 
  l = 64;
- console.log(`The square root of ${l} is ${Math.sqrt(64)}`);
+ console.log(`The square root of ${l} is ${Math.sqrt(l)}`);
+
+ console.log(`The value is ${r} now the round off to the nearest integer will be ${Math.ceil(r)} and ${r}` );
