@@ -442,11 +442,11 @@ obj.speak()
 let see = {
     name: "logan",
     hobby: "boxing",
-}
+};
 console.log(see);
 
-see = [name = "Logan"]
+see = Array(name = "Logan");
 console.log(see);
 
-see = ("Logan")
+see = new String("Logan");
 console.log(see);
