@@ -1,3 +1,6 @@
 .animation{
+    width: 1375px;
+    margin: 20px auto;
     background-image: url(/assets/linuuu.png);
+    height: 100px;
 }
