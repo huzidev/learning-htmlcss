@@ -537,3 +537,4 @@ console.log(`The log value of ${o} is ${Math.log(o)} and that of ${a} is ${Math.
 
 console.log(`\n`);
 info = "Random Numbers By JS";
+console.log(info.toUpperCase());
