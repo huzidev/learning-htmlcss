@@ -439,7 +439,7 @@ let obj = {
 obj.speak()
 
 
-info = "Object, Array And Strings";
+info = "Way To Create Object, Array And Strings";
 console.log(info.toUpperCase());
 let see = {
     name: "logan",
