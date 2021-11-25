@@ -556,7 +556,7 @@ console.log(info.toUpperCase());
 let object = {
     name: "Huzi",
     Code: "JavaScript",
-}
+};
 console.log(object);
 
 console.log(`\n`);
@@ -568,6 +568,6 @@ console.log(object);
 
 console.log(`\n`);
 info = "String to object again";
-console.log(info.toUpperCase())
+console.log(info.toUpperCase());
 object = JSON.parse(object);
-console.log(object)
+console.log(object);
