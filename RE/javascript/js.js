@@ -529,3 +529,5 @@ console.log(info.toUpperCase());
 
 let number = "8, 6, 9, 50";
 console.log(`The biggest integer in b/w ${number} is ${Math.max(8, 6, 9, 50)} and Smallest integers in betweeen ${number} is ${Math.min(8, 6, 9, 50)}`);
+
+console.log(`\n`);
