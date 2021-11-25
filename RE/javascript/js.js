@@ -579,3 +579,5 @@ console.log(`Originally ours greetText is ${greetText} \n After using replace fu
 greetText = greetText.replace("Good", "Gooooood");
 console.log(greetText);
 
+
+console.log(`\n`)
