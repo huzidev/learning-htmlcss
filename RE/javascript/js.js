@@ -504,3 +504,6 @@ console.log(info.toUpperCase());
  console.log(`The specific value is ${b} which is -ve now after we put absolute function it'll become +ve ${Math.abs(b)}`);
 
  console.log(`\n`);
+
+ o = 30;
+ console.log(`${Math.sin (Math.PI)}`)
