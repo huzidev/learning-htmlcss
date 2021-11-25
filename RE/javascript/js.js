@@ -512,4 +512,8 @@ console.log(info.toUpperCase());
 console.log(`\n`);
 console.log(`The half of the ${Math.PI} is ${Math.PI/2}`);
 
-console.log(`The value is ${b} after divide by 2 it'll become ${b/2}` )
+// console.log(`The value is ${b} after divide by 2 it'll become ${b/2}`);
+
+console.log(`\n`);
+b = b = b/2;
+console.log(b)
