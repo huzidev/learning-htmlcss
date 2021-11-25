@@ -426,3 +426,8 @@ console.log(double);
 
 info = "Speak Function";
 console.log(info.toUpperCase());
+
+let obj = {
+
+    
+}
