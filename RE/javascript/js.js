@@ -716,4 +716,5 @@ console.log(sel);
 sel = document.querySelector("ul");
 console.log(sel);
 
-sel = document.querySelectorAll("ul");
+console.log(`\n`);
+sel = document.querySelectorAll("ul");  
