@@ -744,3 +744,4 @@ console.log(heading);
 
 console.log(`\n`);
 info = "slider by javascript";
+console.log(info.toUpperCase());
