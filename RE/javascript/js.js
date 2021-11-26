@@ -748,3 +748,7 @@ console.log(info.toUpperCase());
 
 
 let activeIndex = 0;
+
+window.onload function () {
+    const slides =
+}
