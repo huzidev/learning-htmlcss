@@ -719,4 +719,5 @@ console.log(sel);
 console.log(`\n`);
 info = "querey slector all";
 console.log(info.toUpperCase());
-sel = document.querySelectorAll("ul");  
+sel = document.querySelectorAll("ul"); 
+console.log(sel); 
