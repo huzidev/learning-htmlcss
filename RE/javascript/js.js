@@ -743,3 +743,4 @@ date = document.getElementById("date").innerHTML = date;
 console.log(heading);
 
 console.log(`\n`);
+info = "slider by javascript";
