@@ -708,16 +708,16 @@ info = "querey selector";
 console.log(info.toUpperCase());
 
 let sel = document.querySelector("body");
-console.log(sel);
+console.log("Return Selector", sel);
 
 sel = document.querySelector("div");
-console.log(sel);
+console.log("Return Selector", sel);
 
 sel = document.querySelector("ul");
-console.log(sel);
+console.log("Return Selector", sel);
 
 console.log(`\n`);
 info = "querey slector all";
 console.log(info.toUpperCase());
-sel = document.querySelectorAll("ul"); 
-console.log(sel); 
+sel = document.querySelectorAll("ul>li"); 
+console.log("Return Selector", sel); 
