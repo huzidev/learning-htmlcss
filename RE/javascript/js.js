@@ -719,5 +719,5 @@ console.log("Return Selector", sel);
 console.log(`\n`);
 info = "querey slector all";
 console.log(info.toUpperCase());
-sel = document.querySelectorAll("ul>li");  // THE GRETAER THAN SIGN MEANS INSIDE FOR INSTANCE INSIDE OF UL, THEREFORE WE WWROTE IT LIKE THAT (UL>LI)
-console.log("Return Selector", sel); 
+let child = document.querySelectorAll("ul>li");  // THE GRETAER THAN SIGN MEANS INSIDE FOR INSTANCE INSIDE OF UL, THEREFORE WE WWROTE IT LIKE THAT (UL>LI)
+console.log("Return Selector", child); 
