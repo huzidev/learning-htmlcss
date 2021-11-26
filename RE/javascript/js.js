@@ -645,7 +645,7 @@ const style = document.getElementById("nav").innerHTML = `
         <ul>
           <li class="items"><a href="/">Test</a></li>
           <li class="items"><a href="/">Test</a></li>
-          <li class="items"><a href="/">Test</a></li>
+          <li class="items"><a href="/">hello</a></li>
           <li class="items"><a href="/">Test</a></li>
           <li class="items"><a href="/">Test</a></li>
           <li class="items"><a href="/">Test</a></li>
@@ -724,3 +724,5 @@ console.log("Return Selector", child);
 
 info = "Selecting specific child element";
 console.log(info.toUpperCase());
+
+console.log(child[2]);
