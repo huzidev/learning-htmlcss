@@ -698,3 +698,5 @@ console.log(Animation);
 console.log(`\n`);
 info = "Document By Class Name";
 console.log(info.toUpperCase());
+
+let class = document.getElementsByClassName("container")
