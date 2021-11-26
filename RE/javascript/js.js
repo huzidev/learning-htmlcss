@@ -725,4 +725,5 @@ console.log("Return Selector", child);
 info = "Selecting specific child element";
 console.log(info.toUpperCase());
 
-console.log(child[2]);
+child[2].innerHTML = "Changed";
+console.log(child[2])
