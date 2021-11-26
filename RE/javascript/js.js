@@ -709,3 +709,5 @@ console.log(info.toUpperCase());
 
 let sel = document.querySelector("body");
 console.log(sel);
+
+sel = document.querySelector("div");
