@@ -732,6 +732,6 @@ console.log(child[2]);
 
 
 
-console.log(`\n`)
+console.log(`\n`);
 let date = new Date("2021-11-22");
 console.log(date);
