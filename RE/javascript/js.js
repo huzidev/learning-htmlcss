@@ -736,3 +736,6 @@ console.log(`\n`);
 let date =  new Date();
 console.log(date);
 date = document.getElementById("date").innerHTML = date;
+date = document.getElementById("heading").innerHTML = `
+    <h1>hello</h1>
+`;
