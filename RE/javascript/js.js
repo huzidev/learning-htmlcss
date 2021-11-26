@@ -736,5 +736,3 @@ console.log(`\n`);
 let date = document.getElementById("date").innerHTML = `
    
 `; 
-date = new Date("2021-11-22");
-console.log(date);
