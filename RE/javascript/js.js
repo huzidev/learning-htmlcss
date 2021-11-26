@@ -723,3 +723,4 @@ let child = document.querySelectorAll("ul>li");  // THE GRETAER THAN SIGN MEANS 
 console.log("Return Selector", child); 
 
 info = "Selecting specific child element";
+console.log(info.toUpperCase());
