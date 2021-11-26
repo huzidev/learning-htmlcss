@@ -719,7 +719,7 @@ console.log("Return Selector", sel);
 console.log(`\n`);
 info = "querey slector all";
 console.log(info.toUpperCase());
-let child = document.querySelectorAll("ul>li");  // THE GRETAER THAN SIGN MEANS INSIDE FOR INSTANCE INSIDE OF UL, THEREFORE WE WWROTE IT LIKE THAT (UL>LI)
+let child = document.querySelectorAll("ul>li");  // GRETAER THAN SIGN MEANS INSIDE FOR INSTANCE INSIDE OF UL, THEREFORE WE WWROTE IT LIKE THAT (UL>LI)
 console.log("Return Selector", child); 
 
 child = document.querySelectorAll("ul>li>a");
@@ -731,8 +731,8 @@ child[2].innerHTML = "Changed";
 console.log(child[2]);
 
 
-
 console.log(`\n`);
-let date = document.getElementById("date").innerHTML = `
-   
-`; 
+
+let date =  new Date();
+console.log(date);
+date = document.getElementById("date").innerHTML = date;
