@@ -734,7 +734,7 @@ console.log(child[2]);
 
 console.log(`\n`);
 let date = document.getElementById("date").innerHTML = `
-    <h1>hello</h1>
+   
 `; 
 date = new Date("2021-11-22");
 console.log(date);
