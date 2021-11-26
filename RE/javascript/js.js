@@ -696,3 +696,4 @@ let Animation = document.getElementById("animation").innerHTML = `
 console.log(Animation);
 
 console.log(`\n`);
+info = "Document By Class Name";
