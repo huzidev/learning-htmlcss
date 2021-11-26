@@ -700,3 +700,4 @@ info = "Document By Class Name";
 console.log(info.toUpperCase());
 
 let con = document.getElementsByClassName("container");
+console.log(con);
