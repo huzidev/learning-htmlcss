@@ -706,3 +706,6 @@ console.log(con);
 console.log(`\n`);
 info = "querey selector";
 console.log(info.toUpperCase());
+
+let sel = document.querySelector("body");
+console.log(sel);
