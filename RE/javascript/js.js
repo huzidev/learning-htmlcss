@@ -740,4 +740,4 @@ let heading = document.getElementById("heading").innerHTML = `
 let date =  new Date("2021-11-23");
 console.log(date);
 date = document.getElementById("date").innerHTML = date;
-console.log(heading)
+console.log(heading);
