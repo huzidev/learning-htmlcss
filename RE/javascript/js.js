@@ -704,3 +704,4 @@ console.log(con);
 
 
 console.log(`\n`);
+info = "querry selector";
