@@ -726,4 +726,4 @@ info = "Selecting specific child element";
 console.log(info.toUpperCase());
 
 child[2].innerHTML = "Changed";
-console.log(child[2])
+console.log(child[2]);
