@@ -734,10 +734,10 @@ console.log(child[2]);
 console.log(`\n`);
 
 let heading = document.getElementById("heading").innerHTML = `
-    <h1>hello</h1>
+    <h1>This Web-page Was Created On</h1>
 `;
 
-let date =  new Date();
+let date =  new Date("2021-11-23");
 console.log(date);
 date = document.getElementById("date").innerHTML = date;
 console.log(heading)
