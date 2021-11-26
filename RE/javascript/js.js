@@ -699,4 +699,4 @@ console.log(`\n`);
 info = "Document By Class Name";
 console.log(info.toUpperCase());
 
-let class = document.getElementsByClassName("container")
+let con = document.getElementsByClassName("container");
