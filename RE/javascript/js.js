@@ -730,5 +730,8 @@ console.log(info.toUpperCase());
 child[2].innerHTML = "Changed";
 console.log(child[2]);
 
+
+
+console.log(`\n`)
 let date = new Date("2021-11-22");
 console.log(date);
