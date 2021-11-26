@@ -722,6 +722,7 @@ console.log(info.toUpperCase());
 let child = document.querySelectorAll("ul>li");  // THE GRETAER THAN SIGN MEANS INSIDE FOR INSTANCE INSIDE OF UL, THEREFORE WE WWROTE IT LIKE THAT (UL>LI)
 console.log("Return Selector", child); 
 
+child = document.querySelectorAll("ul>li>a");
 info = "Selecting specific child element";
 console.log(info.toUpperCase());
 
