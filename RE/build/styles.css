@@ -1,5 +1,8 @@
 #date{
     color: white;
     background-color: black;
-    height: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
