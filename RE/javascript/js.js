@@ -704,4 +704,5 @@ console.log(con);
 
 
 console.log(`\n`);
-info = "querry selector";
+info = "querey selector";
+console.log(info.toUpperCase());
