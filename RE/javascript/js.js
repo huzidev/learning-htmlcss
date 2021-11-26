@@ -750,5 +750,5 @@ console.log(info.toUpperCase());
 let activeIndex = 0;
 
 window.onload function () {
-    const slides =
+    const slides = document.getElementsByClassName("slide");
 }
