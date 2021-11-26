@@ -717,4 +717,5 @@ sel = document.querySelector("ul");
 console.log(sel);
 
 console.log(`\n`);
+info = "querey slector all";
 sel = document.querySelectorAll("ul");  
