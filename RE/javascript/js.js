@@ -712,3 +712,5 @@ console.log(sel);
 
 sel = document.querySelector("div");
 console.log(sel);
+
+sel = document.querySelector("ul");
