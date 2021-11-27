@@ -13,9 +13,12 @@ html(lang="en")
     #nav 
     #animation
     .container
-    .slider.slides
+    //- .slider
         //- each _, i in Array(6) 
         //-     .slide= i
 
     // CRAOUSEL BY JS
+    .slider
+        each _, i in Array(6)
+            .slider= i    
     script(src="/javascript/js.js")     
