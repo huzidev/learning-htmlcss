@@ -39,8 +39,10 @@
   margin-top: 5px;
 }
 .slider .slide .same {
-  margin-top: 50px;
   text-align: left;
+}
+.slider .slide .head {
+  margin-top: 50px;
 }
 .slider .slide.image {
   background-image: url(/assets/background.jpg);
