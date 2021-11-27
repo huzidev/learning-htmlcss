@@ -761,4 +761,7 @@ window.onload = function () {
 
 function loopSlides() {
     const slides = document.getElementsByClassName("slide");
+
+    slides[activeIndex].classList.remove('active');
+    activeIndex++;
 }
