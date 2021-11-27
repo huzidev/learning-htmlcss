@@ -747,23 +747,23 @@ info = "slider by javascript";
 console.log(info.toUpperCase());
 
 
-let activeIndexx = 0;
-let activeIndexx1 = 1;
-let activeIndexx2 = 2;
-let activeIndexx3 = 3;
-let activeIndexx4 = 4;
-let activeIndexx5 = 5;
+let activeIndex = 0;
+let activeIndex1 = 1;
+let activeIndex2 = 2;
+let activeIndex3 = 3;
+let activeIndex4 = 4;
+let activeIndex5 = 5;
 
 window.onload = function () {
     const slides = document.getElementsByClassName("slide-1");
 
-    slides[activeIndexx].classList.add('active');
-    slides[activeIndexx].classList.add("img");
-    slides[activeIndexx1].classList.add("img-1");
-    slides[activeIndexx2].classList.add("img-2");
-    slides[activeIndexx3].classList.add("img-3");
-    slides[activeIndexx4].classList.add("img-4");
-    slides[activeIndexx5].classList.add("img-5");
+    slides[activeIndex].classList.add('active');
+    slides[activeIndex].classList.add("img");
+    slides[activeIndex1].classList.add("img-1");
+    slides[activeIndex2].classList.add("img-2");
+    slides[activeIndex3].classList.add("img-3");
+    slides[activeIndex4].classList.add("img-4");
+    slides[activeIndex5].classList.add("img-5");
     
     setInterval(() => {
         loopSlides();
@@ -773,14 +773,52 @@ window.onload = function () {
 function loopSlides() {
     const slides = document.getElementsByClassName("slide-1");
 
-    slides[activeIndexx].classList.remove('active');
+    slides[activeIndex].classList.remove('active');
     activeIndex++; // INCREMENT WILL JUST START THE LOOP BUT NOT ANY FURTHER THAN THE FIRST SELECTED CHILD UNTIL & UNLESS WE USED IF, ELSE CONDITION
-    if (activeIndexx == slides.length) {
-        activeIndexx = 0;
+    if (activeIndex == slides.length) {
+        activeIndex = 0;
     }
 
-    slides[activeIndexx].classList.add('active');
-    console.log(slides.length, activeIndexx);
+    slides[activeIndex].classList.add('active');
+    console.log(slides.length, activeIndex);
 }
 
 
+ CRAOUSEL BY JS
+
+let activeIndex = 0;
+let activeIndex1 = 1;
+let activeIndex2 = 2;
+let activeIndex3 = 3;
+let activeIndex4 = 4;
+let activeIndex5 = 5;
+
+window.onload = function () {  // MAKE SURE YOU PUT EQUAL SIGN AFTER WINDOW.ONLOAD
+    const slides = document.getElementsByClassName("slide")
+
+    slides[activeIndex].classList.add("active"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[activeIndex].classList.add("img") // THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[activeIndex1].classList.add("img-1"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[activeIndex2].classList.add("img-2"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[activeIndex3].classList.add("img-3"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[activeIndex4].classList.add("img-4"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[activeIndex5].classList.add("img-5"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+
+    setInterval(() => {
+        loopSlides();
+    }, 2000);
+};
+
+function loopSlides() {
+    const slides = document.getElementsByClassName("slide");
+    slides[activeIndex].classList.remove("active");
+    activeIndex++;
+
+    if (activeIndex == slides.length) {
+        activeIndex = 0;
+    }
+
+
+    slides[activeIndex].classList.add("active");
+    console.log(slides.length, activeIndex);
+};   
