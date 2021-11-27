@@ -20,3 +20,6 @@
   transition: all 400ms ease;
   opacity: 0;
 }
+.slider .slide.active {
+  left: 0px;
+}
