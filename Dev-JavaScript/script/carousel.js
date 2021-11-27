@@ -41,4 +41,4 @@ function loop() {
 
 let date = new Date("2021-11-27");
 console.log(date);
-document.getElementById("date") = date;
+date = document.getElementById("date") = date;
