@@ -767,4 +767,6 @@ function loopSlides() {
     if (activeIndex == slides.length) {
         activeIndex = 0;
     }
+
+    slides[activeIndex].classList.add('active')
 }
