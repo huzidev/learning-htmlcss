@@ -783,3 +783,7 @@ console.log(info.toUpperCase());
 //     console.log(slides.length, activeIndex);
 // }
 
+
+//  CRAOUSEL BY JS
+
+let activeIndex = 0;
