@@ -18,7 +18,6 @@
   top: 0px;
   color: black;
   width: 100%;
-  padding: 20px;
   height: 100%;
   background-color: aqua;
   position: absolute;
@@ -43,6 +42,9 @@
 }
 .slider .slide .head {
   margin-top: 50px;
+}
+.slider .slide .macbook {
+  text-align: right;
 }
 .slider .slide.image {
   background-image: url(/assets/background.jpg);
