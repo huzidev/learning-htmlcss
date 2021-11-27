@@ -793,4 +793,7 @@ window.onload function () {
 
     slides[activeIndex].classList.add("active");
 
+    setInterval(() => {
+        loopSlides();
+    }, 2000);
 }
