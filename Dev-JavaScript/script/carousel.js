@@ -21,7 +21,7 @@ window.onload = function () {  // MAKE SURE YOU PUT EQUAL SIGN AFTER WINDOW.ONLO
 
     setInterval(() => {
         loop();
-    }, 5000);
+    }, 3000);
 };
 
 function loop() {
