@@ -16,10 +16,11 @@
   font-size: 45px;
   position: absolute;
   left: -100%;
-  -webkit-transition: all 400ms ease;
-  transition: all 400ms ease;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
   opacity: 0;
 }
 .slider .slide.active {
   left: 0px;
+  opacity: 1;
 }
