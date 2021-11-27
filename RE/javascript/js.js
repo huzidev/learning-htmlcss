@@ -757,4 +757,4 @@ window.onload = function () {
     setInterval(() => {
         loopSlides();
     }, 1000);
-}
+};
