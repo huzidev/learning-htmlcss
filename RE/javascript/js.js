@@ -758,3 +758,7 @@ window.onload = function () {
         loopSlides();
     }, 1000);
 };
+
+function loopSlides() {
+    const slides = 
+}
