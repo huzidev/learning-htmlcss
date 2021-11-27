@@ -753,5 +753,5 @@ window.onload = function () {
     const slides = document.getElementsByClassName("slide");
 
     slides[activeIndex].classList.add('active');
-    activeIndex++; // MEANS INCRYMENT
+    activeIndex++; // MEANS INCREMENT
 }
