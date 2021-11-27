@@ -788,7 +788,7 @@ console.log(info.toUpperCase());
 
 let activeIndex = 0;
 
-window.onload function () {
+window.onload = function () {  // MAKE SURE YOU PUT EQUAL SIGN AFTER WINDOW.ONLOAD
     const slides = document.getElementsByClassName("slide")
 
     slides[activeIndex].classList.add("active");
@@ -797,3 +797,15 @@ window.onload function () {
         loopSlides();
     }, 2000);
 }
+
+function loopSlides() {
+    const slides = document.getElementsByClassName("slide");
+    slides[activeIndex].classList.remove("active");
+    activeIndex++;
+
+    if (activeIndex == slides.length) {
+        activeIndex = 0;
+    }
+    slides[activeIndex].classList.add("active");
+    console.log(slides.length, activeIndex);
+}   
