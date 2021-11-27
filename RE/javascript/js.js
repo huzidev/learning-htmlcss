@@ -769,4 +769,5 @@ function loopSlides() {
     }
 
     slides[activeIndex].classList.add('active');
+    console.log(slides.length, activeIndex);
 }
