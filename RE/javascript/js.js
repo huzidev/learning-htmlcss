@@ -787,3 +787,7 @@ console.log(info.toUpperCase());
 //  CRAOUSEL BY JS
 
 let activeIndex = 0;
+
+window.onload function () {
+    const slides = document.getElementsByClassName("slide")
+}
