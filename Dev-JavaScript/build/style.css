@@ -46,6 +46,9 @@
 .slider .slide .macbook {
   text-align: right;
 }
+.slider .slide .linux {
+  top: 500px;
+}
 .slider .slide.image {
   background-image: url(/assets/background.jpg);
   background-size: 100% 100%;
