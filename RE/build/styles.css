@@ -33,9 +33,11 @@
   width: 1381px;
   margin: auto;
   height: 700px;
-  color: black;
+  position: relative;
   font-size: 35px;
 }
 .slider .slide {
   top: 0px;
+  color: black;
+  background-color: aqua;
 }
