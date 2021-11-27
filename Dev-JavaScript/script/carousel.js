@@ -39,6 +39,6 @@ function loop() {
 }   
 
 
-let date = new Date("2021-11-27");
+let date =  document.getElementById("date") = date;
+date = new Date("2021-11-27");
 console.log(date);
-date = document.getElementById("date") = date;
