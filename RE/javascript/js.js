@@ -752,6 +752,7 @@ let activeIndex1 = 1;
 let activeIndex2 = 2;
 let activeIndex3 = 3;
 let activeIndex4 = 4;
+let activeIndex5 = 5;
 
 window.onload = function () {
     const slides = document.getElementsByClassName("slide");
