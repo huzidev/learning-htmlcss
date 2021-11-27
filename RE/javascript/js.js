@@ -787,6 +787,7 @@ console.log(info.toUpperCase());
 //  CRAOUSEL BY JS
 
 let activeIndex = 0;
+let activeIndex = 1;
 
 window.onload = function () {  // MAKE SURE YOU PUT EQUAL SIGN AFTER WINDOW.ONLOAD
     const slides = document.getElementsByClassName("slide")
@@ -807,7 +808,7 @@ function loopSlides() {
         activeIndex = 0;
     }
 
-    
+
     slides[activeIndex].classList.add("active");
     console.log(slides.length, activeIndex);
 }   
