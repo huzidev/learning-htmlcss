@@ -760,5 +760,5 @@ window.onload = function () {
 };
 
 function loopSlides() {
-    const slides = 
+    const slides = document.getElementsByClassName("slide");
 }
