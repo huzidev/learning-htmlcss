@@ -9,7 +9,7 @@ let index5 = 5;
 window.onload = function () {  // MAKE SURE YOU PUT EQUAL SIGN AFTER WINDOW.ONLOAD
     const slides = document.getElementsByClassName("slide")
 
-    slides[index].classList.add("active"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[index].classList.add("real"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
     slides[index].classList.add("img") // THIS IS THE METHOD FOR ADDING CLASSES BY JS
     slides[index1].classList.add("img-1"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
     slides[index2].classList.add("img-2"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
@@ -24,7 +24,7 @@ window.onload = function () {  // MAKE SURE YOU PUT EQUAL SIGN AFTER WINDOW.ONLO
 
 function loopSlides() {
     const slides = document.getElementsByClassName("slide");
-    slides[index].classList.remove("active");
+    slides[index].classList.remove("real");
     activeIndex++;
 
     if (index == slides.length) {
@@ -32,6 +32,6 @@ function loopSlides() {
     }
 
 
-    slides[index].classList.add("active");
+    slides[index].classList.add("real");
     console.log(slides.length, index);
 }   
