@@ -31,8 +31,10 @@
 .slider .slide h1 {
   text-decoration: underline;
   text-underline-offset: 5px;
+  font-size: 45px;
 }
 .slider .slide p {
+  font-size: 35px;
   opacity: 0.5;
   margin-top: 5px;
 }
