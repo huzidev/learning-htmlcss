@@ -751,4 +751,6 @@ let activeIndex = 0;
 
 window.onload function () {
     const slides = document.getElementsByClassName("slide");
+
+    slides[activeIndex].classList.add('active');
 }
