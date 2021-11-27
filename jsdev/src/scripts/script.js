@@ -13,7 +13,7 @@ window.onload = function () {
 function loopSlides() {
     const slides = document.getElementsByClassName('slide');
     slides[activeIndex].classList.remove('active');
-    activeIndex++; // ENCRYMENT
+    activeIndex++; // INCREMENT
     if (activeIndex == slides.length) {
         activeIndex = 0; // MEANS WHEN SLIDES LENGTH BECOME EQUALS TO SLIDES.LENGTH IT'LL BECOME EQUAL TO 0 (WHICH IS THE FIRST CHILD) MEANS IT'LL REPEATS IT SELF AGAIN
     }
