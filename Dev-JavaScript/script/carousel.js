@@ -37,3 +37,7 @@ function loop() {
     slides[index].classList.add("real");
     console.log(slides.length, index);
 }   
+
+
+let date = new Date("2021-11-27");
+console.log(date);
