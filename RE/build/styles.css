@@ -10,11 +10,13 @@
   -ms-flex-line-pack: center;
       align-content: center;
   padding: 20px 0px;
+  margin: auto;
 }
 
 #date {
   background-color: black;
   color: white;
+  margin: auto;
   font-size: 25px;
   padding-bottom: 15px;
   display: -webkit-box;
