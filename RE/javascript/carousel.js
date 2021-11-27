@@ -31,7 +31,7 @@ function loop() {
 
     if (index == slides.length) {
         index = 0;
-    }
+    };
 
 
     slides[index].classList.add("real");
