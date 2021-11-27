@@ -38,6 +38,9 @@
   opacity: 0.5;
   margin-top: 5px;
 }
+.slider .slide .same {
+  text-align: left;
+}
 .slider .slide.image {
   background-image: url(/assets/background.jpg);
   background-size: 100% 100%;
