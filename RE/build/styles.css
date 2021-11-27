@@ -6,6 +6,11 @@
   display: flex;
 }
 
+#date {
+  background-color: black;
+  color: white;
+}
+
 .slider {
   width: 1381px;
   margin: auto;
