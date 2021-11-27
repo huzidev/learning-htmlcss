@@ -29,58 +29,54 @@
       align-content: center;
 }
 
-.slider {
+.slider-1 {
   width: 1381px;
   margin: auto;
   height: 700px;
-  position: relative;
   overflow: hidden;
+  position: relative;
   -webkit-box-shadow: 0px 0px 21px -5px black;
           box-shadow: 0px 0px 21px -5px black;
-  font-size: 35px;
 }
-.slider .slide {
+.slider-1 .slide-1 {
   top: 0px;
-  color: black;
   width: 100%;
-  padding: 20px;
   height: 100%;
-  background-color: aqua;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-size: 45px;
   position: absolute;
-  -webkit-transition: all 600ms ease;
-  transition: all 600ms ease;
-  top: -100%;
+  left: -100%;
+  -webkit-transition: all 800ms ease;
+  transition: all 800ms ease;
   opacity: 0;
 }
-.slider .slide.img {
+.slider-1 .slide-1.img {
+  background-image: url(/assets/linux.png);
+  background-size: 100% 100%;
+}
+.slider-1 .slide-1.img-1 {
+  background-image: url(/assets/code.jpg);
+  background-size: 100% 100%;
+}
+.slider-1 .slide-1.img-2 {
+  background-size: 100% 100%;
+  background-image: url(/assets/code1.jpg);
+}
+.slider-1 .slide-1.img-3 {
+  background-image: url(/assets/linuuu.png);
+  background-size: 100% 100%;
+}
+.slider-1 .slide-1.img-4 {
+  background-image: url(/assets/code3.jpg);
+  background-size: 100% 100%;
+}
+.slider-1 .slide-1.img-5 {
   background-image: url(/assets/background.jpg);
   background-size: 100% 100%;
 }
-.slider .slide.img-1 {
-  background-image: url(/assets/linux.png);
-  background-size: 100% 100%;
-  color: white;
-}
-.slider .slide.img-2 {
-  background-image: url(/assets/linuuu.png);
-  background-size: 100% 100%;
-  color: white;
-}
-.slider .slide.img-3 {
-  background-image: url(/assets/hik.jpg);
-  background-size: 100% 100%;
-  color: white;
-}
-.slider .slide.img-4 {
-  background-image: url(/assets/hik-3.jpg);
-  background-size: 100% 100%;
-}
-.slider .slide.img-5 {
-  background-image: url(/assets/code.jpg);
-  background-size: 100% 100%;
-  color: white;
-}
-.slider .slide.active {
+.slider-1 .slide-1.active {
+  left: 0px;
   opacity: 1;
-  top: 0px;
 }
