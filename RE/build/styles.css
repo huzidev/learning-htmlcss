@@ -23,6 +23,10 @@
   background-image: url(/assets/linux.png);
   background-size: 100% 100%;
 }
+.slider .slide.img-1 {
+  background-image: url(/assets/hik.jpg);
+  background-size: 100% 100%;
+}
 .slider .slide.active {
   left: 0px;
   opacity: 1;
