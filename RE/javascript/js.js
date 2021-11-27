@@ -753,5 +753,8 @@ window.onload = function () {
     const slides = document.getElementsByClassName("slide");
 
     slides[activeIndex].classList.add('active');
-    activeIndex++; // MEANS INCREMENT
+
+    setInterval(() => {
+        loopSlides();
+    }, 1000);
 }
