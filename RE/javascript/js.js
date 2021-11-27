@@ -764,15 +764,15 @@ window.onload = function () {
     slides[activeIndex3].classList.add("img-3");
     slides[activeIndex4].classList.add("img-4");
     slides[activeIndex5].classList.add("img-5");
-
     
     setInterval(() => {
         loopSlides();
-    }, 3000);
+    }, 1000);
 };
 
 function loopSlides() {
     const slides = document.getElementsByClassName("slide");
+    document.getElementsByClassName("img").innerHTML = `<h1>Hello</h1>`;
 
     slides[activeIndex].classList.remove('active');
     activeIndex++; // INCREMENT WILL JUST START THE LOOP BUT NOT ANY FURTHER THAN THE FIRST SELECTED CHILD UNTIL & UNLESS WE USED IF, ELSE CONDITION
