@@ -763,5 +763,5 @@ function loopSlides() {
     const slides = document.getElementsByClassName("slide");
 
     slides[activeIndex].classList.remove('active');
-    activeIndex++;
+    activeIndex++; // INCREMENT WILL JUST START THE LOOP BUT NOT ANY FURTHER THAN THE FIRST SELECTED CHILD UNTIL & UNLESS WE USED IF, ELSE CONDITION
 }
