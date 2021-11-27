@@ -764,4 +764,7 @@ function loopSlides() {
 
     slides[activeIndex].classList.remove('active');
     activeIndex++; // INCREMENT WILL JUST START THE LOOP BUT NOT ANY FURTHER THAN THE FIRST SELECTED CHILD UNTIL & UNLESS WE USED IF, ELSE CONDITION
+    if (activeIndex == slides.length) {
+        activeIndex = 0;
+    }
 }
