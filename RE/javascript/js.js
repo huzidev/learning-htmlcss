@@ -758,7 +758,9 @@ window.onload = function () {
 
     slides[activeIndex].classList.add('active');
     slides[activeIndex].classList.add("img");
-    slides[activeIndex1].classList.add("img-1")
+    slides[activeIndex1].classList.add("img-1");
+    slides[activeIndex2].classList.add("img-2");
+    
     setInterval(() => {
         loopSlides();
     }, 1000);
