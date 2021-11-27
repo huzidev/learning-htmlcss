@@ -20,14 +20,14 @@ window.onload = function () {  // MAKE SURE YOU PUT EQUAL SIGN AFTER WINDOW.ONLO
     slides[index5].classList.add("image-5"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
 
     setInterval(() => {
-        loopSlides();
+        loop();
     }, 2000);
 };
 
-function loopSlides() {
+function loop() {
     const slides = document.getElementsByClassName("slide");
     slides[index].classList.remove("real");
-    activeIndex++;
+    index++;
 
     if (index == slides.length) {
         index = 0;
