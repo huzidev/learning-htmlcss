@@ -748,13 +748,17 @@ console.log(info.toUpperCase());
 
 
 let activeIndex = 0;
+let activeIndex1 = 1;
+let activeIndex2 = 2;
+let activeIndex3 = 3;
+let activeIndex4 = 4;
 
 window.onload = function () {
     const slides = document.getElementsByClassName("slide");
 
     slides[activeIndex].classList.add('active');
     slides[activeIndex].classList.add("img");
-
+    slides[activeIndex1].classList.add("img-1")
     setInterval(() => {
         loopSlides();
     }, 1000);
