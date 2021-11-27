@@ -49,6 +49,9 @@
 .slider .slide .linux-head {
   margin-top: 450px;
 }
+.slider .slide .same-m {
+  text-align: left;
+}
 .slider .slide.image {
   background-image: url(/assets/background.jpg);
   background-size: 100% 100%;
