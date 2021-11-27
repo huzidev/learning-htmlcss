@@ -753,10 +753,11 @@ window.onload = function () {
     const slides = document.getElementsByClassName("slide");
 
     slides[activeIndex].classList.add('active');
+    slides[activeIndex].classList.add("img");
 
     setInterval(() => {
         loopSlides();
-    }, 1000);
+    }, 3000);
 };
 
 function loopSlides() {
