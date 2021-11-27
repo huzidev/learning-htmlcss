@@ -104,30 +104,30 @@
   top: -100%;
   opacity: 0;
 }
-.slider .slide.img {
+.slider .slide.image {
   background-image: url(/assets/background.jpg);
   background-size: 100% 100%;
 }
-.slider .slide.img-1 {
+.slider .slide.image-1 {
   background-image: url(/assets/linux.png);
   background-size: 100% 100%;
   color: white;
 }
-.slider .slide.img-2 {
+.slider .slide.image-2 {
   background-image: url(/assets/linuuu.png);
   background-size: 100% 100%;
   color: white;
 }
-.slider .slide.img-3 {
+.slider .slide.image-3 {
   background-image: url(/assets/hik.jpg);
   background-size: 100% 100%;
   color: white;
 }
-.slider .slide.img-4 {
+.slider .slide.image-4 {
   background-image: url(/assets/hik-3.jpg);
   background-size: 100% 100%;
 }
-.slider .slide.img-5 {
+.slider .slide.image-5 {
   background-image: url(/assets/code.jpg);
   background-size: 100% 100%;
   color: white;
