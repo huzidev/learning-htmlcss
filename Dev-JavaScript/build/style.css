@@ -51,9 +51,10 @@
 }
 .slider .slide .same-m {
   text-align: left;
+  margin-left: 50px;
 }
 .slider .slide .mountains {
-  margin-top: 210px;
+  margin-top: 200px;
 }
 .slider .slide.image {
   background-image: url(/assets/background.jpg);
