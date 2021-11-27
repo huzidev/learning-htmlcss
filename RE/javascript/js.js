@@ -797,7 +797,11 @@ window.onload = function () {  // MAKE SURE YOU PUT EQUAL SIGN AFTER WINDOW.ONLO
     const slides = document.getElementsByClassName("slide")
 
     slides[activeIndex].classList.add("active");
-    slides[activeIndex1].classList.add("img");
+    slides[activeIndex1].classList.add("img-1");
+    slides[activeIndex2].classList.add("img-2");
+    slides[activeIndex3].classList.add("img-3");
+    slides[activeIndex4].classList.add("img-4");
+    slides[activeIndex5].classList.add("img-5");
 
     setInterval(() => {
         loopSlides();
