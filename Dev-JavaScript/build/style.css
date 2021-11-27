@@ -41,10 +41,11 @@
   text-align: left;
 }
 .slider .slide .head {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .slider .slide .macbook {
   text-align: right;
+  margin-right: 50px;
 }
 .slider .slide .linux-head {
   margin-top: 450px;
