@@ -26,6 +26,7 @@
   transition: all 600ms ease;
   top: -100%;
   opacity: 0;
+  text-align: center;
 }
 .slider .slide.image {
   background-image: url(/assets/background.jpg);
