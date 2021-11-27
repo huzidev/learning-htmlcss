@@ -9,6 +9,7 @@
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  padding: 20px 0px;
 }
 
 #date {
