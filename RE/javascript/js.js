@@ -749,7 +749,7 @@ console.log(info.toUpperCase());
 
 let activeIndex = 0;
 
-window.onload function () {
+window.onload = function () {
     const slides = document.getElementsByClassName("slide");
 
     slides[activeIndex].classList.add('active');
