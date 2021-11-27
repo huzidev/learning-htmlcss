@@ -797,6 +797,7 @@ window.onload = function () {  // MAKE SURE YOU PUT EQUAL SIGN AFTER WINDOW.ONLO
     const slides = document.getElementsByClassName("slide")
 
     slides[activeIndex].classList.add("active"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[activeIndex].classList.add("img") // THIS IS THE METHOD FOR ADDING CLASSES BY JS
     slides[activeIndex1].classList.add("img-1"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
     slides[activeIndex2].classList.add("img-2"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
     slides[activeIndex3].classList.add("img-3"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
