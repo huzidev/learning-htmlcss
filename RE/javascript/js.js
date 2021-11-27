@@ -796,12 +796,12 @@ let activeIndex5 = 5;
 window.onload = function () {  // MAKE SURE YOU PUT EQUAL SIGN AFTER WINDOW.ONLOAD
     const slides = document.getElementsByClassName("slide")
 
-    slides[activeIndex].classList.add("active");
-    slides[activeIndex1].classList.add("img-1");
-    slides[activeIndex2].classList.add("img-2");
-    slides[activeIndex3].classList.add("img-3");
-    slides[activeIndex4].classList.add("img-4");
-    slides[activeIndex5].classList.add("img-5");
+    slides[activeIndex].classList.add("active"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[activeIndex1].classList.add("img-1"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[activeIndex2].classList.add("img-2"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[activeIndex3].classList.add("img-3"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[activeIndex4].classList.add("img-4"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
+    slides[activeIndex5].classList.add("img-5"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
 
     setInterval(() => {
         loopSlides();
