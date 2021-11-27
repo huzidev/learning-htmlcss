@@ -28,8 +28,13 @@
   opacity: 0;
   text-align: center;
 }
+.slider .slide h1 {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
 .slider .slide p {
-  opacity: 0.7;
+  opacity: 0.5;
+  margin-top: 5px;
 }
 .slider .slide.image {
   background-image: url(/assets/background.jpg);
