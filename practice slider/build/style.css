@@ -72,3 +72,7 @@ body {
 .manual-btn:hover {
   background-color: aqua;
 }
+
+#radio-1:checked ~ .first {
+  margin-left: 0;
+}
