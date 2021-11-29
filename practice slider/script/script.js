@@ -8,5 +8,6 @@ setInterval(() => {
 };
 
 function loop() {
-    console slide = document.getElementsByClassName("slide");    
+    const slide = document.getElementsByClassName("slide"); 
+    slide[index].classList.remove("active");
 }
