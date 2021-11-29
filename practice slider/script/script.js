@@ -32,4 +32,10 @@ window.onload = function () {
 
 function loop() {
     const slide = doc.getElementsByClassName("repeat");
+    slide[i].classList.remove("active");
+    i++;
+    if ( i == slide.length) {
+        i = 0;
+    }
+    slide[i].classList.add("active");
 }
