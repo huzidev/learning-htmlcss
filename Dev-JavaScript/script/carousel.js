@@ -73,5 +73,5 @@ function slideBar() {
     carousel[init].classList.remove("active");  
 
     if( init == carousel.length )
-    
+    init = 0;
 }
