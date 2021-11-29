@@ -57,3 +57,7 @@ let init6 = 6;
 let init7 = 7;
 let init8 = 8;
 let init9 = 9;
+
+window.onload = function () {
+    const carousel = document.getElementsByClassName("repeat");
+}
