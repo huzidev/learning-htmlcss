@@ -197,4 +197,8 @@ header {
   margin: auto;
   -webkit-animation-name: js;
           animation-name: js;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
