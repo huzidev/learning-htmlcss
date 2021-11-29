@@ -54,4 +54,7 @@ body {
   border: 2px solid black;
   padding: 5px;
   border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: 1000ms;
+  transition: 1000ms;
 }
