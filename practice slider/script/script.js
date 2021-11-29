@@ -5,4 +5,4 @@ let index = 1
     setInterval(() => {
         loop()
     }, 2000);
-}
+};
