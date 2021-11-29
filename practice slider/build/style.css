@@ -43,3 +43,8 @@ body {
   -webkit-transition: 2000ms;
   transition: 2000ms;
 }
+
+.nav-manual {
+  position: absolute;
+  width: 800px;
+}
