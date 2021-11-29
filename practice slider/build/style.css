@@ -14,6 +14,11 @@ body {
   background-color: aqua;
 }
 
+.img {
+  height: 1080px;
+  width: 1080px;
+}
+
 .slider {
   width: 800px;
   height: 500px;
