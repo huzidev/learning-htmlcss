@@ -10,4 +10,7 @@ setInterval(() => {
 function loop() {
     const slide = document.getElementsByClassName("slide"); 
     slide[index].classList.remove("active");
+    if () {
+        
+    }
 }
