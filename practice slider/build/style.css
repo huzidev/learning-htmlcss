@@ -48,6 +48,12 @@ body {
   position: absolute;
   width: 800px;
   margin-top: -40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .manual-btn {
