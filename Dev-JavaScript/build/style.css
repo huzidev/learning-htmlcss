@@ -47,6 +47,18 @@
   background-image: url(/assets/background.jpg);
   background-size: 100% 100%;
 }
+.carousel .repeat.img-7 {
+  background-image: url(/assets/Landscape.jfif);
+  background-size: 100% 100%;
+}
+.carousel .repeat.img-8 {
+  background-image: url(/assets/linuuu.png);
+  background-size: 100% 100%;
+}
+.carousel .repeat.img-9 {
+  background-image: url(/assets/top.jpg);
+  background-size: 100% 100%;
+}
 .carousel .repeat.active {
   opacity: 1;
   bottom: 0px;

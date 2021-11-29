@@ -74,7 +74,7 @@ window.onload = function () {
 
     setInterval(() => {
         slideBar();
-    }, 2000);
+    }, 1000);
 };
 
 
