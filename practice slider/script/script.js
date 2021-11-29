@@ -36,7 +36,7 @@ function loop() {
     i++; // REMEMBER WE'VE TO PUT INCREMENT ONLY IN (LOOP)
     if ( i == slide.length) {
         i = 0;
-    }
+    };
     slide[i].classList.add("active");
     console.log(slide.length, i);
-}
+};
