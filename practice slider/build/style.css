@@ -24,12 +24,16 @@ body {
   height: 500px;
   overflow: hidden;
   border-radius: 15px;
+}
+
+.slides {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 500%;
+  height: 500px;
 }
 
-.slides {
-  height: 500px;
+.slides input {
+  display: none;
 }
