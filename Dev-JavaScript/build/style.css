@@ -38,9 +38,6 @@
   opacity: 0;
   text-align: center;
 }
-.slider .slide .right {
-  position: absolute;
-}
 .slider .slide h1 {
   text-decoration: underline;
   text-underline-offset: 5px;
