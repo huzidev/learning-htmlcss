@@ -151,4 +151,10 @@ header {
   width: 1200px;
   border-radius: 15px;
   margin: 20px auto;
+  -webkit-animation: slider;
+          animation: slider;
+  -webkit-animation-duration: 4000ms;
+          animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
