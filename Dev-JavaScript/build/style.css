@@ -56,9 +56,13 @@
   opacity: 0;
   font-size: 25px;
   text-align: center;
+  color: red;
 }
 .carousel .repeat h1 {
   margin-top: 20px;
+}
+.carousel .repeat p {
+  opacity: 0.6;
 }
 .carousel .repeat.img {
   background-image: url(/assets/linux.png);
