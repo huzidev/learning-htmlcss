@@ -62,6 +62,15 @@ window.onload = function () {
     const carousel = document.getElementsByClassName("repeat");
     carousel[init].classList.add("active");
     carousel[init].classList.add("img");
+    carousel[init1].classList.add("img-1");
+    carousel[init2].classList.add("img-2");
+    carousel[init3].classList.add("img-3");
+    carousel[init4].classList.add("img-4");
+    carousel[init5].classList.add("img-5");
+    carousel[init6].classList.add("img-6");
+    carousel[init7].classList.add("img-7");
+    carousel[init8].classList.add("img-8");
+    carousel[init9].classList.add("img-9");
 
     setInterval(() => {
         slideBar();
