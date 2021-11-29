@@ -64,3 +64,11 @@ body {
   -webkit-transition: 1000ms;
   transition: 1000ms;
 }
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover {
+  background-color: aqua;
+}
