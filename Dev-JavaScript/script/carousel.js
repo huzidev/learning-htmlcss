@@ -74,7 +74,6 @@ function slideBar() {
     init++; 
 
     if( init == carousel.length ){
-
         init = 0;
     };
 

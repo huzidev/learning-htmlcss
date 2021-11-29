@@ -11,5 +11,10 @@
   height: 100%;
   background-color: yellow;
   position: absolute;
-  bottom: -100%;
+  top: -100%;
+  opacity: 0;
+}
+.carousel .repeat.active {
+  opacity: 1;
+  top: 0px;
 }
