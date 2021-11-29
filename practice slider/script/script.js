@@ -13,3 +13,4 @@ console.log(day);
 
 let watch = new Date();
 watch = document.getElementById("watch").innerHTML = watch;
+console.log(watch);
