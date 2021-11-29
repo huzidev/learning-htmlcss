@@ -77,5 +77,6 @@ function sliderBar() {
     init = 0;
 
     carousel[init].classList.add("active");
+    console.log(carousel.length,init);
 
 };
