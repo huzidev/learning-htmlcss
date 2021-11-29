@@ -11,7 +11,8 @@
   bottom: 0px;
   width: 100%;
   height: 100%;
-  background-image: url(/);
+  background-image: url(/assets/linux.png);
+  background-size: 100% 100%;
   -webkit-transition: all 900ms ease;
   transition: all 900ms ease;
   background-color: yellow;
