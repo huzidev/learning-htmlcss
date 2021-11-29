@@ -11,4 +11,5 @@ let day = new Date("2021-11-29");
 day = document.getElementById("day").innerHTML = day;
 console.log(day);
 
-let live = new Date();
+let watch = new Date();
+watch = document.getElementById("watch").innerHTML = watch;
