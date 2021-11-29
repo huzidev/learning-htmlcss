@@ -65,7 +65,7 @@ window.onload = function () {
     setInterval(() => {
         sliderBar()
     }, 2000);
-}
+};
 
 
 function slideBar() {
@@ -75,4 +75,4 @@ function slideBar() {
 
     if( init == carousel.length )
     init = 0;
-}
+};
