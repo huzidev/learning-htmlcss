@@ -8,6 +8,11 @@ header {
   background-color: black;
   color: white;
   text-align: center;
+  padding: 10px 0px;
+}
+
+#day, #watch {
+  margin: 10px 0px;
 }
 
 .img {
