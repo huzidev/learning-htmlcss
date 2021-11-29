@@ -66,3 +66,8 @@ window.onload = function () {
         sliderBar()
     }, 2000);
 }
+
+
+function slideBar() {
+    
+}
