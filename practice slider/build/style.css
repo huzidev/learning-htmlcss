@@ -217,6 +217,12 @@ header {
   66% {
     background-image: url(/assets/Landscape.jfif);
   }
+  88% {
+    background-image: url(/assets/hik-2.jpg.webp);
+  }
+  100% {
+    background-image: url();
+  }
 }
 
 @keyframes js {
@@ -228,5 +234,11 @@ header {
   }
   66% {
     background-image: url(/assets/Landscape.jfif);
+  }
+  88% {
+    background-image: url(/assets/hik-2.jpg.webp);
+  }
+  100% {
+    background-image: url();
   }
 }
