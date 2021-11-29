@@ -23,5 +23,5 @@ let i3 = 0;
 let i4 = 0;
 
 window.onload = function () {
-    
+    const slide = document.getElementsByClassName("repeat");
 }
