@@ -145,44 +145,6 @@ header {
   background-color: black;
 }
 
-#animation {
-  height: 800px;
-  width: 1200px;
-  border-radius: 15px;
-  margin: 20px auto;
-  background-image: url(/assets/linux.png);
-  background-size: 100% 100%;
-  -webkit-animation-name: js;
-          animation-name: js;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes js {
-  0% {
-    background-image: url(/assets/linux.png);
-  }
-  33% {
-    background-image: url(/assets/linux.png);
-  }
-  66% {
-    background-image: url(/assets/linux.png);
-  }
-}
-
-@keyframes js {
-  0% {
-    background-image: url(/assets/linux.png);
-  }
-  33% {
-    background-image: url(/assets/linux.png);
-  }
-  66% {
-    background-image: url(/assets/linux.png);
-  }
-}
 #carousel {
   height: 800px;
   width: 1200px;
