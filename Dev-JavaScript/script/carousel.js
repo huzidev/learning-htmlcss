@@ -43,7 +43,7 @@ let date = new Date("2021-11-27");
 date = document.getElementById("date").innerHTML = date;
 console.log(date);
 
-
+let live = new Date()
 
 
 
