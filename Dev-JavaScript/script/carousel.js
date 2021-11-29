@@ -21,7 +21,7 @@ onload = function () {  // MAKE SURE YOU PUT (EQUAL) SIGN AFTER WINDOW.ONLOAD
 
     setInterval(() => {
         loop();
-    }, 2000);
+    }, 8000);
 };
 
 function loop() {
@@ -32,8 +32,6 @@ function loop() {
     if (index == slides.length) {
         index = 0;
     };
-
-
     slides[index].classList.add("real");
     console.log(slides.length, index);
 }   

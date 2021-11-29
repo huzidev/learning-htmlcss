@@ -56,6 +56,11 @@
   opacity: 0;
   text-align: center;
 }
+.slider .slide .text {
+  opacity: 0;
+  -webkit-transition: all 400ms ease 600ms;
+  transition: all 400ms ease 600ms;
+}
 .slider .slide h1 {
   text-decoration: underline;
   text-underline-offset: 5px;
@@ -117,4 +122,7 @@
 .slider .slide.real {
   opacity: 1;
   top: 0px;
+}
+.slider .slide.real .text {
+  opacity: 1;
 }
