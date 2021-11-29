@@ -44,7 +44,7 @@ date = document.getElementById("date").innerHTML = date;
 console.log(date);
 
 let live = new Date()
-
+live = document.getElementById("live").innerHTML = live;
 
 
 let init = 0;
