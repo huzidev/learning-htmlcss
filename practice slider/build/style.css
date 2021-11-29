@@ -148,5 +148,7 @@ header {
 #animation {
   background-color: aqua;
   height: 500px;
-  width: 1300px;
+  width: 1200px;
+  border-radius: 15px;
+  margin: 20px auto;
 }
