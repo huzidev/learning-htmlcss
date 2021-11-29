@@ -16,20 +16,20 @@ watch = document.getElementById("watch").innerHTML = watch;
 console.log(watch);
 
 
-let i = 0;
-let i1 = 0;
-let i2 = 0;
-let i3 = 0;
-let i4 = 0;
+let init = 0;
+let init1 = 1;
+let init2 = 2;
+let init3 = 3;
+let init4 = 4;
 
 window.onload = function () {
     const slide = document.getElementsByClassName("repeat");
-    slide[i].classList.add("active");
-    slide[i].classList.add("img");
-    slide[i1].classList.add("img1");
-    slide[i2].classList.add("img2");
-    slide[i3].classList.add("img3");
-    slide[i4].classList.add("img4");
+    slide[init].classList.add("active");
+    slide[init].classList.add("img");
+    slide[init1].classList.add("img-1");
+    slide[init2].classList.add("img-2");
+    slide[init3].classList.add("img-3");
+    slide[init4].classList.add("img-4");
     setInterval(() => {
         loop();
     }, 3000);
@@ -37,11 +37,11 @@ window.onload = function () {
 
 function loop() {
     const slide = document.getElementsByClassName("repeat");
-    slide[i].classList.remove("active");
-    i++; // REMEMBER WE'VE TO PUT INCREMENT ONLY IN (LOOP)
-    if ( i == slide.length) {
-        i = 0;
+    slide[init].classList.remove("active");
+    init++; // REMEMBER WE'VE TO PUT INCREMENT ONLY IN (LOOP)
+    if ( init == slide.length) {
+        init = 0;
     };
-    slide[i].classList.add("active");
-    console.log(slide.length, i);
+    slide[init].classList.add("active");
+    console.log(slide.length, init);
 };

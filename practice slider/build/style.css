@@ -186,6 +186,22 @@ header {
   background-image: url("/assets/linux.png");
   background-size: 100% 100%;
 }
+#carousel .repeat.img-1 {
+  background-image: url("/assets/linuuu.png");
+  background-size: 100% 100%;
+}
+#carousel .repeat.img-2 {
+  background-image: url("/assets/Landscape.jfif");
+  background-size: 100% 100%;
+}
+#carousel .repeat.img-3 {
+  background-image: url("/assets/hik.jpg");
+  background-size: 100% 100%;
+}
+#carousel .repeat.img-4 {
+  background-image: url("/assets/hik-2.jpg.webp");
+  background-size: 100% 100%;
+}
 #carousel .repeat.active {
   opacity: 1;
   left: 0px;
