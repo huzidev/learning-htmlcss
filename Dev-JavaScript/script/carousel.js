@@ -60,4 +60,5 @@ let init9 = 9;
 
 window.onload = function () {
     const carousel = document.getElementsByClassName("repeat");
+    carousel[init].classList.add("active");
 }
