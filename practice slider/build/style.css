@@ -96,3 +96,7 @@ body {
   display: flex;
   width: 800px;
 }
+
+.nav-auto div {
+  border: 2px solid black;
+}
