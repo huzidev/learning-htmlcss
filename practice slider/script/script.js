@@ -21,3 +21,7 @@ let i1 = 0;
 let i2 = 0;
 let i3 = 0;
 let i4 = 0;
+
+window.onload = function () {
+    
+}
