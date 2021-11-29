@@ -91,16 +91,17 @@
     height: 800px
     width: 1200px
     background-color: aqua
-    margin: auto
+    margin: 50px auto
     position: relative
     .repeat
-        top: 0px
+        bottom: 0px
         width: 100%
         height: 100%
+        transition: all 600ms ease
         background-color: yellow
         position: absolute
-        top: -100%
+        bottom: -100%
         opacity: 0
         &.active
             opacity: 1
-            top: 0px
+            bottom: 0px
