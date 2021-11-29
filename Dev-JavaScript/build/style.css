@@ -4,3 +4,7 @@
   background-color: aqua;
   margin: auto;
 }
+.carousel .repeat {
+  width: 100%;
+  height: 100%;
+}
