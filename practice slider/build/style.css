@@ -24,12 +24,12 @@ body {
   height: 500px;
   overflow: hidden;
   border-radius: 15px;
-}
-
-.slider .slides {
-  height: 500px;
-  width: 500%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 500%;
+}
+
+.slides {
+  height: 500px;
 }
