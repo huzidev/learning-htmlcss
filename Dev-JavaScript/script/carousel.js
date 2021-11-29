@@ -68,11 +68,14 @@ window.onload = function () {
 };
 
 
-function slideBar() {
+function sliderBar() {
     const carousel = document.getElementsByClassName("repeat");
     carousel[init].classList.remove("active"); 
     init++; 
 
     if( init == carousel.length )
     init = 0;
+
+    carousel[init].classList.add("active");
+
 };
