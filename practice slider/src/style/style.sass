@@ -110,13 +110,21 @@ header
 
 
 #animation
-    background-color: aqua
     height: 500px
     width: 1200px
     border-radius: 15px
     margin: 20px auto
-    animation: slider
-    animation-duration: 4000ms
+    // background-image: url(/assets/linux.png)
+    // background-size: 100% 100%
+    animation-name: slider
+    animation-duration: 4s
     animation-iteration-count: infinite
 
 @keyframes slider
+    0%{
+        background-image: url(/assets/linux.png)
+        }
+
+    33%{
+        background-image: url (/assets/code.jpg) 
+        }

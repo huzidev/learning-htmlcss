@@ -146,13 +146,13 @@ header {
 }
 
 #animation {
-  background-color: aqua;
   height: 500px;
   width: 1200px;
   border-radius: 15px;
   margin: 20px auto;
-  -webkit-animation: slider;
-          animation: slider;
+  background-image: url(/assets/linux.png);
+  -webkit-animation-name: slider;
+          animation-name: slider;
   -webkit-animation-duration: 4000ms;
           animation-duration: 4000ms;
   -webkit-animation-iteration-count: infinite;
