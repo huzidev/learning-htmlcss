@@ -7,3 +7,4 @@ setInterval(function(){
     }
 }, 3000);
 
+let day = new Date();
