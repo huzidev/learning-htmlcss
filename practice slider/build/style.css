@@ -62,7 +62,7 @@ header {
 
 .nav-manual {
   position: absolute;
-  width: 800px;
+  width: 1200px;
   margin-top: -50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,7 +110,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 800px;
+  width: 1200px;
   margin-top: 750px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
