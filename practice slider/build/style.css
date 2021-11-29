@@ -30,6 +30,12 @@ header {
   border-radius: 15px;
 }
 
+.nav {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
 .slides {
   display: -webkit-box;
   display: -ms-flexbox;
