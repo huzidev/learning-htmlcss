@@ -23,6 +23,28 @@
   background-image: url(/assets/linux.png);
   background-size: 100% 100%;
 }
+.carousel .repeat.img {
+  background-image: url(/assets/linux.png);
+  background-size: 100% 100%;
+}
+.carousel .repeat.img {
+  background-image: url(/assets/linux.png);
+  background-size: 100% 100%;
+  background-image: url(/assets/linux.png);
+  background-size: 100% 100%;
+  background-image: url(/assets/linux.png);
+  background-size: 100% 100%;
+  background-image: url(/assets/linux.png);
+  background-size: 100% 100%;
+  background-image: url(/assets/linux.png);
+  background-size: 100% 100%;
+  background-image: url(/assets/linux.png);
+  background-size: 100% 100%;
+  background-image: url(/assets/linux.png);
+  background-size: 100% 100%;
+  background-image: url(/assets/linux.png);
+  background-size: 100% 100%;
+}
 .carousel .repeat.active {
   opacity: 1;
   bottom: 0px;
