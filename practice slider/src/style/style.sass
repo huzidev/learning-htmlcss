@@ -137,6 +137,13 @@ header
     position: relative
     .repeat
         background-color: yellow
-        left: 0px
+        // left: 0px
         height: 100%
         width: 100%
+        transition: all 600ms ease
+        position: absolute
+        left: -100%
+        opacity: 0
+        &.active
+            opacity: 1
+            left: 0px
