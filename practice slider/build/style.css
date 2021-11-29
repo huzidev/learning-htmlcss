@@ -88,3 +88,10 @@ body {
 #radio-4:checked ~ .first {
   margin-left: -60%;
 }
+
+.nav-auto {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
