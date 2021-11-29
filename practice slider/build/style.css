@@ -158,3 +158,10 @@ header {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
+
+#carousel {
+  height: 500px;
+  width: 500px;
+  margin: 20px auto;
+  background-color: aqua;
+}
