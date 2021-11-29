@@ -47,4 +47,11 @@ body {
 .nav-manual {
   position: absolute;
   width: 800px;
+  margin-top: -40px;
+}
+
+.manual-btn {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
 }
