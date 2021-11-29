@@ -70,7 +70,8 @@ window.onload = function () {
 
 function slideBar() {
     const carousel = document.getElementsByClassName("repeat");
-    carousel[init].classList.remove("active");  
+    carousel[init].classList.remove("active"); 
+    init++; 
 
     if( init == carousel.length )
     init = 0;
