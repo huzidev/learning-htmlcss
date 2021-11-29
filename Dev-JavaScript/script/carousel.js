@@ -70,4 +70,5 @@ window.onload = function () {
 
 function slideBar() {
     const carousel = document.getElementsByClassName("repeat");
+    carousel[init].classList.remove("active");
 }
