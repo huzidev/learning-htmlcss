@@ -48,3 +48,12 @@
 
 
 let init = 0;
+let init1 = 1;
+let init2 = 2;
+let init3 = 3;
+let init4 = 4;
+let init5 = 5;
+let init6 = 6;
+let init7 = 7;
+let init8 = 8;
+let init9 = 9;
