@@ -14,3 +14,10 @@ console.log(day);
 let watch = new Date();
 watch = document.getElementById("watch").innerHTML = watch;
 console.log(watch);
+
+
+let i = 0;
+let i1 = 0;
+let i2 = 0;
+let i3 = 0;
+let i4 = 0;
