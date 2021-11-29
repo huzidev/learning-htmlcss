@@ -14,4 +14,5 @@ function loop() {
     if (index == slide.length) {
         index = 0;
     }
+    slide[index].classList.add("active")
 }
