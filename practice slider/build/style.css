@@ -164,4 +164,8 @@ header {
   width: 500px;
   margin: 20px auto;
   background-color: aqua;
+  position: relative;
+}
+#carousel .repeat {
+  background-color: yellow;
 }
