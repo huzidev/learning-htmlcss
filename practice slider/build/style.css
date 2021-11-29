@@ -151,6 +151,7 @@ header {
   border-radius: 15px;
   margin: 20px auto;
   background-image: url(/assets/linux.png);
+  background-size: 100% 100%;
   -webkit-animation-name: slider;
           animation-name: slider;
   -webkit-animation-duration: 3s;
@@ -161,13 +162,14 @@ header {
 
 #carousel {
   height: 500px;
-  width: 500px;
+  width: 800px;
   margin: 20px auto;
   position: relative;
   overflow: hidden;
+  border-radius: 15px;
+  width: 1200px;
   -webkit-box-shadow: 0px 0px 21px -5px black;
           box-shadow: 0px 0px 21px -5px black;
-  border-radius: 15px;
 }
 #carousel .repeat {
   background-color: yellow;
