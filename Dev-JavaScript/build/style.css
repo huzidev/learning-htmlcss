@@ -11,8 +11,8 @@
   bottom: 0px;
   width: 100%;
   height: 100%;
-  -webkit-transition: all 600ms ease;
-  transition: all 600ms ease;
+  -webkit-transition: all 900ms ease;
+  transition: all 900ms ease;
   background-color: yellow;
   position: absolute;
   bottom: -100%;
