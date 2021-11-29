@@ -190,3 +190,9 @@ header {
   opacity: 1;
   left: 0px;
 }
+
+#animation {
+  width: 1200px;
+  height: 500px;
+  background-color: black;
+}
