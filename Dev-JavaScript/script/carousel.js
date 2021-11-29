@@ -27,7 +27,7 @@ window.onload = function () {  // MAKE SURE YOU PUT (EQUAL) SIGN AFTER WINDOW.ON
 function loop() {
     const slides = document.getElementsByClassName("slide");
     slides[index].classList.remove("real");
-    index++;
+    index++;  // MAKE SURE WE INCREMENT OTHERWISE IT'LL NOT RUN
 
     if (index == slides.length) {
         index = 0;
