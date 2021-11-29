@@ -198,6 +198,7 @@ header {
           box-shadow: 0px 0px 21px -5px black;
   background-size: 100% 100%;
   margin: 20px auto;
+  border-radius: 15px;
   -webkit-animation-name: js;
           animation-name: js;
   -webkit-animation-duration: 5s;
@@ -210,8 +211,11 @@ header {
   0% {
     background-image: url(/assets/linux.png);
   }
-  100% {
+  33% {
     background-image: url(/assets/linuuu.png);
+  }
+  66% {
+    background-image: url(/assets/Landscape.jfif);
   }
 }
 
@@ -219,7 +223,10 @@ header {
   0% {
     background-image: url(/assets/linux.png);
   }
-  100% {
+  33% {
     background-image: url(/assets/linuuu.png);
+  }
+  66% {
+    background-image: url(/assets/Landscape.jfif);
   }
 }
