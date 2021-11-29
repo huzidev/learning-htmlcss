@@ -3,6 +3,6 @@ let index = 1
         const slide = document.getElementsByClassName("slide");
         slide[index].classList.add("active");
     setInterval(() => {
-        loop
-    }, interval);
+        loop()
+    }, 2000);
 }
