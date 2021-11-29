@@ -165,6 +165,9 @@ header {
   margin: 20px auto;
   position: relative;
   overflow: hidden;
+  -webkit-box-shadow: 0px 0px 21px -5px black;
+          box-shadow: 0px 0px 21px -5px black;
+  border-radius: 15px;
 }
 #carousel .repeat {
   background-color: yellow;
