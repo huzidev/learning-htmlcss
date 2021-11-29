@@ -29,3 +29,7 @@ window.onload = function () {
         loop();
     }, 3000);
 };
+
+function loop() {
+    const slide = doc.getElementsByClassName("repeat");
+}
