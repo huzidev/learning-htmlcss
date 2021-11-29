@@ -36,8 +36,10 @@ header {
   padding: 20px 0px;
   background-color: black;
   color: white;
+  font-weight: lighter;
   text-align: center;
   text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .slides {
