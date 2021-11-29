@@ -25,4 +25,7 @@ let i4 = 0;
 window.onload = function () {
     const slide = document.getElementsByClassName("repeat");
     slide[i].classList.add("active");
+    setInterval(() => {
+        loop();
+    }, 3000);
 };
