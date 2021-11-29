@@ -95,6 +95,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 800px;
+  margin-top: 460px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .nav-auto div {
