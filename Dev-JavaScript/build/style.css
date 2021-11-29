@@ -3,6 +3,7 @@
   width: 1200px;
   background-color: aqua;
   margin: 50px auto;
+  overflow: hidden;
   position: relative;
 }
 .carousel .repeat {
