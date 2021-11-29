@@ -73,10 +73,12 @@ function slideBar() {
     carousel[init].classList.remove("active"); 
     init++; 
 
-    if( init == carousel.length );
-    init = 0;
+    if( init == carousel.length ){
+
+        init = 0;
+    };
 
     carousel[init].classList.add("active");
-    console.log(carousel.length,init);
+    console.log(carousel.length, init);
 
 };
