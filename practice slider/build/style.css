@@ -117,14 +117,14 @@ body {
   background-color: aqua;
 }
 
-#radio-1:checked ~ .nav-auto .auto-btn1 {
+#radio-2:checked ~ .nav-auto .auto-btn2 {
   background-color: aqua;
 }
 
-#radio-1:checked ~ .nav-auto .auto-btn1 {
+#radio-3:checked ~ .nav-auto .auto-btn3 {
   background-color: aqua;
 }
 
-#radio-1:checked ~ .nav-auto .auto-btn1 {
+#radio-4:checked ~ .nav-auto .auto-btn5 {
   background-color: aqua;
 }
