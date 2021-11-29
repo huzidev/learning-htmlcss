@@ -196,6 +196,7 @@ header {
   height: 800px;
   -webkit-box-shadow: 0px 0px 21px -5px black;
           box-shadow: 0px 0px 21px -5px black;
+  background-size: 100% 100%;
   margin: auto;
   -webkit-animation-name: js;
           animation-name: js;
@@ -203,4 +204,22 @@ header {
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes js {
+  0% {
+    background-image: url(/assets/linux.png);
+  }
+  100% {
+    background-image: url(/assets/linuuu.png);
+  }
+}
+
+@keyframes js {
+  0% {
+    background-image: url(/assets/linux.png);
+  }
+  100% {
+    background-image: url(/assets/linuuu.png);
+  }
 }
