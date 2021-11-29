@@ -8,7 +8,7 @@
 // let index4 = 4;
 // let index5 = 5;
 
-// window.onload = function () {  // MAKE SURE YOU PUT (EQUAL) SIGN AFTER WINDOW.ONLOAD
+// onload = function () {  // MAKE SURE YOU PUT (EQUAL) SIGN AFTER WINDOW.ONLOAD
 //     const slides = document.getElementsByClassName("slide");
 
 //     slides[index].classList.add("real"); //THIS IS THE METHOD FOR ADDING CLASSES BY JS
@@ -39,9 +39,9 @@
 // }   
 
 
-// let date = new Date("2021-11-27");
-// date = document.getElementById("date").innerHTML = date;
-// console.log(date);
+let date = new Date("2021-11-27");
+date = document.getElementById("date").innerHTML = date;
+console.log(date);
 
 
 

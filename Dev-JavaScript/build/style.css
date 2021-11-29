@@ -1,3 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+#date {
+  font-size: 25px;
+  margin: 20px 0px 0px 0px;
+}
+
 .carousel {
   height: 800px;
   width: 1200px;
