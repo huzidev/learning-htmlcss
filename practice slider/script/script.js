@@ -7,6 +7,8 @@ setInterval(function(){
     }
 }, 3000);
 
-let day = new Date();
+let day = new Date("2021-11-29");
 day = document.getElementById("day").innerHTML = day;
 console.log(day);
+
+let live = new Date();
