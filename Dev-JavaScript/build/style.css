@@ -34,77 +34,87 @@
   margin: 20px 0px;
 }
 
-.carousel {
-  height: 800px;
-  width: 1200px;
+.slider {
+  width: 1381px;
+  margin: 50px auto;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
   -webkit-box-shadow: 0px 0px 21px -5px black;
           box-shadow: 0px 0px 21px -5px black;
-  margin: 50px auto;
-  overflow: hidden;
-  position: relative;
+  font-size: 35px;
 }
-.carousel .repeat {
-  bottom: 0px;
+.slider .slide {
+  top: 0px;
+  color: black;
   width: 100%;
   height: 100%;
-  background-size: 100% 100%;
-  -webkit-transition: all 900ms ease;
-  transition: all 900ms ease;
-  background-color: yellow;
   position: absolute;
-  bottom: -100%;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+  top: -100%;
   opacity: 0;
-  font-size: 25px;
   text-align: center;
-  color: red;
 }
-.carousel .repeat h1 {
-  margin-top: 20px;
+.slider .slide h1 {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  font-size: 45px;
 }
-.carousel .repeat p {
-  opacity: 0.6;
+.slider .slide p {
+  font-size: 30px;
+  opacity: 0.5;
+  margin-top: 5px;
 }
-.carousel .repeat.img {
-  background-image: url(/assets/linux.png);
-  background-size: 100% 100%;
+.slider .slide .same {
+  text-align: left;
 }
-.carousel .repeat.img-1 {
-  background-image: url(/assets/code.jpg);
-  background-size: 100% 100%;
+.slider .slide .head {
+  margin-top: 100px;
 }
-.carousel .repeat.img-2 {
-  background-image: url(/assets/code1.jpg);
-  background-size: 100% 100%;
+.slider .slide .macbook {
+  text-align: right;
+  margin-right: 50px;
 }
-.carousel .repeat.img-3 {
-  background-image: url(/assets/code3.jpg);
-  background-size: 100% 100%;
+.slider .slide .linux-head {
+  margin-top: 450px;
 }
-.carousel .repeat.img-4 {
-  background-image: url(/assets/hik.jpg);
-  background-size: 100% 100%;
+.slider .slide .same-m {
+  text-align: left;
+  margin-left: 50px;
 }
-.carousel .repeat.img-5 {
-  background-image: url(/assets/hik-3.jpg);
-  background-size: 100% 100%;
+.slider .slide .mountains {
+  margin-top: 200px;
 }
-.carousel .repeat.img-6 {
+.slider .slide.image {
   background-image: url(/assets/background.jpg);
   background-size: 100% 100%;
 }
-.carousel .repeat.img-7 {
-  background-image: url(/assets/Landscape.jfif);
+.slider .slide.image-1 {
+  background-image: url(/assets/linux.png);
   background-size: 100% 100%;
+  color: white;
 }
-.carousel .repeat.img-8 {
+.slider .slide.image-2 {
   background-image: url(/assets/linuuu.png);
   background-size: 100% 100%;
+  color: white;
 }
-.carousel .repeat.img-9 {
-  background-image: url(/assets/top.jpg);
+.slider .slide.image-3 {
+  background-image: url(/assets/hik.jpg);
+  background-size: 100% 100%;
+  color: black;
+}
+.slider .slide.image-4 {
+  background-image: url(/assets/hik-3.jpg);
   background-size: 100% 100%;
 }
-.carousel .repeat.active {
+.slider .slide.image-5 {
+  background-image: url(/assets/code.jpg);
+  background-size: 100% 100%;
+  color: black;
+}
+.slider .slide.real {
   opacity: 1;
-  bottom: 0px;
+  top: 0px;
 }
