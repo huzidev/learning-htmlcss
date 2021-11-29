@@ -11,7 +11,7 @@ function loop() {
     const slide = document.getElementsByClassName("slide"); 
     slide[index].classList.remove("active");
     index++;
-    if () {
-        
+    if (index == slide.length) {
+        index = 0;
     }
 }
