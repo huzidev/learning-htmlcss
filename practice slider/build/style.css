@@ -73,7 +73,7 @@ header {
 }
 
 .manual-btn {
-  border: 2px solid black;
+  border: 3px solid white;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -118,7 +118,7 @@ header {
 }
 
 .nav-auto div {
-  border: 2px solid black;
+  border: 3px solid white;
   padding: 5px;
   border-radius: 10px;
   -webkit-transition: 1000ms;
