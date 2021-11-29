@@ -63,17 +63,17 @@ window.onload = function () {
     carousel[init].classList.add("active");
 
     setInterval(() => {
-        sliderBar()
+        slideBar();
     }, 2000);
 };
 
 
-function sliderBar() {
+function slideBar() {
     const carousel = document.getElementsByClassName("repeat");
     carousel[init].classList.remove("active"); 
     init++; 
 
-    if( init == carousel.length )
+    if( init == carousel.length );
     init = 0;
 
     carousel[init].classList.add("active");
