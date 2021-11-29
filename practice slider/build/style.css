@@ -108,3 +108,7 @@ body {
   -webkit-transition: 1000ms;
   transition: 1000ms;
 }
+
+.nav-auto div:not(:last-child) {
+  margin-right: 40px;
+}
