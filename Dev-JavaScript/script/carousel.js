@@ -69,5 +69,5 @@ window.onload = function () {
 
 
 function slideBar() {
-    
+    const carousel = document.getElementsByClassName("repeat");
 }
