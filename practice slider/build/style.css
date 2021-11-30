@@ -172,6 +172,8 @@ header {
   -webkit-transition: all 900ms ease 950ms;
   transition: all 900ms ease 950ms;
   opacity: 0;
+  position: relative;
+  top: 270px;
 }
 #carousel .repeat.img {
   background-image: url("/assets/linux.png");
