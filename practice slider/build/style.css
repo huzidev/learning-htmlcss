@@ -244,4 +244,7 @@ header {
 }
 .text {
   color: white;
+  text-align: center;
+  -webkit-transition: all 900ms ease 500ms;
+  transition: all 900ms ease 500ms;
 }
