@@ -242,3 +242,6 @@ header {
     background-image: url(/assets/linux.png);
   }
 }
+.text {
+  color: white;
+}
