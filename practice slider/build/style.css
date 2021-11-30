@@ -168,6 +168,8 @@ header {
 }
 #carousel .repeat h1 {
   text-decoration: underline;
+  text-underline-offset: 5px;
+  margin-bottom: 5px;
 }
 #carousel .repeat .text {
   color: white;
