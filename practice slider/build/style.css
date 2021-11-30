@@ -176,10 +176,6 @@ header {
   top: 270px;
   left: 30px;
 }
-#carousel .repeat .opacity {
-  opacity: 0.6;
-  font-size: 25px;
-}
 #carousel .repeat.img {
   background-image: url("/assets/linux.png");
   background-size: 100% 100%;
@@ -206,6 +202,10 @@ header {
 }
 #carousel .repeat.active .text {
   opacity: 1;
+}
+#carousel .repeat.active .opacity {
+  opacity: 0.6;
+  font-size: 25px;
 }
 
 #animation {
