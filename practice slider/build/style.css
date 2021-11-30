@@ -166,6 +166,13 @@ header {
   left: -100%;
   opacity: 0;
 }
+#carousel .repeat .text {
+  color: white;
+  text-align: center;
+  -webkit-transition: all 900ms ease 500ms;
+  transition: all 900ms ease 500ms;
+  opacity: 0;
+}
 #carousel .repeat.img {
   background-image: url("/assets/linux.png");
   background-size: 100% 100%;
@@ -241,10 +248,4 @@ header {
   100% {
     background-image: url(/assets/linux.png);
   }
-}
-.text {
-  color: white;
-  text-align: center;
-  -webkit-transition: all 900ms ease 500ms;
-  transition: all 900ms ease 500ms;
 }
