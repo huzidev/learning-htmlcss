@@ -166,6 +166,9 @@ header {
   left: -100%;
   opacity: 0;
 }
+#carousel .repeat h1 {
+  text-decoration: underline;
+}
 #carousel .repeat .text {
   color: white;
   text-align: left;
