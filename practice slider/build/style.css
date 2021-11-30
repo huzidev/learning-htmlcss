@@ -168,7 +168,7 @@ header {
 }
 #carousel .repeat .text {
   color: white;
-  text-align: center;
+  text-align: left;
   -webkit-transition: all 900ms ease 950ms;
   transition: all 900ms ease 950ms;
   opacity: 0;
