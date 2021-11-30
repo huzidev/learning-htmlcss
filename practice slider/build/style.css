@@ -169,8 +169,8 @@ header {
 #carousel .repeat .text {
   color: white;
   text-align: center;
-  -webkit-transition: all 900ms ease 500ms;
-  transition: all 900ms ease 500ms;
+  -webkit-transition: all 900ms ease 950ms;
+  transition: all 900ms ease 950ms;
   opacity: 0;
 }
 #carousel .repeat.img {
@@ -196,6 +196,9 @@ header {
 #carousel .repeat.active {
   opacity: 1;
   left: 0px;
+}
+#carousel .repeat.active .text {
+  opacity: 1;
 }
 
 #animation {
