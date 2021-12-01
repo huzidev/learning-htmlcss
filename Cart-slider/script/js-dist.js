@@ -1,1 +1,1 @@
-let span=document.getElementsByTagName("span"),product=document.getElementsByClassName("product"),page=Math.ceil(product.length/4),index=0,movePer=25.34,maxMove=203,mobile_view=window.matchMedia("(max-width: 768px)");mobile_view.matches&&(movePer=50.36,maxMove=504);
+let span=document.getElementsByTagName("span"),product=document.getElementsByClassName("product"),page=Math.ceil(product.length/4),index=0,movePer=25.34,maxMove=203,mobile_view=window.matchMedia("(max-width: 768px)");mobile_view.matches&&(movePer=50.36,maxMove=504);let right_mover=()=>{index+=movePer};

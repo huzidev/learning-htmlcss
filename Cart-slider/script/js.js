@@ -10,3 +10,11 @@ if (mobile_view.matches) {
     movePer = 50.36;
     maxMove = 504;
 }
+
+let right_mover = ()=>{
+    index = index + movePer
+
+
+
+
+}
