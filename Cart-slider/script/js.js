@@ -31,7 +31,8 @@ let left_mover = ()=> {
     };
     for (const i of product) {
         if (page > 1) {
-        i.style.left = "-" + index + "%";};
+        };  // WE DONT HAVE TO PUT INDEX = INDEX - MOVEPAR OR + MOVEPAR BECAUSE WE ARE MAKING MOVE LEFT FUNCTION
+        i.style.left = "-" + index + "%";
     };
 };
 
