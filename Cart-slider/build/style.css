@@ -148,4 +148,12 @@
   .container .text h1 {
     font-size: 35px;
   }
+
+  .container .text p {
+    width: 90%;
+  }
+
+  .container header h1 {
+    font-size: 25px;
+  }
 }
