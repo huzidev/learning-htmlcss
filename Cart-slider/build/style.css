@@ -25,4 +25,6 @@
 
 .container .text p {
   widows: 60%;
+  padding: 5px;
+  margin: auto;
 }
