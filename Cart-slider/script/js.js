@@ -24,6 +24,14 @@ let right_mover = ()=>{
     }
 };
 
+let left_mover = ()=> {
+
+
+
+};
+
+
+
 span[1].onclick = ()=>{
     right_mover();  
 };  
