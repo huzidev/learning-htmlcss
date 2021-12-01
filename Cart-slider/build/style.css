@@ -5,3 +5,7 @@
           box-sizing: border-box;
   font-family: -webkit-pictograph;
 }
+
+.main {
+  width: 100%;
+}
