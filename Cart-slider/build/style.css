@@ -82,3 +82,8 @@
 .container section::-webkit-scrollbar {
   display: none;
 }
+
+.container section .product {
+  min-width: 24%;
+  height: 90%;
+}
