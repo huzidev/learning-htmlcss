@@ -113,4 +113,5 @@
 .container section .product .details, .button {
   width: 90%;
   margin: auto;
+  padding: 5px;
 }
