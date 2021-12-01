@@ -1,1 +1,1 @@
-let span=document.getElementsByTagName("span");
+let span=document.getElementsByTagName("span"),product=document.getElementsByClassName("product");
