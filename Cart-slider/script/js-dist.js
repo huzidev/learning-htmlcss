@@ -1,1 +1,1 @@
-let span=document.getElementsByTagName("span"),product=document.getElementsByClassName("product");
+let span=document.getElementsByTagName("span"),product=document.getElementsByClassName("product"),page=Math.ceil(product.length/4);
