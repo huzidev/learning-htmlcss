@@ -20,6 +20,6 @@ let right_mover = ()=>{
         if (index > maxMove ) {
             index = index - movePer;
         };
-        
+        i.style.left = "-" + 1 + "%";
     }
-}
+};
