@@ -1,0 +1,1 @@
+let span = document.getElementsByTagName("span");
