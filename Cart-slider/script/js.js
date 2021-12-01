@@ -1,6 +1,6 @@
 let span = document.getElementsByTagName("span");
 let product = document.getElementsByClassName("product");
-let page = Math.ceil(product.length/4);
+let product_page = Math.ceil(product.length/4);
 let index = 0;
 let movePer = 25.34;
 let maxMove = 203;
@@ -17,13 +17,16 @@ let right_mover = ()=>{
         index = 0;
     };
     for(const i of product){
-        if (index > maxMove ) {
+        if (index > maxMove) {
             index = index - movePer;
         };
-        i.style.left = "-" + 1 + "%";
+        i.style.left = "-" + index + "%";
     }
 };
 
 span[1].onclick = ()=>{
     right_mover();  
+};  
+span[0].onclick = () => {
+    left_mover();
 };
