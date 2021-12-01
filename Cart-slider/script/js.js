@@ -13,7 +13,9 @@ if (mobile_view.matches) {
 
 let right_mover = ()=>{
     index = index + movePer;
-
+    if (product == 1) {
+        index = 0;
+    };
 
 
 
