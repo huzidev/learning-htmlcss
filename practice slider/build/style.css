@@ -184,6 +184,9 @@ header {
 #carousel .repeat .color {
   color: black;
 }
+#carousel .repeat .color-para {
+  color: white;
+}
 #carousel .repeat.img {
   background-image: url("/assets/linux.png");
   background-size: 100% 100%;
