@@ -46,3 +46,7 @@
           justify-content: space-between;
   border: 2px solid black;
 }
+
+.container p span {
+  font-size: 40px;
+}
