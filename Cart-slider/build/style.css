@@ -136,3 +136,7 @@
   background-color: aqua;
   color: black;
 }
+
+.container section .product .button .star {
+  margin: 5px auto;
+}
