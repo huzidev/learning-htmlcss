@@ -143,3 +143,9 @@
   width: 65%;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  .container .text h1 {
+    font-size: 35px;
+  }
+}
