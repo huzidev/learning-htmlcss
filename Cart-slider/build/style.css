@@ -130,4 +130,7 @@
 .container section .product .button a {
   text-decoration: none;
   padding: 6px 14px;
+  font-size: 15px;
+  margin: 5px 0px 0px 20px;
+  display: inline-block;
 }
