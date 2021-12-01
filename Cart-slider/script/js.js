@@ -29,7 +29,10 @@ let left_mover = ()=> {
     if (index < 0) {
         index = 0;
     };
-
+    for (const i of product) {
+        if (page > 1) {
+        i.style.left = "-" + index + "%";
+    }
 
 };
 
