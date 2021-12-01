@@ -5,7 +5,7 @@ let index = 0;
 let movePer = 25.34;
 let maxMove = 203;
 
-let mobile_view = window.matchMedia("(max-width: 768px)")  // MAKE SURE TO USE THE SAME-WIDTH AS WE USE IN MEDIA QUERY 
+let mobile_view = window.matchMedia("(max-width: 1025px)")  // MAKE SURE TO USE THE SAME-WIDTH AS WE USE IN MEDIA QUERY 
 if (mobile_view.matches) {
     movePer = 50.36;
     maxMove = 504;
@@ -31,11 +31,9 @@ let left_mover = ()=> {
     };
     for (const i of product) {
         if (page > 1) {
-        i.style.left = "-" + index + "%";
+        i.style.left = "-" + index + "%";};
     };
-
 };
-
 
 
 span[1].onclick = ()=>{
