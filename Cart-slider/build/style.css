@@ -102,3 +102,7 @@
   overflow: hidden;
   margin-bottom: 20px;
 }
+
+.container section .product picture img {
+  width: 100%;
+}
