@@ -114,4 +114,7 @@
   width: 90%;
   margin: auto;
   padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
