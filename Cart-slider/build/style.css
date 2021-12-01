@@ -109,3 +109,8 @@
 .container section .product picture img {
   width: 100%;
 }
+
+.container section .product .details, .button {
+  width: 90%;
+  margin: auto;
+}
