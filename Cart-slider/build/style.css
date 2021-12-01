@@ -32,4 +32,6 @@
 
 .container header {
   width: 98%;
+  height: 60px;
+  margin: 0px auto;
 }
