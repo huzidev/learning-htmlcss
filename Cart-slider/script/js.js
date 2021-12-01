@@ -16,6 +16,7 @@ let right_mover = ()=>{
     if (product == 1) {
         index = 0;
     };
+    for(const i of product)
 
 
 
