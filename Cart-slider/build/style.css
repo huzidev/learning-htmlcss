@@ -91,4 +91,6 @@
   border-radius: 20px;
   position: relative;
   left: 0px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
