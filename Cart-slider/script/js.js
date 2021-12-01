@@ -23,3 +23,7 @@ let right_mover = ()=>{
         i.style.left = "-" + 1 + "%";
     }
 };
+
+span[1].onclick = ()=>{
+    right_mover();
+}
