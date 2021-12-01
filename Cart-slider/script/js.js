@@ -9,10 +9,10 @@ let mobile_view = window.matchMedia("(max-width: 768px)")  // MAKE SURE TO USE T
 if (mobile_view.matches) {
     movePer = 50.36;
     maxMove = 504;
-}
+};
 
 let right_mover = ()=>{
-    index = index + movePer
+    index = index + movePer;
 
 
 
