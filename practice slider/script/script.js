@@ -1,6 +1,6 @@
 let index = 1;
 setInterval(function(){
-    document.getElementById("radio" + index).checked = true;
+    document.getElementById("radio" + index).checked = true;  // WE DONT USES DASHES OR HYPHEN IN JAVASCRIPT 
     index++; // INCREMENT 
     if (index > 4 ) {
         index = 1;
