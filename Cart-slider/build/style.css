@@ -160,4 +160,8 @@
   .container header p span {
     font-size: 30px;
   }
+
+  .container section .product {
+    min-width: 49%;
+  }
 }
