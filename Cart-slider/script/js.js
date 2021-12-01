@@ -25,5 +25,5 @@ let right_mover = ()=>{
 };
 
 span[1].onclick = ()=>{
-    right_mover();
-}
+    right_mover();  
+};
