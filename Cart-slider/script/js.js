@@ -26,6 +26,9 @@ let right_mover = ()=>{
 
 let left_mover = ()=> {
     index = index - movePer;
+    if (index < 0) {
+        index = 0;
+    }
 
 
 };
