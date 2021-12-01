@@ -78,3 +78,7 @@
           align-items: center;
   overflow-x: auto;
 }
+
+.container section::-webkit-scrollbar {
+  display: none;
+}
