@@ -139,4 +139,6 @@
 
 .container section .product .button .star {
   margin: 5px auto;
+  font-size: 25px;
+  width: 65%;
 }
