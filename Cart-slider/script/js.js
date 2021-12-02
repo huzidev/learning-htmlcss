@@ -136,8 +136,11 @@ var repeat =  function (activeClass) {
 
         if (slider.length == i) {
             i = 0;
+        };
+        if (i >= slider.length) {
+            return;
         }
-            
+            repeater();
         }, timeout);
     }
 }
