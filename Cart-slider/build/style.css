@@ -344,4 +344,7 @@
 .animated-slider .img-slider .navigation {
   z-index: 2;
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
