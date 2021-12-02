@@ -231,4 +231,5 @@
 
 .highlight .carousel .switch-left {
   position: absolute;
+  left: -50px;
 }
