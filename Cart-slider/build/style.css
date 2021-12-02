@@ -323,6 +323,7 @@
 
 .animated-slider .img-slider .slide .info h2 {
   color: white;
+  margin-left: 7px;
   text-decoration: underline;
   font-size: 45px;
   text-transform: uppercase;
