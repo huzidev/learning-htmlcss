@@ -297,3 +297,7 @@
   height: 100%;
   width: 800px;
 }
+
+.animated-slider .highlight .img-slider {
+  position: relative;
+}
