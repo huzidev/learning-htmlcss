@@ -246,4 +246,11 @@
   white-space: nowrap;
   display: inline-block;
   text-align: center;
+  padding: 10px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
