@@ -47,4 +47,5 @@ span[0].onclick = () => {
 
 console.log("Netflix-Slider");
 
-const sliders = document.querySelector(".carousel-box")
+const sliders = document.querySelector(".carousel-box");
+var scrollPerClick;
