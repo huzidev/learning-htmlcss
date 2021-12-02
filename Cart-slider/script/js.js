@@ -100,4 +100,5 @@ result.map(function (cur,index) {
 
 console.log("Animated Slider");
 
-var slider = document.querySelectorAll(".slide")
+var slider = document.querySelectorAll(".slide");
+var btns = document.querySelectorAll(".btn");
