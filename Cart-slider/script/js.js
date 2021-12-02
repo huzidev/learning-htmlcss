@@ -49,3 +49,4 @@ console.log("Netflix-Slider");
 
 const sliders = document.querySelector(".carousel-box");
 var scrollPerClick;
+var ImagePadding = 20;
