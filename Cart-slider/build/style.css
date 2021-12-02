@@ -385,4 +385,8 @@
   .animated-slider .img-slider .navigation {
     bottom: 5px;
   }
+
+  .animated-slider .img-slider .navigation .btn {
+    width: 10px;
+  }
 }
