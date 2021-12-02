@@ -133,6 +133,10 @@ var repeat =  function (activeClass) {
         slider[i].classList.add("active");
         slider[i].classList.add("active");
         i++;
+
+        if (slider.length == i) {
+            i = 0;
+        }
             
         }, timeout);
     }
