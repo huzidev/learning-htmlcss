@@ -300,4 +300,7 @@
 
 .animated-slider .highlight .img-slider {
   position: relative;
+  width: 800px;
+  height: 500px;
+  margin: 10px;
 }
