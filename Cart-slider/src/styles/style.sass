@@ -228,8 +228,8 @@
 
 .animated-slider .img-slider .slide .images
     z-index: 1
-    width: 100%
     height: 100%
+    width: 100%
     border-radius: 5px
 
 
@@ -243,15 +243,15 @@
     z-index: 1
     position: absolute
     width: 100%
-    clip-path: circle(100.7% at 0 50%);
+    clip-path: circle(100.7% at 0 50%)
 
 
-.animated-slider .img-slider .active // THIS ACTIVE CLASS IS USED FOR CLIP-PATH  
-    clip-path: circle(150% at 0 50%);
+.animated-slider .img-slider .slide.active // THIS ACTIVE CLASS IS USED FOR CLIP-PATH  
+    clip-path: circle(150% at 0 50%)
     transition: 2000ms
     transition-property: clip-path
-
     
+
 // EACH SLIDE WILL HAVE THEIRS OWN STATEMENT, DESCRIPTION & INFO ETC BY THE METHOD BELOW BECAUSE AS WE GAVE ABSOLUTE POSITION IT WILL SHIFT THE DESCRIPTION TO THE POSIITON RELATED TO THE PARENT CONTAINER 
 .animated-slider .img-slider .slide .info
     position: absolute
