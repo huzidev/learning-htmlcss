@@ -56,7 +56,7 @@ showMovieData();
 var scrollAmount = 0;
 function sliderScrollLeft() {
     sliders.scrollTo({
-        
+        top: 0;
     })
 }
 
