@@ -112,5 +112,5 @@ var manualNav = function(manual) {
             btn.classList.remove("active");
         });
     });
-    slide
+    slider[manual].classList.add("active");
 }
