@@ -122,3 +122,18 @@ btns.forEach((btn, i) => {
         currentSlide = i;
     });
 });
+
+
+var repeat =  function (activeClass) {
+    let active = document.getElementsByClassName("active");
+    let i = 1;
+
+    var repeater = () => {
+        setTimeout(function () {
+        slider[i].classList.add("active");
+        slider[i].classList.add("active");
+        i++;
+            
+        }, timeout);
+    }
+}
