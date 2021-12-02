@@ -201,10 +201,10 @@
 
 .highlight .netflix-logo .logo {
   height: 100%;
-  width: 800px;
 }
 
 .highlight .netflix-logo {
+  height: 15vw;
   width: 100%;
   text-align: center;
 }
