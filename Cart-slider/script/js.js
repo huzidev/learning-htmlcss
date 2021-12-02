@@ -5,7 +5,7 @@ let index = 0;
 let movePer = 25.34;
 let maxMove = 203;
 
-let mobile_view = window.matchMedia("(max-width: 1025px)")  // MAKE SURE TO USE THE SAME-WIDTH AS WE USE IN MEDIA QUERY 
+let mobile_view = window.matchMedia("(max-width: 1025px)"); // MAKE SURE TO USE THE SAME-WIDTH AS WE USE IN MEDIA QUERY 
 if (mobile_view.matches) {
     movePer = 50.36;
     maxMove = 504;
@@ -21,7 +21,7 @@ let right_mover = ()=>{
             index = index - movePer;
         };
         i.style.left = "-" + index + "%";
-    }
+    };
 };
 
 let left_mover = ()=> {
@@ -60,4 +60,4 @@ showMovieData();
 async function showMovieData() {
     const apiKey = "0317152f6f8034165cc00d50c2c22694";
     
-}
+};
