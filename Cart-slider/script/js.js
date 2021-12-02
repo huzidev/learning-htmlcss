@@ -57,7 +57,7 @@ var scrollAmount = 0;
 
 function sliderScrollLeft() {
     sliders.scrollTo({
-        top: 0;
+        top: 0,
         left: (scrollAmount -= scrollPerClick),
         behavior: "smooth",
     });
