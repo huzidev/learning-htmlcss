@@ -58,5 +58,6 @@ showMovieData();
 
 
 async function showMovieData() {
+    const apiKey = "0317152f6f8034165cc00d50c2c22694";
     
 }
