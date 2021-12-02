@@ -276,11 +276,10 @@
   z-index: 5;
 }
 
-.img-slider {
+.animated-slider {
   margin-top: 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -294,7 +293,7 @@
   color: white;
 }
 
-.img-slider .slide .images {
+.animated-slider .highlight .img-slider .slide .images {
   height: 100%;
   width: 800px;
 }
