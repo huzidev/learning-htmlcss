@@ -141,6 +141,8 @@ var repeat =  function (activeClass) {
             return;
         }
             repeater();
-        }, timeout);
+        }, 10000);
     }
+    repeater();
 }
+repeat();
