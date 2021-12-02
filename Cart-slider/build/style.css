@@ -183,6 +183,8 @@
   }
 }
 .highlight {
+  height: 100vh;
+  width: 100%;
   background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -195,4 +197,8 @@
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.highlight .netflix-logo {
+  height: 15vw;
 }
