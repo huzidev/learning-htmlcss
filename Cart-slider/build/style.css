@@ -263,8 +263,8 @@
   background-color: lightgreen;
   margin: 5px 10px;
   cursor: pointer;
-  -webkit-transition: 500ms ease;
-  transition: 500ms ease;
+  -webkit-transition: 450ms ease;
+  transition: 450ms ease;
   z-index: 2;
 }
 
