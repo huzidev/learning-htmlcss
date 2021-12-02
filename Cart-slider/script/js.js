@@ -105,5 +105,8 @@ var btns = document.querySelectorAll(".btn");
 let currentSlide = 1;
 
 var manualNav = function(manual) {
-    slider.forEach((slide) =>)
+    slider.forEach((slide) =>{
+        slide.classList.remove("active");
+
+    })
 }
