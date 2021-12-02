@@ -265,4 +265,5 @@
   cursor: pointer;
   -webkit-transition: 500ms ease;
   transition: 500ms ease;
+  z-index: 2;
 }
