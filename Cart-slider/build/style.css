@@ -228,3 +228,7 @@
   top: 0px;
   z-index: 3;
 }
+
+.highlight .carousel .switch-left {
+  position: absolute;
+}
