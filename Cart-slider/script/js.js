@@ -43,3 +43,6 @@ span[1].onclick = ()=>{
 span[0].onclick = () => {
     left_mover();
 };
+
+
+console.log("Netflix-Slider");
