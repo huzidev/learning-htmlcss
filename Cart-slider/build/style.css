@@ -361,6 +361,12 @@
   margin: 10px;
   border-radius: 50%;
   cursor: pointer;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.animated-slider .img-slider .navigation .btn:hover {
+  border: 2px solid red;
 }
 
 @media only screen and (max-width: 1000px) {
