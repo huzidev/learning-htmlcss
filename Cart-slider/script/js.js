@@ -61,4 +61,8 @@ async function showMovieData() {
     const apiKey = "0317152f6f8034165cc00d50c2c22694";
     /discover/movie?sort_by=popularity.desc // FOR SAMPLE
     
+    var result = await axios.get(
+
+
+    );
 };
