@@ -113,4 +113,5 @@ var manualNav = function(manual) {
         });
     });
     slider[manual].classList.add("active");
+    btns[manual].classList.add("active");
 }
