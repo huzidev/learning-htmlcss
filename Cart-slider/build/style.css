@@ -327,3 +327,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+.animated-slider .img-slider .slide .info p {
+  color: white;
+}
