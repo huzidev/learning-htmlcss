@@ -238,3 +238,8 @@
   position: absolute;
   right: -50px;
 }
+
+.highlight .carousel .carousel-box {
+  height: 250px;
+  width: auto;
+}
