@@ -257,4 +257,5 @@
 
 .highlight .carousel .carousel-box img {
   min-width: 147px;
+  max-width: 147px;
 }
