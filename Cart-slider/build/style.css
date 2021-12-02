@@ -182,3 +182,7 @@
     padding: 6px 10px;
   }
 }
+.highlight {
+  background-color: black;
+  background-blend-mode: lighten;
+}
