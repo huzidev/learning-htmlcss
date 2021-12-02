@@ -233,3 +233,8 @@
   position: absolute;
   left: -50px;
 }
+
+.highlight .carousel .switch-right {
+  position: absolute;
+  right: -50px;
+}
