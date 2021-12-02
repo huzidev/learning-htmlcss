@@ -67,7 +67,11 @@ async function showMovieData() {
     );
 result = result.data.results;
 
-result.map(function (cur, index) {
-    sliders.insertAdjacentElement
+result.map(function (cur,index) {
+    sliders.insertAdjacentHTML(
+        "beforeend",
+        `<img class="img-${index} slider-img" src="https://image.tmdb.org/t/p/w185/${cur.poster_path}" />`
+    );
 });
+    scrollPerClick = document.querySelector(".img-1").clientWidth + ImagePadding;
 };
