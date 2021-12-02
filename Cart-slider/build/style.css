@@ -254,3 +254,7 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.highlight .carousel .carousel-box img {
+  min-width: 147px;
+}
