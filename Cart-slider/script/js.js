@@ -102,3 +102,4 @@ console.log("Animated Slider");
 
 var slider = document.querySelectorAll(".slide");
 var btns = document.querySelectorAll(".btn");
+let currentSlide = 1;
