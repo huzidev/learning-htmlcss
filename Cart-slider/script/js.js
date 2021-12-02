@@ -83,7 +83,7 @@ async function showMovieData() {
     const apiKey = "0317152f6f8034165cc00d50c2c22694";
     
     var result = await axios.get(
-        "https://api.themoviedb.org/3/discover/movie?api_key="
+        "https://api.themoviedb.org/3/discover/movie?api_key=" 
         + apiKey +
         "&sort_by=popularity.desc"
     );
@@ -95,5 +95,7 @@ result.map(function (cur,index) {
         `<img class="img-${index} slider-img" src="https://image.tmdb.org/t/p/w185/${cur.poster_path}" />`
     );
 });
-    scrollPerClick = document.querySelector(".img-1").clientWidth + ImagePadding;
+    scrollPerClick = document.querySelector(".img-1").clientWidth + ImagePadding; 
 };
+
+console.log("Animated Slider");
