@@ -269,7 +269,7 @@
 }
 
 .highlight .carousel .carousel-box img:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
   z-index: 5;
 }
