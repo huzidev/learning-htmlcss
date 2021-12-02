@@ -212,4 +212,5 @@
 .carousel {
   height: 250px;
   width: 80%;
+  position: relative;
 }
