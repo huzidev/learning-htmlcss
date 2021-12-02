@@ -225,4 +225,6 @@
   text-align: center;
   background-color: lightgreen;
   font-family: sans-serif;
+  top: 0px;
+  z-index: 3;
 }
