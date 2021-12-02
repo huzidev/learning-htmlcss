@@ -403,11 +403,11 @@
   }
 
   .animated-slider .img-slider .slide .info h2 {
-    font-size: 25px;
+    font-size: 27px;
   }
 
   .animated-slider .img-slider .slide .info p {
-    width: 60%;
+    width: 80%;
     font-size: 13px;
   }
 
@@ -416,8 +416,8 @@
   }
 
   .animated-slider .img-slider .navigation .btn {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     margin: 6px;
   }
 }
