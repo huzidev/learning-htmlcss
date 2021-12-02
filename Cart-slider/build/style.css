@@ -232,6 +232,7 @@
 .highlight .carousel .switch-left {
   position: absolute;
   left: -50px;
+  cursor: pointer;
 }
 
 .highlight .carousel .switch-right {

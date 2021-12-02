@@ -72,9 +72,9 @@ function sliderScrollRight() {
             top: 0,
             left: (scrollAmount += scrollPerClick),
             behavior: "smooth",
-        })
-    }
-}
+        });
+    };
+};
 
 
 
