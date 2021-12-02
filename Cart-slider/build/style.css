@@ -267,3 +267,9 @@
   transition: 500ms ease;
   z-index: 2;
 }
+
+.highlight .carousel .carousel-box img:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  z-index: 5;
+}
