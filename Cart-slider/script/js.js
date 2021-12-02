@@ -117,5 +117,8 @@ var manualNav = function(manual) {
 };
 
 btns.forEach((btn, i) => {
-    btn.addEventListener("click")
+    btn.addEventListener("click", () => {
+        manualNav(i);
+    }
+    )
 });
