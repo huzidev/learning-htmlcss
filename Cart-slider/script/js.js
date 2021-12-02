@@ -54,9 +54,11 @@ var ImagePadding = 20;
 showMovieData();
 
 var scrollAmount = 0;
+
 function sliderScrollLeft() {
     sliders.scrollTo({
         top: 0;
+        left: (scrollAmount -= scrollPerClick);
     })
 }
 
