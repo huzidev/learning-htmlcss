@@ -320,3 +320,7 @@
   color: black;
   padding: 15px 30px;
 }
+
+.animated-slider .img-slider .slide .info h2 {
+  color: white;
+}
