@@ -243,4 +243,7 @@
   height: 250px;
   width: auto;
   overflow: scroll;
+  white-space: nowrap;
+  display: inline-block;
+  text-align: center;
 }
