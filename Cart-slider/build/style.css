@@ -260,4 +260,7 @@
   max-width: 147px;
   height: 200px;
   background-size: cover;
+  background-color: lightgreen;
+  margin: 5px 10px;
+  cursor: pointer;
 }
