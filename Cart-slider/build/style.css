@@ -242,4 +242,5 @@
 .highlight .carousel .carousel-box {
   height: 250px;
   width: auto;
+  overflow: scroll;
 }
