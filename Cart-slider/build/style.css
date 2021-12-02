@@ -295,8 +295,8 @@
 }
 
 .animated-slider .img-slider .slide .images {
-  height: 100%;
-  width: 800px;
+  z-index: 1;
+  width: 100%;
 }
 
 .animated-slider .img-slider {
