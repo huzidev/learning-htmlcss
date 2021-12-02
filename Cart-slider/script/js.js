@@ -65,5 +65,9 @@ async function showMovieData() {
         + apiKey +
         "&sort_by=popularity.desc"
     );
-    console.log(result);
+result = result.data.results;
+
+result.map(function (cur, index) {
+    sliders.insertAdjacentElement
+});
 };
