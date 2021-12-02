@@ -115,3 +115,7 @@ var manualNav = function(manual) {
     slider[manual].classList.add("active");
     btns[manual].classList.add("active");
 };
+
+btns.forEach((btn, i) => {
+    btn.addEventListener("click")
+});
