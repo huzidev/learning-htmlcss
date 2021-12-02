@@ -317,5 +317,6 @@
 .animated-slider .img-slider .slide .info {
   position: absolute;
   top: 0px;
+  color: black;
   padding: 15px 30px;
 }
