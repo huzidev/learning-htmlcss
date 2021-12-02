@@ -293,19 +293,19 @@
   color: white;
 }
 
-.animated-slider .highlight .img-slider .slide .images {
+.animated-slider .img-slider .slide .images {
   height: 100%;
   width: 800px;
 }
 
-.animated-slider .highlight .img-slider {
+.animated-slider .img-slider {
   position: relative;
   width: 800px;
   height: 500px;
   margin: 10px;
 }
 
-.animated-slider .highlight .img-slider .slide {
+.animated-slider .img-slider .slide {
   z-index: 1;
   position: absolute;
   width: 100%;
