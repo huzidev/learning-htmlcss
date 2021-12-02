@@ -108,5 +108,9 @@ var manualNav = function(manual) {
     slider.forEach((slide) =>{
         slide.classList.remove("active");
 
-    })
+        btns.forEach((btn) => {
+            btn.classList.remove("active");
+        });
+    });
+    slide
 }
