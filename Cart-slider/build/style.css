@@ -278,6 +278,7 @@
 
 .animated-slider {
   margin-top: 20px;
+  height: 100vh;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
