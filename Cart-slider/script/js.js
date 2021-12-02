@@ -99,3 +99,5 @@ result.map(function (cur,index) {
 };
 
 console.log("Animated Slider");
+
+var slider = document.querySelectorAll(".slide")
