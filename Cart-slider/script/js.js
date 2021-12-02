@@ -68,7 +68,11 @@ if (scrollAmount < 0) {
 
 function sliderScrollRight() {
     if (scrollAmount <= sliders.scrollWidth - sliders.clientWidth) {
-        
+        sliders.scrollTo({
+            top: 0,
+            left: (scrollAmount += scrollPerClick),
+            behavior: "smooth",
+        })
     }
 }
 
