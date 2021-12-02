@@ -368,4 +368,8 @@
     width: 600px;
     height: 375px;
   }
+
+  .animated-slider .img-slider .slide .info {
+    padding: 10px 25px;
+  }
 }
