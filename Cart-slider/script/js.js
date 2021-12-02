@@ -62,6 +62,9 @@ function sliderScrollLeft() {
         behavior: "smooth",
     });
 };
+if (scrollAmount < 0) {
+    scrollAmount = 0;
+};
 
 
 
