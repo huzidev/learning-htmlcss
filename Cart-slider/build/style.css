@@ -313,3 +313,8 @@
   position: absolute;
   width: 100%;
 }
+
+.animated-slider .img-slider .slide .info {
+  position: absolute;
+  top: 0px;
+}
