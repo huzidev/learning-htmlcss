@@ -312,15 +312,15 @@
   z-index: 1;
   position: absolute;
   width: 100%;
-  -webkit-clip-path: circle(100.7% at 0 50%);
-          clip-path: circle(100.7% at 0 50%);
+  -webkit-clip-path: circle(0% at 0 50%);
+          clip-path: circle(0% at 0 50%);
 }
 
 .animated-slider .img-slider .slide.active {
   -webkit-clip-path: circle(150% at 0 50%);
           clip-path: circle(150% at 0 50%);
-  -webkit-transition: 2000ms;
-  transition: 2000ms;
+  -webkit-transition: 2s;
+  transition: 2s;
   -webkit-transition-property: -webkit-clip-path;
   transition-property: -webkit-clip-path;
   transition-property: clip-path;

@@ -98,21 +98,25 @@ result.map(function (cur,index) {
     scrollPerClick = document.querySelector(".img-1").clientWidth + ImagePadding; 
 };
 
+
+
+
+
 console.log("Animated Slider");
 
-var slider = document.querySelectorAll(".slide");
+var slides = document.querySelectorAll(".slide");
 var btns = document.querySelectorAll(".btn");
 let currentSlide = 1;
 
 var manualNav = function(manual) {
-    slider.forEach((slide) =>{
-        slide.classList.remove("active");
+    slides.forEach((slide) =>{
+        slides.classList.remove("active");
 
         btns.forEach((btn) => {
             btn.classList.remove("active");
         });
     });
-    slider[manual].classList.add("active");
+    slides[manual].classList.add("active");
     btns[manual].classList.add("active");
 };
 
@@ -124,24 +128,25 @@ btns.forEach((btn, i) => {
 });
 
 
-var repeat =  function (activeClass) {
+var repeat = function(activeClass){
     let active = document.getElementsByClassName("active");
     let i = 1;
 
     var repeater = () => {
-        setTimeout(function () {
-        slider[i].classList.add("active");
-        slider[i].classList.add("active");
+        setInterval(function(){
+
+        slides[i].classList.add("active");
+        btns[i].classList.add("active");
         i++;
 
-        if (slider.length == i) {
+        if(slides.length == i) {
             i = 0;
         };
-        if (i >= slider.length) {
+        if (i >= slides.length) {
             return;
         }
-            repeater();
-        }, 1000);
+        repeater();
+    }, 1000);
     }
     repeater();
 }
