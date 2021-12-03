@@ -223,7 +223,7 @@ nav ul
     position: absolute // THIS PART IS IMPROTANT BECAUSE THIS WILL JUST VANISHED THE EXTRA SPACE OR DIV BELOW FOR DROP-DOWN MENU
     list-style: none
     background-color: black  // THIS BACKGROUND COLOR WILL PROVIDE COLOR JUST TO THE DROP-DOWN CONTENT
-    top: 70%
+    top: 75px
     width: 100%
     border-radius: 5px
     left: 0px
@@ -266,12 +266,13 @@ nav ul li span
     margin-top: 10px
     padding: 0px 10px
 
-nav .menu:before
+nav .menu:before // BY THIS METHDO WE WILL CREATE A RECTANGLE WITH 45DEG ROTATION AND WE USED (BEFORE) SO IT'LL HIDE BEHIND THE DROP-DOWN THEN WE GAVE Z-INDEX 1 AND SAME BACK-GROUND COLOR AS WE GAVE TO THE DROPDOWN SO IT'LL LOOKALIKE A REAL DROP-DOWN
     position: absolute
     content: ''  // ????
     height: 20px
     width: 20px
-    background-color: red
+    background-color: black
     right: 20px
     top: -10px
     transform: rotate(45deg)
+    z-index: 1

@@ -310,7 +310,7 @@ nav ul {
   position: absolute;
   list-style: none;
   background-color: black;
-  top: 70%;
+  top: 75px;
   width: 100%;
   border-radius: 5px;
   left: 0px;
@@ -366,9 +366,10 @@ nav .menu:before {
   content: "";
   height: 20px;
   width: 20px;
-  background-color: red;
+  background-color: black;
   right: 20px;
   top: -10px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+  z-index: 1;
 }
