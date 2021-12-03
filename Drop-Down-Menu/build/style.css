@@ -36,3 +36,8 @@ header {
   text-decoration: none;
   color: black;
 }
+
+.menu-bar ul li:hover {
+  background-color: black;
+  color: white;
+}
