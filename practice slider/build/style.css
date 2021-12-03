@@ -165,6 +165,8 @@ header {
   position: absolute;
   left: -100%;
   opacity: 0;
+  -webkit-clip-path: circle(0% at 0 50%);
+          clip-path: circle(0% at 0 50%);
 }
 #carousel .repeat h1 {
   text-decoration: underline;
@@ -210,6 +212,14 @@ header {
 #carousel .repeat.active {
   opacity: 1;
   left: 0px;
+  -webkit-clip-path: circle(150% at 0 50%);
+          clip-path: circle(150% at 0 50%);
+  -webkit-transition: 2000ms;
+  transition: 2000ms;
+  -webkit-transition-property: -webkit-clip-path;
+  transition-property: -webkit-clip-path;
+  transition-property: clip-path;
+  transition-property: clip-path, -webkit-clip-path;
 }
 #carousel .repeat.active .text {
   opacity: 1;
