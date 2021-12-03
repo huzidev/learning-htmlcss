@@ -34,7 +34,7 @@ window.onload = function () {
         loop();
     }, 3000);
 };
-
+// test
 function loop() {
     const slide = document.getElementsByClassName("repeat");
     slide[init].classList.remove("active");
