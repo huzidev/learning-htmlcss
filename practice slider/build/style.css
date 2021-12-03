@@ -287,4 +287,6 @@ nav {
   margin: auto;
   background-color: black;
   color: white;
+  line-height: 40px;
+  padding: 10px 40px;
 }
