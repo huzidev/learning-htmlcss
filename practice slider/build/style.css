@@ -290,6 +290,7 @@ nav {
   line-height: 40px;
   padding: 10px 40px;
   font-size: 20px;
+  position: absolute;
 }
 
 nav label {
@@ -306,6 +307,8 @@ nav ul {
   position: absolute;
   list-style: none;
   background-color: black;
+  top: 270px;
+  width: 300px;
 }
 
 nav ul li a {
