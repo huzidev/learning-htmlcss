@@ -377,3 +377,7 @@ nav .menu:before {
 input {
   display: none;
 }
+
+[id^=btn]:checked + ul {
+  display: block;
+}
