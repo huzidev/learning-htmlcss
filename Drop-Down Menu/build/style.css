@@ -5,3 +5,8 @@
           box-sizing: border-box;
   font-family: sans-serif;
 }
+
+header {
+  background-color: black;
+  color: white;
+}
