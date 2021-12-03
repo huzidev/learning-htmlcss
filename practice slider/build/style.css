@@ -335,6 +335,10 @@ nav ul li a {
   font-size: 18px;
 }
 
+nav ul li a:hover, nav ul li label:hover {
+  color: cyan;
+}
+
 nav ul ul {
   position: static;
 }
