@@ -12,3 +12,14 @@ header {
   text-align: center;
   line-height: 40px;
 }
+
+.menu-bar {
+  background-color: aqua;
+  text-align: center;
+}
+
+.menu-bar ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
