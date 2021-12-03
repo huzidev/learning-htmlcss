@@ -30,11 +30,12 @@ header {
   width: 120px;
   margin: 15px;
   padding: 15px;
+  cursor: pointer;
 }
 
 .menu-bar ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .menu-bar ul li:hover {
