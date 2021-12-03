@@ -360,3 +360,10 @@ nav ul li span {
   margin-top: 10px;
   padding: 0px 10px;
 }
+
+nav .menu:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+}
