@@ -80,3 +80,11 @@ header {
 .sub-menu-2 {
   display: none;
 }
+
+.hover:hover .sub-menu-2 {
+  position: absolute;
+  display: block;
+  margin-top: -40px;
+  margin-left: 165px;
+  background-color: aqua;
+}
