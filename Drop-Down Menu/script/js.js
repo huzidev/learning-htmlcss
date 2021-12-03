@@ -1,5 +1,5 @@
 console.log("Live Time By JS");
 
 let date = new Date("2021-12-03");
-date = document.getElementsByClassName("date")
+date = document.getElementsByClassName("date").innerHTML = date;
 console.log(date);
