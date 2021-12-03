@@ -59,4 +59,10 @@ header {
 
 .menu-bar ul li:hover .sub-menu-1 ul {
   display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  padding: 10px;
 }
