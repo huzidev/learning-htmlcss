@@ -304,6 +304,8 @@ nav label {
 
 nav ul {
   position: absolute;
+  list-style: none;
+  background-color: black;
 }
 
 nav ul li a {
