@@ -6,3 +6,4 @@ console.log(date);
 
 let day = new Date();
 day = document.getElementById("day").innerHTML = day;
+console.log(day);
