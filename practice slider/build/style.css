@@ -175,9 +175,6 @@ header {
   text-underline-offset: 5px;
   margin-bottom: 5px;
 }
-#carousel .repeat p {
-  background-color: rgba(0, 0, 0, 0.3);
-}
 #carousel .repeat .text {
   color: white;
   text-align: left;
@@ -190,6 +187,11 @@ header {
 }
 #carousel .repeat .color {
   color: black;
+}
+#carousel .repeat .width {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 700px;
+  color: white;
 }
 #carousel .repeat .color-para {
   color: white;
