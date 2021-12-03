@@ -282,3 +282,6 @@ header {
     background-image: url(/assets/linux.png);
   }
 }
+nav {
+  position: absolute;
+}
