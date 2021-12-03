@@ -22,4 +22,5 @@ header {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  list-style: none;
 }
