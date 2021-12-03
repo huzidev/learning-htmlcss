@@ -283,14 +283,17 @@ header {
   }
 }
 nav {
-  width: 1200px;
-  margin: auto;
+  width: 400px;
   background-color: black;
   color: white;
   line-height: 40px;
   padding: 10px 40px;
   font-size: 20px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   position: absolute;
+  top: 60%;
+  left: 20%;
 }
 
 nav label {
@@ -307,11 +310,49 @@ nav ul {
   position: absolute;
   list-style: none;
   background-color: black;
-  top: 270px;
-  width: 300px;
+  top: 70%;
+  width: 100%;
+  border-radius: 5px;
+  left: 0px;
+  display: block;
+}
+
+nav ul li {
+  line-height: 40px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+
+nav ul li label {
+  font-size: 18px;
 }
 
 nav ul li a {
   text-decoration: none;
   color: white;
+  display: block;
+  font-size: 18px;
+}
+
+nav ul ul {
+  position: static;
+}
+
+nav ul ul li {
+  line-height: 30px;
+  padding-left: 30px;
+  border-bottom: none;
+}
+
+nav ul ul li a {
+  color: white;
+  font-size: 17px;
+}
+
+nav ul li span {
+  font-size: 20px;
+  float: right;
+  margin-top: 10px;
+  padding: 0px 10px;
 }
