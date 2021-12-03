@@ -175,6 +175,9 @@ header {
   text-underline-offset: 5px;
   margin-bottom: 5px;
 }
+#carousel .repeat p {
+  background-color: rgba(0, 0, 0, 0.3);
+}
 #carousel .repeat .text {
   color: white;
   text-align: left;
