@@ -314,7 +314,7 @@ nav ul {
   width: 100%;
   border-radius: 5px;
   left: 0px;
-  display: block;
+  display: none;
 }
 
 nav ul li {
@@ -372,4 +372,8 @@ nav .menu:before {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   z-index: 1;
+}
+
+input {
+  display: none;
 }
