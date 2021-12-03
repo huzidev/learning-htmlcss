@@ -141,7 +141,7 @@ var repeat =  function (activeClass) {
             return;
         }
             repeater();
-        }, 10000);
+        }, 1000);
     }
     repeater();
 }

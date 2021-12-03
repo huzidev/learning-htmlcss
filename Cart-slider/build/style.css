@@ -317,8 +317,8 @@
 }
 
 .animated-slider .img-slider .slide.active {
-  -webkit-clip-path: circle(15 0% at 0 50%);
-          clip-path: circle(15 0% at 0 50%);
+  -webkit-clip-path: circle(150% at 0 50%);
+          clip-path: circle(150% at 0 50%);
   -webkit-transition: 2000ms;
   transition: 2000ms;
   -webkit-transition-property: -webkit-clip-path;
