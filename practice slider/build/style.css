@@ -284,6 +284,7 @@ header {
 }
 nav {
   width: 400px;
+  border-radius: 20px;
   background-color: black;
   color: white;
   line-height: 40px;
