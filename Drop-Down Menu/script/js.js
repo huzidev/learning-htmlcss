@@ -5,3 +5,4 @@ date = document.getElementById("date").innerHTML = date;
 console.log(date);
 
 let day = new Date();
+day = document.getElementById("day").innerHTML = day;
