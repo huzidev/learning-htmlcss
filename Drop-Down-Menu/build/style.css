@@ -66,4 +66,5 @@ header {
   width: 150px;
   padding: 10px;
   border-bottom: 1px solid black;
+  text-align: left;
 }
