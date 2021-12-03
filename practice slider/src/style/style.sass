@@ -125,7 +125,7 @@ header
         position: absolute
         left: -100%
         opacity: 0
-        clip-path: circle(0% at 0 50%)
+        clip-path: circle(0% at 0 50%) // MAKE SURE TO PUT 0% AT START SO IT'LL STARTS FROM EXACT 0% THEN SO ON
         h1
             text-decoration: underline
             text-underline-offset: 5px
@@ -162,7 +162,7 @@ header
             left: 0px
             clip-path: circle(150% at 0 50%)
             transition: 2000ms
-            transition-property: clip-path
+            transition-property: clip-path // CLIP PATH WILL PROVIDE SOME ANIMATED FEATURES TO OURS SLIDER
             
             .text  // MAKE SURE YOU PUT THE .TEXT CLASS INSIDE ACTIVE COZ WHEN THE ACTIVE CLASS TRIGERRED ON EACH SLIDE THE TEXT WILL APPERAERED AS WELL WITH THE ACTIVE CLASS ON EACH AND EVERY SLIDE
                 opacity: 1
