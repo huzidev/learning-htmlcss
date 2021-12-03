@@ -76,3 +76,7 @@ header {
 .fa-angle-right {
   float: right;
 }
+
+.sub-menu-2 {
+  display: none;
+}
