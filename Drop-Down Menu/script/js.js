@@ -1,1 +1,1 @@
-console.log("Hello");
+console.log("Live Time By JS");
