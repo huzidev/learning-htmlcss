@@ -25,3 +25,7 @@ header {
   list-style: none;
   color: black;
 }
+
+.menu-bar ul li {
+  width: 120px;
+}
