@@ -50,4 +50,5 @@ header {
 
 .menu-bar ul li:hover .sub-menu-1 {
   display: block;
+  position: absolute;
 }
