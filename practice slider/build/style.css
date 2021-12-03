@@ -366,4 +366,9 @@ nav .menu:before {
   content: "";
   height: 20px;
   width: 20px;
+  background-color: red;
+  right: 20px;
+  top: -10px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
