@@ -30,6 +30,9 @@ header ul li {
           align-items: center;
 }
 header ul li .sub-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   top: 98.5px;
   background-color: aqua;
