@@ -17,8 +17,8 @@ header ul {
   list-style: none;
 }
 header ul li {
-  padding: 10px 20px;
-  margin: 10px 20px;
+  padding: 25px 35px;
+  margin: 0px 20px;
   -webkit-transition: all 600ms ease;
   transition: all 600ms ease;
   cursor: pointer;
@@ -26,7 +26,9 @@ header ul li {
 header ul li a {
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 header ul li:hover {
   background-color: aqua;
+  color: black;
 }
