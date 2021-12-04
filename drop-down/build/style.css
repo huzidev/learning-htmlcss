@@ -1,3 +1,9 @@
 header {
   background-color: black;
 }
+header ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+}
