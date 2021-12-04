@@ -25,12 +25,14 @@ header ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+header ul li .sub-menu {
+  position: relative;
+  top: 98.5px;
+  background-color: aqua;
 }
 header ul li i {
   margin-right: 3px;
