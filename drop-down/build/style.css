@@ -36,6 +36,16 @@ header ul li .sub-menu {
   display: none;
   color: white;
 }
+header ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+header ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px;
+}
 header ul li:hover {
   background-color: aqua;
   color: black;
