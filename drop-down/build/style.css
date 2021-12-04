@@ -75,11 +75,12 @@ nav {
   padding: 10px 40px;
   line-height: 40px;
 }
-nav label {
+nav .btn {
   cursor: pointer;
   display: block;
+  margin-left: 55px;
 }
-nav label span {
+nav .btn span {
   cursor: pointer;
   margin-left: 10px;
 }
@@ -87,4 +88,7 @@ nav ul {
   position: absolute;
   list-style: none;
   background-color: black;
+  top: 165px;
+  text-align: center;
+  width: 200px;
 }
