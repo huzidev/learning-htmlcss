@@ -49,6 +49,10 @@ header ul li:hover .sub-menu ul li {
   padding: 10px;
   border-bottom: 1px solid black;
 }
+header ul li:hover .sub-menu ul .hover {
+  position: absolute;
+  display: block;
+}
 header ul li:hover .sub-menu ul .hover .sub-menu-1 {
   display: none;
 }
