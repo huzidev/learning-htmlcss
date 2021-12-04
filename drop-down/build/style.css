@@ -22,27 +22,6 @@ header ul li {
   transition: all 600ms ease;
   cursor: pointer;
   width: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-header ul li .sub-menu {
-  position: absolute;
-  top: 73px;
-  right: 468px;
-  background-color: aqua;
-}
-header ul li .sub-menu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 header ul li i {
   margin-right: 3px;
@@ -52,6 +31,10 @@ header ul li a {
   text-decoration: none;
   color: white;
   font-size: 20px;
+}
+header ul li .sub-menu {
+  display: none;
+  color: white;
 }
 header ul li:hover {
   background-color: aqua;
