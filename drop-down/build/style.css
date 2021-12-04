@@ -72,5 +72,18 @@ nav {
   color: white;
   margin: 20px auto;
   width: 100%;
-  padding: 10px 0px;
+  padding: 10px 40px;
+  line-height: 40px;
+}
+nav label {
+  cursor: pointer;
+  display: block;
+}
+nav label span {
+  cursor: pointer;
+  margin-left: 10px;
+}
+nav ul {
+  position: absolute;
+  list-style: none;
 }
