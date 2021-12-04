@@ -92,3 +92,13 @@ nav ul {
   text-align: center;
   width: 200px;
 }
+nav ul li {
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+nav ul li label {
+  font-size: 18px;
+}
+nav ul li a {
+  text-decoration: none;
+}
