@@ -18,8 +18,6 @@ header ul {
 }
 header ul li {
   padding: 25px 35px;
-  -webkit-transition: all 600ms ease;
-  transition: all 600ms ease;
   cursor: pointer;
   width: 200px;
 }
