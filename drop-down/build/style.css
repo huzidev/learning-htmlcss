@@ -24,3 +24,6 @@ header ul li a {
   text-decoration: none;
   color: white;
 }
+header ul li:hover {
+  background-color: aqua;
+}
