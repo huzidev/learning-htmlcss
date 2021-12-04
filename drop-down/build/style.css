@@ -39,8 +39,8 @@ header ul li .sub-menu {
 header ul li:hover .sub-menu {
   display: block;
   position: absolute;
-  margin-top: 15px;
-  margin-left: -15px;
+  margin-top: 25px;
+  margin-left: -35px;
   background-color: aqua;
   width: 200px;
 }
@@ -51,7 +51,6 @@ header ul li:hover .sub-menu ul li {
   width: 150px;
   padding: 10px;
   border-bottom: 1px solid black;
-  text-align: ceter;
 }
 header ul li:hover .sub-menu ul li:last-child {
   border-bottom: none;
