@@ -66,3 +66,11 @@ header ul li:hover {
   background-color: aqua;
   color: black;
 }
+
+nav {
+  background-color: black;
+  color: white;
+  margin: 20px auto;
+  width: 100%;
+  padding: 10px 0px;
+}
