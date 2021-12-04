@@ -7,3 +7,7 @@ header ul {
   display: inline-flex;
   list-style: none;
 }
+header ul li {
+  padding: 10px 20px;
+  margin: 10px 20px;
+}
