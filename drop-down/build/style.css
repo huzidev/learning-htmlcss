@@ -48,7 +48,6 @@ header ul li:hover .sub-menu ul {
   display: block;
 }
 header ul li:hover .sub-menu ul li {
-  width: 150px;
   padding: 10px;
   border-bottom: 1px solid black;
 }
