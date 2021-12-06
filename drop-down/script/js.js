@@ -8,3 +8,6 @@ window.onload = function() {
     }, 2000);
 };
 
+function loop() {
+    const slides = document.getElementsByClassName("slide")
+}
