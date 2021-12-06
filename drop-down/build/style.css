@@ -254,4 +254,6 @@ nav ul li a:hover, nav ul li label:hover {
   width: 1200px;
   margin: auto;
   line-height: 30px;
+  padding: 10px;
+  color: white;
 }
