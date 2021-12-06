@@ -94,6 +94,7 @@ nav .menu:before {
   width: 20px;
   background-color: black;
   right: 35px;
+  top: -10px;
 }
 nav ul {
   position: absolute;
