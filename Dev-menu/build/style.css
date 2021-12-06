@@ -31,7 +31,7 @@ nav .menu:before {
   width: 20px;
   position: absolute;
   top: -7px;
-  right: 5px;
+  right: 30px;
   z-index: 1;
   background-color: black;
   -webkit-transform: rotate(45deg);
