@@ -89,7 +89,10 @@ nav .btn {
 nav #btn-1 {
   display: none;
 }
-nav #btn-1 span {
+nav #btn-4 {
+  display: none;
+}
+nav #btn-4 span {
   cursor: pointer;
   margin-left: 10px;
 }
