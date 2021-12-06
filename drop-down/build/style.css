@@ -248,3 +248,8 @@ nav ul li a:hover, nav ul li label:hover {
   left: 0px;
   opacity: 1;
 }
+
+.nav-bar {
+  background-color: black;
+  width: 1200px;
+}
