@@ -263,6 +263,7 @@ nav ul li a:hover, nav ul li label:hover {
 .nav-bar .menu {
   position: relative;
   background-color: black;
-  top: 30px;
+  top: 150px;
+  left: -50px;
   display: inline-block;
 }
