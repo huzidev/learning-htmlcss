@@ -204,3 +204,7 @@ nav ul li a:hover, nav ul li label:hover {
 [id^=btn]:checked + ul {
   display: block;
 }
+
+.slider {
+  background-color: aqua;
+}
