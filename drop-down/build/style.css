@@ -87,6 +87,9 @@ nav #btn-1 span {
   cursor: pointer;
   margin-left: 10px;
 }
+nav .menu:before {
+  position: absolute;
+}
 nav ul {
   position: absolute;
   list-style: none;
