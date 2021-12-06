@@ -5,7 +5,7 @@ window.onload = function() {
     slides[index].classList.add("active");
     setInterval(() => {
         loops();
-    }, 2000);
+    }, 3000);
 };
 
 function loops() {
