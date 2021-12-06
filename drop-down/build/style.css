@@ -260,7 +260,10 @@ nav ul li a:hover, nav ul li label:hover {
 .nav-bar .btn {
   cursor: pointer;
 }
-.nav-bar .menu {
+.nav-bar .menu:before {
+  content: "";
+}
+.nav-bar ul {
   position: relative;
   background-color: black;
   top: 170px;
@@ -269,13 +272,13 @@ nav ul li a:hover, nav ul li label:hover {
   width: 200px;
   display: inline-block;
 }
-.nav-bar .menu li {
+.nav-bar ul li {
   border-bottom: 1px solid white;
 }
-.nav-bar .menu li a {
+.nav-bar ul li a {
   text-decoration: none;
   color: white;
 }
-.nav-bar .menu li:last-child {
+.nav-bar ul li:last-child {
   border-bottom: none;
 }
