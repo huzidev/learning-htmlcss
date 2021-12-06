@@ -15,11 +15,11 @@ nav {
   line-height: 35px;
   padding: 10px 50px;
 }
-nav label {
+nav .btn {
   cursor: pointer;
   margin-left: 45px;
 }
-nav label span {
+nav .btn span {
   margin-left: 28px;
 }
 nav input {
