@@ -75,6 +75,9 @@ nav {
   padding: 10px 40px;
   line-height: 40px;
 }
+nav [id^=btn]:checked + ul {
+  display: block;
+}
 nav .btn {
   cursor: pointer;
   display: block;
