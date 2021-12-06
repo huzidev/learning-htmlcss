@@ -17,3 +17,6 @@ nav {
 nav label {
   cursor: pointer;
 }
+nav input {
+  display: none;
+}
