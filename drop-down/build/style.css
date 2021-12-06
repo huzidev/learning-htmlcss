@@ -267,6 +267,7 @@ nav ul li a:hover, nav ul li label:hover {
   width: 20px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+  background-color: black;
   z-index: 1;
   content: "";
 }
