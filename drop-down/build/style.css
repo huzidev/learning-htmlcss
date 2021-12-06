@@ -270,7 +270,7 @@ nav ul li a:hover, nav ul li label:hover {
   display: inline-block;
 }
 .nav-bar .menu li {
-  color: white;
+  border-bottom: 1px solid white;
 }
 .nav-bar .menu li a {
   text-decoration: none;
