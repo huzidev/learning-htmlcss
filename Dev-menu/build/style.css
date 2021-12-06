@@ -72,6 +72,11 @@ nav ul .branches .btn-1 span {
 nav ul .branches ul {
   position: static;
 }
+nav ul .branches ul li {
+  padding-left: 50px;
+  line-height: 35px;
+  border-bottom: none;
+}
 nav ul li:last-child {
   border-bottom: none;
 }
