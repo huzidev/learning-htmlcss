@@ -81,17 +81,6 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-nav .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
 nav .btn {
   cursor: pointer;
   display: block;
@@ -102,10 +91,6 @@ nav .btn span {
 }
 nav input {
   display: none;
-}
-nav input span {
-  cursor: pointer;
-  margin-left: 10px;
 }
 nav .menu:before {
   position: absolute;
@@ -153,6 +138,9 @@ nav .position {
   text-align: center;
   width: 200px;
 }
+nav .position span {
+  margin-left: 10px;
+}
 nav .position-1 {
   position: absolute;
   list-style: none;
@@ -163,6 +151,9 @@ nav .position-1 {
   text-align: center;
   width: 200px;
 }
+nav .position-1 span {
+  margin-left: 10px;
+}
 nav ul {
   position: absolute;
   list-style: none;
@@ -171,6 +162,9 @@ nav ul {
   display: none;
   text-align: center;
   width: 200px;
+}
+nav ul span {
+  margin-left: 10px;
 }
 nav ul li {
   cursor: pointer;
