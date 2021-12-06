@@ -6,5 +6,5 @@ window.onload = function() {
     setInterval(() => {
         loops();
     }, 2000);
-}
+};
 
