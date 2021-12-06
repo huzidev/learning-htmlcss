@@ -86,6 +86,9 @@ nav .btn {
   display: block;
   margin-left: 55px;
 }
+nav .btn span {
+  margin-left: 10px;
+}
 nav input {
   display: none;
 }
