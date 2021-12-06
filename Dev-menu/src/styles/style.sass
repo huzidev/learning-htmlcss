@@ -21,6 +21,9 @@ nav
         display: none
     .menu:before // THIS PART IS COMPULSORY FOR ANIMATED DROP-DOWN MENU
         content: '' // IMPORTANT
+        height: 20px
+        width: 20px
+        transform: rotate(45deg)
     ul
         position: absolute // WE HAVE TO USE ABSOLUTE POSITON COMPULSORY OTHERWISE DROP-DOWN MENU WONT WORK
         top: 75px
@@ -35,4 +38,4 @@ nav
                 text-decoration: none
                 color: white
         li:last-child
-            border-bottom: none // IMPROTANT sadsa
+            border-bottom: none // IMPROTANT
