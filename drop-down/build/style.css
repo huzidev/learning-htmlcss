@@ -260,6 +260,9 @@ nav ul li a:hover, nav ul li label:hover {
 .nav-bar .btn {
   cursor: pointer;
 }
+.nav-bar input {
+  display: none;
+}
 .nav-bar .menu:before {
   position: absolute;
   top: -10px;
@@ -275,10 +278,13 @@ nav ul li a:hover, nav ul li label:hover {
 .nav-bar ul {
   position: relative;
   background-color: black;
-  top: 190px;
+  top: 180px;
+  list-style: none;
   text-align: center;
+  display: none;
   left: -120px;
-  width: 200px;
+  width: 150px;
+  margin-left: 10px;
   display: inline-block;
 }
 .nav-bar ul li {
