@@ -26,4 +26,6 @@ nav input {
 }
 nav ul {
   position: absolute;
+  top: 20px;
+  background-color: black;
 }
