@@ -43,6 +43,7 @@ nav ul {
   border-radius: 15px;
   text-align: center;
   width: 200px;
+  list-style: none;
   background-color: black;
 }
 nav ul li {
@@ -52,6 +53,9 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: white;
+}
+nav ul li:hover {
+  color: cyan;
 }
 nav ul li:last-child {
   border-bottom: none;
