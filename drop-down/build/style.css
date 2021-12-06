@@ -217,4 +217,5 @@ nav ul li a:hover, nav ul li label:hover {
   width: 100%;
   -webkit-transition: all 600ms ease;
   transition: all 600ms ease;
+  position: absolute;
 }
