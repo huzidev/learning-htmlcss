@@ -13,10 +13,11 @@ nav {
   width: 1200px;
   margin: auto;
   line-height: 35px;
-  padding: 20px 50px;
+  padding: 10px 50px;
 }
 nav label {
   cursor: pointer;
+  margin-left: 45px;
 }
 nav label span {
   margin-left: 10px;
