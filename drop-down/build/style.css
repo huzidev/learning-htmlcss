@@ -80,7 +80,10 @@ nav .btn {
   display: block;
   margin-left: 55px;
 }
-nav .btn span {
+nav #btn-1 {
+  display: none;
+}
+nav #btn-1 span {
   cursor: pointer;
   margin-left: 10px;
 }
