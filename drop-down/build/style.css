@@ -101,6 +101,9 @@ nav ul li label {
   margin-left: 15px;
   cursor: pointer;
 }
+nav ul li input {
+  display: none;
+}
 nav ul li input span {
   margin-left: 10px;
 }
