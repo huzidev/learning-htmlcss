@@ -110,6 +110,7 @@ nav ul {
   list-style: none;
   background-color: black;
   top: 165px;
+  display: none;
   text-align: center;
   width: 200px;
 }
