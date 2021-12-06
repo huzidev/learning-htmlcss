@@ -35,4 +35,9 @@ nav ul {
 }
 nav ul li {
   line-height: 40px;
+  border-bottom: 1px solid white;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
 }
