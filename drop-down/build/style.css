@@ -74,6 +74,12 @@ nav {
   width: 100%;
   padding: 10px 40px;
   line-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 nav .btn {
   cursor: pointer;
@@ -104,7 +110,6 @@ nav ul {
   list-style: none;
   background-color: black;
   top: 165px;
-  display: none;
   text-align: center;
   width: 200px;
 }
