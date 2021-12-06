@@ -86,13 +86,10 @@ nav .btn {
   display: block;
   margin-left: 55px;
 }
-nav #btn-1 {
+nav input {
   display: none;
 }
-nav #btn-4 {
-  display: none;
-}
-nav #btn-4 span {
+nav input span {
   cursor: pointer;
   margin-left: 10px;
 }
@@ -107,6 +104,28 @@ nav .menu:before {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   z-index: 1;
+}
+nav .menu-1:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  right: 55px;
+  top: -10px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: 1;
+}
+nav .position {
+  position: absolute;
+  list-style: none;
+  background-color: black;
+  top: 165px;
+  right: 0px;
+  display: none;
+  text-align: center;
+  width: 200px;
 }
 nav ul {
   position: absolute;

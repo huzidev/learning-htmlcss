@@ -70,9 +70,11 @@ nav
         cursor: pointer
         display: block
         margin-left: 55px
-    #btn-1
-        display: none
-    #btn-4
+    // #btn-1
+    //     display: none
+    // #btn-4
+    //     display: none
+    input
         display: none
         span
             cursor: pointer
@@ -87,6 +89,25 @@ nav
         top: -10px
         transform: rotate(45deg)
         z-index: 1
+    .menu-1:before
+        position: absolute
+        content: ''
+        height: 20px
+        width: 20px
+        background-color: black
+        right: 55px
+        top: -10px
+        transform: rotate(45deg)
+        z-index: 1
+    .position
+        position: absolute
+        list-style: none
+        background-color: black
+        top: 165px
+        right: 0px
+        display: none
+        text-align: center
+        width: 200px
     ul
         position: absolute
         list-style: none
@@ -94,7 +115,6 @@ nav
         top: 165px
         display: none
         text-align: center
-        // display: none
         width: 200px
         li
             cursor: pointer
