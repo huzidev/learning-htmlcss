@@ -8,13 +8,13 @@ window.onload = function() {
     }, 2000);
 };
 
-function loop() {
+function loops() {
     const slides = document.getElementsByClassName("slide");
-    slides[index].classList.add("active");
     slides[index].classList.remove("active");
     index++;
     if (index == slides.length) {
         index = 0;  
     };
     slides[index].classList.add("active")
-}
+    console.log(index, slides.length);
+};
