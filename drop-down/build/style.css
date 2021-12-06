@@ -269,3 +269,10 @@ nav ul li a:hover, nav ul li label:hover {
   width: 200px;
   display: inline-block;
 }
+.nav-bar .menu li {
+  color: white;
+}
+.nav-bar .menu li a {
+  text-decoration: none;
+  color: white;
+}
