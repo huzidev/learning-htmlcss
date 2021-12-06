@@ -33,3 +33,6 @@ nav ul {
   width: 200px;
   background-color: black;
 }
+nav ul li {
+  line-height: 40px;
+}
