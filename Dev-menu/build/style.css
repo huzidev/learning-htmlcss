@@ -62,3 +62,7 @@ nav ul li a:hover {
 nav ul li:last-child {
   border-bottom: none;
 }
+
+[id^=btn]:checked + ul {
+  display: block;
+}
