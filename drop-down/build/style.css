@@ -260,3 +260,7 @@ nav ul li a:hover, nav ul li label:hover {
 .nav-bar .btn {
   cursor: pointer;
 }
+.nav-bar .menu {
+  position: absolute;
+  background-color: black;
+}
