@@ -97,6 +97,7 @@ nav .menu:before {
   top: -10px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+  z-index: 1;
 }
 nav ul {
   position: absolute;
