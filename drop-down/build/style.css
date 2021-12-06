@@ -257,3 +257,6 @@ nav ul li a:hover, nav ul li label:hover {
   padding: 10px;
   color: white;
 }
+.nav-bar .btn {
+  cursor: pointer;
+}
