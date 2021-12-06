@@ -12,6 +12,7 @@ nav {
   max-width: 100%;
   width: 1200px;
   margin: auto;
+  line-height: 35px;
   padding: 20px 50px;
 }
 nav label {
@@ -22,4 +23,7 @@ nav label span {
 }
 nav input {
   display: none;
+}
+nav ul {
+  position: absolute;
 }
