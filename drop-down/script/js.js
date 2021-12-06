@@ -9,5 +9,6 @@ window.onload = function() {
 };
 
 function loop() {
-    const slides = document.getElementsByClassName("slide")
+    const slides = document.getElementsByClassName("slide");
+    slides[index].classList.add("active");
 }
