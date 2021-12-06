@@ -83,7 +83,6 @@ nav {
 }
 nav .btn {
   cursor: pointer;
-  display: block;
 }
 nav .btn span {
   margin-left: 10px;
