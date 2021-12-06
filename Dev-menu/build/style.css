@@ -60,7 +60,7 @@ nav ul li a {
 nav ul li a:hover {
   color: cyan;
 }
-nav ul li label span {
+nav ul li .btn-1 {
   margin-left: 20px;
 }
 nav ul li:last-child {
