@@ -89,6 +89,7 @@ nav #btn-1 span {
 }
 nav .menu:before {
   position: absolute;
+  content: "";
 }
 nav ul {
   position: absolute;
