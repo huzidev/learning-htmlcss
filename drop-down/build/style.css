@@ -276,3 +276,6 @@ nav ul li a:hover, nav ul li label:hover {
   text-decoration: none;
   color: white;
 }
+.nav-bar .menu li:last-child {
+  border-bottom: none;
+}
