@@ -2,8 +2,7 @@
   margin: 0px;
   padding: 0px;
   font-family: sans-serif;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header {
@@ -11,8 +10,6 @@ header {
   text-align: center;
 }
 header ul {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   list-style: none;
 }
@@ -111,6 +108,10 @@ nav ul li ul li {
   border-bottom: none;
   line-height: 35px;
   padding-left: 55px;
+}
+nav ul li ul li a {
+  color: white;
+  font-size: 17px;
 }
 nav ul li a {
   text-decoration: none;
