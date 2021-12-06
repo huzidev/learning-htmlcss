@@ -261,6 +261,8 @@ nav ul li a:hover, nav ul li label:hover {
   cursor: pointer;
 }
 .nav-bar .menu {
-  position: absolute;
+  position: relative;
   background-color: black;
+  top: 30px;
+  display: inline-block;
 }
