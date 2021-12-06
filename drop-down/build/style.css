@@ -265,6 +265,9 @@ nav ul li a:hover, nav ul li label:hover {
   top: 20px;
   height: 20px;
   width: 20px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: 1;
   content: "";
 }
 .nav-bar ul {
