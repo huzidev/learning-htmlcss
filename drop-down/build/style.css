@@ -75,9 +75,6 @@ nav {
   padding: 10px 40px;
   line-height: 40px;
 }
-nav [id^=btn]:checked + ul {
-  display: block;
-}
 nav .btn {
   cursor: pointer;
   display: block;
@@ -107,6 +104,7 @@ nav ul {
   list-style: none;
   background-color: black;
   top: 165px;
+  display: none;
   text-align: center;
   width: 200px;
 }
@@ -145,4 +143,8 @@ nav ul li a {
 }
 nav ul li a:hover, nav ul li label:hover {
   color: cyan;
+}
+
+[id^=btn]:checked + ul {
+  display: block;
 }
