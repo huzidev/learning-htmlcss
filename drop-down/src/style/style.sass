@@ -173,6 +173,8 @@ nav
     background-color: aqua
     height: 500px
     width: 1200px
+    overflow: hidden
+    position: relative // IMPORTANT
     margin: 10px auto
     .slide
         left: 0px
@@ -182,3 +184,7 @@ nav
         position: absolute
         left: -100%
         background-color: yellow
+        opacity: 0
+        &.active
+            left: 0px
+            opacity: 1

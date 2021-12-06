@@ -209,6 +209,8 @@ nav ul li a:hover, nav ul li label:hover {
   background-color: aqua;
   height: 500px;
   width: 1200px;
+  overflow: hidden;
+  position: relative;
   margin: 10px auto;
 }
 #slider .slide {
@@ -220,4 +222,9 @@ nav ul li a:hover, nav ul li label:hover {
   position: absolute;
   left: -100%;
   background-color: yellow;
+  opacity: 0;
+}
+#slider .slide.active {
+  left: 0px;
+  opacity: 1;
 }
