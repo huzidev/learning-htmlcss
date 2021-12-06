@@ -212,6 +212,7 @@ nav ul li a:hover, nav ul li label:hover {
   overflow: hidden;
   position: relative;
   margin: 10px auto;
+  z-index: -1;
 }
 #slider .slide {
   left: 0px;
@@ -224,7 +225,7 @@ nav ul li a:hover, nav ul li label:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: white;
+  color: black;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -232,7 +233,7 @@ nav ul li a:hover, nav ul li label:hover {
       -ms-flex-align: center;
           align-items: center;
   font-size: 50px;
-  background-color: black;
+  background-color: blackalmond;
   opacity: 0;
   -webkit-clip-path: circle(0% at 0% 50%);
           clip-path: circle(0% at 0% 50%);

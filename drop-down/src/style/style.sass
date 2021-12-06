@@ -176,6 +176,7 @@ nav
     overflow: hidden
     position: relative // IMPORTANT
     margin: 10px auto
+    z-index: -1
     .slide
         left: 0px
         height: 100%
@@ -184,11 +185,11 @@ nav
         position: absolute
         left: -100%
         display: flex
-        color: white 
+        color: black
         justify-content: center
         align-items: center
         font-size: 50px
-        background-color: black
+        background-color: blackalmond
         opacity: 0
         clip-path: circle(0% at 0% 50%)
         &.active
