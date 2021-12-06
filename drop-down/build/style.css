@@ -101,7 +101,7 @@ nav ul li label {
   margin-left: 15px;
   cursor: pointer;
 }
-nav ul li label span {
+nav ul li input span {
   margin-left: 10px;
 }
 nav ul li ul {
