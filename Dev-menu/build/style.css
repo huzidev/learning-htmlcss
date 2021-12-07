@@ -14,6 +14,9 @@ nav {
   margin: auto;
   line-height: 35px;
   padding: 10px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 nav .btn {
   cursor: pointer;
