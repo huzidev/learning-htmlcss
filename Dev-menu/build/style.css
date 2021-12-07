@@ -6,7 +6,7 @@
           box-sizing: border-box;
 }
 
-nav {
+.container {
   background-color: black;
   color: white;
   max-width: 100%;
@@ -24,17 +24,17 @@ nav {
       -ms-flex-align: center;
           align-items: center;
 }
-nav .btn {
+.container .btn {
   cursor: pointer;
   margin-left: 45px;
 }
-nav .btn span {
+.container .btn span {
   margin-left: 8px;
 }
-nav input {
+.container input {
   display: none;
 }
-nav .menu:before {
+.container .menu:before {
   content: "";
   height: 20px;
   width: 20px;
@@ -46,7 +46,7 @@ nav .menu:before {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
-nav .menu-1:before {
+.container .menu-1:before {
   content: "";
   height: 20px;
   width: 20px;
@@ -58,7 +58,7 @@ nav .menu-1:before {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
-nav ul {
+.container ul {
   position: absolute;
   top: 65px;
   border-radius: 15px;
@@ -69,46 +69,46 @@ nav ul {
   -webkit-box-shadow: 0px 0px 21px -5px black;
           box-shadow: 0px 0px 21px -5px black;
 }
-nav ul.position {
+.container ul.position {
   left: 250px;
   position: fixed;
 }
-nav ul.position span {
+.container ul.position span {
   float: right;
   margin-top: 12px;
   margin-right: 20px;
   cursor: pointer;
 }
-nav ul li {
+.container ul li {
   line-height: 40px;
   border-bottom: 1px solid white;
   padding-left: 20px;
 }
-nav ul li a {
+.container ul li a {
   text-decoration: none;
   color: white;
 }
-nav ul li a:hover {
+.container ul li a:hover {
   color: cyan;
 }
-nav ul .branches {
+.container ul .branches {
   overflow: hidden;
 }
-nav ul .branches .btn-1 span {
+.container ul .branches .btn-1 span {
   float: right;
   margin-top: 12px;
   margin-right: 20px;
   cursor: pointer;
 }
-nav ul .branches ul {
+.container ul .branches ul {
   position: static;
 }
-nav ul .branches ul li {
+.container ul .branches ul li {
   padding-left: 20px;
   line-height: 35px;
   border-bottom: none;
 }
-nav ul li:last-child {
+.container ul li:last-child {
   border-bottom: none;
 }
 
