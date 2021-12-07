@@ -46,6 +46,18 @@ nav .menu:before {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
+nav .menu-1:before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: -7px;
+  right: 50px;
+  z-index: 1;
+  background-color: black;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
 nav ul {
   position: absolute;
   top: 65px;
