@@ -51,7 +51,6 @@ nav ul {
 nav ul li {
   line-height: 40px;
   border-bottom: 1px solid white;
-  padding-left: 20px;
 }
 nav ul li a {
   text-decoration: none;
@@ -59,6 +58,10 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: cyan;
+}
+nav ul .branches {
+  padding-left: 20px;
+  overflow: hidden;
 }
 nav ul .branches .btn-1 span {
   float: right;
@@ -70,7 +73,7 @@ nav ul .branches ul {
   position: static;
 }
 nav ul .branches ul li {
-  padding-left: 15px;
+  padding-left: 30px;
   line-height: 35px;
   border-bottom: none;
 }

@@ -41,7 +41,6 @@ nav
         li
             line-height: 40px
             border-bottom: 1px solid white
-            padding-left: 20px
             a
                 text-decoration: none
                 color: white
@@ -49,6 +48,9 @@ nav
                 color: cyan
                         // THE BELOW PART IS MOST IMPORTANT FOR STYLING OF SUB-BRANCHES
         .branches
+            padding-left: 20px
+            overflow: hidden
+            .btn-1
                 span
                     float: right
                     margin-top: 12px
@@ -57,7 +59,7 @@ nav
             ul // MOST IMPORTANT FOR SUB-BRANCHES IN DROP-DOWN MENU
                 position: static
                 li
-                    padding-left: 15px
+                    padding-left: 30px
                     line-height: 35px
                     border-bottom: none
         li:last-child
