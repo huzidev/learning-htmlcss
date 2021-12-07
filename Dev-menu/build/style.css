@@ -69,39 +69,39 @@ nav ul {
   -webkit-box-shadow: 0px 0px 21px -5px black;
           box-shadow: 0px 0px 21px -5px black;
 }
-nav .position {
-  right: 70px;
+nav ul.position {
+  right: 50px;
 }
-nav .position li {
+nav ul li {
   line-height: 40px;
   border-bottom: 1px solid white;
   padding-left: 20px;
 }
-nav .position li a {
+nav ul li a {
   text-decoration: none;
   color: white;
 }
-nav .position li a:hover {
+nav ul li a:hover {
   color: cyan;
 }
-nav .position .branches {
+nav ul .branches {
   overflow: hidden;
 }
-nav .position .branches .btn-1 span {
+nav ul .branches .btn-1 span {
   float: right;
   margin-top: 12px;
   margin-right: 20px;
   cursor: pointer;
 }
-nav .position .branches ul {
+nav ul .branches ul {
   position: static;
 }
-nav .position .branches ul li {
+nav ul .branches ul li {
   padding-left: 20px;
   line-height: 35px;
   border-bottom: none;
 }
-nav .position li:last-child {
+nav ul li:last-child {
   border-bottom: none;
 }
 
