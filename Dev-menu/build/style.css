@@ -70,7 +70,8 @@ nav ul {
           box-shadow: 0px 0px 21px -5px black;
 }
 nav ul.position {
-  right: 50px;
+  left: 250px;
+  position: fixed;
 }
 nav ul.position span {
   float: right;
