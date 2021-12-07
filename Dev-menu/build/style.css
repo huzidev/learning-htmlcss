@@ -43,7 +43,7 @@ nav ul {
   border-radius: 15px;
   width: 200px;
   display: none;
-  padding-left: 20px;
+  overflow: hidden;
   list-style: none;
   background-color: black;
   -webkit-box-shadow: 0px 0px 21px -5px black;
@@ -52,6 +52,7 @@ nav ul {
 nav ul li {
   line-height: 40px;
   border-bottom: 1px solid white;
+  padding-left: 20px;
 }
 nav ul li a {
   text-decoration: none;
