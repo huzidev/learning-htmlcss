@@ -72,6 +72,12 @@ nav ul {
 nav ul.position {
   right: 50px;
 }
+nav ul.position span {
+  float: right;
+  margin-top: 12px;
+  margin-right: 20px;
+  cursor: pointer;
+}
 nav ul li {
   line-height: 40px;
   border-bottom: 1px solid white;
