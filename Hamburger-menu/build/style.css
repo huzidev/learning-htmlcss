@@ -18,6 +18,7 @@ header {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 1200px;
+  padding: 10px 20px;
   margin: auto;
 }
 header ul {
@@ -35,6 +36,8 @@ header ul a {
   color: white;
   cursor: pointer;
   padding: 10px 20px;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
 }
 header ul a:hover {
   background-color: white;
