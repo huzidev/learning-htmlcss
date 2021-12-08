@@ -1,1 +1,1 @@
-const
+const menuBtn = document.querySelector
