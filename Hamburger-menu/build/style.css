@@ -68,4 +68,7 @@ body {
 .menu-btn.open .menu-btn-burger {
   -webkit-transform: translateX(-50px);
           transform: translateX(-50px);
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
