@@ -48,4 +48,6 @@ body {
 .menu-btn .menu-btn-burger::after, .menu-btn .menu-btn-burger::before {
   content: "";
   position: absolute;
+  width: 50px;
+  height: 6px;
 }
