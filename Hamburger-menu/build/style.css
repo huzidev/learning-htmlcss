@@ -17,6 +17,8 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  width: 1200px;
+  margin: auto;
 }
 header ul {
   width: 50%;
@@ -28,7 +30,13 @@ header ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+header ul a {
+  text-decoration: none;
+  color: white;
+}
 header .search {
   width: 50%;
+}
+header .search .right {
   float: right;
 }
