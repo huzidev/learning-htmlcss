@@ -44,3 +44,7 @@ body
             transform: translateX(-50px)
             background: transparent // IT'LL TRANSPARENT THE MIDDLE BAR WHEN IT TRIGGERS OR TOGGLE
             box-shadow: none
+            &::before
+                transform: rotate(45deg) translate(35px, -35px)
+            &::after
+                transform: rotate(-45deg) translate(35px, 35px)
