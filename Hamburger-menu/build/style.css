@@ -65,3 +65,7 @@ body {
   -webkit-transform: translateY(16px);
           transform: translateY(16px);
 }
+.menu-btn.open .menu-btn-burger {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+}
