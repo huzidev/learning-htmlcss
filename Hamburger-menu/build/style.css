@@ -19,7 +19,7 @@ header {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 1200px;
-  padding: 10px 20px;
+  padding: 20px;
   margin: auto;
 }
 header ul {
