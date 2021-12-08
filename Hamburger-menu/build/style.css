@@ -46,7 +46,5 @@ header ul a:hover {
 }
 header .search {
   width: 50%;
-}
-header .search .right {
-  float: right;
+  text-align: right;
 }
