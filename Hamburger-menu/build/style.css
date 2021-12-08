@@ -53,5 +53,8 @@ header .search {
   position: absolute;
   top: 20px;
   right: 5%;
+  cursor: pointer;
+}
+.ham-burger-menu .line {
   color: white;
 }
