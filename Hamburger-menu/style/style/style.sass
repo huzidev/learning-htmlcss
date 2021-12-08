@@ -26,7 +26,7 @@ body
         background-color: white
         border-radius: 5px
         box-shadow: 0px 2px 5px rgba(255, 101, 47, 0.2) // THE ABOVE MEHTOD WHICH IS IN (.MENU-BTN-BURGER) WILL JUST ADD CENTER LINE OF OURS HAM-BURGER BECUASE WHEN WE USES THE ANIMATION IT'LL JUST VANISHED AND THE ABOVE AND BELOW LINE LINES WILL ROTATE TO MAKE AN (X) BY ROTATION 45 DEG AND -45 DEG
-        &::after, &::before
+        &::before, &::after
             content: ''
             position: absolute
             width: 50px
@@ -35,3 +35,5 @@ body
             border-radius: 15px
             box-shadow: 0px 2px 5px rgba(255, 101, 47, 0.2)
             transition: all 500ms ease-in-out
+        &::before
+            transform: translateY(-16px)
