@@ -33,6 +33,7 @@ header ul {
 header ul a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 header .search {
   width: 50%;
