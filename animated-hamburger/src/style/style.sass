@@ -43,3 +43,6 @@
                     font-size: 20px
                     letter-spacing: 1px
                     text-transform: uppercase
+                    &::before, &::after
+                        content: '' // THIS MEANS CONTENT TYPE IS EMPTY AND IT HAS TO BE USED WHEN EVER WE USES PSEUDO-ELEMENTS (::BEFORE, ::AFTER)
+                        
