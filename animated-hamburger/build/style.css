@@ -11,6 +11,10 @@
 }
 .container .nav-bar {
   width: 300px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
 }
 .container .nav-bar .hamburger-menu {
   height: 30px;
