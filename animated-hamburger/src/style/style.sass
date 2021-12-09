@@ -32,12 +32,13 @@
                 width: 100% // THE LINES OF HAMBURGER-MENU WILL ONLY TAKES WIDTH INSIDE THE MENU
                 height: 3px
                 background-color: chocolate
-            .line-1
+            .change .line-1 // THE CHANGE CLASS MEANS WHEN CLASS TRIGERS ON CLICK IT'LL ROTATE THE LINES
                 transform: rotateZ(-45deg) translate(-8px, 6px)
-            .line-2
+            .change .line-2
                 opacity: 0 // THE MIDDLE LINE
-            .line-3
+            .change .line-3
                 transform: rotateZ(45deg) translate(-8px, -6px)
+                // BY USING TRANSLATE WE'LL GET A PERFECT (X) FOR OURS HAMBURGER-MENU
         .nav-list
             text-align: right  // WE'VE TO USED IT SO ALL THE CONTENT WRITTEN INSIDE LIST-ITEMS (LI) WILL GET INTO THE UNIFORM ORDER
             .nav-item
