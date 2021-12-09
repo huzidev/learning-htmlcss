@@ -61,5 +61,13 @@ body {
     opacity: 0;
   }
 }
-@-webkit-keyframes typing;
-@keyframes typing;
+@-webkit-keyframes typing {
+  0%, 90%, 100% {
+    width: 0px;
+  }
+}
+@keyframes typing {
+  0%, 90%, 100% {
+    width: 0px;
+  }
+}
