@@ -22,6 +22,7 @@ body {
 
 .loader {
   position: relative;
+  -webkit-box-reflect: below -28px linear-gradient transparent, aqua;
 }
 .loader::before {
   content: "";
@@ -40,8 +41,9 @@ body {
   letter-spacing: 5px;
   font-size: 4em;
   text-transform: uppercase;
-  -webkit-animation: typing 800ms steps(8) infinite;
-          animation: typing 800ms steps(8) infinite;
+  -webkit-animation: typing 8000ms steps(8) infinite;
+          animation: typing 8000ms steps(8) infinite;
+  overflow: hidden;
 }
 
 @-webkit-keyframes blink {
@@ -65,9 +67,15 @@ body {
   0%, 90%, 100% {
     width: 0px;
   }
+  30%, 60% {
+    width: 381.88px;
+  }
 }
 @keyframes typing {
   0%, 90%, 100% {
     width: 0px;
+  }
+  30%, 60% {
+    width: 381.88px;
   }
 }
