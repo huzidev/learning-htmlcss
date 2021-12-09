@@ -12,6 +12,8 @@
 .container .nav-bar {
   background-color: black;
   width: 300px;
+  -webkit-box-shadow: 0px 0px 21px -5px white;
+          box-shadow: 0px 0px 21px -5px white;
   height: 100%;
   position: fixed;
   top: 0px;
@@ -27,7 +29,7 @@
           align-items: center;
   -webkit-transition: right 800ms cubic-bezier(1, 0, 0, 1);
   transition: right 800ms cubic-bezier(1, 0, 0, 1);
-  border-radius: 20% 0 0 60%;
+  border-radius: 20% 0 0 20%;
 }
 .container .nav-bar.change {
   right: 0px;
