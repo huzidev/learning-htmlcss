@@ -10,7 +10,7 @@
   background-color: black;
 }
 .container .nav-bar {
-  background-color: aqua;
+  background-color: black;
   width: 300px;
   height: 100%;
   position: fixed;
@@ -76,7 +76,7 @@
 }
 .container .nav-bar .nav-list .nav-item .nav-link {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
