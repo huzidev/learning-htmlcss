@@ -33,4 +33,6 @@ body {
 }
 .loader h2 {
   position: relative;
+  color: aqua;
+  letter-spacing: 5px;
 }
