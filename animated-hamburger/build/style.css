@@ -10,3 +10,7 @@
   width: 100%;
   background-color: aqua;
 }
+.container .hamburger-menu {
+  height: 30px;
+  width: 35px;
+}
