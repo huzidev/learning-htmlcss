@@ -22,7 +22,7 @@ body {
 
 .loader {
   position: relative;
-  -webkit-box-reflect: below -28px linear-gradient transparent, aqua;
+  background-color: below -28px linear-gradient (transparent,aqua);
 }
 .loader::before {
   content: "";
@@ -68,7 +68,7 @@ body {
     width: 0px;
   }
   30%, 60% {
-    width: 381.88px;
+    width: 321.88px;
   }
 }
 @keyframes typing {
@@ -76,6 +76,6 @@ body {
     width: 0px;
   }
   30%, 60% {
-    width: 381.88px;
+    width: 321.88px;
   }
 }
