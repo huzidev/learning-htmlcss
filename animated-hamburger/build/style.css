@@ -53,6 +53,13 @@
   -webkit-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
+.container .nav-bar .hamburger-menu .line-2 {
+  opacity: 0;
+}
+.container .nav-bar .hamburger-menu .line-1 {
+  -webkit-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
+}
 .container .nav-bar .nav-list {
   text-align: right;
 }
