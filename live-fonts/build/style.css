@@ -40,6 +40,8 @@ body {
   letter-spacing: 5px;
   font-size: 4em;
   text-transform: uppercase;
+  -webkit-animation: typing 800ms steps(8) infinite;
+          animation: typing 800ms steps(8) infinite;
 }
 
 @-webkit-keyframes blink {
