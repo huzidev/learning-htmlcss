@@ -16,6 +16,12 @@
   position: fixed;
   top: 0px;
   right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .container .nav-bar .hamburger-menu {
   height: 30px;
