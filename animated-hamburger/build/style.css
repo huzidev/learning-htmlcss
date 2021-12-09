@@ -18,6 +18,9 @@
   top: 50px;
   right: 50px;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .container .hamburger-menu .line {
   width: 100%;
