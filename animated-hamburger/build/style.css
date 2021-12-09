@@ -56,3 +56,6 @@
   list-style: none;
   margin: 25px;
 }
+.container .nav-bar .nav-list .nav-item .nav-link {
+  text-decoration: none;
+}
