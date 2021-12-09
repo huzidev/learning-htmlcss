@@ -49,6 +49,10 @@
   height: 3px;
   background-color: chocolate;
 }
+.container .nav-bar .hamburger-menu .line-1 {
+  -webkit-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
+}
 .container .nav-bar .nav-list {
   text-align: right;
 }
