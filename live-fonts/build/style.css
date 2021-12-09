@@ -28,8 +28,6 @@ body {
   position: absolute;
   top: 0px;
   right: 0px;
-  -webkit-animation-name: blink;
-          animation-name: blink;
-  -webkit-animation-duration: 800ms;
-          animation-duration: 800ms;
+  -webkit-animation: blink 800ms steps(3) infinite;
+          animation: blink 800ms steps(3) infinite;
 }
