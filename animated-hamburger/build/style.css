@@ -72,6 +72,8 @@
   background-color: chocolate;
   position: absolute;
   left: 0px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
 }
 .container .nav-bar .nav-list .nav-item .nav-link::after {
   bottom: 0px;
