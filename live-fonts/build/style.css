@@ -28,6 +28,7 @@ body {
   position: absolute;
   top: 0px;
   right: 0px;
+  width: 2px;
   -webkit-animation: blink 800ms steps(3) infinite;
           animation: blink 800ms steps(3) infinite;
 }
