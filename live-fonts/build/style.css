@@ -41,3 +41,15 @@ body {
   font-size: 4em;
   text-transform: uppercase;
 }
+
+@-webkit-keyframes blink {
+  0%, 75% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0%, 75% {
+    opacity: 1;
+  }
+}
