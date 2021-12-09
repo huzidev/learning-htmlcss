@@ -30,4 +30,6 @@ body {
   right: 0px;
   -webkit-animation-name: blink;
           animation-name: blink;
+  -webkit-animation-duration: 800ms;
+          animation-duration: 800ms;
 }
