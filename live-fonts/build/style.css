@@ -25,4 +25,5 @@ body {
 }
 .loader::before {
   content: "";
+  position: absolute;
 }
