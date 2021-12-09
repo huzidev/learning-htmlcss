@@ -26,4 +26,5 @@ body {
 .loader::before {
   content: "";
   position: absolute;
+  top: 0px;
 }
