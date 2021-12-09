@@ -53,10 +53,13 @@
                         position: absolute // IMPORTANT
                         left: 0px // IMPORTANT
                         transform: scaleX(0) // FOR ANIMATED LINES
-                         
+                        transition: transform 500ms
                         // NOW WE'VE TO COMPULSORY USE THE POSITION ABSOLUTE INSIDE (::BEFORE) & (::AFTER) PESUDO-ELEMENTS AND POSITON ABSOLUTE INSIDE .NAV-LINK WHICH IS THE PARENT OF (::BEOFRE & ::AFTER) PSEUDO-ELEMENTS AND DON'T FORGET TO USE LEFT 0PX OTHER WISE IT WONT CAME IN TO ORDER
                     &::after
                         bottom: 0px // WE'VE TO USED IT BECAUSE THE BOTTOM LINE WONT EVEN DISPLAY WIHTOUT THIS
                     &::before
                         top: 0px // THIS IS GIVEN ALREADY BY-DEFAULT
+                    .nav-link:hover &::before,
+                    .nav-link:hover &::after
+                        transform: scaleX(1) 
                         

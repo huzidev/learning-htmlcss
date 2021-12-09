@@ -74,10 +74,18 @@
   left: 0px;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
 }
 .container .nav-bar .nav-list .nav-item .nav-link::after {
   bottom: 0px;
 }
 .container .nav-bar .nav-list .nav-item .nav-link::before {
   top: 0px;
+}
+.nav-link:hover .container .nav-bar .nav-list .nav-item .nav-link::before, .nav-link:hover .container .nav-bar .nav-list .nav-item .nav-link::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
