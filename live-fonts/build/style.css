@@ -23,3 +23,6 @@ body {
 .loader {
   position: relative;
 }
+.loader::before {
+  content: "";
+}
