@@ -1,1 +1,1 @@
-const menuIcon
+const menuIcon = document.querySelector(".hamburger-menu")
