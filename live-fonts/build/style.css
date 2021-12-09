@@ -46,10 +46,16 @@ body {
   0%, 75% {
     opacity: 1;
   }
+  76%, 100% {
+    opacity: 0;
+  }
 }
 
 @keyframes blink {
   0%, 75% {
     opacity: 1;
+  }
+  76%, 100% {
+    opacity: 0;
   }
 }
