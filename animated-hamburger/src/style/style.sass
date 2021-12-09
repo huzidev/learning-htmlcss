@@ -43,9 +43,14 @@
                     font-size: 20px
                     letter-spacing: 1px
                     text-transform: uppercase
+                    position: relative // IMPORTANT
                     &::before, &::after // WE'RE USING THIS PESUDO-ELEMENTS SO THAT WE CAN HAVE THE BEAUTIFUL ANIMATION WHEN WE HOVER OVER THE CONTENT WRITTEN
                         content: '' // THIS MEANS CONTENT TYPE IS EMPTY AND IT HAS TO BE USED WHEN EVER WE USES PSEUDO-ELEMENTS (::BEFORE, ::AFTER)
                         width: 100% // SO LINES WILL TRIGGERS TO THE LIMITS OF WRITTEN CONTENT
                         height: 2px
                         background-color: chocolate
+                        position: absolute // IMPORTANT
+                        left: 0px // IMPORTANT 
+                        // NOW WE'VE TO COMPULSORY USE THE POSITION ABSOLUTE INSIDE (::BEFORE) & (::AFTER) PESUDO-ELEMENTS AND POSITON ABSOLUTE INSIDE .NAV-LINK WHICH IS THE PARENT OF (::BEOFRE & ::AFTER) PSEUDO-ELEMENTS AND DON'T FORGET TO USE LEFT 0PX OTHER WISE IT WONT CAME IN TO ORER
+
                         
