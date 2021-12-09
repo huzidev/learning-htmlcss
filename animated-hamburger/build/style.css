@@ -13,7 +13,6 @@
 .container .hamburger-menu {
   height: 30px;
   width: 35px;
-  background-color: red;
   position: fixed;
   top: 50px;
   right: 50px;
@@ -25,6 +24,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .container .hamburger-menu .line {
   width: 100%;
