@@ -49,3 +49,6 @@
   height: 3px;
   background-color: chocolate;
 }
+.container .nav-bar .nav-list {
+  text-align: right;
+}
