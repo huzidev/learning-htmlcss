@@ -85,7 +85,8 @@
 .container .nav-bar .nav-list .nav-item .nav-link::before {
   top: 0px;
 }
-.nav-link:hover .container .nav-bar .nav-list .nav-item .nav-link::before, .nav-link:hover .container .nav-bar .nav-list .nav-item .nav-link::after {
+.container .nav-bar .nav-list .nav-item .nav-link:hover::before,
+.container .nav-bar .nav-list .nav-item .nav-link:hover::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
