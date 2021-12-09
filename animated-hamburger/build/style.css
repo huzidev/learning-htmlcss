@@ -81,9 +81,13 @@
 }
 .container .nav-bar .nav-list .nav-item .nav-link::after {
   bottom: 0px;
+  -webkit-transform-origin: right;
+          transform-origin: right;
 }
 .container .nav-bar .nav-list .nav-item .nav-link::before {
   top: 0px;
+  -webkit-transform-origin: left;
+          transform-origin: left;
 }
 .container .nav-bar .nav-list .nav-item .nav-link:hover::before,
 .container .nav-bar .nav-list .nav-item .nav-link:hover::after {

@@ -57,8 +57,11 @@
                         // NOW WE'VE TO COMPULSORY USE THE POSITION ABSOLUTE INSIDE (::BEFORE) & (::AFTER) PESUDO-ELEMENTS AND POSITON ABSOLUTE INSIDE .NAV-LINK WHICH IS THE PARENT OF (::BEOFRE & ::AFTER) PSEUDO-ELEMENTS AND DON'T FORGET TO USE LEFT 0PX OTHER WISE IT WONT CAME IN TO ORDER
                     &::after
                         bottom: 0px // WE'VE TO USED IT BECAUSE THE BOTTOM LINE WONT EVEN DISPLAY WIHTOUT THIS
+                        transform-origin: right // WHAT THIS WILL DO IS JUST THAT IT'LL ORIGINATE THE ANIMATED LINES FORM RIGHT FROM THE BELOW BECAUSE IT IS AN (AFTER) ELEMENT
                     &::before
                         top: 0px // THIS IS GIVEN ALREADY BY-DEFAULT
+                        transform-origin: left // AND IT'LL ORIGINATE THE ANIMATED LINES FORM LEFT 
+                        // NOTE IF WE DIDN'T USED THE TRANSFORM ORIGIN RIGHT, LEFT SO THE LINES WILL JUST POP FORM THE CENTER AND IT IS ALSO A PREETY GOOD ANIMATION 
                 .nav-link:hover::before,
                 .nav-link:hover::after
                     transform: scaleX(1) 
