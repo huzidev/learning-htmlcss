@@ -13,11 +13,14 @@
         height: 100%
         position: fixed // FIXED SO IT'LL JUST APPEAR IN THE CONTAINER
         top: 0px
-        right: 0px
+        right: -300px // SAME RIGHT AS MUCH WIDTH WE GAVE TO OURS NAV-BAR
         display: flex
         justify-content: center
         align-items: center
+        transition: right 800ms cubic-bezier(1, 0, 0, 1)
         border-radius: 20% 0 0 60% // JUST LIKE MARGIN, PADDING SCENARIO BUT IN BORDER-RADIUS CASE FIRST VALUE REFERS FOR (TOP-LEFT), SECOND ONE IS FOR (TOP-RIGHT) THE THIRD ONE IS FOR BOTTOM-RIGHT AND THE LAST VALUE IS FOR BOTTOM-LEFT
+        &.change
+            right: 0px
         .hamburger-menu
             height: 30px
             width: 35px
@@ -33,12 +36,12 @@
                 height: 3px
                 background-color: chocolate
                 transition: all 800ms 
-            .change .line-1 // THE CHANGE CLASS MEANS WHEN CLASS TRIGERS ON CLICK IT'LL ROTATE THE LINES THEREFORE WE ADD THE CHANGE CLASS ON EVERY SINGLE LINES OF HAMBURGER-MENU
-                transform: rotateZ(-405deg) translate(-8px, 6px)
-            .change .line-2
-                opacity: 0 // THE MIDDLE LINE
-            .change .line-3
-                transform: rotateZ(405deg) translate(-8px, -6px)
+        &.change .line-1 // THE CHANGE CLASS MEANS WHEN CLASS TRIGERS ON CLICK IT'LL ROTATE THE LINES THEREFORE WE ADD THE CHANGE CLASS ON EVERY SINGLE LINES OF HAMBURGER-MENU
+            transform: rotateZ(-405deg) translate(-8px, 6px)
+        &.change .line-2
+            opacity: 0 // THE MIDDLE LINE
+        &.change .line-3
+            transform: rotateZ(405deg) translate(-8px, -6px)
                 // BY USING TRANSLATE WE'LL GET A PERFECT (X) FOR OURS HAMBURGER-MENU
         .nav-list
             text-align: right  // WE'VE TO USED IT SO ALL THE CONTENT WRITTEN INSIDE LIST-ITEMS (LI) WILL GET INTO THE UNIFORM ORDER
