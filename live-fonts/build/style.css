@@ -35,4 +35,6 @@ body {
   position: relative;
   color: aqua;
   letter-spacing: 5px;
+  font-size: 4em;
+  text-transform: uppercase;
 }
