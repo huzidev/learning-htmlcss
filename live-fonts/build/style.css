@@ -31,3 +31,6 @@ body {
   -webkit-animation: blink 800ms steps(3) infinite;
           animation: blink 800ms steps(3) infinite;
 }
+.loader h2 {
+  position: relative;
+}
