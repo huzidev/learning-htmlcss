@@ -30,6 +30,7 @@ body {
   right: 0px;
   width: 2px;
   height: 100%;
+  background-color: aqua;
   -webkit-animation: blink 800ms steps(3) infinite;
           animation: blink 800ms steps(3) infinite;
 }
