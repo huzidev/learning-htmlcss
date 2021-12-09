@@ -65,4 +65,5 @@
 }
 .container .nav-bar .nav-list .nav-item .nav-link::before, .container .nav-bar .nav-list .nav-item .nav-link::after {
   content: "";
+  width: 100%;
 }
