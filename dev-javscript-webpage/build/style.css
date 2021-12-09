@@ -4,3 +4,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.container {
+  background-image: url(/images/light-bg.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+}
