@@ -52,3 +52,6 @@
 .container .nav-bar .nav-list {
   text-align: right;
 }
+.container .nav-bar .nav-list .nav-item {
+  list-style: none;
+}
