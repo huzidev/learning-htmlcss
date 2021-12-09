@@ -72,3 +72,9 @@
   position: absolute;
   left: 0px;
 }
+.container .nav-bar .nav-list .nav-item .nav-link::after {
+  bottom: 0px;
+}
+.container .nav-bar .nav-list .nav-item .nav-link::before {
+  top: 0px;
+}
