@@ -16,9 +16,10 @@
         position: fixed // FIXED SO IT'LL JUST APPEAR IN THE CONTAINER
         top: 0px
         right: -300px // SAME RIGHT AS MUCH WIDTH WE GAVE TO OURS NAV-BAR
-        display: flex
-        justify-content: center
-        align-items: center
+        padding: 150px 50px
+        // display: flex
+        // justify-content: center
+        // align-items: center
         transition: right 800ms cubic-bezier(1, 0, 0, 1)
         border-radius: 20% 0 0 20% // JUST LIKE MARGIN, PADDING SCENARIO BUT IN BORDER-RADIUS CASE FIRST VALUE REFERS FOR (TOP-LEFT), SECOND ONE IS FOR (TOP-RIGHT) THE THIRD ONE IS FOR BOTTOM-RIGHT AND THE LAST VALUE IS FOR BOTTOM-LEFT
         &.change
@@ -30,10 +31,9 @@
             top: 50px
             right: 50px
             cursor: pointer
-            padding: 150px 50px // ALOT BETTER THAN DISPLAY FLEX
-            // display: flex // FLEX BOX FOR LINES OF HAMBRUGER-MENU
-            // flex-direction: column // SO LINES CAN BECOME PARALLEL
-            // justify-content: space-around // SPACE-AROUND WILL WORK FINE FOR COLUMN DIRECTION INSETAD OF SPACE-BETWEEN
+            display: flex // FLEX BOX FOR LINES OF HAMBRUGER-MENU
+            flex-direction: column // SO LINES CAN BECOME PARALLEL
+            justify-content: space-around // SPACE-AROUND WILL WORK FINE FOR COLUMN DIRECTION INSETAD OF SPACE-BETWEEN
             .line
                 width: 100% // THE LINES OF HAMBURGER-MENU WILL ONLY TAKES WIDTH INSIDE THE MENU
                 height: 3px
