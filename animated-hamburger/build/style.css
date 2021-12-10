@@ -22,13 +22,14 @@
   right: -300px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  padding: 150px 50px;
+  /* display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: center; */
   -webkit-transition: right 800ms cubic-bezier(1, 0, 0, 1);
   transition: right 800ms cubic-bezier(1, 0, 0, 1);
   border-radius: 20% 0 0 20%;
