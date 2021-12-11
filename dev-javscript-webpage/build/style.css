@@ -283,7 +283,7 @@
 }
 .back-3 .skills .skill-bar .left-skill {
   width: 50%;
-  margin: 0 20px;
+  margin: 50px 0px 0px 20px;
 }
 .back-3 .skills .skill-bar .left-skill p {
   float: right;
@@ -326,7 +326,7 @@
 }
 .back-3 .skills .skill-bar .right-skill {
   width: 50%;
-  margin: 0 20px;
+  margin: 50px 0px 0px 20px;
 }
 .back-3 .skills .skill-bar .right-skill p {
   float: left;
