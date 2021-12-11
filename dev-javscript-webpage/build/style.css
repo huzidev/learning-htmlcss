@@ -210,7 +210,7 @@
 .back-2 .bottom {
   width: 1200px;
   margin: auto;
-  padding-bottom: 37 px;
+  padding-bottom: 37px;
 }
 .back-2 .bottom .fa {
   font-size: 35px;
@@ -285,40 +285,44 @@
   width: 50%;
   margin: 50px 0px 0px 20px;
 }
-.back-3 .skills .skill-bar .left-skill p {
-  float: right;
+.back-3 .skills .skill-bar .left-skill .common {
+  padding: 15px 0px;
 }
-.back-3 .skills .skill-bar .left-skill .bar {
+.back-3 .skills .skill-bar .left-skill .common p {
+  float: right;
+  font-size: 19px;
+}
+.back-3 .skills .skill-bar .left-skill .common .bar {
   max-width: 100%;
   height: 10px;
-  margin-top: 22px;
+  margin-top: 25px;
   background-color: white;
 }
-.back-3 .skills .skill-bar .left-skill .bar .s {
+.back-3 .skills .skill-bar .left-skill .common .bar .s {
   width: 85%;
   float: right;
   height: 100%;
   background-color: chocolate;
 }
-.back-3 .skills .skill-bar .left-skill .bar-1 {
+.back-3 .skills .skill-bar .left-skill .common .bar-1 {
   max-width: 100%;
   height: 10px;
-  margin-top: 22px;
+  margin-top: 25px;
   background-color: white;
 }
-.back-3 .skills .skill-bar .left-skill .bar-1 .s-1 {
+.back-3 .skills .skill-bar .left-skill .common .bar-1 .s-1 {
   width: 85%;
   float: right;
   height: 100%;
   background-color: chocolate;
 }
-.back-3 .skills .skill-bar .left-skill .bar-3 {
+.back-3 .skills .skill-bar .left-skill .common .bar-3 {
   max-width: 100%;
   height: 10px;
-  margin-top: 22px;
+  margin-top: 25px;
   background-color: white;
 }
-.back-3 .skills .skill-bar .left-skill .bar-3 .s-3 {
+.back-3 .skills .skill-bar .left-skill .common .bar-3 .s-3 {
   width: 25%;
   float: right;
   height: 100%;
@@ -328,38 +332,42 @@
   width: 50%;
   margin: 50px 0px 0px 20px;
 }
-.back-3 .skills .skill-bar .right-skill p {
+.back-3 .skills .skill-bar .right-skill .common {
+  padding: 15px 0px;
+}
+.back-3 .skills .skill-bar .right-skill .common p {
   float: left;
+  font-size: 19px;
 }
-.back-3 .skills .skill-bar .right-skill .bar {
+.back-3 .skills .skill-bar .right-skill .common .bar {
   max-width: 100%;
   height: 10px;
-  margin-top: 22px;
+  margin-top: 25px;
   background-color: white;
 }
-.back-3 .skills .skill-bar .right-skill .bar .s {
+.back-3 .skills .skill-bar .right-skill .common .bar .s {
   width: 85%;
   height: 100%;
   background-color: chocolate;
 }
-.back-3 .skills .skill-bar .right-skill .bar-2 {
+.back-3 .skills .skill-bar .right-skill .common .bar-2 {
   max-width: 100%;
   height: 10px;
-  margin-top: 22px;
+  margin-top: 25px;
   background-color: white;
 }
-.back-3 .skills .skill-bar .right-skill .bar-2 .s-2 {
+.back-3 .skills .skill-bar .right-skill .common .bar-2 .s-2 {
   width: 85%;
   height: 100%;
   background-color: chocolate;
 }
-.back-3 .skills .skill-bar .right-skill .bar-4 {
+.back-3 .skills .skill-bar .right-skill .common .bar-4 {
   max-width: 100%;
   height: 10px;
-  margin-top: 22px;
+  margin-top: 25px;
   background-color: white;
 }
-.back-3 .skills .skill-bar .right-skill .bar-4 .s-4 {
+.back-3 .skills .skill-bar .right-skill .common .bar-4 .s-4 {
   width: 85%;
   height: 100%;
   background-color: chocolate;
