@@ -385,7 +385,12 @@
 .back-4 #portfolio h3 {
   font-size: 35px;
   font-weight: 300;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+}
+.back-4 #portfolio p {
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .nav-bar {
