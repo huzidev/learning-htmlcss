@@ -104,6 +104,14 @@
 #info .left .greetings {
   padding-bottom: 5px;
 }
+#info .left .same-1 {
+  opacity: 0.7;
+  font-size: 19px;
+}
+#info .left .same-2 {
+  opacity: 0.7;
+  font-size: 17px;
+}
 #info .right {
   width: 50%;
   display: -webkit-box;
