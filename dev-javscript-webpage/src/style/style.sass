@@ -48,7 +48,7 @@
     .hamburger
         position: fixed
         top: 50px
-        right: 50px
+        right: 50px 
         height: 40px
         width: 45px
         cursor: pointer
@@ -59,9 +59,9 @@
             height: 3px
             width: 100%
             background-color: chocolate
-        .line-1
-            transform: rotateZ(-45deg) translate(-12px, 6px)
-        .line-2
-            opacity: 0
-        .line-3
-            transform: rotateZ(45deg) translate(-12px, -6px)
+    &.change .line-1
+        transform: rotateZ(-45deg) translate(-12px, 6px)
+    &.change .line-2
+        opacity: 0
+    &.change .line-3
+        transform: rotateZ(45deg) translate(-12px, -6px)
