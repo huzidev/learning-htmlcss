@@ -136,9 +136,13 @@
   height: 350px;
 }
 
-#skill-set {
+.back-1 {
   background: #333333;
+}
+.back-1 #skill-set {
   color: white;
+  width: 1200px;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,8 +150,10 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-#skill-set .box .sets {
+.back-1 #skill-set .box .sets {
+  padding: 50px;
   border-radius: 100%;
+  border: 1px solid white;
 }
 
 .nav-bar {
