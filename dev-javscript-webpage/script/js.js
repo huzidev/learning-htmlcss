@@ -1,1 +1,1 @@
-console.log("hello");
+const menuIcon = document.querySelector(".nav-bar")
