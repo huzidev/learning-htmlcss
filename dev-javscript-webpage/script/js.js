@@ -26,6 +26,6 @@ function loops() {
     slide[index].classList.remove("active");
     index++;
     if ( index == slide.length) {
-        
+        index = 0;
     }
 }
