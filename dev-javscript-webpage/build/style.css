@@ -6,6 +6,10 @@
   font-family: sans-serif;
 }
 
+#home {
+  min-height: 100%;
+}
+
 .nav-bar {
   height: 100vh;
   background-color: black;
