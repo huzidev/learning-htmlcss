@@ -16,6 +16,10 @@
   background-size: cover;
   background-attachment: fixed;
 }
+.container .background .img-1 {
+  height: 150vh;
+  background-size: cover;
+}
 .container .nav-bar {
   height: 100vh;
   background-color: black;
