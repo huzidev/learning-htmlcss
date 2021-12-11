@@ -86,13 +86,13 @@
   background-color: chocolate;
 }
 .container .hamburger .line-1 {
-  -webkit-transform: rotateZ(-45deg) translate(-8px, 6px);
-          transform: rotateZ(-45deg) translate(-8px, 6px);
+  -webkit-transform: rotateZ(-45deg) translate(-12px, 6px);
+          transform: rotateZ(-45deg) translate(-12px, 6px);
 }
 .container .hamburger .line-2 {
   opacity: 0;
 }
 .container .hamburger .line-3 {
-  -webkit-transform: rotateZ(45deg);
-          transform: rotateZ(45deg);
+  -webkit-transform: rotateZ(45deg) translate(-12px, -6px);
+          transform: rotateZ(45deg) translate(-12px, -6px);
 }
