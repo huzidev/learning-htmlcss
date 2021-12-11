@@ -23,4 +23,6 @@ window.onload = function () {
 function loops() {
     const slide = document.getElementsByClassName("slide");
     slide[index].classList.add("active");
+    slide[index].classList.remove("active");
+    index++;
 }
