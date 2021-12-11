@@ -207,7 +207,16 @@
   font-size: 35px;
   color: #e74c3c;
 }
-.back-2 .top .fa-quote-right {
+.back-2 .bottom {
+  width: 1200px;
+  margin: auto;
+  padding-bottom: 37px;
+}
+.back-2 .bottom .fa {
+  font-size: 35px;
+  color: #e74c3c;
+}
+.back-2 .bottom .fa-quote-right {
   float: right;
 }
 .back-2 #slider {
