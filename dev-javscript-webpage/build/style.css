@@ -9,7 +9,12 @@
 .container {
   height: 100vh;
   width: 100%;
-  background-color: black;
+}
+.container .background {
+  background-image: url(/images/light-bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .container .nav-bar {
   height: 100vh;
