@@ -4,79 +4,68 @@
     box-sizing: border-box
     font-family: sans-serif
 
-.container
+.nav-bar
     height: 100vh
-    width: 100%
-    .background
-        background-image: url(/images/light-bg.jpg)
-        height: 100vh
-        background-size: cover
-        background-attachment: fixed
-        .img-1
-            height: 150vh
-            background-size: cover
-    .nav-bar
-        height: 100vh
-        background-color: black
-        box-shadow: 0px 0px 21px -5px white
-        width: 350px
+    background-color: black
+    box-shadow: 0px 0px 21px -5px white
+    width: 350px
+    position: fixed
+    right: -350px
+    top: 0px
+    padding: 150px 70px
+    transition: all 800ms cubic-bezier(1, 0, 0, 1)
+    &.change
+        right: 0px
+    ul
+        text-align: right
+        .nav-item
+            list-style: none
+            padding: 25px
+            a
+                text-decoration: none
+                color: white
+                font-weight: 300
+                text-transform: uppercase
+                letter-spacing: 3px
+                padding: 3px 0px
+                position: relative
+                font-size: 19px
+                &::before, &::after
+                    content: ''
+                    position: absolute
+                    height: 2px
+                    left: 0px
+                    width: 100%
+                    background-color: chocolate
+                    transform: scaleX(0) 
+                    transition: transform 800ms
+                &::after
+                    bottom: 0px
+                    transform-origin: left
+                &::before
+                    top: 0px
+                    transform-origin: right
+            a:hover::before,
+            a:hover::after
+                transform: scaleX(1)
+    .hamburger
         position: fixed
-        right: -350px
-        top: 0px
-        padding: 150px 70px
-        transition: all 800ms cubic-bezier(1, 0, 0, 1)
-        &.change
-            right: 0px
-        ul
-            text-align: right
-            .nav-item
-                list-style: none
-                padding: 25px
-                a
-                    text-decoration: none
-                    color: white
-                    font-weight: 300
-                    text-transform: uppercase
-                    letter-spacing: 3px
-                    padding: 3px 0px
-                    position: relative
-                    font-size: 19px
-                    &::before, &::after
-                        content: ''
-                        position: absolute
-                        height: 2px
-                        left: 0px
-                        width: 100%
-                        background-color: chocolate
-                        transform: scaleX(0) 
-                        transition: transform 800ms
-                    &::after
-                        bottom: 0px
-                        transform-origin: left
-                    &::before
-                        top: 0px
-                        transform-origin: right
-                a:hover::before,
-                a:hover::after
-                    transform: scaleX(1)
-        .hamburger
-            position: fixed
-            top: 50px
-            right: 50px 
-            height: 40px
-            width: 45px
-            cursor: pointer
-            display: flex
-            flex-direction: column
-            justify-content: space-around
-            .line
-                height: 3px
-                width: 100%
-                background-color: chocolate
-                transition: all 800ms
-        &.change .line-1
-            transform: rotateZ(-405deg) translate(-13px, 6px)
-        &.change .line-2
-            opacity: 0
-        &.change .line-3
-            transform: rotateZ(405deg) translate(-12px, -6px)
+        top: 50px
+        right: 50px 
+        height: 40px
+        width: 45px
+        cursor: pointer
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        .line
+            height: 3px
+            width: 100%
+            background-color: chocolate
+            transition: all 800ms
+    &.change .line-1
+        transform: rotateZ(-405deg) translate(-13px, 6px)
+    &.change .line-2
+        opacity: 0
+    &.change .line-3
+        transform: rotateZ(405deg) translate(-12px, -6px)

@@ -6,21 +6,7 @@
   font-family: sans-serif;
 }
 
-.container {
-  height: 100vh;
-  width: 100%;
-}
-.container .background {
-  background-image: url(/images/light-bg.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.container .background .img-1 {
-  height: 150vh;
-  background-size: cover;
-}
-.container .nav-bar {
+.nav-bar {
   height: 100vh;
   background-color: black;
   -webkit-box-shadow: 0px 0px 21px -5px white;
@@ -33,17 +19,17 @@
   -webkit-transition: all 800ms cubic-bezier(1, 0, 0, 1);
   transition: all 800ms cubic-bezier(1, 0, 0, 1);
 }
-.container .nav-bar.change {
+.nav-bar.change {
   right: 0px;
 }
-.container .nav-bar ul {
+.nav-bar ul {
   text-align: right;
 }
-.container .nav-bar ul .nav-item {
+.nav-bar ul .nav-item {
   list-style: none;
   padding: 25px;
 }
-.container .nav-bar ul .nav-item a {
+.nav-bar ul .nav-item a {
   text-decoration: none;
   color: white;
   font-weight: 300;
@@ -53,7 +39,7 @@
   position: relative;
   font-size: 19px;
 }
-.container .nav-bar ul .nav-item a::before, .container .nav-bar ul .nav-item a::after {
+.nav-bar ul .nav-item a::before, .nav-bar ul .nav-item a::after {
   content: "";
   position: absolute;
   height: 2px;
@@ -67,22 +53,22 @@
   transition: transform 800ms;
   transition: transform 800ms, -webkit-transform 800ms;
 }
-.container .nav-bar ul .nav-item a::after {
+.nav-bar ul .nav-item a::after {
   bottom: 0px;
   -webkit-transform-origin: left;
           transform-origin: left;
 }
-.container .nav-bar ul .nav-item a::before {
+.nav-bar ul .nav-item a::before {
   top: 0px;
   -webkit-transform-origin: right;
           transform-origin: right;
 }
-.container .nav-bar ul .nav-item a:hover::before,
-.container .nav-bar ul .nav-item a:hover::after {
+.nav-bar ul .nav-item a:hover::before,
+.nav-bar ul .nav-item a:hover::after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
-.container .nav-bar .hamburger {
+.nav-bar .hamburger {
   position: fixed;
   top: 50px;
   right: 50px;
@@ -99,21 +85,21 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-.container .nav-bar .hamburger .line {
+.nav-bar .hamburger .line {
   height: 3px;
   width: 100%;
   background-color: chocolate;
   -webkit-transition: all 800ms;
   transition: all 800ms;
 }
-.container .nav-bar.change .line-1 {
+.nav-bar.change .line-1 {
   -webkit-transform: rotateZ(-405deg) translate(-13px, 6px);
           transform: rotateZ(-405deg) translate(-13px, 6px);
 }
-.container .nav-bar.change .line-2 {
+.nav-bar.change .line-2 {
   opacity: 0;
 }
-.container .nav-bar.change .line-3 {
+.nav-bar.change .line-3 {
   -webkit-transform: rotateZ(405deg) translate(-12px, -6px);
           transform: rotateZ(405deg) translate(-12px, -6px);
 }
