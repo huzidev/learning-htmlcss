@@ -197,11 +197,24 @@
 
 .back-2 {
   background: #f4f4f4;
+  padding: 50px 0px;
+}
+.back-2 .top {
+  width: 1200px;
+  margin: auto;
+}
+.back-2 .top .fa {
+  font-size: 35px;
+  color: #e74c3c;
+}
+.back-2 .top .fa-quote-right {
+  float: right;
 }
 .back-2 #slider {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 300px;
+  padding-top: 90px;
   top: 0px;
   left: 0px;
   max-width: 100%;
