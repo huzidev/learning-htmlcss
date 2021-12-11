@@ -252,6 +252,10 @@
 }
 .back-3 .skills .expertise {
   color: white;
+  text-align: center;
+}
+.back-3 .skills .expertise h3 {
+  font-size: 25px;
 }
 
 .nav-bar {
