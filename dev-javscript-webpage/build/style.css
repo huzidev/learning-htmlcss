@@ -24,6 +24,8 @@
 }
 #home .layer.blub {
   background-size: cover;
+  -webkit-transition: top 200ms ease, left 200ms ease;
+  transition: top 200ms ease, left 200ms ease;
 }
 #home .header-bg {
   background: rgba(0, 0, 0, 0.4);
