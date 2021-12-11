@@ -250,6 +250,9 @@
   width: 1200px;
   margin: auto;
 }
+.back-3 .skills .expertise {
+  color: white;
+}
 
 .nav-bar {
   height: 100vh;
