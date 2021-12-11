@@ -98,8 +98,8 @@
   transition: all 800ms;
 }
 .container .nav-bar.change .line-1 {
-  -webkit-transform: rotateZ(-405deg) translate(-12px, 6px);
-          transform: rotateZ(-405deg) translate(-12px, 6px);
+  -webkit-transform: rotateZ(-405deg) translate(-13px, 6px);
+          transform: rotateZ(-405deg) translate(-13px, 6px);
 }
 .container .nav-bar.change .line-2 {
   opacity: 0;
