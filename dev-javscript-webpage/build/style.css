@@ -242,6 +242,12 @@
   font-size: 25px;
 }
 
+.back-3 {
+  background-color: #333333;
+}
+.back-3 .skills {
+  height: 500px;
+}
 .nav-bar {
   height: 100vh;
   background-color: black;
