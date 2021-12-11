@@ -19,3 +19,7 @@ window.onload = function () {
         loops()
     }, 6000);
 };
+
+function loops() {
+    const slide = document.getElementsByClassName("slide");
+}
