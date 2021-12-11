@@ -62,9 +62,11 @@
 .container .description h2 {
   font-size: 35px;
   padding-bottom: 10px;
+  font-weight: 300;
 }
 .container .description h3 {
   font-size: 20px;
+  font-weight: 300;
 }
 
 #info {
@@ -74,7 +76,7 @@
   display: flex;
   max-width: 100%;
   margin: auto;
-  padding: 50px 0px;
+  padding: 50px 30px;
 }
 #info .left {
   width: 50%;
@@ -93,8 +95,8 @@
 }
 #info .left .name {
   font-size: 30px;
-  padding-bottom: 5px;
-  font-weight: lighter;
+  padding-bottom: 10px;
+  font-weight: 300;
 }
 #info .left .about {
   font-size: 16px;
@@ -103,6 +105,7 @@
 }
 #info .left .greetings {
   padding-bottom: 5px;
+  font-size: 25px;
 }
 #info .left .same-1 {
   opacity: 0.7;
