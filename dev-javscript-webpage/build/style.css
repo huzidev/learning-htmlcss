@@ -34,7 +34,7 @@
 }
 #home .layer-3 {
   background: url(/images/layer3.png);
-  z-index: 0;
+  z-index: 2;
 }
 #home .header-bg {
   background: rgba(0, 0, 0, 0.4);
