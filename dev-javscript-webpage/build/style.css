@@ -63,7 +63,7 @@
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
-.container .hamburger {
+.container .nav-bar .hamburger {
   position: fixed;
   top: 50px;
   right: 50px;
@@ -80,19 +80,23 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-.container .hamburger .line {
+.container .nav-bar .hamburger .line {
   height: 3px;
   width: 100%;
   background-color: chocolate;
 }
-.container.change .line-1 {
+.container .nav-bar.change .line-1 {
   -webkit-transform: rotateZ(-45deg) translate(-12px, 6px);
           transform: rotateZ(-45deg) translate(-12px, 6px);
+  -webkit-transition: 800ms;
+  transition: 800ms;
 }
-.container.change .line-2 {
+.container .nav-bar.change .line-2 {
   opacity: 0;
 }
-.container.change .line-3 {
+.container .nav-bar.change .line-3 {
   -webkit-transform: rotateZ(45deg) translate(-12px, -6px);
           transform: rotateZ(45deg) translate(-12px, -6px);
+  -webkit-transition: 800ms;
+  transition: 800ms;
 }

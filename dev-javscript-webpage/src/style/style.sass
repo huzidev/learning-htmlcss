@@ -45,23 +45,25 @@
                 a:hover::before,
                 a:hover::after
                     transform: scaleX(1)
-    .hamburger
-        position: fixed
-        top: 50px
-        right: 50px 
-        height: 40px
-        width: 45px
-        cursor: pointer
-        display: flex
-        flex-direction: column
-        justify-content: space-around
-        .line
-            height: 3px
-            width: 100%
-            background-color: chocolate
-    &.change .line-1
-        transform: rotateZ(-45deg) translate(-12px, 6px)
-    &.change .line-2
-        opacity: 0
-    &.change .line-3
-        transform: rotateZ(45deg) translate(-12px, -6px)
+        .hamburger
+            position: fixed
+            top: 50px
+            right: 50px 
+            height: 40px
+            width: 45px
+            cursor: pointer
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            .line
+                height: 3px
+                width: 100%
+                background-color: chocolate
+        &.change .line-1
+            transform: rotateZ(-45deg) translate(-12px, 6px)
+            transition: 800ms
+        &.change .line-2
+            opacity: 0
+        &.change .line-3
+            transform: rotateZ(45deg) translate(-12px, -6px)
+            transition: 800ms
