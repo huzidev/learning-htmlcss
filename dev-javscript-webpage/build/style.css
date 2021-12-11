@@ -19,6 +19,12 @@
   left: 0px;
   right: 0px;
   bottom: 0px;
+  height: 100%;
+  width: 100%;
+}
+#home .header-bg {
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
 }
 
 .nav-bar {
