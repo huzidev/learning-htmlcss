@@ -142,7 +142,7 @@
 .back-1 #skill-set {
   color: white;
   width: 1100px;
-  padding: 20px 0px;
+  padding: 50px 0px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -182,11 +182,17 @@
       -ms-flex-align: center;
           align-items: center;
   width: 120px;
+  font-size: 25px;
+  color: #e74c3c;
   margin-bottom: 15px;
   border-radius: 100%;
-  border: 5px solid #e74c3c;
-  -webkit-box-shadow: 0px 0px 20px 10px #e74c3c;
-          box-shadow: 0px 0px 20px 10px #e74c3c;
+  border: 3px solid #e74c3c;
+  -webkit-box-shadow: 0px 0px 20px 6px #e74c3c;
+          box-shadow: 0px 0px 20px 6px #e74c3c;
+}
+.back-1 #skill-set .box .question {
+  font-size: 15px;
+  letter-spacing: 2px;
 }
 
 .nav-bar {
