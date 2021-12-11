@@ -73,7 +73,6 @@
   display: -ms-flexbox;
   display: flex;
   max-width: 100%;
-  width: 100%;
   margin: auto;
 }
 #info .left {
@@ -89,6 +88,15 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 120px;
+  line-height: 25px;
+}
+#info .left .name {
+  font-size: 30px;
+  padding-bottom: 5px;
+  font-weight: lighter;
+}
+#info .left .about {
+  font-weight: bold;
 }
 #info .right {
   width: 50%;
