@@ -14,4 +14,7 @@ window.onload = function () {
     const slide = document.getElementsByClassName("slide");
     slide[index].classList.add("active");
     slide[index].classList.remove("remove");
+    setInterval(() => {
+        loops()
+    }, 6000);
 }
