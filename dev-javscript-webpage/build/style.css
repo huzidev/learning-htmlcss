@@ -85,3 +85,10 @@
   width: 100%;
   background-color: chocolate;
 }
+.container .hamburger .line-1 {
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+.container .hamburger .line-2 {
+  opacity: 0;
+}
