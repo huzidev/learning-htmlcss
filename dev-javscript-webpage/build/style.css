@@ -10,6 +10,7 @@
   min-height: 100%;
   background: url(/images/light-bg.jpg) no-repeat;
   background-size: cover;
+  height: 100vh;
   background-position: center top;
   background-attachment: fixed;
 }
@@ -49,6 +50,7 @@
   position: fixed;
   right: -350px;
   top: 0px;
+  z-index: 2;
   padding: 150px 70px;
   -webkit-transition: all 800ms cubic-bezier(1, 0, 0, 1);
   transition: all 800ms cubic-bezier(1, 0, 0, 1);
