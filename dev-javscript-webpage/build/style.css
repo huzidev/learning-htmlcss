@@ -133,6 +133,14 @@
   height: 350px;
 }
 
+#skill-set {
+  background: #333333;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .nav-bar {
   height: 100vh;
   background-color: black;
