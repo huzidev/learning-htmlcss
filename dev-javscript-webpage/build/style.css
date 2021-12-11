@@ -34,7 +34,7 @@
 }
 #home .layer-3 {
   background: url(/images/layer3.png);
-  z-index: 0;
+  z-index: 1;
 }
 #home .header-bg {
   background: rgba(0, 0, 0, 0.4);
@@ -197,7 +197,7 @@
 
 .back-2 {
   background: #f4f4f4;
-  padding: 50px 0px;
+  padding: 70px 0px;
 }
 .back-2 .top {
   width: 1200px;
