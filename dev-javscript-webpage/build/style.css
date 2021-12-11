@@ -200,11 +200,26 @@
 }
 .back-2 #slider {
   position: relative;
+  overflow: hidden;
+  height: 500px;
   top: 0px;
   left: 0px;
   max-width: 100%;
   width: 1100px;
   margin: auto;
+}
+.back-2 #slider .slide {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  left: -100%;
+  opacity: 0;
+}
+.back-2 #slider .slide.active {
+  opacity: 1;
+  left: 0px;
 }
 
 .nav-bar {
