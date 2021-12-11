@@ -13,6 +13,9 @@
   background-position: center top;
   background-attachment: fixed;
 }
+#home .layer {
+  position: absolute;
+}
 
 .nav-bar {
   height: 100vh;
