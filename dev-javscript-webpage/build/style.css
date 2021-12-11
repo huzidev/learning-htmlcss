@@ -67,8 +67,20 @@
   font-size: 20px;
 }
 
-.info {
+#info {
   background: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+}
+#info .right {
+  width: 50%;
+}
+#info .left {
+  width: 50%;
 }
 
 .nav-bar {
