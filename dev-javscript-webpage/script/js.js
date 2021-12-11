@@ -1,1 +1,1 @@
-const menuIcon = document.querySelector(".nav-bar")
+const menuIcon = document.querySelector(".nav-bar");
