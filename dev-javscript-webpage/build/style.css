@@ -210,7 +210,7 @@
 .back-2 .bottom {
   width: 1200px;
   margin: auto;
-  padding-bottom: 37px;
+  padding-bottom: 37 px;
 }
 .back-2 .bottom .fa {
   font-size: 35px;
@@ -274,6 +274,17 @@
   letter-spacing: 1px;
   font-weight: 300;
   font-size: 17px;
+}
+.back-3 .skills .skill-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.back-3 .skills .skill-bar .left-skill {
+  width: 50%;
+}
+.back-3 .skills .skill-bar .right-skill {
+  width: 50%;
 }
 
 .nav-bar {
