@@ -294,8 +294,9 @@
                     width: 100%
                 .content
                     position: absolute // ALWAYS REMEMBER POSITON ABSOLUTE WILL WORKS ACCORDIGN TO SCREEN ALWAYS ACCORDING TO SCREEN UNTIL WE GAVE POSITON RELATIVE TO THE PARENT OF THE CONTAINER TO WHOMS WE GAVE POSITION ABSOLUTE
-                    height: 350px
-                    width: 350px
+                    height: 100%
+                    width: 100%
+                    padding: 20px // IT'LL OVERFLOW THE CONTAINER IF WE DIDN'T USES BOX-SIZING BORDER BOX THEREFORE WE ALWAYS USE BOX-SIZING BORDER-BOX AT TOP (*)
                     top: 0px
                     left: 0px
                     background-color: rgba(0, 0, 0, 0.6)

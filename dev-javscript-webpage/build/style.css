@@ -418,8 +418,9 @@
 }
 .back-4 #portfolio .projects .work .content {
   position: absolute;
-  height: 350px;
-  width: 350px;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
   top: 0px;
   left: 0px;
   background-color: rgba(0, 0, 0, 0.6);
