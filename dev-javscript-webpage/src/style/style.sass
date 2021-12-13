@@ -289,7 +289,6 @@
                 width: 350px
                 cursor: pointer
                 overflow: hidden
-                border: 2px solid black
                 position: relative // WE GAVE POSITON ABSOLUTE TO THE CONTENT AND RELATIVE TO THE PARENT OF CONTENT WHICH IS .WORK OTHER WISE POSITION ABSOLUTE WILL WORK ACCORDING TO THE SCREEN UNTIL WE PROVIDE POSIITON RELATIVE TO THE PARENT OF THE RESPECTIVE DIV
                 img
                     height: 100%
@@ -298,7 +297,7 @@
                     position: absolute // ALWAYS REMEMBER POSITON ABSOLUTE WILL WORKS ACCORDIGN TO SCREEN ALWAYS ACCORDING TO SCREEN UNTIL WE GAVE POSITON RELATIVE TO THE PARENT OF THE CONTAINER TO WHOMS WE GAVE POSITION ABSOLUTE
                     height: 100%
                     width: 100%
-                    padding: 250px 0px // IT'LL OVERFLOW THE CONTAINER IF WE DIDN'T USES BOX-SIZING BORDER BOX THEREFORE WE ALWAYS USE BOX-SIZING BORDER-BOX AT TOP (*)
+                    // padding: 250px 0px // IT'LL OVERFLOW THE CONTAINER IF WE DIDN'T USES BOX-SIZING BORDER BOX THEREFORE WE ALWAYS USE BOX-SIZING BORDER-BOX AT TOP (*)
                     opacity: 0
                     bottom: -100%
                     background-color: rgba(44, 62, 80, 0.9)
@@ -306,6 +305,7 @@
                     h1
                         color: white
                         font-weight: 300
+                        margin-top: 120px
                         padding-bottom: 12px
                     p
                         color: white
@@ -313,10 +313,28 @@
                         letter-spacing: 0px
                     button
                         background: #10171e
-                        color: white
+                        color: #e74c3c
                         border: 2px solid #e74c3c
-                        padding: 15px 35px
+                        padding: 10px 30px
+                        position: relative
+                        margin-top: 30px
+                        font-size: 19px
+                        font-weight: 500
+                        overflow: hidden
                         cursor: pointer
+                        .btn
+                            background: rgba(44, 62, 80, 0.9)
+                            height: 100%
+                            width: 100%
+                            top: -100%
+                            opacity: 0
+                            color: #e74c3c
+                            left: 0px
+                            position: absolute
+                            transition: all 500ms ease
+                    button:hover .btn
+                        top: 0px
+                        opacity: 0.5
             .work:hover .content
                 bottom: 0px
                 opacity: 1
