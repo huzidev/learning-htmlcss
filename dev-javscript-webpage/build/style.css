@@ -414,6 +414,14 @@
   font-size: 31px;
   font-weight: 300;
 }
+.back-5 #footer .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.back-5 #footer .info .name {
+  width: 100%;
+}
 
 .nav-bar {
   height: 100vh;
