@@ -411,6 +411,18 @@
   width: 390px;
   background-image: url(/images/code.jpg);
   background-size: 100% 100%;
+  cursor: pointer;
+}
+.back-4 #portfolio .projects .work .text {
+  height: 100%;
+  background-color: rgba(44, 62, 80, 0.9);
+  position: absolute;
+  top: 100%;
+  bottom: 0px;
+  opacity: 0;
+  padding: 25% 0px 0px 0px;
+  -webkit-transition: top 800ms ease, opacity 600ms ease;
+  transition: top 800ms ease, opacity 600ms ease;
 }
 
 .nav-bar {
