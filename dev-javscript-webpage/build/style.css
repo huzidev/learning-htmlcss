@@ -381,6 +381,8 @@
 .back-4 #portfolio {
   text-align: center;
   padding: 50px 0px;
+  width: 1200px;
+  margin: auto;
 }
 .back-4 #portfolio h3 {
   font-size: 35px;
@@ -391,6 +393,14 @@
 .back-4 #portfolio p {
   font-size: 20px;
   letter-spacing: 2px;
+}
+.back-4 #portfolio .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .nav-bar {
