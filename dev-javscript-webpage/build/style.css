@@ -419,8 +419,25 @@
   display: -ms-flexbox;
   display: flex;
 }
-.back-5 #footer .info .name {
+.back-5 #footer .info input {
   width: 100%;
+  height: 50px;
+  margin: 10px;
+  font-size: 17px;
+  padding: 15px;
+  border: 2px solid #e74c3c;
+  background: transparent;
+  color: white;
+  resize: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+.back-5 #footer .info input:focus {
+  outline: none;
+  color: #e74c3c;
 }
 
 .nav-bar {
