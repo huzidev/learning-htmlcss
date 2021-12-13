@@ -709,6 +709,9 @@
   z-index: 2;
   opacity: 0;
   width: 260px;
+  text-align: center;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 #character .char {
   position: fixed;
