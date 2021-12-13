@@ -388,6 +388,15 @@
   font-size: 45px;
   font-weight: 300;
 }
+.back-5 #footer .main-box {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 
 .nav-bar {
   height: 100vh;
