@@ -375,6 +375,56 @@
   background-color: chocolate;
 }
 
+.back-4 {
+  background: #f4f4f4;
+}
+.back-4 #portfolio {
+  text-align: center;
+  padding: 50px 0px;
+  width: 1200px;
+  margin: auto;
+}
+.back-4 #portfolio h3 {
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+}
+.back-4 #portfolio p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+}
+.back-4 #portfolio .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.back-4 #portfolio .projects .work {
+  height: 350px;
+  width: 350px;
+  border: 2px solid black;
+  position: relative;
+}
+.back-4 #portfolio .projects .work img {
+  height: 100%;
+  width: 100%;
+}
+.back-4 #portfolio .projects .work .content {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .back-5 {
   background-color: #333333;
 }
