@@ -284,10 +284,25 @@
             display: flex
             justify-content: space-between
             align-items: center
-            .item
             .work-images
                 height: 350px
                 width: 390px
+                cursor: pointer
+            .text
+                position: absolute
+                top: 100%
+                right: 10px
+                bottom: 0
+                left: 10px
+                -webkit-transition: top 800ms ease, opacity 600ms ease
+                -moz-transition: top 800ms ease, opacity 600ms ease
+                -ms-transition: top 800ms ease, opacity 600ms ease
+                -o-transition: top 800ms ease, opacity 600ms ease
+                transition: top 800ms ease, opacity 600ms ease
+                opacity: 0
+                background: rgba(44, 62, 80, 0.9)
+                z-index: 2
+                padding: 25% 0 0 0
 .nav-bar
     height: 100vh
     background-color: black
