@@ -478,6 +478,11 @@
   outline: none;
   color: #e74c3c;
 }
+.back-5 #footer button {
+  float: left;
+  background: none;
+  color: white;
+}
 
 .nav-bar {
   height: 100vh;
