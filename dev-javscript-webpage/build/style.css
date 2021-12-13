@@ -384,6 +384,10 @@
   width: 1200px;
   margin: auto;
 }
+.back-5 #footer h1 {
+  font-size: 45px;
+  font-weight: 300;
+}
 
 .nav-bar {
   height: 100vh;
