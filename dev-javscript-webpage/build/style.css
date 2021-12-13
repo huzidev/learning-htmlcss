@@ -406,23 +406,11 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.back-4 #portfolio .projects .work-images {
+.back-4 #portfolio .projects .work {
   height: 350px;
   width: 390px;
-  cursor: pointer;
-}
-.back-4 #portfolio .projects .text {
-  position: absolute;
-  top: 100%;
-  right: 10px;
-  bottom: 0;
-  left: 10px;
-  -webkit-transition: top 800ms ease, opacity 600ms ease;
-  transition: top 800ms ease, opacity 600ms ease;
-  opacity: 0;
-  background: rgba(44, 62, 80, 0.9);
-  z-index: 2;
-  padding: 25% 0 0 0;
+  background-image: url(/images/code.jpg);
+  background-size: 100% 100%;
 }
 
 .nav-bar {
