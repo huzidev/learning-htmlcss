@@ -397,6 +397,9 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.back-5 #footer .main-box .fas {
+  font-size: 85px;
+}
 
 .nav-bar {
   height: 100vh;
