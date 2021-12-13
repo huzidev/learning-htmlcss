@@ -706,6 +706,9 @@
   padding: 12px 4px;
   background: #e74c3c;
   border-radius: 4px;
+  z-index: 2;
+  opacity: 0;
+  width: 260px;
 }
 #character .char {
   position: fixed;
