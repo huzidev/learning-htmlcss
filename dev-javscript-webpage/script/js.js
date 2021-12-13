@@ -30,4 +30,5 @@ function loops() {
     }
     slide[index].classList.add("active");
     console.log(index, slide.length);
-}
+};
+
