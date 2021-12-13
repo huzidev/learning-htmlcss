@@ -393,6 +393,7 @@
 .back-4 #portfolio p {
   font-size: 20px;
   letter-spacing: 2px;
+  margin-bottom: 60px;
 }
 .back-4 #portfolio .projects {
   display: -webkit-box;
@@ -405,10 +406,9 @@
       -ms-flex-align: center;
           align-items: center;
 }
-.back-4 #portfolio .projects .item {
-  background-color: aqua;
-  height: 100px;
-  width: 100px;
+.back-4 #portfolio .projects .work-images {
+  height: 350px;
+  width: 390px;
 }
 
 .nav-bar {
