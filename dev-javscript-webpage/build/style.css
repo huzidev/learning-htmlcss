@@ -408,7 +408,7 @@
 }
 .back-4 #portfolio .projects .work {
   height: 350px;
-  width: 350px;
+  width: 450px;
   margin: 10px;
   cursor: pointer;
   overflow: hidden;
@@ -480,6 +480,7 @@
   color: white;
   width: 1200px;
   margin: auto;
+  padding: 100px 0px;
   height: 700px;
 }
 .back-5 #footer h1 {
