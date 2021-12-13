@@ -409,6 +409,7 @@
 .back-4 #portfolio .projects .work {
   height: 350px;
   width: 350px;
+  cursor: pointer;
   overflow: hidden;
   border: 2px solid black;
   position: relative;
@@ -421,16 +422,32 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  padding: 20px;
-  top: 0px;
+  padding: 250px 0px;
   opacity: 0;
-  left: -100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  -webkit-transition: all 600ms ease;
-  transition: all 600ms ease;
+  bottom: -100%;
+  background-color: rgba(44, 62, 80, 0.9);
+  -webkit-transition: all 900ms ease;
+  transition: all 900ms ease;
+}
+.back-4 #portfolio .projects .work .content h1 {
+  color: white;
+  font-weight: 300;
+  padding-bottom: 12px;
+}
+.back-4 #portfolio .projects .work .content p {
+  color: white;
+  opacity: 0.3;
+  letter-spacing: 0px;
+}
+.back-4 #portfolio .projects .work .content button {
+  background: #10171e;
+  color: white;
+  border: 2px solid #e74c3c;
+  padding: 15px 35px;
+  cursor: pointer;
 }
 .back-4 #portfolio .projects .work:hover .content {
-  left: 0px;
+  bottom: 0px;
   opacity: 1;
 }
 

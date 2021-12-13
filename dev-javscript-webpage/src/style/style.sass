@@ -287,6 +287,7 @@
             .work
                 height: 350px
                 width: 350px
+                cursor: pointer
                 overflow: hidden
                 border: 2px solid black
                 position: relative // WE GAVE POSITON ABSOLUTE TO THE CONTENT AND RELATIVE TO THE PARENT OF CONTENT WHICH IS .WORK OTHER WISE POSITION ABSOLUTE WILL WORK ACCORDING TO THE SCREEN UNTIL WE PROVIDE POSIITON RELATIVE TO THE PARENT OF THE RESPECTIVE DIV
@@ -297,15 +298,27 @@
                     position: absolute // ALWAYS REMEMBER POSITON ABSOLUTE WILL WORKS ACCORDIGN TO SCREEN ALWAYS ACCORDING TO SCREEN UNTIL WE GAVE POSITON RELATIVE TO THE PARENT OF THE CONTAINER TO WHOMS WE GAVE POSITION ABSOLUTE
                     height: 100%
                     width: 100%
-                    padding: 20px // IT'LL OVERFLOW THE CONTAINER IF WE DIDN'T USES BOX-SIZING BORDER BOX THEREFORE WE ALWAYS USE BOX-SIZING BORDER-BOX AT TOP (*)
-                    top: 0px
+                    padding: 250px 0px // IT'LL OVERFLOW THE CONTAINER IF WE DIDN'T USES BOX-SIZING BORDER BOX THEREFORE WE ALWAYS USE BOX-SIZING BORDER-BOX AT TOP (*)
                     opacity: 0
-                    left: -100%
-                    background-color: rgba(0, 0, 0, 0.6)
-                    transition: all 600ms ease
-                    
+                    bottom: -100%
+                    background-color: rgba(44, 62, 80, 0.9)
+                    transition: all 900ms ease
+                    h1
+                        color: white
+                        font-weight: 300
+                        padding-bottom: 12px
+                    p
+                        color: white
+                        opacity: 0.3
+                        letter-spacing: 0px
+                    button
+                        background: #10171e
+                        color: white
+                        border: 2px solid #e74c3c
+                        padding: 15px 35px
+                        cursor: pointer
             .work:hover .content
-                left: 0px
+                bottom: 0px
                 opacity: 1
 .back-5
     background-color: #333333
