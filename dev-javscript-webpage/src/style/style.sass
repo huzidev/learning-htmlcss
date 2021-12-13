@@ -287,6 +287,7 @@
             .work
                 height: 350px
                 width: 350px
+                overflow: hidden
                 border: 2px solid black
                 position: relative // WE GAVE POSITON ABSOLUTE TO THE CONTENT AND RELATIVE TO THE PARENT OF CONTENT WHICH IS .WORK OTHER WISE POSITION ABSOLUTE WILL WORK ACCORDING TO THE SCREEN UNTIL WE PROVIDE POSIITON RELATIVE TO THE PARENT OF THE RESPECTIVE DIV
                 img
@@ -298,8 +299,14 @@
                     width: 100%
                     padding: 20px // IT'LL OVERFLOW THE CONTAINER IF WE DIDN'T USES BOX-SIZING BORDER BOX THEREFORE WE ALWAYS USE BOX-SIZING BORDER-BOX AT TOP (*)
                     top: 0px
+                    opacity: 0
                     left: -100%
                     background-color: rgba(0, 0, 0, 0.6)
+                    transition: all 600ms ease
+                    
+            .work:hover .content
+                left: 0px
+                opacity: 1
 .back-5
     background-color: #333333
     #footer
