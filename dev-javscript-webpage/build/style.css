@@ -418,12 +418,29 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 1210px;
 }
-.back-5 #footer .info .name {
-  width: 100%;
+.back-5 #footer .info .name-1 {
+  width: 50%;
   height: 50px;
-  margin: 10px;
+  margin-left: 10px;
   font-size: 17px;
+  padding: 15px;
+  border: 2px solid #e74c3c;
+  background: transparent;
+  color: white;
+  resize: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+.back-5 #footer .info .name-2 {
+  width: 50%;
+  height: 50px;
+  font-size: 17px;
+  margin-left: 20px;
   padding: 15px;
   border: 2px solid #e74c3c;
   background: transparent;
@@ -439,6 +456,26 @@
   outline: none;
   color: #e74c3c;
 }
+.back-5 #footer textarea {
+  width: 100%;
+  margin: 10px;
+  font-size: 17px;
+  padding: 15px;
+  border: 2px solid #e74c3c;
+  background: transparent;
+  color: white;
+  resize: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+.back-5 #footer textarea:focus {
+  outline: none;
+  color: #e74c3c;
+}
+
 .nav-bar {
   height: 100vh;
   background-color: black;

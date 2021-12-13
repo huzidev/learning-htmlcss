@@ -350,11 +350,24 @@
                 font-weight: 300
         .info
             display: flex
-            .name
-                width: 100%
+            width: 1210px
+            .name-1
+                width: 50%
                 height: 50px
-                margin: 10px
+                margin-left: 10px
                 font-size: 17px
+                padding: 15px
+                border: 2px solid #e74c3c
+                background: transparent
+                color: white
+                resize: none
+                appearance: none
+                transition: color 200ms ease 
+            .name-2
+                width: 50%
+                height: 50px
+                font-size: 17px
+                margin-left: 20px
                 padding: 15px
                 border: 2px solid #e74c3c
                 background: transparent
@@ -366,6 +379,19 @@
                 outline: none // SO WHEN WE CLICK ON INPUT FOR INSERTING NAME OR MESSAGE THEN BORDER COLOR WONT BE CHANGED
                 color: #e74c3c // THE COLOR WILL REMAINS THE SAME AS OF WE GAVE DURING FOUCS BUT EVENTUALLY IT'LL CHANGE AS WE REMVOE FOCUS 
         textarea
+                width: 100%
+                margin: 10px
+                font-size: 17px
+                padding: 15px
+                border: 2px solid #e74c3c
+                background: transparent
+                color: white
+                resize: none
+                appearance: none
+                transition: color 200ms ease    
+        textarea:focus
+                outline: none // SO WHEN WE CLICK ON INPUT FOR INSERTING NAME OR MESSAGE THEN BORDER COLOR WONT BE CHANGED
+                color: #e74c3c // THE COLOR WILL REMAINS THE SAME AS OF WE GAVE DURING FOUCS BUT EVENTUALLY IT'LL CHANGE AS WE REMVOE FOCUS
         
             
 .nav-bar
