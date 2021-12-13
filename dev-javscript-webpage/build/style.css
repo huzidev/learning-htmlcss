@@ -375,6 +375,14 @@
   background-color: chocolate;
 }
 
+.back-5 {
+  background-color: #333333;
+}
+.back-5 #footer {
+  text-align: center;
+  color: white;
+}
+
 .nav-bar {
   height: 100vh;
   background-color: black;
