@@ -699,7 +699,15 @@
           transform: rotateZ(405deg) translate(-12px, -6px);
 }
 
-#character span .char {
+#character .desc {
+  position: fixed;
+  top: calc(25% - 220px);
+  left: -240px;
+  padding: 12px 4px;
+  background: #e74c3c;
+  border-radius: 4px;
+}
+#character .char {
   position: fixed;
   z-index: 2;
   top: 25%;
