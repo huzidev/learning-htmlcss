@@ -42,17 +42,20 @@
   color: white;
   padding-top: 50px;
   font-weight: 300;
+  letter-spacing: 2px;
 }
 #home .layer-3 h2 {
   font-size: 35px;
   color: white;
   padding-bottom: 10px;
   font-weight: 300;
+  letter-spacing: 2px;
   padding-top: 220px;
 }
 #home .layer-3 h3 {
   font-size: 20px;
   color: white;
+  letter-spacing: 2px;
   font-weight: 300;
 }
 #home .layer-3 .width {
