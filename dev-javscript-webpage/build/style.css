@@ -375,56 +375,6 @@
   background-color: chocolate;
 }
 
-.back-4 {
-  background: #f4f4f4;
-}
-.back-4 #portfolio {
-  text-align: center;
-  padding: 50px 0px;
-  width: 1200px;
-  margin: auto;
-}
-.back-4 #portfolio h3 {
-  font-size: 35px;
-  font-weight: 300;
-  letter-spacing: 3px;
-  margin-bottom: 5px;
-}
-.back-4 #portfolio p {
-  font-size: 20px;
-  letter-spacing: 2px;
-  margin-bottom: 60px;
-}
-.back-4 #portfolio .projects {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.back-4 #portfolio .projects .work {
-  height: 350px;
-  width: 390px;
-  background-image: url(/images/code.jpg);
-  background-size: 100% 100%;
-  cursor: pointer;
-}
-.back-4 #portfolio .projects .work .text {
-  height: 100%;
-  background-color: rgba(44, 62, 80, 0.9);
-  position: absolute;
-  top: 100%;
-  bottom: 0px;
-  opacity: 0;
-  padding: 25% 0px 0px 0px;
-  -webkit-transition: top 800ms ease, opacity 600ms ease;
-  transition: top 800ms ease, opacity 600ms ease;
-}
-
 .nav-bar {
   height: 100vh;
   background-color: black;
