@@ -409,6 +409,7 @@
 .back-4 #portfolio .projects .work {
   height: 350px;
   width: 350px;
+  margin: 10px;
   cursor: pointer;
   overflow: hidden;
   position: relative;
