@@ -864,7 +864,28 @@
   }
 
   .back #about {
+    width: 700px;
     margin: auto;
+  }
+  .back #about .left {
+    margin: 0px;
+    width: 70%;
+  }
+  .back #about .left .about {
+    width: 510px;
+  }
+  .back #about .left .same-1 {
+    width: 330px;
+  }
+  .back #about .left .same-2 {
+    width: 600px;
+  }
+  .back #about .right {
+    width: 30%;
+    float: right;
+  }
+  .back #about .right .dev-img {
+    height: 300px;
   }
 
   .back-1 #status {
