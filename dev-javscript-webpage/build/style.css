@@ -925,7 +925,7 @@
     width: 710px;
   }
 }
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 376px) {
   #home .layer-3 h1 {
     font-size: 32px;
   }
