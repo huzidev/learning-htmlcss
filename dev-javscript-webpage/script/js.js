@@ -55,7 +55,7 @@ function character() { // MOST !!!
                 hello: window.innerHeight-180
             };
             cond.want = cond.hello + document.getElementById('about').offsetHeight-100;
-            cond.best = cond.want + document.getElementById('status').offsetHeight-140;
+            cond.best = cond.want + document.getElementById('status').offsetHeight+240;
             cond.contact = cond.best + document.getElementById('portfolio').offsetHeight+700;
             if (this.scrollY > cond.hello && !scroll.hello) {
                 scroll.hello = true;
