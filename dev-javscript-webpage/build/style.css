@@ -757,7 +757,7 @@
   left: 50px;
 }
 
-@media only screen and (max-width: 1240px) {
+@media only screen and (min-width: 1240px) {
   #home .layer-3 .width {
     width: 900px;
     margin: auto;
@@ -777,10 +777,73 @@
     width: 900px;
     margin: auto;
   }
+
+  .back-3 .skills {
+    width: 900px;
+    margin: auto;
+  }
+
+  .back-4 #portfolio {
+    width: 900px;
+    margin: auto;
+  }
+  .back-4 #portfolio .projects .work {
+    height: 300px;
+  }
+  .back-4 #portfolio .projects .work .content h1 {
+    margin-top: 80px;
+  }
+
+  .back-5 #contact {
+    width: 900px;
+    margin: auto;
+  }
+  .back-5 #contact .info {
+    width: 910px;
+  }
 }
 @media only screen and (max-width: 1024px) {
   #home .layer-3 .width {
     width: 700px;
     margin: auto;
+  }
+
+  .back #about {
+    width: 1200px;
+    margin: auto;
+  }
+
+  .back-1 #status {
+    width: 780px;
+    margin: auto;
+  }
+
+  .back-2 .bottom, .back-2 .top {
+    width: 780px;
+    margin: auto;
+  }
+
+  .back-3 .skills {
+    width: 780px;
+    margin: auto;
+  }
+
+  .back-4 #portfolio {
+    width: 780px;
+    margin: auto;
+  }
+  .back-4 #portfolio .projects .work {
+    height: 250px;
+  }
+  .back-4 #portfolio .projects .work .content h1 {
+    margin-top: 35px;
+  }
+
+  .back-5 #contact {
+    width: 780px;
+    margin: auto;
+  }
+  .back-5 #contact .info {
+    width: 790px;
   }
 }
