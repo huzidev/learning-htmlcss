@@ -713,6 +713,25 @@
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+#character .desc.hello {
+  left: 0px;
+  opacity: 1;
+}
+#character .desc.want {
+  opacity: 1;
+  left: 4px;
+  background: #333333;
+  color: #e74c3c;
+  -webkit-box-shadow: 0 0 6px 2px #e74c3c;
+  box-shadow: 0 0 6px 2px #e74c3c;
+}
+#character .desc.best {
+  opacity: 1;
+  left: 4px;
+  color: #fff;
+  -webkit-box-shadow: 0 0 6px 2px #fff;
+  box-shadow: 0 0 6px 2px #fff;
+}
 #character .char {
   position: fixed;
   z-index: 2;
