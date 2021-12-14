@@ -942,7 +942,7 @@
   }
 
   .back #about {
-    width: 470px;
+    width: 370px;
     margin: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -951,7 +951,7 @@
     text-align: center;
   }
   .back #about .left {
-    width: 80%;
+    width: 100%;
   }
   .back #about .left .about {
     margin-top: 5px;
@@ -963,11 +963,11 @@
     font-size: 35px;
   }
   .back #about .left .about, .back #about .left .same-1, .back #about .left .same-2 {
-    width: 330px;
+    width: 315px;
     font-size: 20px;
   }
   .back #about .right {
-    width: 76%;
+    width: 100%;
     margin-top: 50px;
   }
   .back #about .right .dev-img {
@@ -1004,10 +1004,10 @@
   }
 
   .back-3 {
-    height: 630px;
+    height: 670px;
   }
   .back-3 .skills {
-    width: 380px;
+    width: 370px;
     margin: auto;
   }
   .back-3 .skills .skill-bar {
@@ -1015,7 +1015,11 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 175%;
+    width: 100%;
+  }
+  .back-3 .skills .skill-bar .left-skill {
+    width: 90%;
+    margin-top: 30px;
   }
   .back-3 .skills .skill-bar .left-skill .common .bar .s {
     float: left;
@@ -1030,12 +1034,16 @@
     float: left;
     font-size: 21px;
   }
+  .back-3 .skills .skill-bar .right-skill {
+    width: 90%;
+    margin-top: 50px;
+  }
   .back-3 .skills .skill-bar .right-skill .common p {
     font-size: 21px;
   }
 
   .back-4 #portfolio {
-    width: 380px;
+    width: 370px;
     margin: auto;
   }
   .back-4 #portfolio h3 {
@@ -1065,10 +1073,14 @@
   }
 
   .back-5 {
-    height: 1600px;
+    height: auto;
   }
   .back-5 #contact {
-    width: 380px;
+    width: 370px;
+    margin: auto;
+  }
+  .back-5 #contact form {
+    width: 370px;
     margin: auto;
   }
   .back-5 #contact .main-box {
@@ -1087,7 +1099,7 @@
     font-size: 25px;
   }
   .back-5 #contact .info {
-    width: 380px;
+    width: 370px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1107,6 +1119,400 @@
   .back-5 .copy-right {
     padding-top: 800px;
     width: 350px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 415px) {
+  #home .layer-3 h1 {
+    font-size: 32px;
+  }
+  #home .layer-3 h2 {
+    font-size: 28px;
+    padding-top: 50px;
+  }
+  #home .layer-3 h3 {
+    font-size: 17px;
+  }
+  #home .layer-3 .width {
+    width: 300px;
+    margin: auto;
+  }
+
+  .back #about {
+    width: 370px;
+    margin: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .back #about .left {
+    width: 100%;
+  }
+  .back #about .left .about {
+    margin-top: 5px;
+  }
+  .back #about .left .greetings {
+    font-size: 23px;
+  }
+  .back #about .left .name {
+    font-size: 35px;
+  }
+  .back #about .left .about, .back #about .left .same-1, .back #about .left .same-2 {
+    width: 315px;
+    font-size: 20px;
+  }
+  .back #about .right {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .back #about .right .dev-img {
+    height: 300px;
+  }
+
+  .back-1 #status {
+    width: 370px;
+    margin: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .back-1 #status .box {
+    margin: 20px;
+  }
+  .back-1 #status .box .question {
+    font-size: 22px;
+  }
+
+  .back-2 #slider {
+    height: 150px;
+  }
+  .back-2 .bottom, .back-2 .top {
+    width: 370px;
+    margin: auto;
+  }
+  .back-2 .top {
+    margin-bottom: 20px;
+  }
+  .back-2 .bottom {
+    margin-top: 20px;
+  }
+
+  .back-3 {
+    height: 670px;
+  }
+  .back-3 .skills {
+    width: 370px;
+    margin: auto;
+  }
+  .back-3 .skills .skill-bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .back-3 .skills .skill-bar .left-skill {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .back-3 .skills .skill-bar .left-skill .common .bar .s {
+    float: left;
+  }
+  .back-3 .skills .skill-bar .left-skill .common .bar-1 .s-1 {
+    float: left;
+  }
+  .back-3 .skills .skill-bar .left-skill .common .bar-3 .s-3 {
+    float: left;
+  }
+  .back-3 .skills .skill-bar .left-skill .common p {
+    float: left;
+    font-size: 21px;
+  }
+  .back-3 .skills .skill-bar .right-skill {
+    width: 90%;
+    margin-top: 50px;
+  }
+  .back-3 .skills .skill-bar .right-skill .common p {
+    font-size: 21px;
+  }
+
+  .back-4 #portfolio {
+    width: 370px;
+    margin: auto;
+  }
+  .back-4 #portfolio h3 {
+    font-size: 45px;
+  }
+  .back-4 #portfolio p {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .back-4 #portfolio .projects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .back-4 #portfolio .projects .work {
+    height: 300px;
+    width: 350px;
+  }
+  .back-4 #portfolio .projects .work .content h1 {
+    font-size: 30px;
+  }
+  .back-4 #portfolio .projects .work .content p {
+    font-size: 25px;
+    margin-bottom: 80px;
+  }
+
+  .back-5 {
+    height: auto;
+  }
+  .back-5 #contact {
+    width: 370px;
+    margin: auto;
+  }
+  .back-5 #contact form {
+    width: 370px;
+    margin: auto;
+  }
+  .back-5 #contact .main-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .back-5 #contact .main-box .social-media {
+    margin: 20px 0px;
+  }
+  .back-5 #contact .main-box .social-media p {
+    font-size: 20px;
+  }
+  .back-5 #contact .main-box .social-media h5 {
+    font-size: 25px;
+  }
+  .back-5 #contact .info {
+    width: 370px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .back-5 #contact .info .name-1, .back-5 #contact .info .name-2 {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .back-5 #contact textarea {
+    width: 90%;
+    margin: 0px 16px 10px 0px;
+  }
+  .back-5 #contact button {
+    margin-left: 12px;
+  }
+  .back-5 .copy-right {
+    padding-top: 800px;
+    width: 350px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 321px) {
+  #home .layer-3 h1 {
+    font-size: 32px;
+  }
+  #home .layer-3 h2 {
+    font-size: 28px;
+    padding-top: 120px;
+  }
+  #home .layer-3 h3 {
+    font-size: 17px;
+  }
+  #home .layer-3 .width {
+    width: 290px;
+    margin: auto;
+  }
+
+  .back #about {
+    width: 300px;
+    margin: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .back #about .left {
+    width: 100%;
+  }
+  .back #about .left .about {
+    margin-top: 5px;
+  }
+  .back #about .left .greetings {
+    font-size: 23px;
+  }
+  .back #about .left .name {
+    font-size: 35px;
+  }
+  .back #about .left .about, .back #about .left .same-1, .back #about .left .same-2 {
+    width: 240px;
+    font-size: 20px;
+  }
+  .back #about .right {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .back #about .right .dev-img {
+    height: 250px;
+  }
+
+  .back-1 #status {
+    width: 300px;
+    margin: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .back-1 #status .box {
+    margin: 20px;
+  }
+  .back-1 #status .box .question {
+    font-size: 22px;
+  }
+
+  .back-2 #slider {
+    height: 150px;
+  }
+  .back-2 .bottom, .back-2 .top {
+    width: 300px;
+    margin: auto;
+  }
+  .back-2 .top {
+    margin-bottom: 20px;
+  }
+  .back-2 .bottom {
+    margin-top: 20px;
+  }
+
+  .back-3 {
+    height: 670px;
+  }
+  .back-3 .skills {
+    width: 290px;
+    margin: auto;
+  }
+  .back-3 .skills .skill-bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .back-3 .skills .skill-bar .left-skill {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .back-3 .skills .skill-bar .left-skill .common .bar .s {
+    float: left;
+  }
+  .back-3 .skills .skill-bar .left-skill .common .bar-1 .s-1 {
+    float: left;
+  }
+  .back-3 .skills .skill-bar .left-skill .common .bar-3 .s-3 {
+    float: left;
+  }
+  .back-3 .skills .skill-bar .left-skill .common p {
+    float: left;
+    font-size: 21px;
+  }
+  .back-3 .skills .skill-bar .right-skill {
+    width: 90%;
+    margin-top: 50px;
+  }
+  .back-3 .skills .skill-bar .right-skill .common p {
+    font-size: 21px;
+  }
+
+  .back-4 #portfolio {
+    width: 290px;
+    margin: auto;
+  }
+  .back-4 #portfolio h3 {
+    font-size: 45px;
+  }
+  .back-4 #portfolio p {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .back-4 #portfolio .projects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .back-4 #portfolio .projects .work {
+    height: 250px;
+    width: 300px;
+  }
+  .back-4 #portfolio .projects .work .content h1 {
+    font-size: 30px;
+  }
+  .back-4 #portfolio .projects .work .content p {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  .back-5 {
+    height: auto;
+  }
+  .back-5 #contact {
+    width: 290px;
+    margin: auto;
+  }
+  .back-5 #contact form {
+    width: 290px;
+    margin: auto;
+  }
+  .back-5 #contact .main-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .back-5 #contact .main-box .social-media {
+    margin: 20px 0px;
+  }
+  .back-5 #contact .main-box .social-media p {
+    font-size: 20px;
+  }
+  .back-5 #contact .main-box .social-media h5 {
+    font-size: 25px;
+  }
+  .back-5 #contact .info {
+    width: 290px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .back-5 #contact .info .name-1, .back-5 #contact .info .name-2 {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .back-5 #contact textarea {
+    width: 90%;
+    margin: 0px 16px 10px 10px;
+  }
+  .back-5 #contact button {
+    margin-left: 12px;
+  }
+  .back-5 .copy-right {
+    padding-top: 800px;
+    width: 270px;
     margin: auto;
   }
 }
