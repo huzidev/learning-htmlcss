@@ -808,13 +808,18 @@
   }
 
   .back #about {
-    width: 1000px;
+    width: 780px;
     margin: auto;
   }
   .back #about .left {
     margin: 0px;
+    width: 80%;
+  }
+  .back #about .left .about, .back #about .left .same-1, .back #about .left .same-2 {
+    width: 450px;
   }
   .back #about .right {
+    width: 5%;
     float: right;
   }
 
@@ -859,7 +864,6 @@
   }
 
   .back #about {
-    width: 1500px;
     margin: auto;
   }
 
