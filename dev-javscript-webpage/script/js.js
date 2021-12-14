@@ -36,7 +36,6 @@ function loops() {
 
 // DISPLAY CHARACTER
 let maxHeight = []; // !
-
 let scroll = {
     hello: false,
     want: false,
@@ -46,7 +45,6 @@ let scroll = {
 let scrolltFix; //!
 
 
-
 function character() { // MOST !!!
     let char = document.getElementById('character-base');
     let desc = document.getElementById('character-desc');
@@ -54,11 +52,11 @@ function character() { // MOST !!!
         clearTimeout(scrolltFix);
         scrolltFix = setTimeout(() => {
             let cond = {
-                hello: window.innerHeight - 180
+                hello: window.innerHeight-180
             };
-            cond.want = cond.hello + document.getElementById('about').offsetHeight - 100;
-            cond.best = cond.want + document.getElementById('status').offsetHeight - 140;
-            cond.contact = cond.best + document.getElementById('portfolio').offsetHeight + 700;
+            cond.want = cond.hello + document.getElementById('about').offsetHeight-100;
+            cond.best = cond.want + document.getElementById('status').offsetHeight-140;
+            cond.contact = cond.best + document.getElementById('portfolio').offsetHeight+700;
             if (this.scrollY > cond.hello && !scroll.hello) {
                 scroll.hello = true;
                 desc.innerHTML = "Hello how are you ?";

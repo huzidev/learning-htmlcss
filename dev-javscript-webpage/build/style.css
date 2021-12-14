@@ -473,7 +473,7 @@
 .back-5 {
   background-color: #333333;
 }
-.back-5 #footer {
+.back-5 #contact {
   text-align: center;
   color: white;
   width: 1200px;
@@ -481,11 +481,11 @@
   padding-top: 100px;
   height: 700px;
 }
-.back-5 #footer h1 {
+.back-5 #contact h1 {
   font-size: 30px;
   font-weight: 300;
 }
-.back-5 #footer .main-box {
+.back-5 #contact .main-box {
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -495,28 +495,28 @@
           justify-content: space-between;
   margin-bottom: 70px;
 }
-.back-5 #footer .main-box .icon {
+.back-5 #contact .main-box .icon {
   font-size: 85px;
   margin-bottom: 20px;
   color: #e74c3c;
 }
-.back-5 #footer .main-box p {
+.back-5 #contact .main-box p {
   font-size: 16px;
   letter-spacing: 1px;
   margin: 10px 0px;
 }
-.back-5 #footer .main-box h5 {
+.back-5 #contact .main-box h5 {
   letter-spacing: 1px;
   font-size: 20px;
   font-weight: 300;
 }
-.back-5 #footer .info {
+.back-5 #contact .info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 1210px;
 }
-.back-5 #footer .info .name-1 {
+.back-5 #contact .info .name-1 {
   width: 50%;
   height: 50px;
   margin-left: 10px;
@@ -534,7 +534,7 @@
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
 }
-.back-5 #footer .info .name-2 {
+.back-5 #contact .info .name-2 {
   width: 50%;
   height: 50px;
   font-size: 18px;
@@ -553,11 +553,11 @@
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
 }
-.back-5 #footer .info input:focus {
+.back-5 #contact .info input:focus {
   outline: none;
   color: #e74c3c;
 }
-.back-5 #footer textarea {
+.back-5 #contact textarea {
   width: 100%;
   margin: 10px;
   letter-spacing: 3px;
@@ -573,11 +573,11 @@
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
 }
-.back-5 #footer textarea:focus {
+.back-5 #contact textarea:focus {
   outline: none;
   color: #e74c3c;
 }
-.back-5 #footer button {
+.back-5 #contact button {
   float: left;
   background: none;
   color: white;
@@ -587,7 +587,7 @@
   margin-left: 10px;
   cursor: pointer;
 }
-.back-5 #footer button:hover {
+.back-5 #contact button:hover {
   border: 2px solid white;
 }
 
@@ -701,7 +701,7 @@
 
 #character .desc {
   position: fixed;
-  top: calc(25% - 220px);
+  top: calc(25% + 220px);
   left: -240px;
   padding: 12px 4px;
   background: #e74c3c;
@@ -744,4 +744,15 @@
 }
 #character .char img {
   width: 140px;
+}
+#character .char.hello {
+  left: -65px;
+  -webkit-transform: rotate(13deg);
+  transform: rotate(13deg);
+}
+#character .char.want {
+  left: 10px;
+}
+#character .char.best {
+  left: 50px;
 }
