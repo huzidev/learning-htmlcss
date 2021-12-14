@@ -925,3 +925,79 @@
     width: 710px;
   }
 }
+@media only screen and (min-width: 375px) {
+  #home .layer-3 h1 {
+    font-size: 32px;
+  }
+  #home .layer-3 h2 {
+    font-size: 28px;
+    padding-top: 50px;
+  }
+  #home .layer-3 h3 {
+    font-size: 17px;
+  }
+  #home .layer-3 .width {
+    width: 300px;
+    margin: auto;
+  }
+
+  .back #about {
+    width: 470px;
+    margin: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .back #about .left {
+    width: 80%;
+  }
+  .back #about .left .about, .back #about .left .same-1, .back #about .left .same-2 {
+    width: 330px;
+  }
+  .back #about .right {
+    width: 76%;
+    margin-top: 50px;
+  }
+  .back #about .right .dev-img {
+    height: 300px;
+  }
+
+  .back-1 #status {
+    width: 680px;
+    margin: auto;
+  }
+
+  .back-2 .bottom, .back-2 .top {
+    width: 680px;
+    margin: auto;
+  }
+
+  .back-3 .skills {
+    width: 680px;
+    margin: auto;
+  }
+
+  .back-4 #portfolio {
+    width: 680px;
+    margin: auto;
+  }
+  .back-4 #portfolio p {
+    margin: 0px;
+  }
+  .back-4 #portfolio .projects .work {
+    height: 220px;
+  }
+  .back-4 #portfolio .projects .work .content .button {
+    margin-bottom: 70px;
+  }
+
+  .back-5 #contact {
+    width: 700px;
+    margin: auto;
+  }
+  .back-5 #contact .info {
+    width: 710px;
+  }
+}
