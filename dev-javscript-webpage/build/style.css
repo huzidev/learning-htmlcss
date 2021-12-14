@@ -756,3 +756,31 @@
 #character .char.best {
   left: 50px;
 }
+
+@media only screen and (max-width: 1240px) {
+  #home .layer-3 .width {
+    width: 900px;
+    margin: auto;
+  }
+
+  .back #about {
+    width: 1200px;
+    margin: auto;
+  }
+
+  .back-1 #status {
+    width: 900px;
+    margin: auto;
+  }
+
+  .back-2 .bottom, .back-2 .top {
+    width: 900px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #home .layer-3 .width {
+    width: 700px;
+    margin: auto;
+  }
+}
