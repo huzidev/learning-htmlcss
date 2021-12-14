@@ -32,3 +32,6 @@ function loops() {
     console.log(index, slide.length);
 };
 
+
+
+// DISPLAY CHARACTER
