@@ -3,7 +3,7 @@ window.onload = function () {
     window.addEventListener("scroll", function () {
         const height = document.body.clientHeight - window.innerHeight;
         const width = document.body.clientWidth;// WE DIDN'T USED (- INNERWIDTH ) BECAUSE WE HAVEN'T ANY HORIZONTAL SCROLL 
-        const scroll = window.scrollY // BECAUSE WE WANTED ONLY VERTICAL SCROLL THEREFORE (SCROLLY)
+        const scroll = window.scrollY;// BECAUSE WE WANTED ONLY VERTICAL SCROLL THEREFORE (SCROLLY)
         const ratio = (scroll / height); // SCROLL / HEIGHT BECAUSE WE JUST WANTED RESULT OF HEIGHT ACCORDING TO THE RESPECTIVE SCROLL
         const dy = ratio * window.innerHeight; // RATIO WHICH IS EQUAL TO (SCROLL/HEIGHT ) AS WE MENTIONED AND WE MULTIPLY BY INNERHEIGHT BECAUSE WE USED CLIENTHEIGHT - WINDOW.INNERHEIGHT
         const dx = ratio * width;
