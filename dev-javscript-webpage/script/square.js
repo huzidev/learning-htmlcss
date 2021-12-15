@@ -10,6 +10,7 @@ window.onload = function () {
         console.log({scroll, height, width});
         console.log({ dy, dx, ratio});
         square.style.top = `${dy}px`
-        square.style.right = `${dx}px`
+        square.style.right = `(200px), ${dx}px`
+        // square.style.marginRight = `100px`
     });
 };
