@@ -35,13 +35,13 @@ function loops() {
 
 
 // DISPLAY CHARACTER
-let maxHeight = []; // !
-let scroll = {
-    hello: false,
-    want: false,
-    best: false,
-    contact: false
-};
+// let maxHeight = []; // !
+// let scroll = {
+//     hello: false,
+//     want: false,
+//     best: false,
+//     contact: false
+// };
 let scrolltFix; //!
 
 
