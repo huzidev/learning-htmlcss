@@ -1290,7 +1290,7 @@
     width: 100%;
   }
   .back-3 .skills .skill-bar .left-skill {
-    width: 90%;
+    width: 87%;
     margin-top: 30px;
   }
   .back-3 .skills .skill-bar .left-skill .common .bar .s {
@@ -1307,7 +1307,7 @@
     font-size: 21px;
   }
   .back-3 .skills .skill-bar .right-skill {
-    width: 90%;
+    width: 87%;
     margin-top: 50px;
   }
   .back-3 .skills .skill-bar .right-skill .common p {
@@ -1315,7 +1315,7 @@
   }
 
   .back-4 #portfolio {
-    width: 370px;
+    width: 375px;
     margin: auto;
   }
   .back-4 #portfolio h3 {
@@ -1396,6 +1396,21 @@
 
   .nav-bar ul .nav-item {
     padding: 20px;
+  }
+
+  #character .desc {
+    top: calc( 25% + 150px );
+    font-size: 10px;
+    width: 150px;
+  }
+  #character .char.want {
+    left: 5px;
+  }
+  #character .char.best {
+    left: 25px;
+  }
+  #character .char img {
+    width: 100px;
   }
 }
 @media only screen and (min-width: 416px) and (max-width: 760px) {
@@ -1717,7 +1732,7 @@
   }
 
   .back-4 #portfolio {
-    width: 370px;
+    width: 375px;
     margin: auto;
   }
   .back-4 #portfolio h3 {
@@ -1754,8 +1769,9 @@
     margin: auto;
   }
   .back-5 #contact form {
-    width: 370px;
+    width: 350px;
     margin: auto;
+    padding-left: 10px;
   }
   .back-5 #contact .main-box {
     -webkit-box-orient: vertical;
@@ -1773,7 +1789,7 @@
     font-size: 25px;
   }
   .back-5 #contact .info {
-    width: 370px;
+    width: 350px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1784,8 +1800,8 @@
     margin-left: 10px;
   }
   .back-5 #contact textarea {
-    width: 90%;
-    margin: 0px 16px 10px 0px;
+    width: 93%;
+    margin: 0px 16px 10px 10px;
   }
   .back-5 #contact button {
     margin-left: 12px;
@@ -1846,7 +1862,7 @@
   }
 
   .back-1 #status {
-    width: 300px;
+    width: 310px;
     margin: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
