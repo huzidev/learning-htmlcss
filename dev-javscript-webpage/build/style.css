@@ -1811,6 +1811,24 @@
     width: 350px;
     margin: auto;
   }
+
+  #character .desc {
+    top: calc( 25% + 150px );
+    font-size: 10px;
+    width: 150px;
+  }
+  #character .char.hello {
+    left: -30px;
+  }
+  #character .char.want {
+    left: 5px;
+  }
+  #character .char.best {
+    left: 25px;
+  }
+  #character .char img {
+    width: 100px;
+  }
 }
 @media only screen and (max-width: 321px) {
   #home .layer-3 h1 {
@@ -2011,5 +2029,23 @@
 
   .nav-bar ul .nav-item {
     padding: 13px;
+  }
+
+  #character .desc {
+    top: calc( 25% + 130px );
+    font-size: 10px;
+    width: 150px;
+  }
+  #character .char.hello {
+    left: -30px;
+  }
+  #character .char.want {
+    left: 15px;
+  }
+  #character .char.best {
+    left: 45px;
+  }
+  #character .char img {
+    width: 80px;
   }
 }
