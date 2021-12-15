@@ -9,6 +9,6 @@ window.onload = function () {
         const dx = ratio * width;
         console.log({scroll, height, width});
         console.log({ dy, dx, ratio});
-
+        square.style.top = `${dy}px`
     });
 };
