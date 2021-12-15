@@ -23,6 +23,9 @@
   width: 100px;
   background-color: chocolate;
   top: 0px;
+  right: 0px;
+  position: fixed;
+  z-index: 1;
 }
 
 #home {
