@@ -9,7 +9,7 @@ window.onload = function() {
         const dx = ratio * width;
         console.log({scroll, height, width});
         console.log({dy, dx, ratio});
-        box.style.top = `${dy}px`;
+        box.style.top = `${dy}px`; // SO WE CAN STYLE OURS WEBSITE JUST LIKE CSS BY USING (.STYLE.) AS WE DID THERE SINCE (BOX) IS THE NAME OF OURS CLASS WE USED ABOVE THEREFORE WE USES (BOX.STYLE.) WE CAN ALSO GAVE IT SOME MARGIN, PADDING OR ANY OTHER PROPERTY JUST BY USING THIS FUNCTION
         box.style.left = `${dx}px`;
         // console.log(height, offset, box.clientHeight);
     });
