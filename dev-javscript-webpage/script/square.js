@@ -3,5 +3,5 @@ window.onload = function () {
     window.addEventListener("scroll", function () {
         const height = document.body.clientHeight - window.innerHeight;
         const width = document.body.clientWidth;// WE DIDN'T USED (- INNERWIDTH ) BECAUSE WE HAVEN'T ANY HORIZONTAL SCROLL 
-    })
+    });
 };

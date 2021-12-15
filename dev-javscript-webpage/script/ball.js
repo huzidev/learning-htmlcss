@@ -2,7 +2,7 @@ window.onload = function() {
     const box = document.getElementsByClassName('ball')[0]; // THIS ZERO MEANS STARTING FROM ZERO LIKE WE USED IN SLIDER (INDEX = 0)
     window.addEventListener('scroll', function(e) {
         const height = document.body.clientHeight - window.innerHeight;
-        const width = document.body.clientWidth; // WE DIDN'T USED (- INNERWIDTH ) BECAUSE WE HAVE NOT ANY HORIZONTAL SCROLL 
+        const width = document.body.clientWidth; // WE DIDN'T USED (- INNERWIDTH ) BECAUSE WE HAVEN'T ANY HORIZONTAL SCROLL 
         const scroll = window.scrollY;
         
         const ratio = (scroll / height);
