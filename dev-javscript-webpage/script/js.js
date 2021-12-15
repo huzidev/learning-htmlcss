@@ -114,7 +114,7 @@ function character() { // MOST !!!
                 char.classList.remove('want');
                 desc.classList.remove('want');
             }
-        }, 100);
+        }, 100); // THE TIME REQUIRED FOR THE CHARACTER TO SHOWN UP
     });
-}
+};
 character();
