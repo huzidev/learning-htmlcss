@@ -13,4 +13,4 @@ window.onload = function() {
         box.style.left = `${dx}px`;
         // console.log(height, offset, box.clientHeight);
     });
-}
+};
