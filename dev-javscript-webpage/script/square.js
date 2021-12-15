@@ -6,6 +6,7 @@ window.onload = function () {
         const scroll = window.scrollY // BECAUSE WE WANTED ONLY VERTICAL SCROLL THEREFORE (SCROLLY)
         const ratio = (scroll / height); // SCROLL / HEIGHT BECAUSE WE JUST WANTED RESULT OF HEIGHT ACCORDING TO THE RESPECTIVE SCROLL
         const dy = ratio * window.innerHeight; // RATIO WHICH IS EQUAL TO (SCROLL/HEIGHT ) AS WE MENTIONED AND WE MULTIPLY BY INNERHEIGHT BECAUSE WE USED CLIENTHEIGHT - WINDOW.INNERHEIGHT
+        const
 
     });
 };
