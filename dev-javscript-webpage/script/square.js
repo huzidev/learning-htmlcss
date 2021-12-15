@@ -1,3 +1,3 @@
 window.onload = function () {
-    const square = document.getElementsByClassName()    
+    const square = document.getElementsByClassName("square")    
 }
