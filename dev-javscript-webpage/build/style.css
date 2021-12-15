@@ -1072,7 +1072,7 @@
     width: 600px;
   }
   .back #about .right {
-    width: 30%;
+    width: 15%;
     float: right;
   }
   .back #about .right .dev-img {
@@ -1080,6 +1080,7 @@
   }
 
   .back-1 #status {
+    padding: 50px 10px 50px 0px;
     width: 680px;
     margin: auto;
   }
@@ -1088,12 +1089,21 @@
     width: 680px;
     margin: auto;
   }
+  .back-2 .bottom {
+    padding: 0px 10px 37px 0px;
+  }
 
+  .back-3 {
+    padding: 60px 20px 60px 0px;
+  }
   .back-3 .skills {
     width: 680px;
     margin: auto;
   }
 
+  .back-4 {
+    padding: 0px 10px 0px 0px;
+  }
   .back-4 #portfolio {
     width: 680px;
     margin: auto;
@@ -1108,6 +1118,9 @@
     margin-bottom: 70px;
   }
 
+  .back-5 {
+    padding: 0px 20px 0px 0px;
+  }
   .back-5 #contact {
     width: 700px;
     margin: auto;
