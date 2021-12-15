@@ -10,7 +10,7 @@ window.onload = function () {
         console.log({scroll, height, width});
         console.log({ dy, dx, ratio});
         square.style.top = `${dy}px`
-        square.style.right = `(200px), ${dx}px`
-        // square.style.marginRight = `100px`
+        square.style.right = ` ${dx}px`
+        square.style.marginRight = `100px` // REMEBER WE DONT USED (DESH) IN JAVASCRIPT INSTEAD WE USED THE FIRST LETTER AFTER DESH AS TO BE CAPITAL AS WE USE THERE
     });
 };
