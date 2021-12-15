@@ -7,8 +7,7 @@ window.onload = function () {
         const ratio = (scroll / height); // SCROLL / HEIGHT BECAUSE WE JUST WANTED RESULT OF HEIGHT ACCORDING TO THE RESPECTIVE SCROLL
         const dy = ratio * window.innerHeight; // RATIO WHICH IS EQUAL TO (SCROLL/HEIGHT ) AS WE MENTIONED AND WE MULTIPLY BY INNERHEIGHT BECAUSE WE USED CLIENTHEIGHT - WINDOW.INNERHEIGHT
         const dx = ratio * width;
-        console.log({scroll, height, width});
-        console.log({ dy, dx, ratio});
+        console.log({scroll, dx, ratio});
         square.style.top = `${dy}px`;
         square.style.right = ` ${dx}px`;
         square.style.marginRight = `100px`; // REMEBER WE DONT USED (DESH) IN JAVASCRIPT INSTEAD WE USED THE FIRST LETTER AFTER DESH AS TO BE CAPITAL AS WE USE THERE
