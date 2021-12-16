@@ -6,6 +6,8 @@ window.onload = function () {
         const scroll = window.scrollY;
         const ratio = ( scroll / height );
         const dy = ratio * window.innerHeight;
-        const dy = ratio * width;
+        const dx = ratio * width;
+        ball.style.top = `${dy}px`;
+        ball.style.left = `${dx}px`;
   });
 };
