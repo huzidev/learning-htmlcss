@@ -5,10 +5,11 @@ window.onload = function () {
         const width = document.body.clientWidth;
         const scroll = window.scrollY;
         const ratio = ( scroll / height );
-        const dy = ratio * window.innerHeight;
+        const yratio = ( window.innerHeight * ratio) ;
+        const dy = window.innerHeight - yratio;
         const dx = ratio * width;
-        ball.style.top = `${dy}px`;
-        ball.style.left = `${dx}px`;
-    console.log({ height, width, ratio, dx, dy, scroll, }, document.body.clientHeight, window.innerHeight);
+        ball.style.top = `${dy}px`
+        ball.style.right = `${dx}px`;
+    console.log({ height, width, ratio, dx, dy, scroll, }, document.body.clientHeight, window.innerHeight, yratio);
   });
 };
