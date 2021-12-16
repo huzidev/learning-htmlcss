@@ -3,5 +3,6 @@ window.addEventListener("laod", function (BR) {
     window.addEventListener("scroll", function (BR) {
        const height = document.body.clientHeight - window.innerHeight;
        const width = document.body.clientWidth;
+       const scroll = window.scrollY
     });
 });
