@@ -1,1 +1,2 @@
-window.addEventListener
+// 
+console.log();
