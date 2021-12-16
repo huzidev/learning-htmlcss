@@ -5,15 +5,24 @@
     font-family: sans-serif
 
 .ball
-    width: 100px
+    width: 45px
     height: 100px
     position: fixed
     top: 0px
-    border-radius: 100%
+    transform: rotate(-45deg)
     cursor: pointer
     left: 0px
     z-index: 1
     background: red
+    .arrow
+        background-color: chocolate
+        height: 46px
+        width: 46px
+        right: 0px
+        z-index: 3
+        position: absolute
+        top: 80px
+        transform: rotate(45deg)
 .square
     height: 100px
     width: 100px
@@ -23,7 +32,7 @@
     border-radius: 100%
     position: fixed
     z-index: 1
-
+    
 .vertical-1
     background-color: chocolate
     top: 0px

@@ -7,15 +7,27 @@
 }
 
 .ball {
-  width: 100px;
+  width: 45px;
   height: 100px;
   position: fixed;
   top: 0px;
-  border-radius: 100%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   cursor: pointer;
   left: 0px;
   z-index: 1;
   background: red;
+}
+.ball .arrow {
+  background-color: chocolate;
+  height: 46px;
+  width: 46px;
+  right: 0px;
+  z-index: 3;
+  position: absolute;
+  top: 80px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .square {
