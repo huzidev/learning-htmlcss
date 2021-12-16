@@ -1,3 +1,3 @@
 window.addEventListener("load", function (v) {
-    const vertical = document.getElementsByClassName("vertical-1")
+    const vertical1 = document.getElementsByClassName("vertical-1")
 })
