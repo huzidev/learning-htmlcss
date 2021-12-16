@@ -24,7 +24,7 @@
   background-color: chocolate;
   top: 0px;
   right: 100px;
-  border-radius: 10%;
+  border-radius: 100%;
   position: fixed;
   z-index: 1;
 }
@@ -32,12 +32,22 @@
 .vertical-1 {
   background-color: chocolate;
   top: 0px;
-  left: 0px;
+  left: 15px;
   position: fixed;
   height: 100px;
-  width: 100px;
-  z-index: 0;
+  width: 45px;
   border-radius: 10%;
+}
+.vertical-1 .arrow-1 {
+  background-color: chocolate;
+  height: 46px;
+  width: 46px;
+  right: 0px;
+  z-index: 3;
+  position: absolute;
+  top: 80px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .vertical-2 {
@@ -47,19 +57,41 @@
   border-radius: 10%;
   position: fixed;
   height: 100px;
-  width: 100px;
+  width: 45px;
   z-index: 0;
+}
+.vertical-2 .arrow-1 {
+  background-color: chocolate;
+  height: 46px;
+  width: 46px;
+  right: 0px;
+  z-index: 3;
+  position: absolute;
+  top: 80px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .vertical-3 {
   background-color: chocolate;
   bottom: 0px;
-  left: 0px;
+  left: 15px;
   border-radius: 10%;
   position: fixed;
   height: 100px;
-  width: 100px;
+  width: 45px;
   z-index: 0;
+}
+.vertical-3 .arrow-2 {
+  background-color: chocolate;
+  height: 46px;
+  width: 46px;
+  right: 0px;
+  z-index: 3;
+  position: absolute;
+  top: -20px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .vertical-4 {
@@ -69,8 +101,19 @@
   border-radius: 10%;
   position: fixed;
   height: 100px;
-  width: 100px;
+  width: 45px;
   z-index: 0;
+}
+.vertical-4 .arrow-2 {
+  background-color: chocolate;
+  height: 46px;
+  width: 46px;
+  right: 0px;
+  z-index: 3;
+  position: absolute;
+  top: -20px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .bottom-left {
