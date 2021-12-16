@@ -1,6 +1,6 @@
-window.addEventListener("load", function (B) {
+window.addEventListener("load", function (BL) {
     const bottomL = document.getElementsByClassName("bottom-left")[0]; // THIS [0] IS VERY IMPORTANT OTHERWISE IT'LL WONT WORK
-    window.addEventListener("scroll", function (B) {
+    window.addEventListener("scroll", function (BL) {
         const height = document.body.clientHeight - window.innerHeight;
         const width = document.body.clientWidth;
         const scroll = window.scrollY;
