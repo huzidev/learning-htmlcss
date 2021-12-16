@@ -21,5 +21,5 @@ window.addEventListener("load", function (v2) {
 }, false);
 
 window.addEventListener("load", function (v3) {
-    const vertical3 = 
+    const vertical3 = document.getElementsByClassName("vertical-3")
 })
