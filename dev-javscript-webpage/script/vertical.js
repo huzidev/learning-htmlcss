@@ -31,4 +31,6 @@ window.addEventListener("load", function (v3) {
     });
 }, false);
 
-window.addEventListener
+window.addEventListener("load", function (v4) {
+    
+})
