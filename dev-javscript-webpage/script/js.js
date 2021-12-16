@@ -10,7 +10,7 @@ menuIcon.addEventListener("click", () => {
 
 let index = 0;
 
-window.addEventListener("load", function () {
+window.onload = function () {
     const slide = document.getElementsByClassName("slide");
     slide[index].classList.add("active");
     slide[index].classList.remove("remove");
@@ -18,7 +18,7 @@ window.addEventListener("load", function () {
     setInterval(() => {
         loops()
     }, 6000);
-}, false);
+};
 
 function loops() {
     const slide = document.getElementsByClassName("slide");

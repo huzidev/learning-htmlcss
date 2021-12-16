@@ -1,4 +1,4 @@
-window.onload = function(e) {
+window.addEventListener("load", function(e) {  // SOME TIMES WHAT ACTUALLY HAPPENED IS THAT IF WE MAKE MORE THAN ONE (WINDOW.ONLOAD) SO THE FIRST ONE WONT WORK, ALWAYS THE AFTER ONE WORKS  
     const box = document.getElementsByClassName('ball')[0]; // THIS ZERO MEANS STARTING FROM ZERO LIKE WE USED IN SLIDER (INDEX = 0)
     window.addEventListener('scroll', function(e) {
         const height = document.body.clientHeight - window.innerHeight;
@@ -13,4 +13,4 @@ window.onload = function(e) {
         box.style.left = `${dx}px`;
         // console.log(height, offset, box.clientHeight);
     });
-};
+}, false);
