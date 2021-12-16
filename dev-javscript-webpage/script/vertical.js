@@ -3,6 +3,6 @@ window.addEventListener("load", function (v) {
     window.addEventListener("scroll", function (v) {
         const height = document.body.clientHeight - window.innerHeight;
         const scroll = window.scrollY;
-        const ratio =
+        const ratio =  ( scroll / height );
     })
 })
