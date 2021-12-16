@@ -26,5 +26,7 @@ window.addEventListener("load", function (v3) {
        const height = document.body.clientHeight - window.innerHeight;
        const scroll = window.scrollY;
        const ratio = ( scroll / height);
+       const dy = ratio * window.innerHeight;
+       vertical3.style.bottom = 
     });
 })
