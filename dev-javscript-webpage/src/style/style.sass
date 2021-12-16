@@ -15,23 +15,32 @@
     z-index: 1
     background: red
     .arrow
-        background-color: chocolate
+        background-color: red
         height: 46px
         width: 46px
         right: 0px
         z-index: 3
         position: absolute
-        top: 80px
+        top: -20px
         transform: rotate(45deg)
 .square
     height: 100px
-    width: 100px
-    background-color: chocolate
+    width: 45px
+    background-color: red
     top: 0px
     right: 100px // OTHERWISE IT'LL COVER-UP THE HAMBURGER-MENU
-    border-radius: 100%
     position: fixed
     z-index: 1
+    transform: rotate(45deg)
+    .arrow
+        background-color: red
+        height: 46px
+        width: 46px
+        right: 0px
+        z-index: 3
+        position: absolute
+        top: -20px
+        transform: rotate(45deg)
     
 .vertical-1
     background-color: chocolate
@@ -106,22 +115,40 @@
         transform: rotate(45deg)
 .bottom-left
     height: 100px
-    width: 100px
-    border-radius: 100%
+    width: 45px
+    transform: rotate(45deg)
     background-color: chocolate
     position: fixed
     bottom: 0px
     left: 0px
     z-index: 1
+    .arrow
+        background-color: chocolate
+        height: 46px
+        width: 46px
+        right: 0px
+        z-index: 3
+        position: absolute
+        top: -20px
+        transform: rotate(45deg)
 .bottom-right
     height: 100px
-    width: 100px
-    border-radius: 100%
+    width: 45px
+    transform: rotate(-45deg)
     background-color: chocolate
     position: fixed
     bottom: 0px
     right: 100px
     z-index: 1
+    .arrow
+        background-color: chocolate
+        height: 46px
+        width: 46px
+        right: 0px
+        z-index: 3
+        position: absolute
+        top: -20px
+        transform: rotate(45deg)
 #home
     min-height: 100%
     background: url(/images/light-bg.jpg) no-repeat
