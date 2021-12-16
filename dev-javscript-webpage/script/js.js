@@ -10,7 +10,7 @@ menuIcon.addEventListener("click", () => {
 
 let index = 0;
 
-window.onload = function () {
+window.onload = function (slider) {
     const slide = document.getElementsByClassName("slide");
     slide[index].classList.add("active");
     slide[index].classList.remove("remove");
