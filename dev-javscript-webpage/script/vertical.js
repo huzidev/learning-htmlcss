@@ -19,3 +19,5 @@ window.addEventListener("load", function (v2) {
         vertical2.style.top = `${dy}px`;
     })
 }, false);
+
+window.addEventListener
