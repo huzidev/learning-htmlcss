@@ -11,5 +11,5 @@ window.onload = function () {
         square.style.top = `${dy}px`;
         square.style.right = ` ${dx}px`;
         square.style.marginRight = `100px`; // REMEBER WE DONT USED (DESH) IN JAVASCRIPT INSTEAD WE USED THE FIRST LETTER AFTER DESH AS TO BE CAPITAL AS WE USE THERE
-    });
+    }); 
 };
