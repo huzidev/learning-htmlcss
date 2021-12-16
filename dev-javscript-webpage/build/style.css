@@ -31,6 +31,8 @@
 
 .vertical-1 {
   background-color: black;
+  top: 0px;
+  left: 0px;
 }
 
 #home {
