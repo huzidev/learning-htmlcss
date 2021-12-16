@@ -5,6 +5,7 @@ window.addEventListener("load", function (BR) {
        const width = document.body.clientWidth;
        const scroll = window.scrollY;
        const ratio = ( scroll / height);
-
+       const dy = ratio * window.innerHeight;
+       const dx = ratio * width;
    }) 
 });
