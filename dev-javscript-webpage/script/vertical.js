@@ -33,5 +33,7 @@ window.addEventListener("load", function (v3) {
 
 window.addEventListener("load", function (v4) {
     const vertical4 = document.getElementsByClassName("vertical-4")[0];
-    window.addEventListener
+    window.addEventListener("scroll", function (v4) {
+        
+    })
 });
