@@ -1,4 +1,4 @@
-window.addEventListener("laod", function (BR) {
+window.addEventListener("load", function (BR) {
     const bottomR = document.getElementsByClassName("bottom-right")[0];
     window.addEventListener("scroll", function (BR) {
        const height = document.body.clientHeight - window.innerHeight;
@@ -9,5 +9,6 @@ window.addEventListener("laod", function (BR) {
        const dx = ratio * width;
        bottomR.style.bottom = `${dy}px`;
        bottomR.style.right = `${dx}px`;
+       bottomR.style.marginRight = `100px`;
     });
-});
+}, false);
