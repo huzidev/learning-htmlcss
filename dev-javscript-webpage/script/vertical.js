@@ -23,6 +23,6 @@ window.addEventListener("load", function (v2) {
 window.addEventListener("load", function (v3) {
     const vertical3 = document.getElementsByClassName("vertical-3")[0];
     window.addEventListener("scroll", function (v3) {
-       const height =  
+       const height = document.body.clientHeight - window.innerHeight; 
     });
 })
