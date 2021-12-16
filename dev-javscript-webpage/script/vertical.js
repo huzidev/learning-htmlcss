@@ -32,5 +32,5 @@ window.addEventListener("load", function (v3) {
 }, false);
 
 window.addEventListener("load", function (v4) {
-    
+    const vertical4 = document.getElementsByClassName
 })
