@@ -8,3 +8,5 @@ window.addEventListener("load", function (v) {
         vertical1.style.top = `${dy}px` 
     });
 }, false);
+
+window.addEventListener
