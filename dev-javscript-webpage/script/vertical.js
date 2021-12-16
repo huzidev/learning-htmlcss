@@ -20,4 +20,6 @@ window.addEventListener("load", function (v2) {
     })
 }, false);
 
-window.addEventListener("load",)
+window.addEventListener("load", function (v3) {
+    
+})
