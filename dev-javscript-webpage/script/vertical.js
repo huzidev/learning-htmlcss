@@ -11,5 +11,6 @@ window.addEventListener("load", function (v1) {
 
 window.addEventListener("load", function (v2) {
     const vertical2 = document.getElementsByClassName("vertical-2")[0];
-    const height = document.body.clientHeight
+    const height = document.body.clientHeight - window.innerHeight;
+    const scroll = window.scrollY
 })
