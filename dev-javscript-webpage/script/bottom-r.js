@@ -8,5 +8,6 @@ window.addEventListener("laod", function (BR) {
        const dy = ratio * innerHeight;
        const dx = ratio * width;
        bottomR.style.bottom = `${dy}px`;
+       bottomR.style.right = `${dx}px`;
     });
 });
