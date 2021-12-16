@@ -29,4 +29,4 @@ window.addEventListener("load", function (v3) {
        const dy = ratio * window.innerHeight;
        vertical3.style.bottom = `${dy}px`;
     });
-})
+}, false);
