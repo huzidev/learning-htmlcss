@@ -3,6 +3,6 @@ window.onload = function () {
   window.addEventListener("scroll", function () {
         const height = document.body.clientHeight - window.innerHeight;
         const width = this.document.body.clientWidth;
-        const 
+        const scroll = window.scrollY;
   });
 };
