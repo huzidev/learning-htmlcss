@@ -16,4 +16,4 @@ window.addEventListener("load", function (v2) {
     const ratio = ( scroll / height );
     const dy = ratio * window.innerHeight;
     vertical2.style.top = `${dy}px`; 
-});
+}, false);
