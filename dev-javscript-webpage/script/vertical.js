@@ -11,5 +11,5 @@ window.addEventListener("load", function (v1) {
 
 window.addEventListener("load", function (v2) {
     const vertical2 = document.getElementsByClassName("vertical-2")[0];
-    const height
+    const height = document.body.clientHeight
 })
