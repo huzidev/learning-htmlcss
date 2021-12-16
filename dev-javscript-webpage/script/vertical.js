@@ -30,3 +30,5 @@ window.addEventListener("load", function (v3) {
        vertical3.style.bottom = `${dy}px`;
     });
 }, false);
+
+window.addEventListener
