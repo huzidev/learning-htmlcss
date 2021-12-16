@@ -36,6 +36,7 @@ window.addEventListener("load", function (v4) {
     window.addEventListener("scroll", function (v4) {
        const height = document.body.clientHeight - window.innerHeight;
        const scroll = window.scrollY;
-       const ratio = ( scroll / height); 
+       const ratio = ( scroll / height);
+       const dy = ratio * window.innerHeight; 
     });
 });
