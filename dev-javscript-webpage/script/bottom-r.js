@@ -6,5 +6,6 @@ window.addEventListener("laod", function (BR) {
        const scroll = window.scrollY;
        const ratio = ( scroll / height );
        const dy = ratio * innerHeight;
+       const dx = ratio * width;
     });
 });
