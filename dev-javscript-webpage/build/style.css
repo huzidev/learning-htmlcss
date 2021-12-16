@@ -76,6 +76,8 @@
 .bottom-r {
   height: 100px;
   width: 100px;
+  border-radius: 100%;
+  background-color: chocolate;
 }
 
 #home {
