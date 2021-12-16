@@ -1,3 +1,6 @@
-window.addEventListener("load", function (b-r) {
-   const bottomR = document.getElementsByClassName("bottom-left"); 
+window.addEventListener("load", function (BR) {
+   const bottomR = document.getElementsByClassName("bottom-left");
+   window.addEventListener("scroll", function (BR) {
+       
+   }) 
 });
