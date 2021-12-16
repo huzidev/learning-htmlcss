@@ -5,6 +5,6 @@ window.addEventListener("load", function (v) {
         const scroll = window.scrollY;
         const ratio =  ( scroll / height );
         const dy = ratio * window.innerHeight;
-        vertical1.style.top = `${dy}px`
+        vertical1.style.top = `${dy}px` 
     });
-})
+}, false);
