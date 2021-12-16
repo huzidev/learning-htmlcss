@@ -5,5 +5,5 @@ window.addEventListener("load", function (v) {
         const scroll = window.scrollY;
         const ratio =  ( scroll / height );
         const dy = ratio * window.innerHeight;
-    })
+    });
 })
