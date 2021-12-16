@@ -7,5 +7,6 @@ window.addEventListener("load", function (BR) {
        const ratio = ( scroll / height);
        const dy = ratio * window.innerHeight;
        const dx = ratio * width;
+       bottomR.style.bottom = `${dy}px`;
    }) 
 });
