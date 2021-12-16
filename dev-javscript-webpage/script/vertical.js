@@ -38,6 +38,6 @@ window.addEventListener("load", function (v4) {
        const scroll = window.scrollY;
        const ratio = ( scroll / height);
        const dy = ratio * window.innerHeight;
-       vertical4.style.bottom = `${dy}px` 
+       vertical4.style.bottom = `${dy}px`; 
     });
-});
+}, false);
