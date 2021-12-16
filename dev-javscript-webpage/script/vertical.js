@@ -1,6 +1,6 @@
-window.addEventListener("load", function (v) {
+window.addEventListener("load", function (v1) {
     const vertical1 = document.getElementsByClassName("vertical-1")[0];
-    window.addEventListener("scroll", function (v) {
+    window.addEventListener("scroll", function (v1) {
         const height = document.body.clientHeight - window.innerHeight;
         const scroll = window.scrollY;
         const ratio =  ( scroll / height );
@@ -9,4 +9,6 @@ window.addEventListener("load", function (v) {
     });
 }, false);
 
-window.addEventListener("load", )
+window.addEventListener("load", function (v2) {
+    
+})
