@@ -2,4 +2,4 @@ let scrollfix;
 
 function character() {
     
-}
+};
