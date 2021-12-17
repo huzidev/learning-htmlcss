@@ -8,6 +8,7 @@ function character() {
        scrollfix = setTimeout(() => {
            let cond = {hello: window.innerHeight - 180};
            cond.want = cond.hello + document.getElementById("about").offsetHeight - 100;
+           cond.best = cond.want + document.getElementById("status").offsetHeight + 240;
        }, 100); 
     });
 };
