@@ -657,11 +657,11 @@
         background: #e74c3c
         border-radius: 4px
         z-index: 2
-        opacity: 0
+        opacity: 0 // SO ONLY VISIBLE WHEN RESPECTIVE CLASSES WERE TRIGGERED
         width: 260px
         text-align: center
         transition: all 400ms ease
-        &.hello
+        &.hello // THESE ARE THE CLASSES WHICH WERE GONNA TRIGGERED AT SPECIFIC SCROLL
             left: 0px
             opacity: 1
         &.want 
