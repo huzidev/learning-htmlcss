@@ -52,7 +52,7 @@ function character() { // MOST !!!
         clearTimeout(scrolltFix);
         scrolltFix = setTimeout(() => {
             let cond = {
-                hello: window.innerHeight-180
+                hello: window.innerHeight - 180 // INNER HEIGHT IS THE VISIBLE HEIGHT EXCLUDING URL BAR & SCROLL BAR
             };
             cond.want = cond.hello + document.getElementById('about').offsetHeight-100;
             cond.best = cond.want + document.getElementById('status').offsetHeight+240;
