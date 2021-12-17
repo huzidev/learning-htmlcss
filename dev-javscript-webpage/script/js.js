@@ -49,7 +49,7 @@ function character() { // MOST !!!
     let char = document.getElementById('character-base'); // BASE IS FOR IMG
     let desc = document.getElementById('character-desc'); // DESC IS THE DESCRIPTION
     window.addEventListener('scroll', function () {
-        clearTimeout(scrolltFix);
+        clearTimeout(scrolltFix); // WILL CLEAR THE (SET-TIMEOUT) WHEN THE NEW CLASS TRIGGERED SO IT WONT OVERFLOW OR OVERWRITE
         scrolltFix = setTimeout(() => { // IF WE PUT SET-INTERVAL INSTEAD OF SET-TIMEOUT THEN THE CHARACTER IMG WILL REPEAT IT'S SELF RATHER THAN JUST TO SHOWN ONCE
             let cond = {
                 hello: window.innerHeight - 180 // INNER HEIGHT IS THE VISIBLE HEIGHT EXCLUDING URL BAR & SCROLL BAR
