@@ -6,7 +6,7 @@ function character() {
     window.addEventListener("scroll", function () {
        clearTimeout(scrollfix);
        scrollfix = setTimeout(() => {
-           
+           let cond = {hello: window.innerHeight - 180};
        }, 100); 
     });
 };
