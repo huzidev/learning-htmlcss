@@ -46,8 +46,8 @@ let scrolltFix; //!
 
 
 function character() { // MOST !!!
-    let char = document.getElementById('character-base');
-    let desc = document.getElementById('character-desc');
+    let char = document.getElementById('character-base'); // BASE IS FOR IMG
+    let desc = document.getElementById('character-desc'); // DESC IS THE DESCRIPTION
     window.addEventListener('scroll', function () {
         clearTimeout(scrolltFix);
         scrolltFix = setTimeout(() => {
