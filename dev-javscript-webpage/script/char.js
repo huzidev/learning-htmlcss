@@ -7,9 +7,9 @@ function character() {
        clearTimeout(scrollfix);
        scrollfix = setTimeout(() => {
            let cond = {hello: window.innerHeight - 180};
-           cond.want = cond.hello + document.getElementById("about").offsetHeight - 100;
-           cond.best = cond.want + document.getElementById("status").offsetHeight + 240;
-           cond.contact = cond.best + document.getElementById("portfolio").offsetHeight + 750;
+           cond.looking = cond.hello + document.getElementById("about").offsetHeight - 100;
+           cond.skills = cond.looking + document.getElementById("status").offsetHeight + 240;
+           cond.contact = cond.skills + document.getElementById("portfolio").offsetHeight + 750;
        }, 100); 
     });
 };
