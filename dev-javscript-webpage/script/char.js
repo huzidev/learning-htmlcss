@@ -24,6 +24,7 @@ function character() {
                 scroll.looking = true;
                 desc.innerHTML = "Are You Looking For A Developer?";
                 desc.classList.add("looking");
+                char.classList.add("looking");
             }
 
        }, 100); 
