@@ -38,15 +38,15 @@ function character() {
             }
             if (this.scrollY > cond.skills && !scroll.skills) {
                 scroll.skills = true;
-                desc.innerHTML = "Just Have A Glance That How Skillful He Is."
+                desc.innerHTML = "Just Have A Glance! That How Skillful This Guy Is."
                 desc.classList.add("skills");
                 char.classList.add("skills");
                 desc.classList.remove("looking");
                 char.classList.remove("looking");
             }
-            if (this.scrollY < cond.skills && scroll.skills) {
+            else if (this.scrollY < cond.skills && scroll.skills) { // WE USES ELSES IF THERE AS WELL BECAUSE WE'VE TWO CONDITIONS THERE ONE FOR SKILLS-SETS AND THE OTHER ONE IS FOR CONTACT
                 scroll.skills = false;
-                desc.innerHTML = "Hello, How Are You?";
+                desc.innerHTML = "Are You Looking For A Developer?";
                 desc.classList.remove("skills");
                 char.classList.remove("skills");
                 desc.classList.add("looking");
