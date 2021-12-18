@@ -52,6 +52,9 @@ function character() {
                 desc.classList.add("looking");
                 char.classList.add("looking");
             }
+            if (this.scrollY > cond.contact && !scroll.contact) {
+                
+            }
 
        }, 100); 
     });
