@@ -38,6 +38,7 @@ function character() {
             }
             if (this.scrollY > cond.skills && !scroll.skills) {
                 scroll.skills = true;
+                desc.innerHTML = "Just Have A Glance That How Skillful He Is."
             }
 
        }, 100); 
