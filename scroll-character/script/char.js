@@ -22,6 +22,10 @@ function character() {
                 desc.classList.remove("hello");
                 char.classList.remove("hello");
             }
+            if (this.scrollY > cond.hope && !scroll.hope) {
+                scroll.hope = true;
+                desc.innerHTML = "Hope! You Were Fine";
+            }
         }, 100);
     });
 };
