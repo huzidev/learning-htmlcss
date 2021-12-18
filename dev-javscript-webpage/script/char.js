@@ -25,6 +25,8 @@ function character() {
                 desc.innerHTML = "Are You Looking For A Developer?";
                 desc.classList.add("looking");
                 char.classList.add("looking");
+                char.classList.remove("hello")
+                desc.classList.remove("hello");
             }
 
        }, 100); 
