@@ -7,7 +7,10 @@ function character() {
         clearTimeout(scrollFix);
         scrollFix = setTimeout(() => {
             let cond = {hello: window.innerHeight - 180};
-            cond.looking = cond.hello + document.getElementById("about").offsetHeight - 100; 
+            cond.hope = cond.hello + document.getElementById("about").offsetHeight - 100;
+            cond.looking = cond.hope + document.getElementById("highlight").offsetHeight - 200;
+            cond.skills = cond.looking + document.getElementById("skills").offsetHeight - 200;
+            cond.contact = cond.skills + document.getElementById("work").offsetHeight + 700;
         }, 100);
     });
 };
