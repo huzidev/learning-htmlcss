@@ -10,6 +10,9 @@ function character() {
            cond.looking = cond.hello + document.getElementById("about").offsetHeight - 100; // OFFSET HEIGHT INCLUDES VIEWABLE HEIGHT INCLUDES PADDING, BORDER & SCROLL-BAR BUT NOT THE MARGIN
            cond.skills = cond.looking + document.getElementById("status").offsetHeight + 240;  
            cond.contact = cond.skills + document.getElementById("portfolio").offsetHeight + 750;
+           if ( this.scrollY > cond.hello && !scroll.hello) {
+               
+           }
        }, 100); 
     });
 };
