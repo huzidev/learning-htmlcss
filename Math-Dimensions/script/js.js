@@ -13,6 +13,6 @@ window.onload = function () {
         const dx = init.x - (ratio * window.innerWidth);
         ball.style.top = `${dy}px`
         ball.style.left = `${dx}px`;
-    console.log({ height, width, ratio, dx, dy, scroll, }, document.body.clientHeight, window.innerHeight, yratio);
+    console.log({ height, width, ratio, dx, dy, scroll, }, document.body.clientHeight, window.innerHeight);
   });
 };
