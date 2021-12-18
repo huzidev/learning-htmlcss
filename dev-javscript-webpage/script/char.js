@@ -15,7 +15,8 @@ function character() {
                desc.innerHTML= "Hello, How Are You?"; // DESC IS BASICALLY THE VARIABLE WE GAVE ABOVE FOR (GET ELEMENT BY ID ) WITH CHARACTER & DESCRIPTION
                desc.classList.add("hello"); // SO WHEN THESE CLASSES WERE TRIGGERED THEN OURS RESPECTIVE CSS WILL WORK ON THEM
                char.classList.add("hello");
-           }
+           };
        }, 100); 
     });
 };
+character();
