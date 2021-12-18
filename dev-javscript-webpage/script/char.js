@@ -46,6 +46,9 @@ function character() {
             }
             if (this.scrollY < cond.skills && scroll.skills) {
                 scroll.skills = false;
+                desc.innerHTML = "Hello, How Are You?";
+                desc.classList.remove("skills");
+                char.classList.remove("skills")
             }
 
        }, 100); 
