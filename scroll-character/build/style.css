@@ -22,6 +22,7 @@ header {
   position: fixed;
   top: 25%;
   z-index: 1;
+  left: -145px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
 }
