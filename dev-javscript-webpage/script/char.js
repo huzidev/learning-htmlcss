@@ -33,7 +33,7 @@ function character() {
                 desc.innerHTML = "Hello, How Are You?";
                 desc.classList.remove("looking");
                 char.classList.remove("looking");
-                desc.classList.add("hello");
+                desc.classList.add("hello"); // BECAUSE WE'VE HELLO CLASS ABOVE LOOKING CLASS SO WHEN WE WERE GOING ABOVE LOOKING CLASS WE'VE TO COMPULSORY (REPEAT) THE PROCEDURE AND TO ADD ALL THE CONDITIONS FOR (HELLO) CLASS
                 char.classList.add("hello");
             }
 
