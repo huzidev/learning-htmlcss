@@ -60,7 +60,7 @@ function character() {
                 scroll.contact = false;
                 desc.innerHTML = "Just Have A Glance! That How Skillful This Guy Is.";
             }
-            if (this.scrollY < cond.hello) { // THIS METHOD IS COMPULSORY OTHERWISE WHEN YOU SCROLL TO THE TOP RAPIDLY THE (HELLO) CLASS WILL NOT REMOVE YOU'VE TO RELOAD THE PAGE RATHER. THEREFORE WE'VE TO PROCEED THIS LAST METHOD
+            if (this.scrollY < cond.hello) { // THIS METHOD IS COMPULSORY OTHERWISE WHEN YOU SCROLL TO THE TOP RAPIDLY THE (HELLO) CLASS WILL NOT REMOVE YOU'VE TO RELOAD THE PAGE RATHER. THEREFORE WE'VE TO PROCEED THIS LAST METHOD AND WE'VE TO USE CONDITION.HELLO NOT SCROLL.HELLO BCZ IT'S A CONDITION
                 char.classList.remove("hello");
                 desc.classList.remove("hello");
                 char.classList.remove("looking");
