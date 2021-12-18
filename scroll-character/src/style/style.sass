@@ -23,6 +23,9 @@ header
         transform: rotate(0deg)
         img
             width: 150px
+        &.hello
+            left: 13px
+            transform: rotate(13deg)
     .desc
         background-color: chocolate
         padding: 15px 20px
@@ -31,8 +34,12 @@ header
         width: 250px
         left: -260px
         opacity: 0
+        z-index: 1
         cursor: pointer
         text-align: center
         top: calc( 25% + 220px )
         box-shadow: 0px 0px 21px -5px black
+        &.hello
+            opacity: 1
+            left: 0px
 
