@@ -29,7 +29,7 @@ function character() {
                 desc.classList.remove("hello");
             }
             if (this.scrollY < cond.looking && scroll.looking) {
-                
+                scroll.looking = false;
             }
 
        }, 100); 
