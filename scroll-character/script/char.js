@@ -5,5 +5,5 @@ function character() {
     let char = document.getElementById("character-char");
     window.addEventListener("scroll", function () {
         
-    })
-}
+    });
+};
