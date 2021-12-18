@@ -20,6 +20,7 @@ header
         top: 25%
         z-index: 1
         left: -145px
+        transition: 400ms
         transform: rotate(0deg)
         img
             width: 150px
@@ -31,6 +32,8 @@ header
             left: 6px
         &.looking
             left: 25px
+        &.skills
+            left: 35px
     .desc
         background-color: chocolate
         padding: 15px 20px
@@ -53,3 +56,9 @@ header
         &.looking
             opacity: 1
             left: 0px
+            background-color: black
+            color: white
+        &.skills
+            background-color: aqua
+            color: black
+            

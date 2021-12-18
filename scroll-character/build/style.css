@@ -23,6 +23,8 @@ header {
   top: 25%;
   z-index: 1;
   left: -145px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
 }
@@ -41,6 +43,9 @@ header {
 }
 #character .char.looking {
   left: 25px;
+}
+#character .char.skills {
+  left: 35px;
 }
 #character .desc {
   background-color: chocolate;
@@ -68,4 +73,10 @@ header {
 #character .desc.looking {
   opacity: 1;
   left: 0px;
+  background-color: black;
+  color: white;
+}
+#character .desc.skills {
+  background-color: aqua;
+  color: black;
 }
