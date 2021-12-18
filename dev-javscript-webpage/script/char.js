@@ -44,7 +44,7 @@ function character() {
                 desc.classList.remove("looking");
                 char.classList.remove("looking");
             }
-            if (this.scrollY) {
+            if (this.scrollY < cond.skills && scroll.skills) {
                 
             }
 
