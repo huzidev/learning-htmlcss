@@ -41,6 +41,8 @@ function character() {
                 desc.innerHTML = "Just Have A Glance That How Skillful He Is."
                 desc.classList.add("skills");
                 char.classList.add("skills");
+                desc.classList.remove("looking");
+                char.classList.remove("looking");
             }
 
        }, 100); 
