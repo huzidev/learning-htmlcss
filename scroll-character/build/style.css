@@ -53,6 +53,8 @@ header {
   border-radius: 7px;
   position: fixed;
   width: 250px;
+  -webkit-transition: 400ms;
+  transition: 400ms;
   left: -260px;
   opacity: 0;
   z-index: 1;
