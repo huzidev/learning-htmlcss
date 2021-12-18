@@ -25,7 +25,7 @@ function character() {
                 desc.innerHTML = "Are You Looking For A Developer?";
                 desc.classList.add("looking");
                 char.classList.add("looking");
-                char.classList.remove("hello")
+                char.classList.remove("hello"); // THE ROTATION OF OURS CHARACTER IMG WILL NOT OVERCOME UNTIL WE REMOVED ("HELLO") CLASSES THERE AS WELL.
                 desc.classList.remove("hello");
             }
 
