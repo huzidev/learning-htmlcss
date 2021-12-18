@@ -30,7 +30,7 @@ function character() {
             }
             if (this.scrollY < cond.looking && scroll.looking) { // MEANS SCROLL WILL BECAME LESS THAN OURS ("LOOKING-CLASS") SO THIS MEANS THAT WE WERE GOING UP (TOWARDS) OURS (HELLO) CLASS SO WE'VE TO PUT (HELLO) CLASSES CONDITIONS ONCE AGAIN (BUTTTTTTTTTTTTTT) WHY WE DIDN'T APPLY THE SAME PROCEDURE ABOVE WHY DID WE USED (ELSE IF) CONDITIONS ABOVE BECAUSEEEEEE WE DIDN'T HAVE ANY EXTRA CLASS OR ANY OTHER CLASS ABOVE ("HELLO") CLASSES THEREFORE WE SAYS ELSE IF AND REMOVED ALL THE CLASSES
                 scroll.looking = false;
-                desc.
+                desc.innerHTML = "Hello, How Are You?";
             }
 
        }, 100); 
