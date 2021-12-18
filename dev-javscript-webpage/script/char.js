@@ -19,6 +19,7 @@ function character() {
            else if (this.screenY < cond.hello && scroll.hello) { // REMEMBER WE DONT USE (!) IN LESS-THAN CONDITIONS
                 scroll.hello = false;
                 desc.classList.remove("hello");
+                desc.classList.remove("hello");
                
            }
 
