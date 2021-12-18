@@ -12,7 +12,7 @@ function character() {
            cond.contact = cond.skills + document.getElementById("portfolio").offsetHeight + 750;
            if ( this.scrollY > cond.hello && !scroll.hello) { // WE DONT USE (!) IN LESS-THAN (<) CONDITION
                scroll.hello = true; // MEANS NOW YOU'VE PERMISSION
-               desc.innerHTML= "Hello, How Are You?" // DESC IS BASICALLY THE VARIABLE WE GAVE ABOVE FOR (GET ELEMENT BY ID ) WITH CHARACTER
+               desc.innerHTML= "Hello, How Are You?" // DESC IS BASICALLY THE VARIABLE WE GAVE ABOVE FOR (GET ELEMENT BY ID ) WITH CHARACTER & DESCRIPTION
 
                
            }
