@@ -48,7 +48,9 @@ function character() {
                 scroll.skills = false;
                 desc.innerHTML = "Hello, How Are You?";
                 desc.classList.remove("skills");
-                char.classList.remove("skills")
+                char.classList.remove("skills");
+                desc.classList.add("looking");
+                char.classList.add("looking");
             }
 
        }, 100); 
