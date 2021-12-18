@@ -1,5 +1,6 @@
 window.addEventListener("load", function () {
     const square = document.getElementsByClassName("ball-1")[0];
+    const SQ = {h: square.clientHeight, w: square.clientWidth}
     window.addEventListener("scroll", function () {
         const height = document.body.clientHeight - window.innerHeight;
         const width = document.body.clientWidth;
