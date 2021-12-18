@@ -11,6 +11,10 @@ function character() {
             cond.looking = cond.hope + document.getElementById("highlight").offsetHeight - 200;
             cond.skills = cond.looking + document.getElementById("skills").offsetHeight - 200;
             cond.contact = cond.skills + document.getElementById("work").offsetHeight + 700;
+            if (this.scrollY > cond.hello && !scroll.hello) {
+                scroll.hello = true;
+                desc.innerHTML = "Hello, How Are You?";
+            }
         }, 100);
     });
 };
