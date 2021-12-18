@@ -28,6 +28,9 @@ function character() {
                 char.classList.remove("hello"); // THE ROTATION OF OURS CHARACTER IMG WILL NOT OVERCOME UNTIL WE REMOVED ("HELLO") CLASSES THERE AS WELL.
                 desc.classList.remove("hello");
             }
+            if (this.scrollY < cond.looking && scroll.looking) {
+                
+            }
 
        }, 100); 
     });
