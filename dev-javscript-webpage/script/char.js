@@ -15,12 +15,12 @@ function character() {
                desc.innerHTML= "Hello, How Are You?"; // DESC IS BASICALLY THE VARIABLE WE GAVE ABOVE FOR (GET ELEMENT BY ID ) WITH CHARACTER & DESCRIPTION
                desc.classList.add("hello"); // SO WHEN THESE CLASSES WERE TRIGGERED THEN OURS RESPECTIVE CSS WILL WORK ON THEM
                char.classList.add("hello");
-           }; else if (this.screenY < cond.hello && scroll.hello) { // REMEMBER WE DONT USE (!) IN LESS-THAN CONDITIONS
+           } else if (this.scrollY < cond.hello && scroll.hello) { // REMEMBER WE DONT USE (!) IN LESS-THAN CONDITIONS
                 scroll.hello = false;
                 desc.classList.remove("hello");
                 char.classList.remove("hello");
-            };
-            if () {
+            }
+            if (this.screenY > cond.looking && !scroll.looking) {
                 
             }
 
