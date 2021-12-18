@@ -20,8 +20,7 @@ function character() {
                 scroll.hello = false;
                 desc.classList.remove("hello");
                 desc.classList.remove("hello");
-               
-           }
+           };
 
        }, 100); 
     });
