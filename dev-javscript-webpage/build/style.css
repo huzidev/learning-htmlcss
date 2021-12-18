@@ -904,7 +904,7 @@
   -webkit-box-shadow: 0 0 6px 2px #e74c3c;
   box-shadow: 0 0 6px 2px #e74c3c;
 }
-#character .desc.best {
+#character .desc.skills {
   opacity: 1;
   left: 4px;
   color: #fff;
@@ -929,10 +929,10 @@
   -webkit-transform: rotate(13deg);
   transform: rotate(13deg);
 }
-#character .char.want {
+#character .char.looking {
   left: 10px;
 }
-#character .char.best {
+#character .char.skills {
   left: 50px;
 }
 

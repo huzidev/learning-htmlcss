@@ -23,6 +23,7 @@ function character() {
             if (this.scrollY > cond.looking && !scroll.looking) {
                 scroll.looking = true;
                 desc.innerHTML = "Are You Looking For A Developer?";
+                desc.classList.add("looking");
             }
 
        }, 100); 
