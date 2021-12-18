@@ -25,7 +25,7 @@ function loops() {
     slide[index].classList.add("active");
     slide[index].classList.remove("active");
     index++;
-    if ( index == slide.length) {
+    if (index == slide.length) {
         index = 0;
     }
     slide[index].classList.add("active");
@@ -57,7 +57,7 @@ function loops() {
 //             cond.want = cond.hello + document.getElementById('about').offsetHeight-100;
 //             cond.best = cond.want + document.getElementById('status').offsetHeight+240;
 //             cond.contact = cond.best + document.getElementById('portfolio').offsetHeight+700;
-//             if (this.scrollY > cond.hello && !scroll.hello) {
+//             if (this.scrollY > cond.hello && !scroll.hello) { // WE DONT USE (!) IN LESS THAN (<) CONDITION
 //                 scroll.hello = true;
 //                 desc.innerHTML = "Hello how are you ?";
 //                 char.classList.add('hello');
