@@ -38,7 +38,17 @@ function character() {
             }
             if (this.scrollY > cond.looking && !scroll.looking) {
                 scroll.looking = true;
-                
+                desc.innerHTML = "Are You Looking For A Developer?";
+                desc.classList.add("looking");
+                char.classList.add("looking");
+            }
+            if (this.scrollY < cond.looking && scroll.looking) {
+                scroll.looking = false;
+                desc.innerHTML = "Hello, How Are You?";
+                desc.classList.remove("looking");
+                char.classList.remove("looking");
+                desc.classList.add("hope");
+                char.classList.add("hope");
             }
         }, 100);
     });
