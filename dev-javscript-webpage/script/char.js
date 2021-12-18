@@ -39,6 +39,8 @@ function character() {
             if (this.scrollY > cond.skills && !scroll.skills) {
                 scroll.skills = true;
                 desc.innerHTML = "Just Have A Glance That How Skillful He Is."
+                desc.classList.add("skills");
+                char.classList.add("skills");
             }
 
        }, 100); 
