@@ -60,6 +60,10 @@ function character() {
                 scroll.contact = false;
                 desc.innerHTML = "Just Have A Glance! That How Skillful This Guy Is.";
             }
+            if (this.scrollY < cond.hello) {
+                char.classList.remove("hello");
+                desc.classList.remove("hello");
+            }
 
        }, 100); 
     });
