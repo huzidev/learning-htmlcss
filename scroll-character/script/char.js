@@ -44,11 +44,14 @@ function character() {
             }
             if (this.scrollY < cond.looking && scroll.looking) {
                 scroll.looking = false;
-                desc.innerHTML = "Hello, How Are You?";
+                desc.innerHTML = "Hope! You Were Fine";
                 desc.classList.remove("looking");
                 char.classList.remove("looking");
                 desc.classList.add("hope");
                 char.classList.add("hope");
+            }
+            if (this.scrollY > cond.skills && !scroll.skills) {
+                scroll.skills = true;
             }
         }, 100);
     });

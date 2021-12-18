@@ -39,6 +39,9 @@ header {
           transform: rotate(0deg);
   left: 6px;
 }
+#character .char.looking {
+  left: 25px;
+}
 #character .desc {
   background-color: chocolate;
   padding: 15px 20px;
@@ -59,6 +62,10 @@ header {
   left: 0px;
 }
 #character .desc.hope {
+  opacity: 1;
+  left: 0px;
+}
+#character .desc.looking {
   opacity: 1;
   left: 0px;
 }
