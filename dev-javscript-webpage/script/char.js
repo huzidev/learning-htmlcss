@@ -2,7 +2,7 @@ let scrollfix;
 
 function character() {
     let char = document.getElementById("character-base");
-    let des = document.getElementById("character-desc");
+    let desc = document.getElementById("character-desc");
     window.addEventListener("scroll", function () {
        clearTimeout(scrollfix);
        scrollfix = setTimeout(() => {
@@ -10,7 +10,9 @@ function character() {
            cond.looking = cond.hello + document.getElementById("about").offsetHeight - 100; // OFFSET HEIGHT INCLUDES VIEWABLE HEIGHT INCLUDES PADDING, BORDER & SCROLL-BAR BUT NOT THE MARGIN
            cond.skills = cond.looking + document.getElementById("status").offsetHeight + 240;  
            cond.contact = cond.skills + document.getElementById("portfolio").offsetHeight + 750;
-           if ( this.scrollY > cond.hello && !scroll.hello) {
+           if ( this.scrollY > cond.hello && !scroll.hello) { // WE DONT USE (!) IN LESS-THAN (<) CONDITION
+               scroll.hello = true; // MEANS NOW YOU'VE PERMISSION
+               desc
                
            }
        }, 100); 
