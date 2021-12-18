@@ -45,7 +45,7 @@ function character() {
                 char.classList.remove("looking");
             }
             if (this.scrollY < cond.skills && scroll.skills) {
-                
+                scroll.skills = false;
             }
 
        }, 100); 
