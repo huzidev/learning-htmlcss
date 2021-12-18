@@ -28,6 +28,18 @@ function character() {
                 desc.classList.add("hope");
                 char.classList.add("hope");
             }
+            if (this.scrollY < cond.hope && scroll.hope) {
+                scroll.hope = false;
+                desc.innerHTML = "Hello, How Are You?";
+                desc.classList.remove("hope");
+                char.classList.remove("hope");
+                desc.classList.add("hello");
+                char.classList.add("hello");
+            }
+            if (this.scrollY > cond.looking && !scroll.looking) {
+                scroll.looking = true;
+                
+            }
         }, 100);
     });
 };

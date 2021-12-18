@@ -30,9 +30,14 @@ header {
   width: 150px;
 }
 #character .char.hello {
-  left: 13px;
+  left: -60px;
   -webkit-transform: rotate(13deg);
           transform: rotate(13deg);
+}
+#character .char.hope {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  left: 6px;
 }
 #character .desc {
   background-color: chocolate;
@@ -50,6 +55,10 @@ header {
           box-shadow: 0px 0px 21px -5px black;
 }
 #character .desc.hello {
+  opacity: 1;
+  left: 0px;
+}
+#character .desc.hope {
   opacity: 1;
   left: 0px;
 }
