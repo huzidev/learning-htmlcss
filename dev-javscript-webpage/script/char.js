@@ -17,6 +17,7 @@ function character() {
                char.classList.add("hello");
            }; 
            else if (this.screenY < cond.hello && scroll.hello) { // REMEMBER WE DONT USE (!) IN LESS-THAN CONDITIONS
+                scroll.hello = false;
                
            }
 
