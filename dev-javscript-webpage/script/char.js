@@ -20,8 +20,8 @@ function character() {
                 desc.classList.remove("hello");
                 char.classList.remove("hello");
             }
-            if (this.screenY > cond.looking && !scroll.looking) {
-                
+            if (this.scrollY > cond.looking && !scroll.looking) {
+                scroll.looking = true;
             }
 
        }, 100); 
