@@ -37,7 +37,7 @@ function character() {
                 char.classList.add("hello");
             }
             if (this.scrollY > cond.skills && !scroll.skills) {
-                
+                scroll.skills = true;
             }
 
        }, 100); 
