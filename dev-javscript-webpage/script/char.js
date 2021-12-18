@@ -53,7 +53,7 @@ function character() {
                 char.classList.add("looking");
             }
             if (this.scrollY > cond.contact && !scroll.contact) {
-                
+                scroll.contact = true;
             }
 
        }, 100); 
