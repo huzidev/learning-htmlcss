@@ -54,6 +54,7 @@ function character() {
             }
             if (this.scrollY > cond.contact && !scroll.contact) {
                 scroll.contact = true;
+                desc.innerHTML = "Go Contact Him :P";
             }
 
        }, 100); 
