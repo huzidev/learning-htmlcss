@@ -7,6 +7,7 @@ function character() {
         clearTimeout(scrollFix);
         scrollFix = setTimeout(() => {
             let cond = {hello: window.innerHeight - 180};
+            cond.looking = cond.hello + document.getElementById("about").offsetHeight - 100; 
         }, 100);
     });
 };
