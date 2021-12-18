@@ -25,6 +25,8 @@ function character() {
             if (this.scrollY > cond.hope && !scroll.hope) {
                 scroll.hope = true;
                 desc.innerHTML = "Hope! You Were Fine";
+                desc.classList.add("hope");
+                char.classList.add("hope");
             }
         }, 100);
     });
