@@ -44,6 +44,9 @@ function character() {
                 desc.classList.remove("looking");
                 char.classList.remove("looking");
             }
+            if (this.scrollY) {
+                
+            }
 
        }, 100); 
     });
