@@ -2,7 +2,7 @@ window.addEventListener("scroll", reveal);
 
 function reveal() {
     const reveal = document.querySelectorAll(".reveal");
-    for (const i = 0; i < reveal.length; i++) {
+    for (var i = 0; i < reveal.length; i++) {
         const windowheight = window.innerHeight;
         const revealtop = reveal[i].getBoundingClientRect().top;
         const revealpoint = 150; //MEANS IF WE SCROLL 150PX IT'LL SCROLL THEN
