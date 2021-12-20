@@ -5,3 +5,13 @@
           box-sizing: border-box;
   font-family: sans-serif;
 }
+
+section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
