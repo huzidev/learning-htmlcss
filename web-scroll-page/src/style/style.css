@@ -53,3 +53,6 @@ section .container .content {
       -ms-flex-align: center;
           align-items: center;
 }
+section .container .content .img {
+  position: relative;
+}
