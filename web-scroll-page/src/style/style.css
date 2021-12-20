@@ -55,7 +55,7 @@ section .container .content {
 }
 section .container .content .img {
   position: relative;
-  width: 800px;
+  width: 500px;
   height: 400px;
   overflow: hidden;
 }
