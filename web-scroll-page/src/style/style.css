@@ -40,3 +40,10 @@ section .container .main-tittle {
   font-size: 4em;
   margin-bottom: 50px;
 }
+section .container .content {
+  position: relative;
+  width: 1150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
