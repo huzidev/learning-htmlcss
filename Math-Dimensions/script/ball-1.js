@@ -9,5 +9,7 @@ window.addEventListener("load", function () {
         const width = document.body.clientWidth;
         const scroll = window.scrollY;
         const ratio = scroll / height;
+        const dy =  ratio * innerHeight;
+        const dx = ratio * width;
    })
 });
