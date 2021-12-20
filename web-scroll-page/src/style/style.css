@@ -105,3 +105,9 @@ section .container .content .text-box h3 {
 section .container .media-icons {
   margin-top: 100px;
 }
+section .container .media-icons a {
+  color: white;
+  font-size: 2em;
+  margin: 60px;
+  text-decoration: none;
+}
