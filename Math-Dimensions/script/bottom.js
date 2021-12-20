@@ -12,7 +12,7 @@ window.addEventListener("load", function () {
         const ratio = (scroll / height);
         const dy = result.y - (ratio * window.innerHeight);
         const dx = result.x - (ratio * window.innerWidth);
-        square.style.bottom = `${dy}px`;
-        square.style.left = `${dx}px`;
+        square.style.top = `${dy}px`;
+        square.style.right = `${dx}px`;
     });
 }, false);
