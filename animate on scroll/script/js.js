@@ -22,8 +22,8 @@
 
 // THIS METHOD IS ALOT EASIER
 window.addEventListener("scroll", ()=>{
-    let reveal = document.querySelectorAll(".reveal");
-    for (let i = 0; i < reveal.length; i++) {
+    let reveal = document.querySelector(".reveal");
+    // for (let i = 0; i < reveal.length; i++) {
     let cont = reveal[i].getBoundingClientRect().top;
     let screen = window.innerHeight;
     if (cont < screen) {
@@ -32,5 +32,19 @@ window.addEventListener("scroll", ()=>{
     else{
         reveal[i].classList.remove("active");
     }
-    }
-})
+// };
+});
+
+window.addEventListener("scroll", () => {
+    let reveal = document.querySelectorAll(".reveal");
+    for (let i = 0; i < reveal.length; i++) {
+        let cont = reveal[i].getBoundingClientRect().top;
+        let screen = window.innerHeight;
+        if (cont < screen) {
+            reveal[i].classList.add("active");
+        }
+        else {
+            reveal[i].classList.remove("active");
+        }
+    };
+});
