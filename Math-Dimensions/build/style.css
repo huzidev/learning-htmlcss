@@ -22,4 +22,7 @@
 
 .ball-2 {
   position: fixed;
+  height: 100px;
+  width: 100px;
+  background-color: black;
 }
