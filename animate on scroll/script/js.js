@@ -25,7 +25,7 @@ window.addEventListener("scroll", ()=>{
     let reveal = document.querySelector(".reveal");
     // for (let i = 0; i < reveal.length; i++) {
     let cont = reveal.getBoundingClientRect().top;
-    let screen = window.innerHeight;
+    let screen = window.innerHeight / 2;
     if (cont < screen) {
         reveal.classList.add("active");
     }
@@ -36,9 +36,9 @@ window.addEventListener("scroll", ()=>{
 });
 
 window.addEventListener("scroll", () => {
-    let reveal = document.querySelectorAll(".reveal-r");
+    let reveal = document.querySelector(".reveal-r");
         let cont = reveal.getBoundingClientRect().top;
-        let screen = window.innerHeight;
+        let screen = window.innerHeight / 2;
         if (cont < screen) {
             reveal.classList.add("active");
         }
@@ -47,21 +47,11 @@ window.addEventListener("scroll", () => {
         }
 });
 
-window.addEventListener("scroll", () => {
-    let reveal = document.querySelector(".reveal-r");
-        let cont = reveal.getBoundingClientRect().top;
-        let screen = window.innerHeight;
-        if (cont < screen) {
-            reveal.classList.add("active");
-        }
-        else {
-            reveal.classList.remove("active");
-        }
-});
+
 window.addEventListener("scroll", () => {
     let reveal = document.querySelector(".reveal-l");
     let cont = reveal.getBoundingClientRect().top;
-    let screen = window.innerHeight;
+    let screen = window.innerHeight  / 2;
     if (cont < screen) {
         reveal.classList.add("active");
     }
