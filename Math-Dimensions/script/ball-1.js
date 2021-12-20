@@ -11,5 +11,6 @@ window.addEventListener("load", function () {
         const ratio = scroll / height;
         const dy =  ratio * innerHeight;
         const dx = ratio * width;
+        round.style.bottom = `${}`
    })
 });
