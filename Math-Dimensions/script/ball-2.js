@@ -5,6 +5,6 @@ window.addEventListener("load", function () {
    ballR.style.top = res.y+"px";
    ballR.style.right = res.x+"px";
    window.addEventListener("scroll", function () {
-       
+       const height = this.document.body.clientHeight - window.innerHeight;
    })
 });
