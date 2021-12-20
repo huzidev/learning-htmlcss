@@ -8,6 +8,6 @@ window.addEventListener("load", function () {
         const height = document.body.clientHeight - window.innerHeight;
         const width = document.body.clientWidth;
         const scroll = window.scrollY;
-        const ratio = 
+        const ratio = scroll / height;
    })
 });
