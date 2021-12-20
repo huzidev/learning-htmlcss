@@ -61,4 +61,5 @@ section .container .content .img {
 }
 section .container .content .img img {
   z-index: 1;
+  position: absolute;
 }
