@@ -24,19 +24,19 @@
 window.addEventListener("scroll", ()=>{
     let reveal = document.querySelector(".reveal");
     // for (let i = 0; i < reveal.length; i++) {
-    let cont = reveal[i].getBoundingClientRect().top;
+    let cont = reveal.getBoundingClientRect().top;
     let screen = window.innerHeight;
     if (cont < screen) {
-        reveal[i].classList.add("active");
+        reveal.classList.add("active");
     }
     else{
-        reveal[i].classList.remove("active");
+        reveal.classList.remove("active");
     }
 // };
 });
 
 window.addEventListener("scroll", () => {
-    let reveal = document.querySelectorAll(".reveal");
+    let reveal = document.querySelectorAll(".reveal-r");
     for (let i = 0; i < reveal.length; i++) {
         let cont = reveal[i].getBoundingClientRect().top;
         let screen = window.innerHeight;
