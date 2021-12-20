@@ -29,3 +29,8 @@ section .container h2 {
   text-align: center;
   text-transform: uppercase;
 }
+section .container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
