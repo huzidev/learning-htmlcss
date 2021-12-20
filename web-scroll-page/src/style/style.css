@@ -36,3 +36,7 @@ section .container {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+section .container .main-tittle {
+  font-size: 4em;
+  margin-bottom: 50px;
+}
