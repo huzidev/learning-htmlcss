@@ -12,5 +12,6 @@ window.addEventListener("load", function () {
         const dy =  ratio * innerHeight;
         const dx = ratio * width;
         round.style.bottom = `${dy}px`;
+       round.style.left = `${dx}px`;
    })
 });
