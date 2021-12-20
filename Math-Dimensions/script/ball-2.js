@@ -4,4 +4,7 @@ window.addEventListener("load", function () {
    const res = {y: (window.innerHeight - BR.h), x: (window.innerWidth - BR.w)};
    ballR.style.top = res.y+"px";
    ballR.style.right = res.x+"px";
+   window.addEventListener("scroll", function () {
+       
+   })
 });
