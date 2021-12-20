@@ -45,3 +45,12 @@ section .container .cards .text-card h3 {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+section .container.reveal {
+  opacity: 0;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  position: relative;
+}
+section .container.active {
+  opacity: 1;
+}
