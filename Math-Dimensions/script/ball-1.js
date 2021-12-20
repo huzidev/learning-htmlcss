@@ -13,5 +13,5 @@ window.addEventListener("load", function () {
         const dx = final.x - (ratio * window.innerWidth);
         round.style.bottom = `${dy}px`;
        round.style.left = `${dx}px`;
-   })
+   });
 });
