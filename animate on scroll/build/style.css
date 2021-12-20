@@ -47,10 +47,14 @@ section .container .cards .text-card h3 {
 }
 section .container.reveal {
   opacity: 0;
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
+  -webkit-transition: all 2000ms ease;
+  transition: all 2000ms ease;
   position: relative;
+  -webkit-transform: translateY(150px);
+          transform: translateY(150px);
 }
 section .container.active {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
   opacity: 1;
 }
