@@ -50,8 +50,6 @@ section .container.reveal {
   -webkit-transition: all 3000ms ease;
   transition: all 3000ms ease;
   position: relative;
-  -webkit-transform: translateZ();
-          transform: translateZ();
 }
 section .container.reveal-r {
   opacity: 0;

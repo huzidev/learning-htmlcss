@@ -23,7 +23,6 @@
 // THIS METHOD IS ALOT EASIER
 window.addEventListener("scroll", ()=>{
     let reveal = document.querySelector(".reveal");
-    // for (let i = 0; i < reveal.length; i++) {
     let cont = reveal.getBoundingClientRect().top;
     let screen = window.innerHeight / 2;
     if (cont < screen) {
@@ -32,7 +31,6 @@ window.addEventListener("scroll", ()=>{
     else{
         reveal.classList.remove("active");
     }
-// };
 });
 
 window.addEventListener("scroll", () => {
