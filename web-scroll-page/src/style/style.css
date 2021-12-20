@@ -70,3 +70,6 @@ section .container .content .img img {
      object-fit: cover;
   border-radius: 10px;
 }
+section .container .content .text-box {
+  z-index: 2;
+}
