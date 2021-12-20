@@ -11,5 +11,5 @@ window.addEventListener("load", function () {
        const ratio = scroll / height;
        const dy =  res.y - (ratio * window.innerHeight);
        const dx = res.x - (ratio * window.innerWidth);
-   })
+   });
 });
