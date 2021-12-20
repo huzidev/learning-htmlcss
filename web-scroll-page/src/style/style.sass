@@ -41,11 +41,12 @@ section
                     object-fit: cover // CHECK
                     border-radius: 10px
             .text-box
+                font-size: 1.1em
                 z-index: 2
                 background: rgba(255, 255, 255, 0.1) 
-                -webkit-backdrop-filter: blur(20px)
+                backdrop-filter: blur(20px) // CHECK
                 padding: 40px
                 max-width: 300px
                 border: 1px solid rgba(255, 255, 255, 0.1)
                 border-radius: 10px
-                transform: translate(-80px, 50px)
+                transform: translate(-80px, 50px) // ONCE WE CREATED A (PSD TO HTML) IN WHICH WE MAKE SOMETHING JUST LIKE THERE WE MADE A DIV OVER IMG SO THIS TRANSLATE METHOD IS BETTER THAN TO USE POSITION RELATIVE ETC
