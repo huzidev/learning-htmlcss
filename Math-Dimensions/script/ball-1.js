@@ -7,5 +7,6 @@ window.addEventListener("load", function () {
    window.addEventListener("scroll", function () {
         const height = document.body.clientHeight - window.innerHeight;
         const width = document.body.clientWidth;
+        const scroll = window.scrollY;
    })
 });
