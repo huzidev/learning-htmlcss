@@ -12,5 +12,5 @@ function reveal() {
         else{
             reveal[i].classList.remove("active");
         }
-    }
-}
+    };
+};
