@@ -34,3 +34,14 @@ section .container .cards {
   display: -ms-flexbox;
   display: flex;
 }
+section .container .cards .text-card {
+  background-color: aqua;
+  margin: 20px;
+  padding: 10px;
+}
+section .container .cards .text-card h3 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
