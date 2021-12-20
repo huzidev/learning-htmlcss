@@ -37,14 +37,35 @@ window.addEventListener("scroll", ()=>{
 
 window.addEventListener("scroll", () => {
     let reveal = document.querySelectorAll(".reveal-r");
-    for (let i = 0; i < reveal.length; i++) {
-        let cont = reveal[i].getBoundingClientRect().top;
+        let cont = reveal.getBoundingClientRect().top;
         let screen = window.innerHeight;
         if (cont < screen) {
-            reveal[i].classList.add("active");
+            reveal.classList.add("active");
         }
         else {
-            reveal[i].classList.remove("active");
+            reveal.classList.remove("active");
         }
-    };
+});
+
+window.addEventListener("scroll", () => {
+    let reveal = document.querySelector(".reveal-r");
+        let cont = reveal.getBoundingClientRect().top;
+        let screen = window.innerHeight;
+        if (cont < screen) {
+            reveal.classList.add("active");
+        }
+        else {
+            reveal.classList.remove("active");
+        }
+});
+window.addEventListener("scroll", () => {
+    let reveal = document.querySelector(".reveal-l");
+    let cont = reveal.getBoundingClientRect().top;
+    let screen = window.innerHeight;
+    if (cont < screen) {
+        reveal.classList.add("active");
+    }
+    else {
+        reveal.classList.remove("active");
+    }
 });
