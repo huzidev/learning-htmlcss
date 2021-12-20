@@ -59,3 +59,6 @@ section .container .content .img {
   height: 400px;
   overflow: hidden;
 }
+section .container .content .img img {
+  z-index: 1;
+}
