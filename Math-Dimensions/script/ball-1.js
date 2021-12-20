@@ -6,5 +6,6 @@ window.addEventListener("load", function () {
    round.style.left = final.x+"px";
    window.addEventListener("scroll", function () {
         const height = document.body.clientHeight - window.innerHeight;
+        const width = document.body.clientWidth;
    })
 });
