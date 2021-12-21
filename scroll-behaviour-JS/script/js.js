@@ -42,14 +42,13 @@ window.addEventListener("scroll", function () {
 window.addEventListener("scroll", function () {
     const revealL = this.document.querySelectorAll(".revealL");
     for (let i = 0; i < revealL.length; i++) {
-        
-        const content = revealT.getBoundingClientRect().top;
+        const content = revealL[i].getBoundingClientRect().top;
         const screen = this.window.innerHeight;
         if (content < screen) {
-            revealT.classList.add("active");
+            revealL[i].classList.add("active");
         }
         else {
-            revealT.classList.remove("active");
+            revealL[i].classList.remove("active");
         }
 }
 });
