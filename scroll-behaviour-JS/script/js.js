@@ -50,5 +50,5 @@ window.addEventListener("scroll", function () {
         else {
             revealL[i].classList.remove("active");
         }
-}
+};
 });
