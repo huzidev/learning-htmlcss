@@ -20,6 +20,10 @@ section
         .main-tittle
             font-size: 4em
             margin-bottom: 50px
+            height: 100vh
+            display: flex
+            justify-content: center
+            align-items: center
         .content
             position: relative
             width: 1150px
@@ -31,6 +35,14 @@ section
                 width: 800px
                 height: 400px
                 overflow: hidden
+                &.revealB
+                    opacity: 0
+                    transform: translateY(100px)
+                    position: relative
+                    transition: all 2000ms ease
+                &.active
+                    opacity: 1
+                    transform: translateY(0px)
                 img
                     z-index: 1
                     position: absolute
@@ -119,3 +131,12 @@ section
                     padding-left: 100px
                 li:nth-child(2), li:nth-child(4)
                     padding-left: 50px
+            .img
+                &.revealB
+                    opacity: 0
+                    transform: translateY(100px)
+                    position: relative
+                    transition: all 2000ms ease
+                &.active
+                    opacity: 1
+                    transform: translateY(0px)
