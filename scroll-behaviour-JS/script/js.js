@@ -17,5 +17,6 @@ window.addEventListener("scroll", function () {
         showProgress();
     }
     else{
+        hideProgress();
     }
 });
