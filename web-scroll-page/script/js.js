@@ -43,4 +43,5 @@ window.addEventListener("scroll", function () {
 
 window.addEventListener("scroll", function () {
     let revealL = document.querySelector(".revealL");
+    let content = revealL.getBoundingClientRect().top
 })
