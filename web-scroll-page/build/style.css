@@ -124,3 +124,11 @@ section .container .media-icons a {
   font-size: 1.8em;
   margin-bottom: 10px;
 }
+
+.sec-3 .container .content .media-info {
+  width: 400px;
+  margin-left: 50px;
+}
+.sec-3 .container .content .media-info li {
+  list-style: none;
+}
