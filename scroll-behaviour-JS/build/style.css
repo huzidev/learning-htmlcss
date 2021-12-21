@@ -36,7 +36,13 @@ header {
 }
 #skills-section .container .progress .progress-bar {
   width: 50%;
+  height: 100%;
   background-color: red;
   border-radius: 10px;
   position: relative;
+}
+#skills-section .container .progress .progress-bar span {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
