@@ -140,3 +140,9 @@ section .container .media-icons a {
 .sec-3 .container .content .media-info li:not(:last-child) {
   margin-bottom: 50px;
 }
+.sec-3 .container .content .media-info li:nth-child(1), .sec-3 .container .content .media-info li:nth-child(5) {
+  padding-left: 100px;
+}
+.sec-3 .container .content .media-info li:nth-child(2), .sec-3 .container .content .media-info li:nth-child(4) {
+  padding-left: 50px;
+}
