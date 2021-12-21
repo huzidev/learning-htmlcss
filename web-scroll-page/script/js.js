@@ -82,10 +82,8 @@ window.addEventListener("scroll", function () {
 
 
 window.addEventListener("scroll", function () {
-    const top = document.querySelector(".back-to-top"); 
-    const content = top.getBoundingClientRect().top;
-    const screen = window.innerHeight / 5;
-    if (content < screen) {
+    const top = document.querySelector(".back-to-top");
+    if (window.pageYOffset > 800) {
         top.classList.add("active");
     }
     else{
