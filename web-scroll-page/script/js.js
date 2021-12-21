@@ -54,7 +54,22 @@ window.addEventListener("scroll", function () {
 });
 
 window.addEventListener("scroll", function () {
-    let revealL = document.querySelector(".revealR1");
+    let revealL = document.querySelectorAll(".revealR1");
+    for (let i = 0; i < revealL.length; i++) {
+        let content = revealL[i].getBoundingClientRect().top;
+        let screen = window.innerHeight;
+        if (content < screen) {
+            revealL[i].classList.add("active");
+        }
+        else {
+            revealL[i].classList.remove("active");
+        }
+    }
+});
+
+
+window.addEventListener("scroll", function () {
+    let revealL = document.querySelector(".revealR2");
     let content = revealL.getBoundingClientRect().top;
     let screen = window.innerHeight;
     if (content < screen) {
