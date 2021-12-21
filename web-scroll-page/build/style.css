@@ -131,4 +131,12 @@ section .container .media-icons a {
 }
 .sec-3 .container .content .media-info li {
   list-style: none;
+  font-size: 1.4em;
+}
+.sec-3 .container .content .media-info li a {
+  color: white;
+  text-decoration: none;
+}
+.sec-3 .container .content .media-info li:not(:last-child) {
+  margin-bottom: 50px;
 }
