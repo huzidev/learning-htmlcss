@@ -1,0 +1,1 @@
+const skills = document.getElementById("skills-section");
