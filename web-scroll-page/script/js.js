@@ -45,4 +45,7 @@ window.addEventListener("scroll", function () {
     let revealL = document.querySelector(".revealL");
     let content = revealL.getBoundingClientRect().top;
     let screen = window.innerHeight;
+    if (content < screen) {
+        revealL.classList.add("active");
+    }
 })
