@@ -11,7 +11,7 @@ function showProgress() {
 function hideProgress() {
     progress.forEach(p => {
         p.style.opacity = 0;
-
+        p.style.width = 0;
     })
 }
 
