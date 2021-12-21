@@ -79,3 +79,8 @@ window.addEventListener("scroll", function () {
         revealL.classList.remove("active");
     }
 });
+
+
+window.addEventListener("scroll", function () {
+    
+});
