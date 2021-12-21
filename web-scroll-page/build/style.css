@@ -111,3 +111,8 @@ section .container .media-icons a {
   margin: 60px;
   text-decoration: none;
 }
+
+.sec-2 .container .second-tittle {
+  font-size: 3em;
+  margin-bottom: 80px;
+}
