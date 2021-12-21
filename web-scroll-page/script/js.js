@@ -13,7 +13,7 @@ window.addEventListener("scroll", ()=>{
 });
 
 window.addEventListener("scroll", ()=>{
+    let revealB = document.querySelectorAll(".revealB");
 
 
-    
 })
