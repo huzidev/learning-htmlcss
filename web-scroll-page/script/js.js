@@ -37,4 +37,4 @@ window.addEventListener("scroll", function () {
     else {
         revealT.classList.remove("active");
     }
-})
+});
