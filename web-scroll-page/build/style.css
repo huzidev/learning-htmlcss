@@ -312,7 +312,6 @@ footer {
 }
 
 .back-to-top {
-  padding: 20px;
   cursor: pointer;
   position: fixed;
   right: 30px;
@@ -329,6 +328,7 @@ footer {
           transform: translateY(-50px);
 }
 .back-to-top i {
+  padding: 20px;
   font-size: 20px;
   color: white;
 }
