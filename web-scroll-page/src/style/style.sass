@@ -82,6 +82,14 @@ section
                         margin-bottom: 10px
         .media-icons
             margin-top: 100px
+            &.revealL
+                opacity: 0
+                position: relative
+                transform: translateY(100px)
+                transition: all 2000ms ease
+            &.active
+                transform: translateY(0px)
+                opacity: 1
             a
                 color: white
                 font-size: 2em
