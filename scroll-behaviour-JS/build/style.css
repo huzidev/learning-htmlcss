@@ -21,3 +21,19 @@
 .header h1 {
   font-size: 55px;
 }
+
+.footer {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer h1 {
+  font-size: 55px;
+}
