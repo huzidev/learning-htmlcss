@@ -116,3 +116,11 @@ section .container .media-icons a {
   font-size: 3em;
   margin-bottom: 80px;
 }
+.sec-2 .container .content .info {
+  width: 500px;
+  margin-left: 50px;
+}
+.sec-2 .container .content .info .info-tittle {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
