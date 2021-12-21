@@ -41,12 +41,15 @@ window.addEventListener("scroll", function () {
 
 window.addEventListener("scroll", function () {
     const revealL = this.document.querySelectorAll(".revealL");
-    const content = revealT.getBoundingClientRect().top;
-    const screen = this.window.innerHeight;
-    if (content < screen) {
-        revealT.classList.add("active");
-    }
-    else {
-        revealT.classList.remove("active");
-    }
+    for (let i = 0; i < revealL.length; i++) {
+        
+        const content = revealT.getBoundingClientRect().top;
+        const screen = this.window.innerHeight;
+        if (content < screen) {
+            revealT.classList.add("active");
+        }
+        else {
+            revealT.classList.remove("active");
+        }
+}
 });
