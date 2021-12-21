@@ -51,4 +51,4 @@ window.addEventListener("scroll", function () {
     else{
         revealL.classList.remove("active");
     }
-})
+});
