@@ -40,6 +40,12 @@
   margin-top: 20px;
   display: block;
 }
+.sticky img {
+  position: absolute;
+}
+.sticky img:nth-of-type(1) {
+  width: 40%;
+}
 
 .footer {
   height: 100vh;
