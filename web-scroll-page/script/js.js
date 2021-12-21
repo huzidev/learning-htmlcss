@@ -28,5 +28,5 @@ window.addEventListener("scroll", ()=>{
 });
 
 window.addEventListener("scroll", function () {
-    
+    let revealT = document.querySelectorAll(".revealT");
 })
