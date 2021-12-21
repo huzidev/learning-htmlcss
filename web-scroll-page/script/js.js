@@ -82,5 +82,7 @@ window.addEventListener("scroll", function () {
 
 
 window.addEventListener("scroll", function () {
-    const top = this.document.querySelector(".back-to-top"); 
+    const top = document.querySelector(".back-to-top"); 
+    const content = top.getBoundingClientRect().top;
+    const screen = window.innerHeight / 5;
 });
