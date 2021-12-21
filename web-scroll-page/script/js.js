@@ -1,6 +1,13 @@
 window.addEventListener("scroll", ()=>{
-    let revealR = document.querySelector(".reveal.R");
-    let content = revealR.getBoundingClientRect().top;
+    let revealR = document.querySelectorAll(".revealR");
+    for (let i = 0; i < revealR.length; i++) {
+    let content = revealR[i].getBoundingClientRect().top;
     let screen = window.innerHeight;
-
+    if (content < screen) {
+        revealR[i].classList.add("active");
+    }
+    else{
+        revealR[i].classList.remove("active");
+    }
+}
 });
