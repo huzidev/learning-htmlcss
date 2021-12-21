@@ -10,5 +10,8 @@ window.addEventListener("scroll", function () {
     const content = skills.getBoundingClientRect().top;
     const screen = window.innerHeight;
     if (content < screen) {
+        showProgress();
+    }
+    else{
     }
 })
