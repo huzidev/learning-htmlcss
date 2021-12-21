@@ -146,6 +146,14 @@ section
                 li
                     list-style: none
                     font-size: 1.4em
+                    &.revealR
+                        opacity: 0
+                        transform: translateX(100px)
+                        position: relative
+                        transition: all 2000ms ease
+                    &.active
+                        opacity: 1
+                        transform: translateX(0px)
                     a
                         color: white
                         text-decoration: none
