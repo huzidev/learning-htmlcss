@@ -38,3 +38,15 @@ window.addEventListener("scroll", function () {
         revealT.classList.remove("active");
     }
 });
+
+window.addEventListener("scroll", function () {
+    const revealL = this.document.querySelectorAll(".revealL");
+    const content = revealT.getBoundingClientRect().top;
+    const screen = this.window.innerHeight;
+    if (content < screen) {
+        revealT.classList.add("active");
+    }
+    else {
+        revealT.classList.remove("active");
+    }
+});
