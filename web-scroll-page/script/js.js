@@ -43,5 +43,6 @@ window.addEventListener("scroll", function () {
 
 window.addEventListener("scroll", function () {
     let revealL = document.querySelector(".revealL");
-    let content = revealL.getBoundingClientRect().top
+    let content = revealL.getBoundingClientRect().top;
+    let screen = window.innerHeight;
 })
