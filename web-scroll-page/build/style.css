@@ -200,6 +200,12 @@ section .container .media-icons a {
 .sec-3 .container .content .media-info li:nth-child(2), .sec-3 .container .content .media-info li:nth-child(4) {
   padding-left: 50px;
 }
+.sec-3 .container .content .img {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+}
 .sec-3 .container .content .img.revealB {
   opacity: 0;
   -webkit-transform: translateY(100px);
@@ -209,7 +215,19 @@ section .container .media-icons a {
   transition: all 2000ms ease;
 }
 .sec-3 .container .content .img.active {
-  opacity: 1;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
+}
+
+footer {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
