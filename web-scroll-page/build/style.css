@@ -227,8 +227,8 @@ section .container .media-icons a {
 }
 .sec-3 .container .content .media-info li.revealR {
   opacity: 0;
-  -webkit-transform: translateX(100px);
-          transform: translateX(100px);
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
   position: relative;
   -webkit-transition: all 2000ms ease;
   transition: all 2000ms ease;
