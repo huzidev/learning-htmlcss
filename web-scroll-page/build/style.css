@@ -310,6 +310,12 @@ footer {
           align-items: center;
 }
 
+.back-to-top {
+  padding: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+
 @media only screen and (max-width: 1025px) {
   section .container .content {
     width: 900px;
