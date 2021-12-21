@@ -6,7 +6,7 @@ window.addEventListener("scroll", ()=>{
     if (content < screen) {
         revealR[i].classList.add("active");
     }
-    else{
+    else {
         revealR[i].classList.remove("active");
     }
 };
