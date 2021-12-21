@@ -26,3 +26,7 @@ window.addEventListener("scroll", ()=>{
     }
 };
 });
+
+window.addEventListener("scroll", function () {
+    
+})
