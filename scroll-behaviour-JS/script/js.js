@@ -25,3 +25,8 @@ window.addEventListener("scroll", function () {
         hideProgress();
     }
 });
+
+
+window.addEventListener("scroll", function () {
+    const revealT = this.document.querySelector(".revealT") 
+});
