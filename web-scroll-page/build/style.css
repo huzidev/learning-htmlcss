@@ -215,6 +215,7 @@ section .container .media-icons a {
   transition: all 2000ms ease;
 }
 .sec-3 .container .content .img.active {
+  opacity: 1;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
 }
