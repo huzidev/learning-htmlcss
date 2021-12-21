@@ -311,9 +311,12 @@ footer {
 }
 
 .back-to-top {
-  padding: 50px;
+  padding: 30px;
   border: 2px solid white;
   border-radius: 100%;
+}
+.back-to-top i {
+  font-size: 30px;
 }
 
 @media only screen and (max-width: 1025px) {
