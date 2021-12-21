@@ -29,12 +29,14 @@ window.addEventListener("scroll", ()=>{
 
 window.addEventListener("scroll", function () {
     let revealT = document.querySelectorAll(".revealT");
-    let content = revealT.getBoundingClientRect().top;
-    let screen = window.innerHeight;
-    if (content < screen) {
-        revealT.classList.add("active");
-    }
-    else {
-        revealT.classList.remove("active");
-    }
+    for (let i = 0; i < revealT.length; i++) {
+        let content = revealT[i].getBoundingClientRect().top;
+        let screen = window.innerHeight;
+        if (content < screen) {
+            revealT[i].classList.add("active");
+        }
+        else {
+            revealT[i].classList.remove("active");
+        }
+}
 });
