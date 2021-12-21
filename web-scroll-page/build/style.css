@@ -309,3 +309,20 @@ footer {
       -ms-flex-align: center;
           align-items: center;
 }
+
+@media only screen and (max-width: 1025px) {
+  section .container .content {
+    width: 900px;
+  }
+  section .container .content .fade .text-box {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  section .container .content {
+    width: 700px;
+  }
+  section .container .content .fade .text-box {
+    width: 300px;
+  }
+}
