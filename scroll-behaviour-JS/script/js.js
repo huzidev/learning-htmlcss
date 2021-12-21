@@ -4,7 +4,8 @@ const progress = document.querySelectorAll(".progress-bar");
 function showProgress() {
     progress.forEach(progressBar => {
         const value = progressBar.dataset.progress;
-
+        progressBar.style.opacity = 1;
+        progressBar.style.width =  `${value}%`;
     })
 }
 
