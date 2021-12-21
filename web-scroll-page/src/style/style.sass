@@ -52,25 +52,33 @@ section
                     height: 100%
                     object-fit: cover // CHECK
                     border-radius: 10px
-            .text-box
-                font-size: 1.1em
-                z-index: 2
-                background: rgba(255, 255, 255, 0.1) 
-                backdrop-filter: blur(20px) // CHECK
-                padding: 40px
-                height: 320px
-                display: flex
-                justify-content: center
-                align-items: center
-                flex-direction: column
-                max-width: 400px
-                border: 1px solid rgba(255, 255, 255, 0.1)
-                border-radius: 10px
-                transform: translate(-80px, 50px) // ONCE WE CREATED A (PSD TO HTML) IN WHICH WE MAKE SOMETHING JUST LIKE THERE WE MADE A DIV OVER IMG SO THIS TRANSLATE METHOD IS BETTER THAN TO USE POSITION RELATIVE ETC
-                h3
-                    font-size: 2em
-                    margin-right: 30px
-                    margin-bottom: 10px
+            .fade
+                &.revealT
+                    opacity: 0
+                    transform: translateY(-100px)
+                    transition: all 2000ms ease
+                &.active
+                    transform: translateY(0px)
+                    opacity: 1
+                .text-box
+                    font-size: 1.1em
+                    z-index: 2
+                    background: rgba(255, 255, 255, 0.1) 
+                    backdrop-filter: blur(20px) // CHECK
+                    padding: 40px
+                    height: 320px
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    flex-direction: column
+                    max-width: 400px
+                    border: 1px solid rgba(255, 255, 255, 0.1)
+                    border-radius: 10px
+                    transform: translate(-80px, 50px) // ONCE WE CREATED A (PSD TO HTML) IN WHICH WE MAKE SOMETHING JUST LIKE THERE WE MADE A DIV OVER IMG SO THIS TRANSLATE METHOD IS BETTER THAN TO USE POSITION RELATIVE ETC
+                    h3
+                        font-size: 2em
+                        margin-right: 30px
+                        margin-bottom: 10px
         .media-icons
             margin-top: 100px
             a
