@@ -88,4 +88,7 @@ window.addEventListener("scroll", function () {
     if (content < screen) {
         top.classList.add("active");
     }
+    else{
+        top.classList.remove("active");
+    }
 });
