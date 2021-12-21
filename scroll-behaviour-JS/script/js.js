@@ -8,7 +8,12 @@ function showProgress() {
         progressBar.style.width =  `${value}%`;
     });
 };
+function hideProgress() {
+    progress.forEach(p => {
+        p.style.opacity = 0;
 
+    })
+}
 
 window.addEventListener("scroll", function () {
     const content = skills.getBoundingClientRect().top;
