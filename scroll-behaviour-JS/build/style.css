@@ -23,3 +23,8 @@ header {
   margin-top: 20px;
   text-align: center;
 }
+#skills-section .container {
+  width: 60%;
+  margin: 20px auto;
+  margin-bottom: 200px;
+}
