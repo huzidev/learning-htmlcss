@@ -28,6 +28,9 @@ header {
   margin: 20px auto;
   margin-bottom: 200px;
 }
+#skills-section .container p {
+  margin: 20px;
+}
 #skills-section .container .progress {
   width: 100%;
   height: 18px;
