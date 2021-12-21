@@ -314,10 +314,18 @@ footer {
   padding: 30px;
   cursor: pointer;
   position: fixed;
-  bottom: 10%;
   right: 30px;
+  bottom: 0px;
   border: 2px solid white;
   border-radius: 100%;
+  opacity: 0;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+.back-to-top.active {
+  opacity: 1;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
 }
 .back-to-top i {
   font-size: 30px;

@@ -203,10 +203,15 @@ footer
     padding: 30px
     cursor: pointer
     position: fixed
-    bottom: 10%
     right: 30px
+    bottom: 0px
     border: 2px solid white
     border-radius: 100%
+    opacity: 0
+    transition: all 500ms ease
+    &.active
+        opacity: 1
+        transform: translateY(-50px)
     i
         font-size: 30px
 
