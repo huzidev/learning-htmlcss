@@ -82,5 +82,5 @@ window.addEventListener("scroll", function () {
 
 
 window.addEventListener("scroll", function () {
-    
+    const top = this.document.querySelector(".back-to-top"); 
 });
