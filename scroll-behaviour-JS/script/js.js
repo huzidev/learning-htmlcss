@@ -2,7 +2,10 @@ const skills = document.getElementById("skills-section");
 const progress = document.querySelectorAll(".progress-bar");
 
 function showProgress() {
-    
+    progress.forEach(progressBar => {
+        const value = progressBar.dataset.progress;
+
+    })
 }
 
 
