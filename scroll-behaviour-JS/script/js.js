@@ -6,8 +6,8 @@ function showProgress() {
         const value = progressBar.dataset.progress;
         progressBar.style.opacity = 1;
         progressBar.style.width =  `${value}%`;
-    })
-}
+    });
+};
 
 
 window.addEventListener("scroll", function () {
@@ -18,4 +18,4 @@ window.addEventListener("scroll", function () {
     }
     else{
     }
-})
+});
