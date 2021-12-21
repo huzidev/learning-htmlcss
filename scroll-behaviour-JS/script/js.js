@@ -29,5 +29,6 @@ window.addEventListener("scroll", function () {
 
 window.addEventListener("scroll", function () {
     const revealT = this.document.querySelector(".revealT");
-    const content = revealT.getBoundingClientRect().top; 
+    const content = revealT.getBoundingClientRect().top;
+    const screen = this.window.innerHeight; 
 });
