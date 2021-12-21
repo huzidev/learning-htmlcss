@@ -34,5 +34,7 @@ window.addEventListener("scroll", function () {
     if (content < screen) {
         revealT.classList.add("active");
     }
-    
+    else {
+        revealT.classList.remove("active");
+    }
 })
