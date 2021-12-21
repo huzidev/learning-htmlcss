@@ -48,4 +48,7 @@ window.addEventListener("scroll", function () {
     if (content < screen) {
         revealL.classList.add("active");
     }
+    else{
+        revealL.classList.remove("active");
+    }
 })
