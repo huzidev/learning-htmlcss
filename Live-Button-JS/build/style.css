@@ -80,6 +80,7 @@
           transform: translateX(-50%);
   margin-left: -10px;
   width: 700px;
+  opacity: 0;
 }
 .container .text-container {
   max-width: 600px;
