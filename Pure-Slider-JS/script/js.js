@@ -6,3 +6,9 @@ function next() {
     i = (i +1) % slide.length;
     slide[i].classList.add("active");
 }
+
+function prev() {
+    slide[i].classList.remove("active");
+    i = (i - 1 + slide.length) % slide.length;
+    slide[i].classList.add("active");
+}
