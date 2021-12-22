@@ -1,5 +1,5 @@
 let slide = document.querySelectorAll(".slide-container");
-let i = o;
+let i = 0;
 
 function next() {
     slide[i].classList.remove("active");
@@ -12,3 +12,5 @@ function prev() {
     i = (i - 1 + slide.length) % slide.length;
     slide[i].classList.add("active");
 }
+
+setInterval(next, 1500)
