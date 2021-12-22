@@ -38,6 +38,7 @@
             border: 0px // SO IT'LL REMOVE A FREAKY LOOKING TORNED BORDER
             outline: 0px
             cursor: pointer
+            transition: background 500ms // SO IT'LL SPECIFICALLY TARGET THE BACKGROUND COLOR
             &.active
                 background-color: aqua
                 span
@@ -50,6 +51,7 @@
                 width: 26px
                 border-radius: 50% // IT'LL CREATE A GOOD LOOKING CIRCLE INSIDE OURS BUTTON
                 margin-left: 2px // FOR POSITIONG
+                transition: background 500ms, margin-left 500ms // SO MARGIN-LEFT WILL WORKS SMOOTHLY AND ONE MORE THING ONCE WE CREATED THE WEB-PAGE WHICH OS PSD TO HTML IN WHICH WE CREATED A CONTAINER IN WHICH SERVERAL MANY DIV'S WERE PRESENT AND WHEN WE HOVER ON THAT SPECIFIC DIV'S THE BOTTOM-BORDER APPEAR AND DISAPPEARS BUT THAT ALL WAS HAPPENING SO RAPIDLY SO WE CAN MAKE THAT BEHAVIOUR SMOOTH BY TARGETING SPECIFICALLY THE BORDER BOTTOM TRANSITION ONLY
     .lamp-container
         position: absolute
         top: -20px

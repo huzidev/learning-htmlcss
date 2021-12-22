@@ -54,6 +54,8 @@
   border: 0px;
   outline: 0px;
   cursor: pointer;
+  -webkit-transition: background 500ms;
+  transition: background 500ms;
 }
 .container nav button.active {
   background-color: aqua;
@@ -69,6 +71,8 @@
   width: 26px;
   border-radius: 50%;
   margin-left: 2px;
+  -webkit-transition: background 500ms, margin-left 500ms;
+  transition: background 500ms, margin-left 500ms;
 }
 .container .lamp-container {
   position: absolute;
