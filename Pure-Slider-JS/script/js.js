@@ -1,0 +1,1 @@
+let slide = document.querySelectorAll(".slide-container");
