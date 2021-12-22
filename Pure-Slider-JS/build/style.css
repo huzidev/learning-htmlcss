@@ -44,6 +44,8 @@
 .container .slide-container .slide .content .btn {
   margin-top: 10px;
   display: inline-block;
+  background-color: #666;
+  color: #fff;
 }
 .container .slide-container .slide .img {
   -webkit-box-flex: 1;
