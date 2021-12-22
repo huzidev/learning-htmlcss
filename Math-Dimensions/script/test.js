@@ -4,5 +4,8 @@ window.addEventListener("load", ()=>{
     const result = {y: (window.innerHeight - SQ.h), x:(window.innerWidth - SQ.w)};
     square.style.top = result.y+"px";
     square.style.right = result.x+"px";
+    window.addEventListener("scroll", ()=>{
+        
+    });
 
 })
