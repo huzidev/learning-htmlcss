@@ -38,3 +38,6 @@
   text-align: right;
   list-style: none;
 }
+.container nav ul li {
+  display: inline-block;
+}
