@@ -6,6 +6,7 @@ window.addEventListener("load", ()=>{
     square.style.right = result.x+"px";
     window.addEventListener("scroll", ()=>{
         const height = document.body.clientHeight - window.innerHeight;
+        const width = document.body.clientWidth;
     });
 
 })
