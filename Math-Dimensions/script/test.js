@@ -9,8 +9,10 @@ window.addEventListener("load", ()=>{
         const width = document.body.clientWidth;
         const scroll = window.scrollY;
         const ratio = scroll / height;
-        const dy = result.y - (scroll * window.innerHeight);
-        const dx = result.x - (scroll * window.innerWidth);
+        const dy = result.y - (ratio * window.innerHeight);
+        const dx = result.x - (ratio * window.innerWidth);
+        square.style.top = `${dy}px`;
+        square.style.right = `${dx}px`;
+        console.log(square, SQ, result, ratio);
     });
-
-})
+});
