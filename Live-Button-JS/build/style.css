@@ -55,6 +55,13 @@
   outline: 0px;
   cursor: pointer;
 }
+.container nav button.active {
+  background-color: aqua;
+}
+.container nav button.active span {
+  background-color: #fff;
+  margin-left: 31px;
+}
 .container nav button span {
   display: block;
   background-color: #999;
