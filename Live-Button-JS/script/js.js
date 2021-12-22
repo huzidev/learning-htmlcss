@@ -1,4 +1,4 @@
 const btn = document.getElementById("btn");
 function toggleBtn() { // BASICALLY TOGGLEBTN() IS THE FUNCTION OF OURS BUTTON TAG
-    
+    btn.classList.add("active"); // MEANS WHENEVER WE CLICKS THE BUTTON WHOSE ID IS (BTN) AS WE GAVE TO THE BUTTON ELEMENT THE CLASS LIST WILL BE ADDED NAME "ACTIVE"
 }
