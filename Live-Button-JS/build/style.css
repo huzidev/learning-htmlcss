@@ -12,3 +12,8 @@
   color: #fff;
   position: relative;
 }
+.container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
