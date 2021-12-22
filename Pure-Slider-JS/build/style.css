@@ -32,6 +32,15 @@
       -ms-flex: 1 1 350px;
           flex: 1 1 350px;
 }
+.container .slide-container .slide .content h3 {
+  font-size: 35px;
+  color: #333;
+}
+.container .slide-container .slide .content p {
+  font-size: 16px;
+  color: #666;
+  padding: 10px 0px;
+}
 .container .slide-container .slide .img {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 500px;
