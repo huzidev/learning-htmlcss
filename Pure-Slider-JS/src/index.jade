@@ -4,6 +4,7 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        script(src="https://kit.fontawesome.com/59485d1319.js" crossorigin="anonymous")
         link(rel="stylesheet", href="style.css")
         title Pure-Slider-JS
     body 
@@ -19,7 +20,7 @@ html(lang="en")
             .slide-container
                 .slide 
                     .content
-                        h3 01. Web-Page Layout 
+                        h3 02. Web-Page Layout 
                         p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione pariatur fugit corrupti inventore modi assumenda delectus consequatur soluta obcaecati officiis.
                         a(href="#" class="btn") Learn More
                     .img 
@@ -33,5 +34,7 @@ html(lang="en")
                     .img 
                         img(src="/assets/code3.jpg", alt="Img")
             #prev(onclick="prev()")
+                i.fas.fa-arrow-left
             #next(onclick="next()")
+                i.fas.fa-arrow-right
     script(src="/script/js.js") 
