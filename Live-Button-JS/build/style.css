@@ -81,3 +81,6 @@
   margin-left: -10px;
   width: 700px;
 }
+.container .text-container {
+  max-width: 600px;
+}
