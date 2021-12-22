@@ -1,5 +1,5 @@
 window.addEventListener("load", ()=>{
-    const square = document.getElementsByClassName("ball-1")[0];
+    const square = document.querySelector(".ball-1");
 
 
 })
