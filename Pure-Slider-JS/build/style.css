@@ -4,4 +4,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
 }
