@@ -37,6 +37,12 @@
 .container #next {
   right: 20px;
 }
+.container .slide-container {
+  display: none;
+}
+.container .slide-container.active {
+  display: block;
+}
 .container .slide-container .slide {
   min-height: 100vh;
   display: -webkit-box;
