@@ -90,8 +90,13 @@
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   margin-left: -10px;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
   width: 700px;
   opacity: 0;
+}
+.container .lamp-container .light.on {
+  opacity: 1;
 }
 .container .text-container {
   max-width: 600px;
