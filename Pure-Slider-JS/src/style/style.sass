@@ -10,6 +10,21 @@
 
 .container
     position: relative
+    #prev, #next
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        color: #fff
+        background: #333
+        height: 50px
+        width: 50px
+        line-height: 50px
+        font-size: 25px
+        text-align: center
+        cursor: pointer
+        font-weight: bolder
+    #prev:hover, #next:hover
+        background-color: #666
     .slide-container
         // display: none // ONLY VISIBLE WHEN ACTIVE CLASS GOT TRIGGEREDs
         // &.active
