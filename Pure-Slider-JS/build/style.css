@@ -49,6 +49,9 @@
   font-size: 17px;
   padding: 9px 40px;
 }
+.container .slide-container .slide .content .btn:hover {
+  background-color: #333;
+}
 .container .slide-container .slide .img {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 500px;
