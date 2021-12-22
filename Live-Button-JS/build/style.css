@@ -42,3 +42,6 @@
   display: inline-block;
   margin: 0px 20px;
 }
+.container nav ul li a {
+  text-decoration: none;
+}
