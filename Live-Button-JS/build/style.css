@@ -31,3 +31,9 @@
   width: 160px;
   cursor: pointer;
 }
+.container nav ul {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+}
