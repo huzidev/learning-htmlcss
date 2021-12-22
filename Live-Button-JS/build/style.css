@@ -115,3 +115,11 @@
   margin: 0px 20px;
   border-radius: 2px;
 }
+.container .text-container .control .line span {
+  width: 50%;
+  height: 8px;
+  margin-top: -2px;
+  border-radius: 4px;
+  background-color: #00986f;
+  display: block;
+}
