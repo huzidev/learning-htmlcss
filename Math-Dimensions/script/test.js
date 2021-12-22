@@ -5,7 +5,7 @@ window.addEventListener("load", ()=>{
     square.style.top = result.y+"px";
     square.style.right = result.x+"px";
     window.addEventListener("scroll", ()=>{
-        
+        const height = document.body.clientHeight - window.innerHeight;
     });
 
 })
