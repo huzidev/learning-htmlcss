@@ -9,3 +9,7 @@
   outline: none;
   border: none;
 }
+
+.container {
+  position: relative;
+}
