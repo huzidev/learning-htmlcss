@@ -13,3 +13,9 @@
 .container {
   position: relative;
 }
+.container .slide-container .slide {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
