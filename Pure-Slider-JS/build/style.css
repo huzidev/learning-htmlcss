@@ -31,6 +31,12 @@
 .container #prev:hover, .container #next:hover {
   background-color: #666;
 }
+.container #prev {
+  left: 20px;
+}
+.container #next {
+  right: 20px;
+}
 .container .slide-container .slide {
   min-height: 100vh;
   display: -webkit-box;
