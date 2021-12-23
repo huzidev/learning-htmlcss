@@ -11,10 +11,6 @@
           user-select: none;
 }
 
-body {
-  overflow: hidden;
-}
-
 nav {
   position: absolute;
   top: 30%;
@@ -50,4 +46,22 @@ nav .wrapper {
 }
 nav .wrapper ul {
   list-style: none;
+  width: 400px;
+  padding: 10px;
+}
+nav .wrapper ul li {
+  line-height: 55px;
+}
+nav .wrapper ul li a {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0px 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
 }
