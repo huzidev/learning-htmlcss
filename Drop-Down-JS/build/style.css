@@ -27,6 +27,9 @@ nav ul li {
   width: 200px;
   text-align: center;
 }
+nav ul li .fas {
+  float: right;
+}
 nav ul li ul {
   display: -webkit-box;
   display: -ms-flexbox;
