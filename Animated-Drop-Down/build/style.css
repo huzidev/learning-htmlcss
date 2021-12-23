@@ -14,3 +14,7 @@
 body {
   overflow: hidden;
 }
+
+nav {
+  position: absolute;
+}
