@@ -57,6 +57,17 @@
 .wrapper .navbar > ul li .dd_menu ul li a:hover, .wrapper .navbar > ul li .dd_menu ul li a.active {
   background-color: black;
 }
+.wrapper .navbar > ul li .dd_menu::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50deg);
+          transform: translateX(-50deg);
+  z-index: 1;
+  border: 15px solid;
+  border-color: transparent transparent aqua transparent;
+}
 .wrapper .navbar > ul li a:hover, .wrapper .navbar > ul li a.active {
   background-color: black;
 }
