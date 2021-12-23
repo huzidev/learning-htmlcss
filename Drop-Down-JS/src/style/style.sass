@@ -28,6 +28,8 @@
                     letter-spacing: 2px
                     text-transform: uppercase
                     transition: all 200ms ease
+                    &.active + .dd_menu
+                        display: block
                     .icon
                         width: 25px
                         display: inline-block // MAKE SURE TO GAVE IT OTHER WISE THE CODE WON'T WORKS FOR THIS ELEMENT
@@ -38,6 +40,21 @@
                     display: none
                     ul
                         li
+                            .dd_submenu
+                                position: absolute
+                                top: 0px
+                                left: 115%
+                                width: 100%
+                                display: none // SO ONLY VISISBLE WHEN SPECIFIC CLASS GOT TRIGGERED BY JS
+                                &::before
+                                    content: ""
+                                    position: absolute
+                                    top: 15px
+                                    left: -30px
+                                    transform: translateX(-50deg)
+                                    z-index: 1
+                                    border: 15px solid
+                                    border-color: transparent aqua transparent transparent // MEANS BORDER WILL BE AVAILABLE ONLY FROM THE BOTTOM SIDE WITH AQUA AND FROM THE REST OF THE OTHER SIDES WHICH ARE TOP, RIGHT AND LEFT IT'LL BE TRANSPARENT REMEMEBR OURS BORDER IS OF 15PX
                             a
                                 width: 180px
                                 text-align: left

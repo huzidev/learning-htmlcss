@@ -40,6 +40,9 @@
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
 }
+.wrapper .navbar > ul li a.active + .dd_menu {
+  display: block;
+}
 .wrapper .navbar > ul li a .icon {
   width: 25px;
   display: inline-block;
@@ -49,6 +52,24 @@
   left: 0px;
   top: 80px;
   display: none;
+}
+.wrapper .navbar > ul li .dd_menu ul li .dd_submenu {
+  position: absolute;
+  top: 0px;
+  left: 115%;
+  width: 100%;
+  display: none;
+}
+.wrapper .navbar > ul li .dd_menu ul li .dd_submenu::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: -30px;
+  -webkit-transform: translateX(-50deg);
+          transform: translateX(-50deg);
+  z-index: 1;
+  border: 15px solid;
+  border-color: transparent aqua transparent transparent;
 }
 .wrapper .navbar > ul li .dd_menu ul li a {
   width: 180px;
