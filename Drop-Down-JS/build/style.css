@@ -44,6 +44,9 @@
   width: 25px;
   display: inline-block;
 }
+.wrapper .navbar ul li a:hover, .wrapper .navbar ul li a.active {
+  background-color: black;
+}
 .wrapper .navbar ul li > a {
   margin-right: 1px;
 }
