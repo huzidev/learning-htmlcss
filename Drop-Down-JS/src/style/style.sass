@@ -30,23 +30,26 @@
                     text-transform: uppercase
                     transition: all 200ms ease
                     &.active + .dd_menu
-                        display: block
+                        opacity: 1
                     .icon
                         width: 25px
                         display: inline-block // MAKE SURE TO GAVE IT OTHER WISE THE CODE WON'T WORKS FOR THIS ELEMENT
                 .dd_menu
+                    transition: all 300ms ease
                     position: absolute
                     left: 0px
                     top: 80px
-                    display: none
+                    opacity: 0
                     ul
                         li
                             .dd_submenu
                                 position: absolute
                                 top: 0px
+                                // transition: all 600ms ease
                                 left: 115%
                                 width: 100%
-                                display: none // SO ONLY VISISBLE WHEN SPECIFIC CLASS GOT TRIGGERED BY JS
+                                transition: all 300ms ease
+                                opacity: 0 // SO ONLY VISISBLE WHEN SPECIFIC CLASS GOT TRIGGERED BY JS
                                 &::before
                                     content: ""
                                     position: absolute
@@ -61,7 +64,7 @@
                                 text-align: left
                                 padding: 20px 18px
                                 &.active + .dd_submenu
-                                    display: block
+                                    opacity: 1
                             a:hover, a.active
                                 background-color: black
                     &::before
