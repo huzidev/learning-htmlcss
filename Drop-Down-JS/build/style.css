@@ -40,3 +40,9 @@
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
 }
+.wrapper .navbar ul li > a {
+  margin-right: 1px;
+}
+.wrapper .navbar ul li:last-child > a {
+  margin-right: 0px;
+}
