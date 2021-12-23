@@ -11,6 +11,7 @@ nav {
   width: 1200px;
   margin: auto;
   background-color: black;
+  padding: 20px;
 }
 nav ul {
   list-style: none;
@@ -20,12 +21,12 @@ nav ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 20px;
 }
 nav ul li {
   font-size: 20px;
   width: 200px;
   text-align: center;
+  cursor: pointer;
 }
 nav ul li .fas {
   float: right;
@@ -62,8 +63,4 @@ nav ul li ul::before {
   width: 25px;
   z-index: 2;
   background-color: black;
-}
-nav ul li ul li {
-  margin: 10px 0px;
-  padding: 10px;
 }
