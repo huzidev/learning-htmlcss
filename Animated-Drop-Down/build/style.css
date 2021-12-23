@@ -65,3 +65,6 @@ nav .wrapper ul li a {
           align-items: center;
   border-radius: 8px;
 }
+nav .wrapper ul li:hover a {
+  background-color: cyan;
+}
