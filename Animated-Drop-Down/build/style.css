@@ -44,7 +44,6 @@ nav .wrapper {
   overflow: hidden;
   background-color: black;
   border-radius: 5px;
-  display: none;
 }
 nav .wrapper.active {
   display: block;

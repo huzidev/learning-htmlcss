@@ -10,6 +10,6 @@ dropBtn.onclick = (()=>{
 
 })
 settingItem.onclick = (() => {
-    menuBar.classList.toggle("active");
-
+    menuBar.style.marginLeft = "-400px";
+    settingDrop.style.display = "block";
 })
