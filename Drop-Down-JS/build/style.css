@@ -6,6 +6,11 @@
   font-family: sans-serif;
 }
 
+nav {
+  max-width: 100%;
+  width: 1200px;
+  margin: auto;
+}
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
