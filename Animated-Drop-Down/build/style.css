@@ -38,7 +38,7 @@ nav .drop-btn span {
   font-size: 28px;
   cursor: pointer;
 }
-nav .drop-btn span .wrapper {
+nav .wrapper {
   position: absolute;
   top: 65px;
   display: -webkit-box;
@@ -47,4 +47,7 @@ nav .drop-btn span .wrapper {
   width: 400px;
   background-color: black;
   border-radius: 5px;
+}
+nav .wrapper ul {
+  list-style: none;
 }
