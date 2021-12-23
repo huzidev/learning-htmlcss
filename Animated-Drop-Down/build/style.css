@@ -44,6 +44,15 @@ nav .wrapper {
   background-color: black;
   border-radius: 5px;
 }
+nav .wrapper .setting-drop .arrow {
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+nav .wrapper .setting-drop .arrow span {
+  margin-right: 15px;
+}
 nav .wrapper ul {
   list-style: none;
   width: 400px;
