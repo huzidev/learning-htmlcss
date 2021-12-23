@@ -25,3 +25,6 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+.wrapper .navbar ul li {
+  position: relative;
+}
