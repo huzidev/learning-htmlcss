@@ -46,6 +46,12 @@ nav .wrapper {
   border-radius: 5px;
   display: none;
 }
+nav .wrapper.active {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 nav .wrapper .setting-drop,
 nav .wrapper .help-drop {
   display: none;
