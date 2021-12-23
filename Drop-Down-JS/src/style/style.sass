@@ -13,7 +13,7 @@
         width: 100%
         height: 60px
         background-color: aqua
-        > ul
+        > ul // WE'VE TO MAKE IT LIKE THIS OTHERWISE THE DROP-DOWN WONT WORK
             display: flex
             justify-content: center
             li
@@ -34,11 +34,15 @@
                 .dd_menu
                     position: absolute
                     left: 0px
-                    top: 0px
+                    top: 80px
                     ul
                         li
                             a
                                 width: 180px
+                                text-align: left
+                                padding: 20px 18px
+                            a:hover, a.active
+                                background-color: black
                 a:hover, a.active
                     background-color: black
                 > a
