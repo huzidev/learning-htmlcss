@@ -44,6 +44,14 @@
   width: 25px;
   display: inline-block;
 }
+.wrapper .navbar ul li .dd_menu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.wrapper .navbar ul li .dd_menu ul li a {
+  width: 180px;
+}
 .wrapper .navbar ul li a:hover, .wrapper .navbar ul li a.active {
   background-color: black;
 }
