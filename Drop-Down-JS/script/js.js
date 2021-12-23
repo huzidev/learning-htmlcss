@@ -1,5 +1,5 @@
 const a_parent = document.querySelectorAll(".a_parent"); // ALL OF OURS ANCHOR TAG IS OF THIS CLASSs
-const a_parent = document.querySelectorAll(".dd_menu_a");
+const dd_menu_a = document.querySelectorAll(".dd_menu_a");
 
 a_parent.forEach(function (a_parent_item) {
     a_parent_item.addEventListener("click", function () {

@@ -76,6 +76,9 @@
   text-align: left;
   padding: 20px 18px;
 }
+.wrapper .navbar > ul li .dd_menu ul li a.active + .dd_submenu {
+  display: block;
+}
 .wrapper .navbar > ul li .dd_menu ul li a:hover, .wrapper .navbar > ul li .dd_menu ul li a.active {
   background-color: black;
 }
