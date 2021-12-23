@@ -66,3 +66,15 @@ nav ul li ul::before {
   z-index: 2;
   background-color: black;
 }
+nav ul li ul li {
+  overflow: hidden;
+}
+nav ul li ul li .fa-sort-down {
+  position: relative;
+  top: 10px;
+  right: 20px;
+}
+nav ul li ul li ul {
+  position: relative;
+  margin: 0px;
+}
