@@ -40,4 +40,9 @@ nav ul li ul {
           transform: translateX(-20px);
   background-color: black;
   list-style: none;
+  margin-top: 30px;
+}
+nav ul li ul li {
+  margin: 10px 0px;
+  padding: 10px;
 }
