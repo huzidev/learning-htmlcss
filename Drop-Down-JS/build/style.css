@@ -43,7 +43,19 @@ nav ul li ul {
           transform: translateX(-20px);
   background-color: black;
   list-style: none;
-  margin-top: 30px;
+  margin-top: 40px;
+}
+nav ul li ul::before {
+  position: absolute;
+  top: -12px;
+  right: 13px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  content: "";
+  height: 25px;
+  width: 25px;
+  z-index: 2;
+  background-color: black;
 }
 nav ul li ul li {
   margin: 10px 0px;
