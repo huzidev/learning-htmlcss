@@ -40,7 +40,8 @@ nav .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1200px;
+  width: 400px;
+  overflow: hidden;
   background-color: black;
   border-radius: 5px;
 }
