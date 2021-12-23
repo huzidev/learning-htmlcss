@@ -81,3 +81,6 @@ nav ul li ul li ul {
 nav ul li ul li ul#dropdown1 {
   display: none;
 }
+nav ul li ul li ul#dropdown1.active {
+  display: block;
+}
