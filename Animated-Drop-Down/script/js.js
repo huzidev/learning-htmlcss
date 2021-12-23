@@ -5,15 +5,28 @@ const settingDrop = document.querySelector(".setting-drop");
 const helpDrop = document.querySelector(".help-drop");
 const settingItem = document.querySelector(".setting-item");
 const helpItem = document.querySelector(".help-item");
+const backSettingBtn = document.querySelector(".back-setting-btn");
+const backHelpBtn = document.querySelector(".back-help-btn");
 dropBtn.onclick = (()=>{
     menuWrapper.classList.toggle("active");
-
 })
 settingItem.onclick = (() => {
     menuBar.style.marginLeft = "-400px";
-    settingDrop.style.display = "block";
+    setTimeout(() => {
+       settingDrop.style.display = "block" 
+    }, 100);
 })
 helpItem.onclick = (() => {
     menuBar.style.marginLeft = "-400px";
-    helpDrop.style.display = "block";
+    setTimeout(() => {
+        helpDrop.style.display = "block"
+    }, 100);
+})
+backSettingBtn.onclick = (() => {
+    menuBar.style.marginLeft = "0px";
+    settingDrop.style.display = "none";
+})
+backHelpBtn.onclick = (() => {
+    menuBar.style.marginLeft = "0px";
+    helpDrop.style.display = "none";
 })

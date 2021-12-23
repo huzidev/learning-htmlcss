@@ -11,6 +11,10 @@
           user-select: none;
 }
 
+body {
+  overflow: hidden;
+}
+
 nav {
   position: absolute;
   top: 30%;
@@ -46,6 +50,7 @@ nav .wrapper {
   border-radius: 5px;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+  display: none;
 }
 nav .wrapper.active {
   display: block;
