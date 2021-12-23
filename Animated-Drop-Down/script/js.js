@@ -13,3 +13,7 @@ settingItem.onclick = (() => {
     menuBar.style.marginLeft = "-400px";
     settingDrop.style.display = "block";
 })
+helpItem.onclick = (() => {
+    menuBar.style.marginLeft = "-400px";
+    helpDrop.style.display = "block";
+})
