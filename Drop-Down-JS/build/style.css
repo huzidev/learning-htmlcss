@@ -17,7 +17,7 @@
   height: 60px;
   background-color: aqua;
 }
-.wrapper .navbar ul {
+.wrapper .navbar > ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,10 +25,10 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.wrapper .navbar ul li {
+.wrapper .navbar > ul li {
   position: relative;
 }
-.wrapper .navbar ul li a {
+.wrapper .navbar > ul li a {
   color: #000;
   display: block;
   width: 180px;
@@ -40,24 +40,24 @@
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
 }
-.wrapper .navbar ul li a .icon {
+.wrapper .navbar > ul li a .icon {
   width: 25px;
   display: inline-block;
 }
-.wrapper .navbar ul li .dd_menu {
+.wrapper .navbar > ul li .dd_menu {
   position: absolute;
   left: 0px;
   top: 0px;
 }
-.wrapper .navbar ul li .dd_menu ul li a {
+.wrapper .navbar > ul li .dd_menu ul li a {
   width: 180px;
 }
-.wrapper .navbar ul li a:hover, .wrapper .navbar ul li a.active {
+.wrapper .navbar > ul li a:hover, .wrapper .navbar > ul li a.active {
   background-color: black;
 }
-.wrapper .navbar ul li > a {
+.wrapper .navbar > ul li > a {
   margin-right: 1px;
 }
-.wrapper .navbar ul li:last-child > a {
+.wrapper .navbar > ul li:last-child > a {
   margin-right: 0px;
 }
