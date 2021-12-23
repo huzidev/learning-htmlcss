@@ -28,3 +28,11 @@
 .wrapper .navbar ul li {
   position: relative;
 }
+.wrapper .navbar ul li a {
+  color: #000;
+  display: block;
+  width: 180px;
+  height: 60px;
+  text-align: center;
+  padding: 20px 10px;
+}
