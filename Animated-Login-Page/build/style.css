@@ -59,3 +59,11 @@
   margin: 15px 0px;
   color: #333;
 }
+.container .login-container form .input-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 7% 93%;
+  grid-template-columns: 7% 93%;
+  margin: 25px 0px;
+  padding: 5px 0px;
+}
