@@ -88,3 +88,7 @@
 .container .login-container form .input-div .i i {
   color: grey;
 }
+.container .login-container form .input-div > div {
+  position: relative;
+  height: 45px;
+}
