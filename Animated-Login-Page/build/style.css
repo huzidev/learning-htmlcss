@@ -55,3 +55,7 @@
 .container .login-container form .avatar {
   width: 100px;
 }
+.container .login-container form h2 {
+  font-size: 2.9rem;
+  text-transform: uppercase;
+}
