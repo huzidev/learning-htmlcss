@@ -72,6 +72,19 @@
 .container .login-container form .input-div::after, .container .login-container form .input-div::before {
   content: "";
   position: absolute;
+  bottom: -2px;
+  width: 0px;
+  height: 2px;
+  background-color: #38d39f;
+}
+.container .login-container form .input-div::after {
+  right: 50%;
+}
+.container .login-container form .input-div::before {
+  left: 50%;
+}
+.container .login-container form .input-div.focus::after, .container .login-container form .input-div.focus::before {
+  width: 50%;
 }
 .container .login-container form .input-div.focus .i i {
   color: #000;

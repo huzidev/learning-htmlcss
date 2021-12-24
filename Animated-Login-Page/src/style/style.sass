@@ -50,8 +50,18 @@
                 &::before
                     content: ""
                     position: absolute
-                    
+                    bottom: -2px
+                    width: 0px
+                    height: 2px
+                    background-color: #38d39f
+                &::after
+                    right: 50%
+                &::before
+                    left: 50%
                 &.focus
+                    &::after,
+                    &::before
+                        width: 50%   
                     .i
                         i
                             color: #000
