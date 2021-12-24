@@ -5,3 +5,10 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.wave {
+  position: fixed;
+  height: 100%;
+  left: 0px;
+  bottom: 0px;
+}
