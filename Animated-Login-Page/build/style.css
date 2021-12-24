@@ -42,9 +42,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -58,4 +56,6 @@
 .container .login-container form h2 {
   font-size: 2.9rem;
   text-transform: uppercase;
+  margin: 15px 0px;
+  color: #333;
 }
