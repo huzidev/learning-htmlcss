@@ -23,6 +23,11 @@
   grid-gap: 7rem;
   padding: 0px 2rem;
 }
-.container .img img {
+.container .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container .img .bg {
   width: 500px;
 }
