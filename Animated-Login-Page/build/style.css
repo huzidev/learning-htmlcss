@@ -116,3 +116,7 @@
   font-size: 1.2rem;
   color: #fff;
 }
+.container .login-container form a {
+  display: block;
+  text-align: right;
+}
