@@ -75,6 +75,8 @@
   bottom: -2px;
   width: 0px;
   height: 2px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
   background-color: #38d39f;
 }
 .container .login-container form .input-div::after {
@@ -112,6 +114,8 @@
 }
 .container .login-container form .input-div .i i {
   color: grey;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
 .container .login-container form .input-div > div {
   position: relative;
