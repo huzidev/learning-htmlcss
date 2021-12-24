@@ -46,6 +46,19 @@
                 margin: 25px 0px
                 padding: 5px 0px
                 border-bottom: 2px solid #000
+                &::after,
+                &::before
+                    content: ""
+                    position: absolute
+                    
+                &.focus
+                    .i
+                        i
+                            color: #000
+                    div
+                        h5
+                            top: -5px
+                            font-size: 15px
                 &.one
                     margin-top: 0px
                 &.one
@@ -56,14 +69,6 @@
                     align-items: center
                     i
                         color: grey
-                &.focus
-                    .i
-                        i
-                            color: #000
-                    div
-                        h5
-                            top: -5px
-                            font-size: 15px
                 > div
                     position: relative
                     height: 45px

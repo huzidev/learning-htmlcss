@@ -69,6 +69,17 @@
   padding: 5px 0px;
   border-bottom: 2px solid #000;
 }
+.container .login-container form .input-div::after, .container .login-container form .input-div::before {
+  content: "";
+  position: absolute;
+}
+.container .login-container form .input-div.focus .i i {
+  color: #000;
+}
+.container .login-container form .input-div.focus div h5 {
+  top: -5px;
+  font-size: 15px;
+}
 .container .login-container form .input-div.one {
   margin-top: 0px;
 }
@@ -88,13 +99,6 @@
 }
 .container .login-container form .input-div .i i {
   color: grey;
-}
-.container .login-container form .input-div.focus .i i {
-  color: #000;
-}
-.container .login-container form .input-div.focus div h5 {
-  top: -5px;
-  font-size: 15px;
 }
 .container .login-container form .input-div > div {
   position: relative;
