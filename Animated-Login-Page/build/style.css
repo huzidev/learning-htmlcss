@@ -62,6 +62,7 @@
 .container .login-container form .input-div {
   display: -ms-grid;
   display: grid;
+  position: relative;
   -ms-grid-columns: 7% 93%;
   grid-template-columns: 7% 93%;
   margin: 25px 0px;
@@ -87,6 +88,13 @@
 }
 .container .login-container form .input-div .i i {
   color: grey;
+}
+.container .login-container form .input-div.focus .i i {
+  color: #000;
+}
+.container .login-container form .input-div.focus div h5 {
+  top: -5px;
+  font-size: 15px;
 }
 .container .login-container form .input-div > div {
   position: relative;
@@ -142,6 +150,9 @@
   background-size: 200%;
   -webkit-transition: 500ms;
   transition: 500ms;
+}
+.container .login-container form a .btn:hover {
+  background-position: right;
 }
 .container .login-container form a:hover {
   color: #000;

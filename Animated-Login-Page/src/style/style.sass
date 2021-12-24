@@ -41,6 +41,7 @@
                 color: #333
             .input-div
                 display: grid
+                position: relative
                 grid-template-columns: 7% 93%
                 margin: 25px 0px
                 padding: 5px 0px
@@ -55,6 +56,14 @@
                     align-items: center
                     i
                         color: grey
+                &.focus
+                    .i
+                        i
+                            color: #000
+                    div
+                        h5
+                            top: -5px
+                            font-size: 15px
                 > div
                     position: relative
                     height: 45px
@@ -101,6 +110,8 @@
                     text-transform: uppercase
                     background-size: 200%
                     transition: 500ms
+                    &:hover
+                        background-position: right // SO BACKGROUND WILL SHIFT TOWARDS RIGHT WHEN WE HOVER OVER THE BTN
             a:hover
                 color: #000
 
