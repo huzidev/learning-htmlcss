@@ -16,4 +16,10 @@
 .container {
   width: 100vw;
   height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 7rem 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem;
+  padding: 0px 2rem;
 }
