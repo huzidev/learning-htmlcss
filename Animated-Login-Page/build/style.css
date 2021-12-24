@@ -85,3 +85,6 @@
       -ms-flex-align: center;
           align-items: center;
 }
+.container .login-container form .input-div .i i {
+  color: grey;
+}
