@@ -119,4 +119,5 @@
 .container .login-container form a {
   display: block;
   text-align: right;
+  text-decoration: none;
 }
