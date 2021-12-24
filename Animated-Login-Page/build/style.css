@@ -49,3 +49,9 @@
       -ms-flex-align: center;
           align-items: center;
 }
+.container .login-container form {
+  width: 360px;
+}
+.container .login-container form .avatar {
+  width: 100px;
+}
