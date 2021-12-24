@@ -94,4 +94,19 @@
 }
 .container .login-container form .input-div > div h5 {
   position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #fff;
+  font-size: 18px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+.container .login-container form .input-div div input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
 }
