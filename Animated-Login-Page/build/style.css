@@ -66,4 +66,5 @@
   grid-template-columns: 7% 93%;
   margin: 25px 0px;
   padding: 5px 0px;
+  border-bottom: 2px solid #000;
 }
