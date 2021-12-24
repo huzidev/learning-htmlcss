@@ -23,3 +23,6 @@
   grid-gap: 7rem;
   padding: 0px 2rem;
 }
+.container .img img {
+  width: 500px;
+}
