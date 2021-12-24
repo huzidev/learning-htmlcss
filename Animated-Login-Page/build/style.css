@@ -178,3 +178,39 @@
 .container .login-container form a:hover {
   color: #000;
 }
+
+@media screen and (max-width: 1050px) {
+  .container {
+    grid-gap: 5rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container .img img {
+    width: 400px;
+  }
+  .container .img form {
+    width: 290px;
+  }
+  .container .img form h2 {
+    font-size: 2.4rem;
+    margin: 8px 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .wave {
+    display: none;
+  }
+
+  .container {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .container .img {
+    display: none;
+  }
+  .container .login-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
