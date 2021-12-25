@@ -29,8 +29,6 @@ window.addEventListener("load", ()=> {
         round.style.top = `${dy}px`
         round.style.right = `${dx}px`
         if (ratio > 0.5) {
-        //     // const dy = finalY - (ratio * (window.innerHeight * -5));
-        //     // const dx = finalX - (ratio * (window.innerWidth * -5));
             round.style.right = `${-dx}px`
             round.style.top = `${-dy}px`
         }
@@ -38,12 +36,10 @@ window.addEventListener("load", ()=> {
         //     round.style.right = `${-dx}px`
         //     round.style.top = `${-dy}px`
         // }
-        else{
-            // const dy = finalY - (ratio * (window.innerHeight * 2));
-            // const dx = finalX - (ratio * (window.innerWidth * 2));
-            round.style.top = `${dy}px`
-            round.style.right = `${dx}px`
-        }
+        // else{
+        //     round.style.top = `${dy}px`
+        //     round.style.right = `${dx}px`
+        // }
         console.log(dy);
         console.log(dx);
     })
