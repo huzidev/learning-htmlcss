@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  height: 2000px;
+}
+
+.ball {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: fixed;
+}
+
+.ball-1 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: fixed;
+}
