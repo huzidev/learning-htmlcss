@@ -20,13 +20,32 @@ window.addEventListener("load", ()=> {
         const width = document.body.clientWidth;
         // const scroll = window.scrollY
 
-        const ratio = (window.scrollY) / (2000 - window.innerHeight)// BUT NOT IN EVERY CASES WE KNOWS EXACT HEIGHT OF THE BODY CONTENT BUT WE CAN FIND THE EXACT HEIGHT OF BODY CONTENT
+        // const ratio = (window.scrollY) / (2000 - window.innerHeight)// BUT NOT IN EVERY CASES WE KNOWS EXACT HEIGHT OF THE BODY CONTENT BUT WE CAN FIND THE EXACT HEIGHT OF BODY CONTENT
 
-        // const ratio = (window.scrollY) / (document.body.clientHeight - window.innerHeight)
-        const dy = finalY - (ratio * window.innerHeight);
-        const dx = finalX - (ratio * window.innerWidth);
+        const ratio = (window.scrollY) / (document.body.clientHeight - window.innerHeight)
+
+        const dy = finalY - (ratio * (window.innerHeight - Rheight) * 2);
+        const dx = finalX - (ratio * (window.innerWidth - Rwidth) * 2);
         round.style.top = `${dy}px`
         round.style.right = `${dx}px`
+        if (ratio > 0.5) {
+        //     // const dy = finalY - (ratio * (window.innerHeight * -5));
+        //     // const dx = finalX - (ratio * (window.innerWidth * -5));
+            round.style.right = `${-dx}px`
+            round.style.top = `${-dy}px`
+        }
+        // if (dx < -86) {
+        //     round.style.right = `${-dx}px`
+        //     round.style.top = `${-dy}px`
+        // }
+        else{
+            // const dy = finalY - (ratio * (window.innerHeight * 2));
+            // const dx = finalX - (ratio * (window.innerWidth * 2));
+            round.style.top = `${dy}px`
+            round.style.right = `${dx}px`
+        }
+        console.log(dy);
+        console.log(dx);
     })
 
 })
