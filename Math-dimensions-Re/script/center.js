@@ -10,18 +10,17 @@ window.addEventListener("load", function () {
         const height = this.document.body.clientHeight - window.innerHeight;
         const width = this.document.body.clientWidth;
         const ratio = (window.scrollY) / (height)
-        var dy = RY - (ratio * RY)
-        var dx = RX - (ratio * RX) // WE MADE IT AN VARIABLE SO IT CAN BE CHANGED AT ANY TIME IF IT WAS AN CONSTANT SO IT CAN'T BE CHANGED AT ANY INSTANCE
+        var dy = RY - (ratio * (RY))
+        var dx = RX - (ratio * (RX)) // WE MADE IT AN VARIABLE SO IT CAN BE CHANGED AT ANY TIME IF IT WAS AN CONSTANT SO IT CAN'T BE CHANGED AT ANY INSTANCE
         center.style.bottom = `${dy}px`
         center.style.right = `${dx}px`
         console.log(dy, dx, ratio);
         if (ratio > 0.5) {
-            // center.style.center = `${-dy}px`
-            // center.style.left = `${dx}px`
 
-            const dxx = ((648)) - (RX - (ratio * RX)) // 648 IS THE EXACT WIDTH OF OURS WEB-PAGE
+            const dxx = ((648)) - (RX - (ratio * RX)) // 648 IS THE EXACT WIDTH OF OURS WEB-PAGE (WHEN) RATIO HITS 0.5 OTHERWISE THE COMPLETE WIDTH IS (1300)
             dx = (RX * 0.5) + (dxx)
             center.style.right = `${dx}px`
+
             // r = 1.0 - ratio;
             // dx = RX - (r * RX);
             // center.style.right = `${dx}px`
