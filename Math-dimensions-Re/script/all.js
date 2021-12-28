@@ -14,9 +14,14 @@ window.addEventListener("load", function () {
         all.style.bottom = `${dy}px`
         all.style.center = `${dx}px`
         if (ratio > 0.5) {
-            all.style.right = `${dx}px` // BECAUSE WE WANTED MOVEMENT IN THE HORIZONTAL AXIS
+            // all.style.right = `${dx}px` // BECAUSE WE WANTED MOVEMENT IN THE HORIZONTAL AXIS
             // all.style.left = `${dx}px`
-            // all.style.right = `${dy}px`
+
+            r = 1.0 - ratio
+            dy = RY - (r * RY) // SO THE BALL WILL STARTS FROM CENTER AND AS THE RATIO BECAME 0.5 THE BALL WIL MOVE BACK TOWARD THE TOP WITH CHANGING IN HORIZONTAL WIDTH
+            dx = RX - (r * RX)
+            all.style.bottom = `${dy}px`
+            all.style.right = `${dx}px`
 
         }
     })
