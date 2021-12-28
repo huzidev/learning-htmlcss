@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
         const width = this.document.body.clientWidth;
         const ratio = (window.scrollY) / (height)
         var dy = RY - (ratio * RY)
-        var dx = RX - (ratio * RX)
+        var dx = RX - (ratio * RX) // WE MADE IT AN VARIABLE SO IT CAN BE CHANGED AT ANY TIME IF IT WAS AN CONSTANT SO IT CAN'T BE CHANGED AT ANY INSTANCE
         center.style.bottom = `${dy}px`
         center.style.right = `${dx}px`
         console.log(dy, dx, ratio);
