@@ -10,9 +10,19 @@ window.addEventListener("load", function () {
         const height = this.document.body.clientHeight - window.innerHeight;
         const width = this.document.body.clientWidth;
         const ratio = (window.scrollY) / (height)
-        var dy = RY - (ratio * (RY))
-        var dx = RX - (ratio * (RX))
+        var dy = RY - (ratio * (RY / 2) * 2 )
+        var dx = RX - (ratio * (RX / 2) * 2)
         top.style.bottom = `${dy}px`
         top.style.right = `${dx}px`
+        if (ratio > 0.5) {
+            
+            // r = 1.0 - ratio
+            // dy = RY - (r * RY)
+            // top.style.bottom = `${dy}px`
+
+            dyy = (RY - (RY / 2)) - (RY - (ratio * (RY / 2) * 2)) // BECAUSE WHEN RATIO BECAME 0.5 OURS HEIGHT BECAME HALF THERFORE WE WERE USING (RY / 2)
+            dy = (RY / 2) + (dyy)
+            top.style.bottom = `${dy}px`
+        }
     })
 })
