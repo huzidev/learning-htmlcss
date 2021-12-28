@@ -4,15 +4,7 @@
   height: 2000px;
 }
 
-.ball-1 {
-  height: 100px;
-  width: 100px;
-  background-color: red;
-  border-radius: 50%;
-  position: fixed;
-}
-
-.ball-2 {
+.ball-3 {
   height: 100px;
   width: 100px;
   background-color: red;
