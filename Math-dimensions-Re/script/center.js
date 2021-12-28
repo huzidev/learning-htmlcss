@@ -25,6 +25,7 @@ window.addEventListener("load", function () {
             // r = 1.0 - ratio;
             // dx = RX - (r * RX);
             // center.style.right = `${dx}px`
+            console.log(dx); // WE CAN SEE IN THE LOG THAT WHEN RATIO BECAME 0.5 THE WIDTH OF OURS BODY STARTS INCREASING ONCE AGAIN RATHER THAN DECREASING
         }
     })
 })
