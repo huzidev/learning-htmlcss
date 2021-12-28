@@ -18,7 +18,7 @@ window.addEventListener("load", function () {
         if (ratio > 0.5) {
 
             const dxx = ((648)) - (RX - (ratio * RX)) // 648 IS THE EXACT WIDTH OF OURS WEB-PAGE (WHEN) RATIO HITS 0.5 OTHERWISE THE COMPLETE WIDTH IS (1300)
-            dx = (RX * 0.5) + (dxx)
+            dx = (648) + (dxx) // 648 IS BASICALLY (1300 * 0.5) MEANS HALF OF 1300PX
             center.style.right = `${dx}px`
 
             // r = 1.0 - ratio;
