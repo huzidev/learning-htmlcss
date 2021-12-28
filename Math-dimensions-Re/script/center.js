@@ -16,11 +16,15 @@ window.addEventListener("load", function () {
         center.style.right = `${dx}px`
         console.log(dy, dx, ratio);
         if (ratio > 0.5) {
-            // const dxx = (RX - (0.5 * RX)) - (RX - (ratio * RX))
-            // dx = (RX * 0.5) + (dxx)
-            r = 1.0 - ratio;
-            dx = RX - (r * RX);
+            // center.style.center = `${-dy}px`
+            // center.style.left = `${dx}px`
+
+            const dxx = ((648)) - (RX - (ratio * RX)) // 648 IS THE EXACT WIDTH OF OURS WEB-PAGE
+            dx = (RX * 0.5) + (dxx)
             center.style.right = `${dx}px`
+            // r = 1.0 - ratio;
+            // dx = RX - (r * RX);
+            // center.style.right = `${dx}px`
         }
     })
 })
