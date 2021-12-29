@@ -6,5 +6,10 @@ window.addEventListener("load", function () {
     const RX = window.innerWidth - CW
     content.style.bottom = (window.innerHeight / 2)+"px"
     content.style.right = RX+"px"
-        
+    window.addEventListener("scroll", function () {
+        const height = this.document.body.clientHeight - window.innerHeight
+        const ratio = (window.scrollY) / (height)
+        var dy = RY - (ratio * RY);
+        var dx = RX - (ratio * RX);
+    })
 })
