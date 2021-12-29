@@ -20,7 +20,7 @@ window.addEventListener("load", function () {
             corner.style.right = `${dx}px`
             // console.log('dx',dx);
         } else if (ratio > 0.25 && ratio <= 0.50) { // WE DIDN'T USED >= 0.25 OTHERWISE CONFLICT WILL OCCUR BECAUSE WE'VE ALREADY USED <= TO 0.25 ABOVE
-            var dy = RY - (((ratio-0.25) * 4) * RY);
+            var dy = RY - (((ratio-0.25) * 4) * RY); // SO IN EVERY CORNER WE'LL HAVE RATIO EQUAL TO ONE
             // var dx = RX - ((ratio * 4) * RX)
             corner.style.bottom = `${dy}px`
             corner.style.right = `0px`
