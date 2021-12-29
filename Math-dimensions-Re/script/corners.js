@@ -19,7 +19,7 @@ window.addEventListener("load", function () {
             corner.style.bottom = `${RY}px` // THIS IS IMPORTANT OTHER WISE THE BALL WILL SKIP FROM TOP IF WE CAME BACK AT HIGHER SPEED
             corner.style.right = `${dx}px`
             // console.log('dx',dx);
-        } else if (ratio > 0.25 && ratio <= 0.50) {
+        } else if (ratio > 0.25 && ratio <= 0.50) { // WE DIDN'T USED >= 0.25 OTHERWISE CONFLICT WILL OCCUR BECAUSE WE'VE ALREADY USED <= TO 0.25 ABOVE
             var dy = RY - (((ratio-0.25) * 4) * RY);
             // var dx = RX - ((ratio * 4) * RX)
             corner.style.bottom = `${dy}px`
