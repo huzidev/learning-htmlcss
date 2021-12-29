@@ -4,15 +4,7 @@
   height: 2000px;
 }
 
-.ball-10 {
-  height: 100px;
-  width: 100px;
-  background-color: red;
-  border-radius: 50%;
-  position: fixed;
-}
-
-.ball-11 {
+.ball-12 {
   height: 100px;
   width: 100px;
   background-color: red;
