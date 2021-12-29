@@ -26,9 +26,17 @@ window.addEventListener("load", function () {
             corner.style.right = `0px`
         }
         else if (ratio > 0.50 && ratio <= 0.75){
-            var dx = RX - (((ratio - 0.25) * 4) * RX)
+            dx = RX - (((ratio - 0.25) * 4) * RX)
             corner.style.bottom = `0px`
-            corner.style.right = `${-dx}px` // LEFT BECAUSE IF WE'VE USED RIGHT IT'LL MINUS THE (PX) FROM RIGHT AND MAKE IT MOVE FROM LEFT THEREFORE WE'VE USED LEFT FROM THERE
+            corner.style.right = `${-dx}px` 
+        }
+        else if (ratio > 0.75 && ratio <= 1.0) {
+            r = 1.0 - ratio
+            // dy = RY - (((ratio - 0.25) * 4) * RY)
+            dy = RY - (r * (RY * 4))
+            corner.style.bottom = `${dy}px`
+            
+            corner.style.right = `${RX}px`
         }
     })
 })
