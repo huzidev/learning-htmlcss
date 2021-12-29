@@ -4,10 +4,12 @@
   height: 2000px;
 }
 
-.ball-13 {
+.ball-4 {
   height: 100px;
   width: 100px;
   background-color: red;
   border-radius: 50%;
   position: fixed;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
 }
