@@ -25,5 +25,10 @@ window.addEventListener("load", function () {
             corner.style.bottom = `${dy}px`
             corner.style.right = `0px`
         }
+        else if (ratio > 0.50 && ratio <= 0.75){
+            dx = RX - (((ratio - 0.50) * 4) * RX)
+            corner.style.bottom = `0px`
+            corner.style.left = `${dx}px` // LEFT BECAUSE IF WE'VE USED RIGHT IT'LL MINUS THE (PX) FROM RIGHT AND MAKE IT MOVE FROM LEFT THEREFORE WE'VE USED LEFT FROM THERE
+        }
     })
 })
