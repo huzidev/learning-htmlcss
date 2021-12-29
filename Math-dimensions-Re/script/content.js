@@ -11,5 +11,6 @@ window.addEventListener("load", function () {
         const ratio = (window.scrollY) / (height)
         var dy = RY - (ratio * RY);
         var dx = RX - (ratio * RX);
+        content.style.bottom = `${dy / 2}px`
     })
 })
