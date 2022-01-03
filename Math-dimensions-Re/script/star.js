@@ -5,5 +5,8 @@ window.addEventListener("load", function () {
     const RY = window.innerHeight - SH;
     const RX = window.innerWidth - SW;
     star.style.bottom = RY + "px";
-    star.style.right = RX + "px";
+    star.style.right = (RX / 2) + "px";
+    window.addEventListener("scroll", function () {
+        
+    })
 })
