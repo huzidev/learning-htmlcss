@@ -31,11 +31,11 @@ window.addEventListener("load", function () {
             corner.style.right = `${-dx}px` // MINUS BECAUSE WE WANT MOVEMENT IN OPPOSITE DIRECTION
         }
         else if (ratio > 0.75 && ratio <= 1.0) {
-            r = 1.0 - ratio
+            r = 1.0 - ratio 
             // dy = RY - (((ratio - 0.25) * 4) * RY)
             dy = RY - (r * (RY * 4))
             corner.style.bottom = `${dy}px`
             corner.style.right = `${RX}px` // WE DIDN'T USED 0PX THERE BECAUSE IF WE DID SO OURS BALL WILL SHIFT TOWARDS THE RIGHT CORNER WHENEVER THE RATIO BECAME MORE THAN 0.75
         }
-    })
-})
+    });
+});
