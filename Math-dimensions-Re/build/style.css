@@ -4,6 +4,16 @@
   height: 2000px;
 }
 
+.ball-10 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: fixed;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
 .ball-11 {
   height: 100px;
   width: 100px;
