@@ -3,3 +3,19 @@
   padding: 0px;
   height: 2000px;
 }
+
+.ball-8 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: fixed;
+}
+
+.ball-9 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: fixed;
+}
