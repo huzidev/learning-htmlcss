@@ -29,7 +29,7 @@ window.addEventListener("load", function () {
         }
         else if (ratio > 0.75 && ratio <= 1.0) {
             dy = RY - (ratio * (RY) * 2)
-            dx = RX - ((ratio - 0.75) * (RX) * 2 ) // WE USED (-0.75) BECAUSE AS JUST OUTS RATIO HIT (0.75) THE BALL MOVES (0.75) IN RATIO SO WE JUST MINUS THAT VALUE SO IT WON'T JUMP THAT MUCH
+            dx = RX - ((ratio - 0.75) * (RX) * 2 ) 
             star.style.bottom = `${-dy}px`
             star.style.right = `${dx}px`
 
@@ -42,23 +42,5 @@ window.addEventListener("load", function () {
             // star.style.bottom = `${dy}px`
             // star.style.right = `${dx}px`
         }
-
-
-        // if (ratio >= 0 && ratio <= 0.25) {
-        //     var dx = RX - ((ratio) * 4 * (RX))
-        //     var dy = RY - (((ratio) * 4) * RY)
-        //     star.style.right = `${dx / 2}px`
-        //     star.style.bottom = `${dy / 2}px`
-        // } 
-        
-        // else if (ratio > 0.25 && ratio <= 0.50) { 
-          
-        // }
-        // else if (ratio > 0.50 && ratio <= 0.75) {
-           
-        // }
-        // else if (ratio > 0.75 && ratio <= 1.0) {
-        
-        // }
-    })
-})
+    });
+});
