@@ -12,7 +12,6 @@ window.addEventListener("load", function () {
         var dy = RY - (ratio * (RY))
         var dx = RX - (ratio * (RX))
         all.style.bottom = `${dy}px`
-        all.style.center = `${dx}px`
         if (ratio >= 0.5 && ratio <= 1.0) {
             all.style.right = `${dx}px` // BECAUSE WE WANTED MOVEMENT IN THE HORIZONTAL AXIS
             // all.style.left = `${dx}px`
@@ -41,7 +40,6 @@ window.addEventListener("load", function () {
         var dy = RY - (ratio * (RY))
         var dx = RX - (ratio * (RX))
         all.style.bottom = `${dy}px`
-        all.style.center = `${dx}px`
         if (ratio >= 0.5 && ratio <= 1.0) {
             // all.style.right = `${dx}px` // BECAUSE WE WANTED MOVEMENT IN THE HORIZONTAL AXIS
             all.style.left = `${dx}px`
