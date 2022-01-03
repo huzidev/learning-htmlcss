@@ -24,5 +24,5 @@ window.addEventListener("load", function () {
             align.style.right = `${dx}px`
 
         }
-    })
-})
+    });
+});
