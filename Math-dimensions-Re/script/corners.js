@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
         if (ratio >= 0 && ratio <= 0.25) {
             // var dy = RY - (ratio * RY)
             var dx = RX - ((ratio * 4) * RX) // MULTIPLY BY FOUR BECAUSE OF FOUR CORNERS
-            corner.style.bottom = `${RY}px` // THIS IS IMPORTANT OTHER WISE THE BALL WILL SKIP FROM TOP IF WE CAME BACK AT HIGHER SPEED
+            corner.style.bottom = `${RY}px` // THIS IS IMPORTANT OTHER WISE THE BALL WILL SKIP FROM TOP IF WE CAME BACK AT HIGHER SPEED AND WE DIDN'T USED (DY) HERE OTHERWISE THE BALL WILL MOVES AT Y-AXIS AS WELL
             corner.style.right = `${dx}px`
             // console.log('dx',dx);
         } else if (ratio > 0.25 && ratio <= 0.50) { // WE DIDN'T USED >= 0.25 OTHERWISE CONFLICT WILL OCCUR BECAUSE WE'VE ALREADY USED <= TO 0.25 ABOVE
