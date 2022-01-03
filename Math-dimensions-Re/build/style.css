@@ -4,18 +4,12 @@
   height: 2000px;
 }
 
-.ball-8 {
+.ball-7 {
   height: 100px;
   width: 100px;
   background-color: red;
   border-radius: 50%;
   position: fixed;
-}
-
-.ball-9 {
-  height: 100px;
-  width: 100px;
-  background-color: red;
-  border-radius: 50%;
-  position: fixed;
+  -webkit-transition: 200ms;
+  transition: 200ms;
 }
