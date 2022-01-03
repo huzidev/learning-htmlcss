@@ -9,5 +9,9 @@ window.addEventListener("load", function () {
     window.addEventListener("scroll", function () {
         const height = this.document.body.clientHeight - window.innerHeight;
         const ratio = (window.scrollY) / (height)
+        if (ratio >= 0 && ratio <= 0.25) {
+            var dy = RY - (ratio * RY);
+            var dx = RX - (ratio * RX);
+        }
     })
 })
