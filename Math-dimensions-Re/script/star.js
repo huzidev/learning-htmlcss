@@ -7,6 +7,7 @@ window.addEventListener("load", function () {
     star.style.bottom = RY + "px";
     star.style.right = (RX / 2) + "px";
     window.addEventListener("scroll", function () {
-        
+        const height = this.document.body.clientHeight - window.innerHeight;
+        const ratio = (window.scrollY) / (height)
     })
 })
