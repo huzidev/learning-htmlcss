@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
         half.style.bottom = `${dy}px`
         half.style.right = `${dx}px`
         console.log(ratio);
-        if (ratio > 0.5) {
+        if (ratio >= 0.5 && ratio <=1.0) {
             half.style.right = `${-dx}px`
         }
     })
