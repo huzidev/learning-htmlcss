@@ -14,7 +14,6 @@ window.addEventListener("load", function () {
         all.style.bottom = `${dy}px`
         if (ratio >= 0.5 && ratio <= 1.0) {
             all.style.right = `${dx}px` // BECAUSE WE WANTED MOVEMENT IN THE HORIZONTAL AXIS
-          
         }
     });
 });
@@ -37,8 +36,6 @@ window.addEventListener("load", function () {
         if (ratio >= 0.5 && ratio <= 1.0) {
             // all.style.right = `${dx}px` // BECAUSE WE WANTED MOVEMENT IN THE HORIZONTAL AXIS
             all.style.left = `${dx}px`
-
-        
         }
     });
 });
