@@ -9,5 +9,7 @@
   width: 100px;
   background-color: red;
   border-radius: 50%;
+  -webkit-transition: 200ms;
+  transition: 200ms;
   position: fixed;
 }
