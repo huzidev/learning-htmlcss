@@ -15,7 +15,7 @@ window.addEventListener("load", function () {
         // console.log(ratio);
         if (ratio >= 0 && ratio <= 0.25) {
             // var dy = RY - (ratio * RY)
-            var dx = RX - ((ratio * 4) * RX)
+            var dx = RX - ((ratio * 4) * RX) // MULTIPLY BY FOUR BECAUSE OF FOUR CORNERS
             corner.style.bottom = `${RY}px` // THIS IS IMPORTANT OTHER WISE THE BALL WILL SKIP FROM TOP IF WE CAME BACK AT HIGHER SPEED
             corner.style.right = `${dx}px`
             // console.log('dx',dx);
