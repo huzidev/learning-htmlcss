@@ -15,7 +15,8 @@ window.addEventListener("load", function () {
             all.style.right = `${RX / 2}px`
         }
         if (ratio > 0.50 && ratio <= 1.0) {
-            
+            var dx = RX - (ratio - RX);
+            all.style.right = `${RX}px`;
         }
     });
 });
