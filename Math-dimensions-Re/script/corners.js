@@ -20,7 +20,7 @@ window.addEventListener("load", function () {
             corner.style.right = `${dx}px`
             // console.log('dx',dx);
         } else if (ratio > 0.25 && ratio <= 0.50) { // WE DIDN'T USED >= 0.25 OTHERWISE CONFLICT WILL OCCUR BECAUSE WE'VE ALREADY USED <= TO 0.25 ABOVE
-            var dy = RY - (((ratio-0.25) * 4) * RY); // SO IN EVERY CORNER WE'LL HAVE RATIO EQUAL TO ONE
+            var dy = RY - (((ratio - 0.25) * 4) * RY); // SO IN EVERY CORNER WE'LL HAVE RATIO EQUAL TO ONE
             // var dx = RX - ((ratio * 4) * RX)
             corner.style.bottom = `${dy}px`
             corner.style.right = `0px`
@@ -28,7 +28,7 @@ window.addEventListener("load", function () {
         else if (ratio > 0.50 && ratio <= 0.75){
             dx = RX - (((ratio - 0.25) * 4) * RX)
             corner.style.bottom = `0px`
-            corner.style.right = `${-dx}px` 
+            corner.style.right = `${-dx}px` // MINUS BECAUSE WE WANT MOVEMENT IN OPPOSITE DIRECTION
         }
         else if (ratio > 0.75 && ratio <= 1.0) {
             r = 1.0 - ratio
