@@ -60,3 +60,14 @@ body {
   -webkit-clip-path: circle(400px at center);
           clip-path: circle(400px at center);
 }
+.card img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 300px;
+  pointer-events: none;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
