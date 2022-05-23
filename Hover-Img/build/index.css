@@ -76,3 +76,13 @@ body {
   left: 72%;
   height: 500px;
 }
+.card .content {
+  position: relative;
+  width: 50%;
+  left: 20%;
+  padding: 20px 20px 20px 40px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  opacity: 0;
+  visibility: hidden;
+}
