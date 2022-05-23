@@ -52,4 +52,11 @@ body {
   background-color: red;
   -webkit-clip-path: circle(120px at center);
           clip-path: circle(120px at center);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+.card .circle:hover::before {
+  background-color: #0065c3;
+  -webkit-clip-path: circle(400px at center);
+          clip-path: circle(400px at center);
 }
