@@ -55,7 +55,7 @@ body {
   -webkit-transition: 500ms;
   transition: 500ms;
 }
-.card .circle:hover::before {
+.card:hover .circle::before {
   background-color: #0065c3;
   -webkit-clip-path: circle(400px at center);
           clip-path: circle(400px at center);
@@ -89,4 +89,5 @@ body {
 .card:hover .content {
   left: 0px;
   opacity: 1;
+  visibility: visible;
 }

@@ -36,9 +36,9 @@ body
             background-color: red
             clip-path: circle(120px at center)
             transition: 500ms
-        &:hover::before
-            background-color: #0065c3
-            clip-path: circle(400px at center)
+    &:hover .circle::before
+        background-color: #0065c3
+        clip-path: circle(400px at center)
     img
         position: absolute
         top: 50%
@@ -62,6 +62,7 @@ body
     &:hover .content
         left: 0px
         opacity: 1
+        visibility: visible
         
             
             
