@@ -86,3 +86,7 @@ body {
   opacity: 0;
   visibility: hidden;
 }
+.card:hover .content {
+  left: 0px;
+  opacity: 1;
+}
