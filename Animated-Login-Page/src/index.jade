@@ -1,33 +1,29 @@
 doctype html
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(http-equiv="X-UA-Compatible", content="IE=edge")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        script(src="https://kit.fontawesome.com/59485d1319.js" crossorigin="anonymous")
-        link(rel="stylesheet", href="style.css")
-        title Animated-Login
-    body 
-        img(src="/assets/wave.png", alt="Wave-Img" class="wave")
-        .container 
-            .img 
-                img(src="/assets/bg.svg", alt="Background-Img" class="bg")
-            .login-container
-                form(action="index.html")
-                    img(src="/assets/avatar.svg", alt="User's-Img" class="avatar")
-                    h2 Welcome 
-                    .input-div.one
-                        .i 
-                            i.fas.fa-user     
-                        div 
-                            h5 Username
-                            input(type="text" class="input")
-                    .input-div.two
-                        .i 
-                            i.fas.fa-lock  
-                        div 
-                            h5 Password
-                            input(type="password" class="input")
-                    a(href="#") Forgot Password?
-                        input(type="Submit" class="btn" value="Login")
-    script(src="/script/js.js")  
+head
+  title Animated-Login-Page
+  script(src='https://kit.fontawesome.com/a81368914c.js')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='stylesheet' type='text/css' href='style.css')
+img.wave(src='../assets/wave.png')
+.container
+  .img
+    img(src='../assets/bg.svg')
+  .login-content
+    form(action='index.html')
+      img(src='../assets/avatar.svg')
+      h2.title Welcome
+      .input-div.one
+        .i
+          i.fas.fa-user
+        .div
+          h5 Username
+          input.input(type='text')
+      .input-div.pass
+        .i
+          i.fas.fa-lock
+        .div
+          h5 Password
+          input.input(type='password')
+      a(href='#') Forgot Password?
+      input.btn(type='submit' value='Login')
+script(type='text/javascript' src='../script/js.js')
