@@ -63,15 +63,14 @@ let dataArray = [
     }
 ]
 
-// OBJECT form data result
-convert.forEach((info) => {
-    console.log(dataObject[info]);
+// FOR EACH loop takes total three parameters first one is value and second is INDEX and third is array which will print complete array as it is
+
+// OBJECT form loop result
+convert.forEach((info, index) => {
+    console.log(index, info, dataObject[info]);
 });
 
-// ARRAY form data result
-dataArray.forEach((info) => {
-    console.log(info);
+// ARRAY form loop result
+dataArray.forEach((info, index) => {
+    console.log(index, info);
 })
-
-
-console.log('test');
