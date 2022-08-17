@@ -1,0 +1,24 @@
+.charts {
+  padding-top: 100px;
+  width: 1200px;
+  margin: auto;
+  overflow: auto;
+  font-family: sans-serif;
+}
+
+.charts .right {
+  float: right;
+  position: relative;
+  bottom: 110px;
+  padding: 5px 90px;
+}
+
+.charts .ways {
+  padding: ;
+}
+
+.charts .support {
+  max-width: 100%;
+  width: 500px;
+  padding: 5spx 50px;
+}

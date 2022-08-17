@@ -1,0 +1,40 @@
+.box-container {
+  max-width: 100%;
+  margin: auto;
+  overflow: auto;
+  color: white;
+  margin: -50px 120px;
+  height: 580px;
+}
+
+.box-container .box {
+  height: 240px;
+  background-color: black;
+  float: left;
+  padding: 70px 50px;
+  margin: 40px;
+  width: 240px;
+  border-radius: 9px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.box-container .first-head {
+  text-align: center;
+  padding: 10px 6px;
+}
+
+.box-container .first {
+  padding: 5px 25px;
+  font-size: 29px;
+}
+
+.box-container .box .extra {
+  color: black;
+  padding-top: 150px;
+}
+
+.box-container .box .extra-a {
+  color: black;
+  padding-top: 112px;
+}
