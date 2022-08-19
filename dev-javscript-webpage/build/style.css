@@ -188,7 +188,7 @@
 
 #home {
   min-height: 100%;
-  background: url(/images/light-bg.jpg) no-repeat;
+  background: url(../images/light-bg.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: center top;
@@ -209,11 +209,11 @@
   transition: top 200ms ease, left 200ms ease;
 }
 #home .layer-2 {
-  background: url(/images/layer2.png);
+  background: url(../images/layer2.png);
   z-index: 0;
 }
 #home .layer-3 {
-  background: url(/images/layer3.png);
+  background: url(../images/layer3.png);
   z-index: 1;
   text-align: left;
 }
