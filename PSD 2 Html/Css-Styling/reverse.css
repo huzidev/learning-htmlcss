@@ -51,7 +51,7 @@
 }
 
 .about-reverse .left-side .right-img {
-  background-image: url(/assets/images/hotel.jpg);
+  background-image: url(../assets/images/hotel.jpg);
   height: 500px;
   margin: auto;
   background-size: 550px 550px;
