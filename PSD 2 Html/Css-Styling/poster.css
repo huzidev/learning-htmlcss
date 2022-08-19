@@ -6,7 +6,7 @@
 }
 
 .container .back-img {
-  background-image: url(./assets/images/building.jpg.jpg);
+  background-image: url(../assets/images/building.jpg.jpg);
   background-size: cover;
   border-radius: 20px;
   height: 500px;
