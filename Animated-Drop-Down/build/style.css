@@ -60,6 +60,7 @@ nav .wrapper.active {
 }
 nav .wrapper .setting-drop,
 nav .wrapper .help-drop {
+  color: white;
   display: none;
 }
 nav .wrapper .setting-drop .arrow,
