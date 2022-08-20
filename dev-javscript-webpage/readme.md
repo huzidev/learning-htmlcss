@@ -1,4 +1,4 @@
-# Web with Javascript interaction
+# Web with Javascript interactions
 
 ## Summary
 
