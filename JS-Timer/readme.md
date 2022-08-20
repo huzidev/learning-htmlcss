@@ -5,4 +5,4 @@
 Page with Javascript timer
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/Drop-Down%20Menu/build/
+https://huzidev.github.io/learning-htmlcss/JS-Timer/build/
