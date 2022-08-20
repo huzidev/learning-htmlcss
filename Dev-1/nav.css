@@ -1,10 +1,10 @@
 #nav {
   background-color: black;
+  display: flex;
 }
 
 #nav a {
   text-decoration: none;
-
   padding: 5px 20px;
   border-radius: 9px;
   background-color: white;
