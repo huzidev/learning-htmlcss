@@ -1,6 +1,6 @@
-# PSD file to html
+# PSD file to HTML
 
-I created a basic web from psd file to html file
+I've created a basic web from PSD file to HTML
 
 ## Web Link
 
