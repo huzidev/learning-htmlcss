@@ -1,8 +1,8 @@
-# Animated Login Page
+# Animated Hamburger-menu
 
 ## Summary
 
-In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for animations
+In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for animated Hamburger-menu
 
 ## Web Link
 
