@@ -1,9 +1,9 @@
-# Practice Drop-Down button
+# Animated Hamburger-menu
 
 ## Summary
 
-Drop-Down button practice with basic knowledge
+Animated Hamburger-menu with Jade(pug), Sass, Prepros(compiler) and Javascript
 
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/Drop-Down-JS/build/
+https://huzidev.github.io/learning-htmlcss/animated-hamburger/build/
