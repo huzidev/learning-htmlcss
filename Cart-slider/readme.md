@@ -1,4 +1,4 @@
-# Javascript Dropdown button
+# Slider created with javascript
 
 ## Summary
 
@@ -6,4 +6,4 @@ In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for Drop
 
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/Animated-Drop-Down/build/
+https://huzidev.github.io/learning-htmlcss/Cart-slider/build/
