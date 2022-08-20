@@ -1,4 +1,4 @@
-# Javascript Dimension page
+# Javascript Dimensions page
 
 ## Summary
 
