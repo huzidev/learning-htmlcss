@@ -2,7 +2,7 @@
 
 ## Summary
 
-Animated Hamburger-menu with Jade(pug), Sass, Prepros(compiler) and Javascript
+Animated Hamburger-menu created with Jade(pug), Sass, Prepros(compiler) and Javascript
 
 ## Web Link
 
