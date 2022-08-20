@@ -2,7 +2,7 @@
 
 ## Summary
 
-In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for Dropdown button
+In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for slider with API for netflix slider
 
 ## Web Link
 
