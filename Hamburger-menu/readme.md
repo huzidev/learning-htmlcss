@@ -6,4 +6,4 @@ In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for anim
 
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/Animated-Login-Page/build/
+https://huzidev.github.io/learning-htmlcss/Hamburger-menu/build/
