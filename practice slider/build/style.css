@@ -74,7 +74,7 @@ header {
           justify-content: center;
 }
 
-.manual-btn {
+/* .manual-btn {
   border: 3px solid white;
   padding: 5px;
   border-radius: 10px;
@@ -89,7 +89,7 @@ header {
 
 .manual-btn:hover {
   background-color: black;
-}
+} */
 
 #radio1:checked ~ .first {
   margin-left: 0;
