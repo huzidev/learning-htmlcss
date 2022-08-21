@@ -653,7 +653,7 @@ const style = document.getElementById("nav").innerHTML = `
         </ul>
       </div>
       <div class="nav-img">
-        <img src="/assets/js.png" class="img" alt="Js-Img">
+        <img src="../assets/js.png" class="img" alt="Js-Img">
       </div>
     </div>
 `;
