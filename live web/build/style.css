@@ -4,7 +4,7 @@
 }
 
 .main {
-  background-image: url(/assets/sky.jpg);
+  background-image: url(../assets/sky.jpg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 }
 
 .main .road {
-  background-image: url(/assets/road.jpg);
+  background-image: url(../assets/road.jpg);
   height: 200px;
   width: 500%;
   position: absolute;
@@ -48,7 +48,7 @@
   }
 }
 .main .city {
-  background-image: url(/assets/build.png);
+  background-image: url(../assets/build.png);
   height: 700px;
   width: 250%;
   margin: auto;
