@@ -1,9 +1,9 @@
-# Web-page with basic Javascript interactions
+# Basic HTML/CSS web-page
 
 ## Summary
 
-Basic web-page with digital time by Javascript
+Basic practice HTML/CSS web-page with basic knowledge of HTML and CSS
 
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/comp%20JS/build/
+https://huzidev.github.io/learning-htmlcss/first%20work/
