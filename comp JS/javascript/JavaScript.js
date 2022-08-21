@@ -11,12 +11,12 @@ console.log("MAKE SURE YOU USES LET WITH A SPECIFIC WORD DONT USE LET = A 5; BEC
     let day = new Date("2021-11-16")
     document.getElementById("day").innerHTML = day;    
 
-    // function displayTime() {
-    // let time = new Date();
-    // console.log(time);  
-    // document.getElementById("time").innerHTML = time;
-    // }
-    // setInterval(displayTime, 1000);
+    function displayTime() {
+    let time = new Date();
+    console.log(time);  
+    document.getElementById("time").innerHTML = time;
+    }
+    setInterval(displayTime, 1000);
 
     document.getElementById("js").innerHTML =
      `
