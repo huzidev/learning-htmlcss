@@ -1,9 +1,9 @@
-# Slider with Javascript interactions
+# Web-page with Javascript interactions
 
 ## Summary
 
-In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for Slider
+In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for logics and slider
 
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/Pure-Slider-JS/build/
+https://huzidev.github.io/learning-htmlcss/RE/build/
