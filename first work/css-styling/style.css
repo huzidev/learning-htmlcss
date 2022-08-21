@@ -1,6 +1,6 @@
 html,
 body {
-  background-image: url(/asstes/images/dbs.png);
+  background-image: url(../asstes/images/dbs.png);
   background-size: cover;
   background-attachment: fixed;
   scroll-behavior: smooth;

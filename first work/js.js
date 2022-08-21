@@ -1,5 +1,5 @@
 burger = document.querySelector('.burger')
-navBar = document.querySelector('#nav-bar')
+navBar = document.querySelector('.nav-bar')
 items = document.querySelector('.items')
 item = document.querySelector('.item')
 

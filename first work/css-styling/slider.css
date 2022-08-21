@@ -5,7 +5,7 @@
   height: 700px;
   margin: auto;
   border: 2px solid white;
-  background-image: url(/asstes/images/beerus.png);
+  background-image: url(../asstes/images/beerus.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,12 +17,12 @@
 
 @keyframes slider {
   0% {
-    background-image: url(/asstes/images/beerus.png);
+    background-image: url(../asstes/images/beerus.png);
   }
   35% {
-    background-image: url(/asstes/images/goku-vegeta.jpg);
+    background-image: url(../asstes/images/goku-vegeta.jpg);
   }
   75% {
-    background-image: url(/asstes/images/vegeta-1.jpg);
+    background-image: url(../asstes/images/vegeta-1.jpg);
   }
 }
