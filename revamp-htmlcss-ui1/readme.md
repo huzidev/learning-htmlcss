@@ -2,7 +2,7 @@
 
 ## Summary
 
-Practice page of HTML/CSS with basic knowledge
+Practice page of HTML/CSS with basic knowledge.
 
 ## Web Link
 
