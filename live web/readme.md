@@ -1,9 +1,9 @@
-# Web-page with live fonts
+# Animated Web-page
 
 ## Summary
 
-Web-page with live fonts created with CSS.
+Web-page with Animations created with CSS.
 
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/live-fonts/build/
+https://huzidev.github.io/learning-htmlcss/live%20web/build/
