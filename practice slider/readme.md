@@ -1,9 +1,9 @@
-# Basic HTML/CSS web-page
+# Web-page with different sliders
 
 ## Summary
 
-Responsive HTML/CSS web-page with basic design and CSS.
+Web-page with Javascript slider, CSS animation slider and CSS slider.
 
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/responsive/
+https://huzidev.github.io/learning-htmlcss/practice%20slider/build/
