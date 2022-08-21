@@ -2,7 +2,7 @@
 
 ## Summary
 
-Web-page with created with scroll events with Javascript Logics
+Web-page created with scroll events with Javascript Logics
 
 ## Web Link
 
