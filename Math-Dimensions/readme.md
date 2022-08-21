@@ -1,9 +1,9 @@
-# Javascript web with on/off button
+# Javascript Dimensions page
 
 ## Summary
 
-In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for Toggle to on and off button
+In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for Math's Dimensions for basic HTML canvas with scroll events
 
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/Live-Button-JS/build/
+https://huzidev.github.io/learning-htmlcss/Math-Dimensions/build/
