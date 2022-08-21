@@ -1,9 +1,9 @@
-# Web-page with basic Javascript interactions
+# Javascript interactions web-page
 
 ## Summary
 
-Animations on scroll created with javascript
+Web-page with created with scroll events with Javascript Logics
 
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/web-scroll-page/build/
+https://huzidev.github.io/learning-htmlcss/scroll-character/build/
