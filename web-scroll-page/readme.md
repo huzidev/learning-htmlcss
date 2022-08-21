@@ -2,8 +2,8 @@
 
 ## Summary
 
-Basic web-page with digital time by Javascript
+Animations on scroll created with javascript
 
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/comp%20JS/build/
+https://huzidev.github.io/learning-htmlcss/web-scroll-page/build/

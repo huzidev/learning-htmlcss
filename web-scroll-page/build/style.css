@@ -5,6 +5,11 @@
           box-sizing: border-box;
   font-family: sans-serif;
   scroll-behavior: smooth;
+  color: white;
+}
+
+body {
+  background-color: black;
 }
 
 section {
@@ -19,7 +24,6 @@ section {
       -ms-flex-align: center;
           align-items: center;
   padding: 80px 100px;
-  color: white;
 }
 section .container {
   display: -webkit-box;
