@@ -1,9 +1,9 @@
-# Advance Javascript Dimensions page
+# Slider with Javascript interactions
 
 ## Summary
 
-In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for Math's Dimensions for HTML canvas with advance logics
+In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for Slider
 
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/Math-dimensions-Re/build/
+https://huzidev.github.io/learning-htmlcss/Pure-Slider-JS/build/
