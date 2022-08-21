@@ -1,9 +1,12 @@
-# Web-page with Javascript interactions
+# Basic HTML/CSS practice page
 
 ## Summary
 
-In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for animation when scroll
+Basic practice of HTML/CSS
 
-## Web Link
-
-https://huzidev.github.io/learning-htmlcss/animate%20on%20scroll/build/
+## first page
+https://huzidev.github.io/learning-htmlcss/basic-html-css/first/
+## Second page
+https://huzidev.github.io/learning-htmlcss/basic-html-css/second/
+## Third page
+https://huzidev.github.io/learning-htmlcss/basic-html-css/third/
