@@ -2,7 +2,7 @@
 
 ## Summary
 
-Basic practice of HTML/CSS
+Basic web-page with digital time by Javascript
 
 ## Web Link
 
