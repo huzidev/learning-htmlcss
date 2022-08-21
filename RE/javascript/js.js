@@ -665,7 +665,7 @@ let Animation = document.getElementById("animation").innerHTML = `
     #animation{
         width: 1375px;
         margin: 20px auto;
-        background-image: url(/assets/linuuu.png);
+        background-image: url(../assets/linuuu.png);
         background-size: 100% 100%;
         height: 700px;
         box-shadow: 0px 0px 15px -5px black;
@@ -678,17 +678,17 @@ let Animation = document.getElementById("animation").innerHTML = `
 
     @keyframes JS {
         0%{
-            background-image: url(/assets/linuuu.png);
+            background-image: url(../assets/linuuu.png);
         }
 
         30%{
-            background-image: url(/assets/linux.png);
+            background-image: url(../assets/linux.png);
         }
         60%{
-            background-image: url(/assets/Landscape.jfif);            
+            background-image: url(../assets/Landscape.jfif);            
         }
         90%{
-            background-image: url(/assets/js.png);
+            background-image: url(../assets/js.png);
         }
     }
     </style>
