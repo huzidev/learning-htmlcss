@@ -1,9 +1,9 @@
-# Javascript Dimensions page
+# Basic practice web-page
 
 ## Summary
 
-In this Web I've used Jade(pug), Sass, Prepros(Compiler) and Javascript for Math's Dimensions for basic HTML canvas
+Basic practice web-page create with basic HTML/CSS.
 
 ## Web Link
 
-https://huzidev.github.io/learning-htmlcss/Dimensions/build/
+https://huzidev.github.io/learning-htmlcss/htmlcss-ui1/build/
