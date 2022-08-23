@@ -86,7 +86,7 @@ body {
 .container {
   padding: 200px 73px;
   width: 100%;
-  background-image: url(hik.jpg);
+  background-image: url(../assets/hik.jpg);
   background-size: cover;
   float: left;
 }
@@ -159,7 +159,7 @@ body {
 }
 
 .contain {
-  background: url(hik-3.jpg);
+  background: url(../assets/hik-3.jpg);
   height: 400px;
   background-size: cover;
   text-align: right;
