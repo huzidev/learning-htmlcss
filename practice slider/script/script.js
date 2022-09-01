@@ -38,7 +38,7 @@ function loop() {
     const slide = document.getElementsByClassName("repeat");
     slide[init].classList.remove("active");
     init++; // REMEMBER WE'VE TO PUT INCREMENT ONLY IN (LOOP)
-    if ( init == slide.length) {
+    if (init == slide.length) {
         init = 0;
     };
     slide[init].classList.add("active");
