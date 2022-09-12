@@ -12,4 +12,8 @@ $(document).ready(function () {
     $('.p-dbl').dblclick(function () {
         window.alert("You just double click on para")
     })
+
+    $('#btn').click(function () {
+        $('#text').fadeToggle(600)
+    })
 })
