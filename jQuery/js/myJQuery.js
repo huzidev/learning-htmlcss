@@ -23,8 +23,10 @@ $(document).ready(function () {
     })
 
     $('.conatiner').css({
+        'font-family': 'sans-serif',
         'width': '1200px',
         'margin': 'auto',
-        'font-family': 'sans-serif'
+        'border': '1px solid black',
+        'padding': '10px'
     })
 })
