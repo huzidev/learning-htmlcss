@@ -16,4 +16,8 @@ $(document).ready(function () {
     $('#btn-fade').click(function () {
         $('#text-fade').fadeToggle(600)
     })
+    
+    $('#btn-slide').click(function () {
+        $('#text-slide').slideToggle(600)
+    })
 })
