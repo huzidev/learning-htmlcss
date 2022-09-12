@@ -13,7 +13,7 @@ $(document).ready(function () {
         window.alert("You just double click on para")
     })
 
-    $('#btn').click(function () {
-        $('#text').fadeToggle(600)
+    $('#btn-fade').click(function () {
+        $('#text-fade').fadeToggle(600)
     })
 })
