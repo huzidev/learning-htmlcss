@@ -9,4 +9,7 @@ $(document).ready(function () {
     $('#p-id').click(function () {
         window.alert("You've clicked on para which have id")
     })
+    $('.p-dbl').dblclick(function () {
+        window.alert("You just double click on para")
+    })
 })
