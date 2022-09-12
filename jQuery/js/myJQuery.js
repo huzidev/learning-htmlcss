@@ -9,6 +9,7 @@ $(document).ready(function () {
     $('#p-id').click(function () {
         window.alert("You've clicked on para which have id")
     })
+
     $('.p-dbl').dblclick(function () {
         window.alert("You just double click on para")
     })
@@ -19,5 +20,11 @@ $(document).ready(function () {
     
     $('#btn-slide').click(function () {
         $('#text-slide').slideToggle(600)
+    })
+
+    $('.conatiner').css({
+        'width': '1200px',
+        'margin': 'auto',
+        'font-family': 'sans-serif'
     })
 })
